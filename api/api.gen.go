@@ -80,141 +80,141 @@ const (
 	TeamCampaignSupportablePublic     TeamCampaignSupportable = "public"
 )
 
-// Defines values for V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType.
+// Defines values for CampaignLeaderboardControllerDonorParamsTimeType.
 const (
-	V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeTypeAll     V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType = "all"
-	V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeTypeDaily   V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType = "daily"
-	V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeTypeMonthly V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType = "monthly"
-	V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeTypeWeekly  V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType = "weekly"
-	V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeTypeYearly  V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType = "yearly"
-	V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeTypeYtd     V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType = "ytd"
+	CampaignLeaderboardControllerDonorParamsTimeTypeAll     CampaignLeaderboardControllerDonorParamsTimeType = "all"
+	CampaignLeaderboardControllerDonorParamsTimeTypeDaily   CampaignLeaderboardControllerDonorParamsTimeType = "daily"
+	CampaignLeaderboardControllerDonorParamsTimeTypeMonthly CampaignLeaderboardControllerDonorParamsTimeType = "monthly"
+	CampaignLeaderboardControllerDonorParamsTimeTypeWeekly  CampaignLeaderboardControllerDonorParamsTimeType = "weekly"
+	CampaignLeaderboardControllerDonorParamsTimeTypeYearly  CampaignLeaderboardControllerDonorParamsTimeType = "yearly"
+	CampaignLeaderboardControllerDonorParamsTimeTypeYtd     CampaignLeaderboardControllerDonorParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType.
+// Defines values for CauseLeaderboardControllerDonorParamsTimeType.
 const (
-	V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeTypeAll     V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType = "all"
-	V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeTypeDaily   V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType = "daily"
-	V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeTypeMonthly V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType = "monthly"
-	V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeTypeWeekly  V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType = "weekly"
-	V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeTypeYearly  V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType = "yearly"
-	V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeTypeYtd     V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType = "ytd"
+	CauseLeaderboardControllerDonorParamsTimeTypeAll     CauseLeaderboardControllerDonorParamsTimeType = "all"
+	CauseLeaderboardControllerDonorParamsTimeTypeDaily   CauseLeaderboardControllerDonorParamsTimeType = "daily"
+	CauseLeaderboardControllerDonorParamsTimeTypeMonthly CauseLeaderboardControllerDonorParamsTimeType = "monthly"
+	CauseLeaderboardControllerDonorParamsTimeTypeWeekly  CauseLeaderboardControllerDonorParamsTimeType = "weekly"
+	CauseLeaderboardControllerDonorParamsTimeTypeYearly  CauseLeaderboardControllerDonorParamsTimeType = "yearly"
+	CauseLeaderboardControllerDonorParamsTimeTypeYtd     CauseLeaderboardControllerDonorParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType.
+// Defines values for CauseLeaderboardControllerTeamParamsTimeType.
 const (
-	V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeTypeAll     V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType = "all"
-	V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeTypeDaily   V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType = "daily"
-	V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeTypeMonthly V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType = "monthly"
-	V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeTypeWeekly  V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType = "weekly"
-	V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeTypeYearly  V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType = "yearly"
-	V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeTypeYtd     V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType = "ytd"
+	CauseLeaderboardControllerTeamParamsTimeTypeAll     CauseLeaderboardControllerTeamParamsTimeType = "all"
+	CauseLeaderboardControllerTeamParamsTimeTypeDaily   CauseLeaderboardControllerTeamParamsTimeType = "daily"
+	CauseLeaderboardControllerTeamParamsTimeTypeMonthly CauseLeaderboardControllerTeamParamsTimeType = "monthly"
+	CauseLeaderboardControllerTeamParamsTimeTypeWeekly  CauseLeaderboardControllerTeamParamsTimeType = "weekly"
+	CauseLeaderboardControllerTeamParamsTimeTypeYearly  CauseLeaderboardControllerTeamParamsTimeType = "yearly"
+	CauseLeaderboardControllerTeamParamsTimeTypeYtd     CauseLeaderboardControllerTeamParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType.
+// Defines values for CauseLeaderboardControllerUserParamsTimeType.
 const (
-	V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeTypeAll     V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType = "all"
-	V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeTypeDaily   V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType = "daily"
-	V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeTypeMonthly V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType = "monthly"
-	V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeTypeWeekly  V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType = "weekly"
-	V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeTypeYearly  V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType = "yearly"
-	V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeTypeYtd     V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType = "ytd"
+	CauseLeaderboardControllerUserParamsTimeTypeAll     CauseLeaderboardControllerUserParamsTimeType = "all"
+	CauseLeaderboardControllerUserParamsTimeTypeDaily   CauseLeaderboardControllerUserParamsTimeType = "daily"
+	CauseLeaderboardControllerUserParamsTimeTypeMonthly CauseLeaderboardControllerUserParamsTimeType = "monthly"
+	CauseLeaderboardControllerUserParamsTimeTypeWeekly  CauseLeaderboardControllerUserParamsTimeType = "weekly"
+	CauseLeaderboardControllerUserParamsTimeTypeYearly  CauseLeaderboardControllerUserParamsTimeType = "yearly"
+	CauseLeaderboardControllerUserParamsTimeTypeYtd     CauseLeaderboardControllerUserParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType.
+// Defines values for FundraisingEventLeaderboardControllerDonorParamsTimeType.
 const (
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeTypeAll     V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType = "all"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeTypeCustom  V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType = "custom"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeTypeDaily   V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType = "daily"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeTypeMonthly V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType = "monthly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeTypeWeekly  V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType = "weekly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeTypeYearly  V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType = "yearly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeTypeYtd     V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType = "ytd"
+	FundraisingEventLeaderboardControllerDonorParamsTimeTypeAll     FundraisingEventLeaderboardControllerDonorParamsTimeType = "all"
+	FundraisingEventLeaderboardControllerDonorParamsTimeTypeCustom  FundraisingEventLeaderboardControllerDonorParamsTimeType = "custom"
+	FundraisingEventLeaderboardControllerDonorParamsTimeTypeDaily   FundraisingEventLeaderboardControllerDonorParamsTimeType = "daily"
+	FundraisingEventLeaderboardControllerDonorParamsTimeTypeMonthly FundraisingEventLeaderboardControllerDonorParamsTimeType = "monthly"
+	FundraisingEventLeaderboardControllerDonorParamsTimeTypeWeekly  FundraisingEventLeaderboardControllerDonorParamsTimeType = "weekly"
+	FundraisingEventLeaderboardControllerDonorParamsTimeTypeYearly  FundraisingEventLeaderboardControllerDonorParamsTimeType = "yearly"
+	FundraisingEventLeaderboardControllerDonorParamsTimeTypeYtd     FundraisingEventLeaderboardControllerDonorParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType.
+// Defines values for FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType.
 const (
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeAll     V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "all"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeCustom  V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "custom"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeDaily   V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "daily"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeMonthly V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "monthly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeWeekly  V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "weekly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeYearly  V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "yearly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeYtd     V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "ytd"
+	FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeAll     FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "all"
+	FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeCustom  FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "custom"
+	FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeDaily   FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "daily"
+	FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeMonthly FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "monthly"
+	FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeWeekly  FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "weekly"
+	FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeYearly  FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "yearly"
+	FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeTypeYtd     FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType.
+// Defines values for FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType.
 const (
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeAll     V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "all"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeCustom  V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "custom"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeDaily   V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "daily"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeMonthly V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "monthly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeWeekly  V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "weekly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeYearly  V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "yearly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeYtd     V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "ytd"
+	FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeAll     FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "all"
+	FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeCustom  FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "custom"
+	FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeDaily   FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "daily"
+	FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeMonthly FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "monthly"
+	FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeWeekly  FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "weekly"
+	FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeYearly  FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "yearly"
+	FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeTypeYtd     FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType.
+// Defines values for FundraisingEventLeaderboardControllerTeamParamsTimeType.
 const (
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeTypeAll     V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType = "all"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeTypeCustom  V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType = "custom"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeTypeDaily   V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType = "daily"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeTypeMonthly V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType = "monthly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeTypeWeekly  V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType = "weekly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeTypeYearly  V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType = "yearly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeTypeYtd     V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType = "ytd"
+	FundraisingEventLeaderboardControllerTeamParamsTimeTypeAll     FundraisingEventLeaderboardControllerTeamParamsTimeType = "all"
+	FundraisingEventLeaderboardControllerTeamParamsTimeTypeCustom  FundraisingEventLeaderboardControllerTeamParamsTimeType = "custom"
+	FundraisingEventLeaderboardControllerTeamParamsTimeTypeDaily   FundraisingEventLeaderboardControllerTeamParamsTimeType = "daily"
+	FundraisingEventLeaderboardControllerTeamParamsTimeTypeMonthly FundraisingEventLeaderboardControllerTeamParamsTimeType = "monthly"
+	FundraisingEventLeaderboardControllerTeamParamsTimeTypeWeekly  FundraisingEventLeaderboardControllerTeamParamsTimeType = "weekly"
+	FundraisingEventLeaderboardControllerTeamParamsTimeTypeYearly  FundraisingEventLeaderboardControllerTeamParamsTimeType = "yearly"
+	FundraisingEventLeaderboardControllerTeamParamsTimeTypeYtd     FundraisingEventLeaderboardControllerTeamParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType.
+// Defines values for FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType.
 const (
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeAll     V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "all"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeCustom  V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "custom"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeDaily   V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "daily"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeMonthly V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "monthly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeWeekly  V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "weekly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeYearly  V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "yearly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeYtd     V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "ytd"
+	FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeAll     FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "all"
+	FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeCustom  FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "custom"
+	FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeDaily   FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "daily"
+	FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeMonthly FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "monthly"
+	FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeWeekly  FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "weekly"
+	FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeYearly  FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "yearly"
+	FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeTypeYtd     FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType.
+// Defines values for FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType.
 const (
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeAll     V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "all"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeCustom  V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "custom"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeDaily   V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "daily"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeMonthly V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "monthly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeWeekly  V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "weekly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeYearly  V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "yearly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeYtd     V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "ytd"
+	FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeAll     FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "all"
+	FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeCustom  FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "custom"
+	FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeDaily   FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "daily"
+	FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeMonthly FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "monthly"
+	FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeWeekly  FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "weekly"
+	FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeYearly  FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "yearly"
+	FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeTypeYtd     FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType.
+// Defines values for FundraisingEventLeaderboardControllerUserParamsTimeType.
 const (
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeTypeAll     V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType = "all"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeTypeCustom  V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType = "custom"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeTypeDaily   V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType = "daily"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeTypeMonthly V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType = "monthly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeTypeWeekly  V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType = "weekly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeTypeYearly  V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType = "yearly"
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeTypeYtd     V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType = "ytd"
+	FundraisingEventLeaderboardControllerUserParamsTimeTypeAll     FundraisingEventLeaderboardControllerUserParamsTimeType = "all"
+	FundraisingEventLeaderboardControllerUserParamsTimeTypeCustom  FundraisingEventLeaderboardControllerUserParamsTimeType = "custom"
+	FundraisingEventLeaderboardControllerUserParamsTimeTypeDaily   FundraisingEventLeaderboardControllerUserParamsTimeType = "daily"
+	FundraisingEventLeaderboardControllerUserParamsTimeTypeMonthly FundraisingEventLeaderboardControllerUserParamsTimeType = "monthly"
+	FundraisingEventLeaderboardControllerUserParamsTimeTypeWeekly  FundraisingEventLeaderboardControllerUserParamsTimeType = "weekly"
+	FundraisingEventLeaderboardControllerUserParamsTimeTypeYearly  FundraisingEventLeaderboardControllerUserParamsTimeType = "yearly"
+	FundraisingEventLeaderboardControllerUserParamsTimeTypeYtd     FundraisingEventLeaderboardControllerUserParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType.
+// Defines values for TeamCampaignLeaderboardControllerDonorParamsTimeType.
 const (
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeTypeAll     V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType = "all"
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeTypeDaily   V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType = "daily"
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeTypeMonthly V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType = "monthly"
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeTypeWeekly  V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType = "weekly"
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeTypeYearly  V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType = "yearly"
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeTypeYtd     V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType = "ytd"
+	TeamCampaignLeaderboardControllerDonorParamsTimeTypeAll     TeamCampaignLeaderboardControllerDonorParamsTimeType = "all"
+	TeamCampaignLeaderboardControllerDonorParamsTimeTypeDaily   TeamCampaignLeaderboardControllerDonorParamsTimeType = "daily"
+	TeamCampaignLeaderboardControllerDonorParamsTimeTypeMonthly TeamCampaignLeaderboardControllerDonorParamsTimeType = "monthly"
+	TeamCampaignLeaderboardControllerDonorParamsTimeTypeWeekly  TeamCampaignLeaderboardControllerDonorParamsTimeType = "weekly"
+	TeamCampaignLeaderboardControllerDonorParamsTimeTypeYearly  TeamCampaignLeaderboardControllerDonorParamsTimeType = "yearly"
+	TeamCampaignLeaderboardControllerDonorParamsTimeTypeYtd     TeamCampaignLeaderboardControllerDonorParamsTimeType = "ytd"
 )
 
-// Defines values for V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType.
+// Defines values for TeamCampaignLeaderboardControllerUserParamsTimeType.
 const (
-	All     V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType = "all"
-	Daily   V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType = "daily"
-	Monthly V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType = "monthly"
-	Weekly  V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType = "weekly"
-	Yearly  V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType = "yearly"
-	Ytd     V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType = "ytd"
+	All     TeamCampaignLeaderboardControllerUserParamsTimeType = "all"
+	Daily   TeamCampaignLeaderboardControllerUserParamsTimeType = "daily"
+	Monthly TeamCampaignLeaderboardControllerUserParamsTimeType = "monthly"
+	Weekly  TeamCampaignLeaderboardControllerUserParamsTimeType = "weekly"
+	Yearly  TeamCampaignLeaderboardControllerUserParamsTimeType = "yearly"
+	Ytd     TeamCampaignLeaderboardControllerUserParamsTimeType = "ytd"
 )
 
 // Defines values for V5ApiWebOauthAuthorizeParamsResponseType.
@@ -1070,8 +1070,8 @@ type UserResponse struct {
 // CurrentUser defines model for currentUser.
 type CurrentUser = CurrentUserObj
 
-// V5ApiWebPublicCampaignDonationControllerIndexParams defines parameters for V5ApiWebPublicCampaignDonationControllerIndex.
-type V5ApiWebPublicCampaignDonationControllerIndexParams struct {
+// CampaignDonationsParams defines parameters for CampaignDonations.
+type CampaignDonationsParams struct {
 	// CompletedBefore Returns only donations that have been completed before the given moment in ISO8601 format
 	CompletedBefore *string `form:"completed_before,omitempty" json:"completed_before,omitempty"`
 
@@ -1086,10 +1086,10 @@ type V5ApiWebPublicCampaignDonationControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCampaignLeaderboardControllerDonorParams defines parameters for V5ApiWebPublicCampaignLeaderboardControllerDonor.
-type V5ApiWebPublicCampaignLeaderboardControllerDonorParams struct {
+// CampaignLeaderboardControllerDonorParams defines parameters for CampaignLeaderboardControllerDonor.
+type CampaignLeaderboardControllerDonorParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *CampaignLeaderboardControllerDonorParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1099,11 +1099,11 @@ type V5ApiWebPublicCampaignLeaderboardControllerDonorParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType defines parameters for V5ApiWebPublicCampaignLeaderboardControllerDonor.
-type V5ApiWebPublicCampaignLeaderboardControllerDonorParamsTimeType string
+// CampaignLeaderboardControllerDonorParamsTimeType defines parameters for CampaignLeaderboardControllerDonor.
+type CampaignLeaderboardControllerDonorParamsTimeType string
 
-// V5ApiWebPublicCampaignMilestoneControllerIndexParams defines parameters for V5ApiWebPublicCampaignMilestoneControllerIndex.
-type V5ApiWebPublicCampaignMilestoneControllerIndexParams struct {
+// CampaignMilestonesParams defines parameters for CampaignMilestones.
+type CampaignMilestonesParams struct {
 	// IncludeDisabled Returns disabled milestones. Defaults to false
 	IncludeDisabled *bool `form:"include_disabled,omitempty" json:"include_disabled,omitempty"`
 
@@ -1127,8 +1127,8 @@ type V5ApiWebPublicCampaignMilestoneControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCampaignPollControllerIndexParams defines parameters for V5ApiWebPublicCampaignPollControllerIndex.
-type V5ApiWebPublicCampaignPollControllerIndexParams struct {
+// CampaignPollsParams defines parameters for CampaignPolls.
+type CampaignPollsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1137,8 +1137,8 @@ type V5ApiWebPublicCampaignPollControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCampaignRewardControllerIndexParams defines parameters for V5ApiWebPublicCampaignRewardControllerIndex.
-type V5ApiWebPublicCampaignRewardControllerIndexParams struct {
+// CampaignRewardsParams defines parameters for CampaignRewards.
+type CampaignRewardsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1147,8 +1147,8 @@ type V5ApiWebPublicCampaignRewardControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCampaignScheduleControllerIndexParams defines parameters for V5ApiWebPublicCampaignScheduleControllerIndex.
-type V5ApiWebPublicCampaignScheduleControllerIndexParams struct {
+// CampaignSchedulesParams defines parameters for CampaignSchedules.
+type CampaignSchedulesParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1157,8 +1157,8 @@ type V5ApiWebPublicCampaignScheduleControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCampaignChallengeControllerIndexParams defines parameters for V5ApiWebPublicCampaignChallengeControllerIndex.
-type V5ApiWebPublicCampaignChallengeControllerIndexParams struct {
+// CampaignChallengesParams defines parameters for CampaignChallenges.
+type CampaignChallengesParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1167,8 +1167,8 @@ type V5ApiWebPublicCampaignChallengeControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCauseCampaignControllerIndexParams defines parameters for V5ApiWebPublicCauseCampaignControllerIndex.
-type V5ApiWebPublicCauseCampaignControllerIndexParams struct {
+// CauseCampaignsParams defines parameters for CauseCampaigns.
+type CauseCampaignsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1177,10 +1177,10 @@ type V5ApiWebPublicCauseCampaignControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerDonorParams defines parameters for V5ApiWebPublicCauseLeaderboardControllerDonor.
-type V5ApiWebPublicCauseLeaderboardControllerDonorParams struct {
+// CauseLeaderboardControllerDonorParams defines parameters for CauseLeaderboardControllerDonor.
+type CauseLeaderboardControllerDonorParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *CauseLeaderboardControllerDonorParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1190,11 +1190,11 @@ type V5ApiWebPublicCauseLeaderboardControllerDonorParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType defines parameters for V5ApiWebPublicCauseLeaderboardControllerDonor.
-type V5ApiWebPublicCauseLeaderboardControllerDonorParamsTimeType string
+// CauseLeaderboardControllerDonorParamsTimeType defines parameters for CauseLeaderboardControllerDonor.
+type CauseLeaderboardControllerDonorParamsTimeType string
 
-// V5ApiWebPublicCauseFundraisingEventControllerIndexParams defines parameters for V5ApiWebPublicCauseFundraisingEventControllerIndex.
-type V5ApiWebPublicCauseFundraisingEventControllerIndexParams struct {
+// CauseFundraisingEventsParams defines parameters for CauseFundraisingEvents.
+type CauseFundraisingEventsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1203,10 +1203,10 @@ type V5ApiWebPublicCauseFundraisingEventControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerTeamParams defines parameters for V5ApiWebPublicCauseLeaderboardControllerTeam.
-type V5ApiWebPublicCauseLeaderboardControllerTeamParams struct {
+// CauseLeaderboardControllerTeamParams defines parameters for CauseLeaderboardControllerTeam.
+type CauseLeaderboardControllerTeamParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *CauseLeaderboardControllerTeamParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1216,13 +1216,13 @@ type V5ApiWebPublicCauseLeaderboardControllerTeamParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType defines parameters for V5ApiWebPublicCauseLeaderboardControllerTeam.
-type V5ApiWebPublicCauseLeaderboardControllerTeamParamsTimeType string
+// CauseLeaderboardControllerTeamParamsTimeType defines parameters for CauseLeaderboardControllerTeam.
+type CauseLeaderboardControllerTeamParamsTimeType string
 
-// V5ApiWebPublicCauseLeaderboardControllerUserParams defines parameters for V5ApiWebPublicCauseLeaderboardControllerUser.
-type V5ApiWebPublicCauseLeaderboardControllerUserParams struct {
+// CauseLeaderboardControllerUserParams defines parameters for CauseLeaderboardControllerUser.
+type CauseLeaderboardControllerUserParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *CauseLeaderboardControllerUserParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1232,13 +1232,13 @@ type V5ApiWebPublicCauseLeaderboardControllerUserParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType defines parameters for V5ApiWebPublicCauseLeaderboardControllerUser.
-type V5ApiWebPublicCauseLeaderboardControllerUserParamsTimeType string
+// CauseLeaderboardControllerUserParamsTimeType defines parameters for CauseLeaderboardControllerUser.
+type CauseLeaderboardControllerUserParamsTimeType string
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerDonor.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams struct {
+// FundraisingEventLeaderboardControllerDonorParams defines parameters for FundraisingEventLeaderboardControllerDonor.
+type FundraisingEventLeaderboardControllerDonorParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *FundraisingEventLeaderboardControllerDonorParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1248,11 +1248,11 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerDonor.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParamsTimeType string
+// FundraisingEventLeaderboardControllerDonorParamsTimeType defines parameters for FundraisingEventLeaderboardControllerDonor.
+type FundraisingEventLeaderboardControllerDonorParamsTimeType string
 
-// V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams defines parameters for V5ApiWebPublicFundraisingEventSupportingEventControllerIndex.
-type V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams struct {
+// FundraisingEventSupportingEventsParams defines parameters for FundraisingEventSupportingEvents.
+type FundraisingEventSupportingEventsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1261,10 +1261,10 @@ type V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams struct {
+// FundraisingEventLeaderboardControllerTeamFitnessDistanceParams defines parameters for FundraisingEventLeaderboardControllerTeamFitnessDistance.
+type FundraisingEventLeaderboardControllerTeamFitnessDistanceParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1274,13 +1274,13 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParam
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType string
+// FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType defines parameters for FundraisingEventLeaderboardControllerTeamFitnessDistance.
+type FundraisingEventLeaderboardControllerTeamFitnessDistanceParamsTimeType string
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams struct {
+// FundraisingEventLeaderboardControllerTeamFitnessTimeParams defines parameters for FundraisingEventLeaderboardControllerTeamFitnessTime.
+type FundraisingEventLeaderboardControllerTeamFitnessTimeParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1290,13 +1290,13 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams st
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType string
+// FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType defines parameters for FundraisingEventLeaderboardControllerTeamFitnessTime.
+type FundraisingEventLeaderboardControllerTeamFitnessTimeParamsTimeType string
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerTeam.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams struct {
+// FundraisingEventLeaderboardControllerTeamParams defines parameters for FundraisingEventLeaderboardControllerTeam.
+type FundraisingEventLeaderboardControllerTeamParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *FundraisingEventLeaderboardControllerTeamParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1306,13 +1306,13 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerTeam.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParamsTimeType string
+// FundraisingEventLeaderboardControllerTeamParamsTimeType defines parameters for FundraisingEventLeaderboardControllerTeam.
+type FundraisingEventLeaderboardControllerTeamParamsTimeType string
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams struct {
+// FundraisingEventLeaderboardControllerUserFitnessDistanceParams defines parameters for FundraisingEventLeaderboardControllerUserFitnessDistance.
+type FundraisingEventLeaderboardControllerUserFitnessDistanceParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1322,13 +1322,13 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParam
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType string
+// FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType defines parameters for FundraisingEventLeaderboardControllerUserFitnessDistance.
+type FundraisingEventLeaderboardControllerUserFitnessDistanceParamsTimeType string
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams struct {
+// FundraisingEventLeaderboardControllerUserFitnessTimeParams defines parameters for FundraisingEventLeaderboardControllerUserFitnessTime.
+type FundraisingEventLeaderboardControllerUserFitnessTimeParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1338,13 +1338,13 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams st
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType string
+// FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType defines parameters for FundraisingEventLeaderboardControllerUserFitnessTime.
+type FundraisingEventLeaderboardControllerUserFitnessTimeParamsTimeType string
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerUser.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams struct {
+// FundraisingEventLeaderboardControllerUserParams defines parameters for FundraisingEventLeaderboardControllerUser.
+type FundraisingEventLeaderboardControllerUserParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *FundraisingEventLeaderboardControllerUserParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1354,11 +1354,11 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType defines parameters for V5ApiWebPublicFundraisingEventLeaderboardControllerUser.
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserParamsTimeType string
+// FundraisingEventLeaderboardControllerUserParamsTimeType defines parameters for FundraisingEventLeaderboardControllerUser.
+type FundraisingEventLeaderboardControllerUserParamsTimeType string
 
-// V5ApiWebPublicTeamCampaignDonationControllerIndexParams defines parameters for V5ApiWebPublicTeamCampaignDonationControllerIndex.
-type V5ApiWebPublicTeamCampaignDonationControllerIndexParams struct {
+// TeamCampaignDonationsParams defines parameters for TeamCampaignDonations.
+type TeamCampaignDonationsParams struct {
 	// CompletedBefore Returns only donations that have been completed before the given moment in ISO8601 format
 	CompletedBefore *string `form:"completed_before,omitempty" json:"completed_before,omitempty"`
 
@@ -1373,10 +1373,10 @@ type V5ApiWebPublicTeamCampaignDonationControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams defines parameters for V5ApiWebPublicTeamCampaignLeaderboardControllerDonor.
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams struct {
+// TeamCampaignLeaderboardControllerDonorParams defines parameters for TeamCampaignLeaderboardControllerDonor.
+type TeamCampaignLeaderboardControllerDonorParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *TeamCampaignLeaderboardControllerDonorParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1386,11 +1386,11 @@ type V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType defines parameters for V5ApiWebPublicTeamCampaignLeaderboardControllerDonor.
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParamsTimeType string
+// TeamCampaignLeaderboardControllerDonorParamsTimeType defines parameters for TeamCampaignLeaderboardControllerDonor.
+type TeamCampaignLeaderboardControllerDonorParamsTimeType string
 
-// V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams defines parameters for V5ApiWebPublicTeamCampaignMilestoneControllerIndex.
-type V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams struct {
+// TeamCampaignMilestonesParams defines parameters for TeamCampaignMilestones.
+type TeamCampaignMilestonesParams struct {
 	// IncludeDisabled Returns disabled milestones. Defaults to false
 	IncludeDisabled *bool `form:"include_disabled,omitempty" json:"include_disabled,omitempty"`
 
@@ -1414,8 +1414,8 @@ type V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamCampaignPollControllerIndexParams defines parameters for V5ApiWebPublicTeamCampaignPollControllerIndex.
-type V5ApiWebPublicTeamCampaignPollControllerIndexParams struct {
+// TeamCampaignPollsParams defines parameters for TeamCampaignPolls.
+type TeamCampaignPollsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1424,8 +1424,8 @@ type V5ApiWebPublicTeamCampaignPollControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamCampaignRewardControllerIndexParams defines parameters for V5ApiWebPublicTeamCampaignRewardControllerIndex.
-type V5ApiWebPublicTeamCampaignRewardControllerIndexParams struct {
+// TeamCampaignRewardsParams defines parameters for TeamCampaignRewards.
+type TeamCampaignRewardsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1434,8 +1434,8 @@ type V5ApiWebPublicTeamCampaignRewardControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamCampaignScheduleControllerIndexParams defines parameters for V5ApiWebPublicTeamCampaignScheduleControllerIndex.
-type V5ApiWebPublicTeamCampaignScheduleControllerIndexParams struct {
+// TeamCampaignSchedulesParams defines parameters for TeamCampaignSchedules.
+type TeamCampaignSchedulesParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1444,8 +1444,8 @@ type V5ApiWebPublicTeamCampaignScheduleControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams defines parameters for V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex.
-type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams struct {
+// TeamCampaignSupportingCampaignsParams defines parameters for TeamCampaignSupportingCampaigns.
+type TeamCampaignSupportingCampaignsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1454,8 +1454,8 @@ type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamCampaignChallengeControllerIndexParams defines parameters for V5ApiWebPublicTeamCampaignChallengeControllerIndex.
-type V5ApiWebPublicTeamCampaignChallengeControllerIndexParams struct {
+// TeamCampaignChallengesParams defines parameters for TeamCampaignChallenges.
+type TeamCampaignChallengesParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1464,10 +1464,10 @@ type V5ApiWebPublicTeamCampaignChallengeControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams defines parameters for V5ApiWebPublicTeamCampaignLeaderboardControllerUser.
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams struct {
+// TeamCampaignLeaderboardControllerUserParams defines parameters for TeamCampaignLeaderboardControllerUser.
+type TeamCampaignLeaderboardControllerUserParams struct {
 	// TimeType The time range to use in leaderboard generation
-	TimeType *V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
+	TimeType *TeamCampaignLeaderboardControllerUserParamsTimeType `form:"time_type,omitempty" json:"time_type,omitempty"`
 
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
@@ -1477,11 +1477,11 @@ type V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType defines parameters for V5ApiWebPublicTeamCampaignLeaderboardControllerUser.
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUserParamsTimeType string
+// TeamCampaignLeaderboardControllerUserParamsTimeType defines parameters for TeamCampaignLeaderboardControllerUser.
+type TeamCampaignLeaderboardControllerUserParamsTimeType string
 
-// V5ApiWebPublicTeamMemberControllerIndexParams defines parameters for V5ApiWebPublicTeamMemberControllerIndex.
-type V5ApiWebPublicTeamMemberControllerIndexParams struct {
+// TeamMembersParams defines parameters for TeamMembers.
+type TeamMembersParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1490,8 +1490,8 @@ type V5ApiWebPublicTeamMemberControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicTeamTeamCampaignControllerIndexParams defines parameters for V5ApiWebPublicTeamTeamCampaignControllerIndex.
-type V5ApiWebPublicTeamTeamCampaignControllerIndexParams struct {
+// TeamTeamCampaignsParams defines parameters for TeamTeamCampaigns.
+type TeamTeamCampaignsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1500,8 +1500,8 @@ type V5ApiWebPublicTeamTeamCampaignControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicUserCampaignControllerIndexParams defines parameters for V5ApiWebPublicUserCampaignControllerIndex.
-type V5ApiWebPublicUserCampaignControllerIndexParams struct {
+// UserCampaignsParams defines parameters for UserCampaigns.
+type UserCampaignsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1510,8 +1510,8 @@ type V5ApiWebPublicUserCampaignControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicUserIntegrationEventControllerIndexParams defines parameters for V5ApiWebPublicUserIntegrationEventControllerIndex.
-type V5ApiWebPublicUserIntegrationEventControllerIndexParams struct {
+// UserIntegrationEventsParams defines parameters for UserIntegrationEvents.
+type UserIntegrationEventsParams struct {
 	// After Returns records after the given cursor
 	After *string `form:"after,omitempty" json:"after,omitempty"`
 
@@ -1520,8 +1520,8 @@ type V5ApiWebPublicUserIntegrationEventControllerIndexParams struct {
 	Limit  *int    `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
-// V5ApiWebPublicUserTeamControllerIndexParams defines parameters for V5ApiWebPublicUserTeamControllerIndex.
-type V5ApiWebPublicUserTeamControllerIndexParams struct {
+// UserTeamsParams defines parameters for UserTeams.
+type UserTeamsParams struct {
 	// Role Returns only teams where a user has a specific role
 	Role *string `form:"role,omitempty" json:"role,omitempty"`
 
@@ -1859,134 +1859,134 @@ func WithRequestEditorFn(fn RequestEditorFn) ClientOption {
 
 // The interface specification for the client above.
 type ClientInterface interface {
-	// V5ApiWebPublicCampaignControllerShow request
-	V5ApiWebPublicCampaignControllerShow(ctx context.Context, campaignId string, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// GetCampaign request
+	GetCampaign(ctx context.Context, campaignId string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCampaignDonationControllerIndex request
-	V5ApiWebPublicCampaignDonationControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignDonationControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CampaignDonations request
+	CampaignDonations(ctx context.Context, campaignId string, params *CampaignDonationsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCampaignLeaderboardControllerDonor request
-	V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CampaignLeaderboardControllerDonor request
+	CampaignLeaderboardControllerDonor(ctx context.Context, campaignId string, params *CampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCampaignMilestoneControllerIndex request
-	V5ApiWebPublicCampaignMilestoneControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignMilestoneControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CampaignMilestones request
+	CampaignMilestones(ctx context.Context, campaignId string, params *CampaignMilestonesParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCampaignPollControllerIndex request
-	V5ApiWebPublicCampaignPollControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignPollControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CampaignPolls request
+	CampaignPolls(ctx context.Context, campaignId string, params *CampaignPollsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCampaignRewardControllerIndex request
-	V5ApiWebPublicCampaignRewardControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignRewardControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CampaignRewards request
+	CampaignRewards(ctx context.Context, campaignId string, params *CampaignRewardsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCampaignScheduleControllerIndex request
-	V5ApiWebPublicCampaignScheduleControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignScheduleControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CampaignSchedules request
+	CampaignSchedules(ctx context.Context, campaignId string, params *CampaignSchedulesParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCampaignChallengeControllerIndex request
-	V5ApiWebPublicCampaignChallengeControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignChallengeControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CampaignChallenges request
+	CampaignChallenges(ctx context.Context, campaignId string, params *CampaignChallengesParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCauseControllerShow request
-	V5ApiWebPublicCauseControllerShow(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// GetCause request
+	GetCause(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCauseCampaignControllerIndex request
-	V5ApiWebPublicCauseCampaignControllerIndex(ctx context.Context, causeId string, params *V5ApiWebPublicCauseCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CauseCampaigns request
+	CauseCampaigns(ctx context.Context, causeId string, params *CauseCampaignsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCauseLeaderboardControllerConfigured request
-	V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CauseLeaderboardControllerConfigured request
+	CauseLeaderboardControllerConfigured(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCauseLeaderboardControllerDonor request
-	V5ApiWebPublicCauseLeaderboardControllerDonor(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CauseLeaderboardControllerDonor request
+	CauseLeaderboardControllerDonor(ctx context.Context, causeId string, params *CauseLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCauseFundraisingEventControllerIndex request
-	V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx context.Context, causeId string, params *V5ApiWebPublicCauseFundraisingEventControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CauseFundraisingEvents request
+	CauseFundraisingEvents(ctx context.Context, causeId string, params *CauseFundraisingEventsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCauseLeaderboardControllerTeam request
-	V5ApiWebPublicCauseLeaderboardControllerTeam(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CauseLeaderboardControllerTeam request
+	CauseLeaderboardControllerTeam(ctx context.Context, causeId string, params *CauseLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicCauseLeaderboardControllerUser request
-	V5ApiWebPublicCauseLeaderboardControllerUser(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// CauseLeaderboardControllerUser request
+	CauseLeaderboardControllerUser(ctx context.Context, causeId string, params *CauseLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicUserControllerCurrentUser request
-	V5ApiWebPublicUserControllerCurrentUser(ctx context.Context, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// UserControllerCurrentUser request
+	UserControllerCurrentUser(ctx context.Context, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventControllerShow request
-	V5ApiWebPublicFundraisingEventControllerShow(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// GetFundraisingEvent request
+	GetFundraisingEvent(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// FundraisingEventLeaderboardControllerConfigured request
+	FundraisingEventLeaderboardControllerConfigured(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerDonor request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// FundraisingEventLeaderboardControllerDonor request
+	FundraisingEventLeaderboardControllerDonor(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventSupportingEventControllerIndex request
-	V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// FundraisingEventSupportingEvents request
+	FundraisingEventSupportingEvents(ctx context.Context, fundraisingEventId string, params *FundraisingEventSupportingEventsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// FundraisingEventLeaderboardControllerTeamFitnessDistance request
+	FundraisingEventLeaderboardControllerTeamFitnessDistance(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// FundraisingEventLeaderboardControllerTeamFitnessTime request
+	FundraisingEventLeaderboardControllerTeamFitnessTime(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerTeam request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// FundraisingEventLeaderboardControllerTeam request
+	FundraisingEventLeaderboardControllerTeam(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// FundraisingEventLeaderboardControllerUserFitnessDistance request
+	FundraisingEventLeaderboardControllerUserFitnessDistance(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// FundraisingEventLeaderboardControllerUserFitnessTime request
+	FundraisingEventLeaderboardControllerUserFitnessTime(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerUser request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// FundraisingEventLeaderboardControllerUser request
+	FundraisingEventLeaderboardControllerUser(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignControllerShow request
-	V5ApiWebPublicTeamCampaignControllerShow(ctx context.Context, teamCampaignId string, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// GetTeamCampaign request
+	GetTeamCampaign(ctx context.Context, teamCampaignId string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignDonationControllerIndex request
-	V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignDonationControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamCampaignDonations request
+	TeamCampaignDonations(ctx context.Context, teamCampaignId string, params *TeamCampaignDonationsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignLeaderboardControllerDonor request
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamCampaignLeaderboardControllerDonor request
+	TeamCampaignLeaderboardControllerDonor(ctx context.Context, teamCampaignId string, params *TeamCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignMilestoneControllerIndex request
-	V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamCampaignMilestones request
+	TeamCampaignMilestones(ctx context.Context, teamCampaignId string, params *TeamCampaignMilestonesParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignPollControllerIndex request
-	V5ApiWebPublicTeamCampaignPollControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignPollControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamCampaignPolls request
+	TeamCampaignPolls(ctx context.Context, teamCampaignId string, params *TeamCampaignPollsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignRewardControllerIndex request
-	V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignRewardControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamCampaignRewards request
+	TeamCampaignRewards(ctx context.Context, teamCampaignId string, params *TeamCampaignRewardsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignScheduleControllerIndex request
-	V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignScheduleControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamCampaignSchedules request
+	TeamCampaignSchedules(ctx context.Context, teamCampaignId string, params *TeamCampaignSchedulesParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex request
-	V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamCampaignSupportingCampaigns request
+	TeamCampaignSupportingCampaigns(ctx context.Context, teamCampaignId string, params *TeamCampaignSupportingCampaignsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignChallengeControllerIndex request
-	V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignChallengeControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamCampaignChallenges request
+	TeamCampaignChallenges(ctx context.Context, teamCampaignId string, params *TeamCampaignChallengesParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamCampaignLeaderboardControllerUser request
-	V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamCampaignLeaderboardControllerUser request
+	TeamCampaignLeaderboardControllerUser(ctx context.Context, teamCampaignId string, params *TeamCampaignLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamControllerShow request
-	V5ApiWebPublicTeamControllerShow(ctx context.Context, teamId string, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// GetTeam request
+	GetTeam(ctx context.Context, teamId string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamMemberControllerIndex request
-	V5ApiWebPublicTeamMemberControllerIndex(ctx context.Context, teamId string, params *V5ApiWebPublicTeamMemberControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamMembers request
+	TeamMembers(ctx context.Context, teamId string, params *TeamMembersParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicTeamTeamCampaignControllerIndex request
-	V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx context.Context, teamId string, params *V5ApiWebPublicTeamTeamCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// TeamTeamCampaigns request
+	TeamTeamCampaigns(ctx context.Context, teamId string, params *TeamTeamCampaignsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicUserControllerShow request
-	V5ApiWebPublicUserControllerShow(ctx context.Context, userId string, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// GetUser request
+	GetUser(ctx context.Context, userId string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicUserCampaignControllerIndex request
-	V5ApiWebPublicUserCampaignControllerIndex(ctx context.Context, userId string, params *V5ApiWebPublicUserCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// UserCampaigns request
+	UserCampaigns(ctx context.Context, userId string, params *UserCampaignsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicUserIntegrationEventControllerIndex request
-	V5ApiWebPublicUserIntegrationEventControllerIndex(ctx context.Context, userId string, params *V5ApiWebPublicUserIntegrationEventControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// UserIntegrationEvents request
+	UserIntegrationEvents(ctx context.Context, userId string, params *UserIntegrationEventsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// V5ApiWebPublicUserTeamControllerIndex request
-	V5ApiWebPublicUserTeamControllerIndex(ctx context.Context, userId string, params *V5ApiWebPublicUserTeamControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+	// UserTeams request
+	UserTeams(ctx context.Context, userId string, params *UserTeamsParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// V5ApiWebOauthAuthorize request with any body
 	V5ApiWebOauthAuthorizeWithBody(ctx context.Context, params *V5ApiWebOauthAuthorizeParams, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -1999,8 +1999,8 @@ type ClientInterface interface {
 	V5ApiWebOauthToken(ctx context.Context, params *V5ApiWebOauthTokenParams, body V5ApiWebOauthTokenJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 }
 
-func (c *Client) V5ApiWebPublicCampaignControllerShow(ctx context.Context, campaignId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCampaignControllerShowRequest(c.Server, campaignId)
+func (c *Client) GetCampaign(ctx context.Context, campaignId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGetCampaignRequest(c.Server, campaignId)
 	if err != nil {
 		return nil, err
 	}
@@ -2011,8 +2011,8 @@ func (c *Client) V5ApiWebPublicCampaignControllerShow(ctx context.Context, campa
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCampaignDonationControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignDonationControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCampaignDonationControllerIndexRequest(c.Server, campaignId, params)
+func (c *Client) CampaignDonations(ctx context.Context, campaignId string, params *CampaignDonationsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCampaignDonationsRequest(c.Server, campaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2023,8 +2023,8 @@ func (c *Client) V5ApiWebPublicCampaignDonationControllerIndex(ctx context.Conte
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCampaignLeaderboardControllerDonorRequest(c.Server, campaignId, params)
+func (c *Client) CampaignLeaderboardControllerDonor(ctx context.Context, campaignId string, params *CampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCampaignLeaderboardControllerDonorRequest(c.Server, campaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2035,8 +2035,8 @@ func (c *Client) V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx context.Co
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCampaignMilestoneControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignMilestoneControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCampaignMilestoneControllerIndexRequest(c.Server, campaignId, params)
+func (c *Client) CampaignMilestones(ctx context.Context, campaignId string, params *CampaignMilestonesParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCampaignMilestonesRequest(c.Server, campaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2047,8 +2047,8 @@ func (c *Client) V5ApiWebPublicCampaignMilestoneControllerIndex(ctx context.Cont
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCampaignPollControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignPollControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCampaignPollControllerIndexRequest(c.Server, campaignId, params)
+func (c *Client) CampaignPolls(ctx context.Context, campaignId string, params *CampaignPollsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCampaignPollsRequest(c.Server, campaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2059,8 +2059,8 @@ func (c *Client) V5ApiWebPublicCampaignPollControllerIndex(ctx context.Context, 
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCampaignRewardControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignRewardControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCampaignRewardControllerIndexRequest(c.Server, campaignId, params)
+func (c *Client) CampaignRewards(ctx context.Context, campaignId string, params *CampaignRewardsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCampaignRewardsRequest(c.Server, campaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2071,8 +2071,8 @@ func (c *Client) V5ApiWebPublicCampaignRewardControllerIndex(ctx context.Context
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCampaignScheduleControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignScheduleControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCampaignScheduleControllerIndexRequest(c.Server, campaignId, params)
+func (c *Client) CampaignSchedules(ctx context.Context, campaignId string, params *CampaignSchedulesParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCampaignSchedulesRequest(c.Server, campaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2083,8 +2083,8 @@ func (c *Client) V5ApiWebPublicCampaignScheduleControllerIndex(ctx context.Conte
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCampaignChallengeControllerIndex(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignChallengeControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCampaignChallengeControllerIndexRequest(c.Server, campaignId, params)
+func (c *Client) CampaignChallenges(ctx context.Context, campaignId string, params *CampaignChallengesParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCampaignChallengesRequest(c.Server, campaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2095,8 +2095,8 @@ func (c *Client) V5ApiWebPublicCampaignChallengeControllerIndex(ctx context.Cont
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCauseControllerShow(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCauseControllerShowRequest(c.Server, causeId)
+func (c *Client) GetCause(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGetCauseRequest(c.Server, causeId)
 	if err != nil {
 		return nil, err
 	}
@@ -2107,8 +2107,8 @@ func (c *Client) V5ApiWebPublicCauseControllerShow(ctx context.Context, causeId 
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCauseCampaignControllerIndex(ctx context.Context, causeId string, params *V5ApiWebPublicCauseCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCauseCampaignControllerIndexRequest(c.Server, causeId, params)
+func (c *Client) CauseCampaigns(ctx context.Context, causeId string, params *CauseCampaignsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCauseCampaignsRequest(c.Server, causeId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2119,8 +2119,8 @@ func (c *Client) V5ApiWebPublicCauseCampaignControllerIndex(ctx context.Context,
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCauseLeaderboardControllerConfiguredRequest(c.Server, causeId)
+func (c *Client) CauseLeaderboardControllerConfigured(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCauseLeaderboardControllerConfiguredRequest(c.Server, causeId)
 	if err != nil {
 		return nil, err
 	}
@@ -2131,8 +2131,8 @@ func (c *Client) V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx context.
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCauseLeaderboardControllerDonor(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCauseLeaderboardControllerDonorRequest(c.Server, causeId, params)
+func (c *Client) CauseLeaderboardControllerDonor(ctx context.Context, causeId string, params *CauseLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCauseLeaderboardControllerDonorRequest(c.Server, causeId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2143,8 +2143,8 @@ func (c *Client) V5ApiWebPublicCauseLeaderboardControllerDonor(ctx context.Conte
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx context.Context, causeId string, params *V5ApiWebPublicCauseFundraisingEventControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCauseFundraisingEventControllerIndexRequest(c.Server, causeId, params)
+func (c *Client) CauseFundraisingEvents(ctx context.Context, causeId string, params *CauseFundraisingEventsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCauseFundraisingEventsRequest(c.Server, causeId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2155,8 +2155,8 @@ func (c *Client) V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx context.
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCauseLeaderboardControllerTeam(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCauseLeaderboardControllerTeamRequest(c.Server, causeId, params)
+func (c *Client) CauseLeaderboardControllerTeam(ctx context.Context, causeId string, params *CauseLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCauseLeaderboardControllerTeamRequest(c.Server, causeId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2167,8 +2167,8 @@ func (c *Client) V5ApiWebPublicCauseLeaderboardControllerTeam(ctx context.Contex
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicCauseLeaderboardControllerUser(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicCauseLeaderboardControllerUserRequest(c.Server, causeId, params)
+func (c *Client) CauseLeaderboardControllerUser(ctx context.Context, causeId string, params *CauseLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCauseLeaderboardControllerUserRequest(c.Server, causeId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2179,8 +2179,8 @@ func (c *Client) V5ApiWebPublicCauseLeaderboardControllerUser(ctx context.Contex
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicUserControllerCurrentUser(ctx context.Context, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicUserControllerCurrentUserRequest(c.Server)
+func (c *Client) UserControllerCurrentUser(ctx context.Context, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUserControllerCurrentUserRequest(c.Server)
 	if err != nil {
 		return nil, err
 	}
@@ -2191,8 +2191,8 @@ func (c *Client) V5ApiWebPublicUserControllerCurrentUser(ctx context.Context, re
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventControllerShow(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventControllerShowRequest(c.Server, fundraisingEventId)
+func (c *Client) GetFundraisingEvent(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGetFundraisingEventRequest(c.Server, fundraisingEventId)
 	if err != nil {
 		return nil, err
 	}
@@ -2203,8 +2203,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventControllerShow(ctx context.Contex
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredRequest(c.Server, fundraisingEventId)
+func (c *Client) FundraisingEventLeaderboardControllerConfigured(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewFundraisingEventLeaderboardControllerConfiguredRequest(c.Server, fundraisingEventId)
 	if err != nil {
 		return nil, err
 	}
@@ -2215,8 +2215,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(c
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventLeaderboardControllerDonorRequest(c.Server, fundraisingEventId, params)
+func (c *Client) FundraisingEventLeaderboardControllerDonor(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewFundraisingEventLeaderboardControllerDonorRequest(c.Server, fundraisingEventId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2227,8 +2227,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx co
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventSupportingEventControllerIndexRequest(c.Server, fundraisingEventId, params)
+func (c *Client) FundraisingEventSupportingEvents(ctx context.Context, fundraisingEventId string, params *FundraisingEventSupportingEventsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewFundraisingEventSupportingEventsRequest(c.Server, fundraisingEventId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2239,8 +2239,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ct
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRequest(c.Server, fundraisingEventId, params)
+func (c *Client) FundraisingEventLeaderboardControllerTeamFitnessDistance(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewFundraisingEventLeaderboardControllerTeamFitnessDistanceRequest(c.Server, fundraisingEventId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2251,8 +2251,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessD
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeRequest(c.Server, fundraisingEventId, params)
+func (c *Client) FundraisingEventLeaderboardControllerTeamFitnessTime(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewFundraisingEventLeaderboardControllerTeamFitnessTimeRequest(c.Server, fundraisingEventId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2263,8 +2263,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessT
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamRequest(c.Server, fundraisingEventId, params)
+func (c *Client) FundraisingEventLeaderboardControllerTeam(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewFundraisingEventLeaderboardControllerTeamRequest(c.Server, fundraisingEventId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2275,8 +2275,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx con
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRequest(c.Server, fundraisingEventId, params)
+func (c *Client) FundraisingEventLeaderboardControllerUserFitnessDistance(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewFundraisingEventLeaderboardControllerUserFitnessDistanceRequest(c.Server, fundraisingEventId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2287,8 +2287,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessD
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeRequest(c.Server, fundraisingEventId, params)
+func (c *Client) FundraisingEventLeaderboardControllerUserFitnessTime(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewFundraisingEventLeaderboardControllerUserFitnessTimeRequest(c.Server, fundraisingEventId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2299,8 +2299,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessT
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserRequest(c.Server, fundraisingEventId, params)
+func (c *Client) FundraisingEventLeaderboardControllerUser(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewFundraisingEventLeaderboardControllerUserRequest(c.Server, fundraisingEventId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2311,8 +2311,8 @@ func (c *Client) V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx con
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignControllerShow(ctx context.Context, teamCampaignId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignControllerShowRequest(c.Server, teamCampaignId)
+func (c *Client) GetTeamCampaign(ctx context.Context, teamCampaignId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGetTeamCampaignRequest(c.Server, teamCampaignId)
 	if err != nil {
 		return nil, err
 	}
@@ -2323,8 +2323,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignControllerShow(ctx context.Context, t
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignDonationControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignDonationControllerIndexRequest(c.Server, teamCampaignId, params)
+func (c *Client) TeamCampaignDonations(ctx context.Context, teamCampaignId string, params *TeamCampaignDonationsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamCampaignDonationsRequest(c.Server, teamCampaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2335,8 +2335,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx context.C
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignLeaderboardControllerDonorRequest(c.Server, teamCampaignId, params)
+func (c *Client) TeamCampaignLeaderboardControllerDonor(ctx context.Context, teamCampaignId string, params *TeamCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamCampaignLeaderboardControllerDonorRequest(c.Server, teamCampaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2347,8 +2347,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx contex
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignMilestoneControllerIndexRequest(c.Server, teamCampaignId, params)
+func (c *Client) TeamCampaignMilestones(ctx context.Context, teamCampaignId string, params *TeamCampaignMilestonesParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamCampaignMilestonesRequest(c.Server, teamCampaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2359,8 +2359,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx context.
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignPollControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignPollControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignPollControllerIndexRequest(c.Server, teamCampaignId, params)
+func (c *Client) TeamCampaignPolls(ctx context.Context, teamCampaignId string, params *TeamCampaignPollsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamCampaignPollsRequest(c.Server, teamCampaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2371,8 +2371,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignPollControllerIndex(ctx context.Conte
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignRewardControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignRewardControllerIndexRequest(c.Server, teamCampaignId, params)
+func (c *Client) TeamCampaignRewards(ctx context.Context, teamCampaignId string, params *TeamCampaignRewardsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamCampaignRewardsRequest(c.Server, teamCampaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2383,8 +2383,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx context.Con
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignScheduleControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignScheduleControllerIndexRequest(c.Server, teamCampaignId, params)
+func (c *Client) TeamCampaignSchedules(ctx context.Context, teamCampaignId string, params *TeamCampaignSchedulesParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamCampaignSchedulesRequest(c.Server, teamCampaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2395,8 +2395,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx context.C
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexRequest(c.Server, teamCampaignId, params)
+func (c *Client) TeamCampaignSupportingCampaigns(ctx context.Context, teamCampaignId string, params *TeamCampaignSupportingCampaignsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamCampaignSupportingCampaignsRequest(c.Server, teamCampaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2407,8 +2407,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignChallengeControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignChallengeControllerIndexRequest(c.Server, teamCampaignId, params)
+func (c *Client) TeamCampaignChallenges(ctx context.Context, teamCampaignId string, params *TeamCampaignChallengesParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamCampaignChallengesRequest(c.Server, teamCampaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2419,8 +2419,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx context.
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamCampaignLeaderboardControllerUserRequest(c.Server, teamCampaignId, params)
+func (c *Client) TeamCampaignLeaderboardControllerUser(ctx context.Context, teamCampaignId string, params *TeamCampaignLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamCampaignLeaderboardControllerUserRequest(c.Server, teamCampaignId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2431,8 +2431,8 @@ func (c *Client) V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx context
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamControllerShow(ctx context.Context, teamId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamControllerShowRequest(c.Server, teamId)
+func (c *Client) GetTeam(ctx context.Context, teamId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGetTeamRequest(c.Server, teamId)
 	if err != nil {
 		return nil, err
 	}
@@ -2443,8 +2443,8 @@ func (c *Client) V5ApiWebPublicTeamControllerShow(ctx context.Context, teamId st
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamMemberControllerIndex(ctx context.Context, teamId string, params *V5ApiWebPublicTeamMemberControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamMemberControllerIndexRequest(c.Server, teamId, params)
+func (c *Client) TeamMembers(ctx context.Context, teamId string, params *TeamMembersParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamMembersRequest(c.Server, teamId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2455,8 +2455,8 @@ func (c *Client) V5ApiWebPublicTeamMemberControllerIndex(ctx context.Context, te
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx context.Context, teamId string, params *V5ApiWebPublicTeamTeamCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicTeamTeamCampaignControllerIndexRequest(c.Server, teamId, params)
+func (c *Client) TeamTeamCampaigns(ctx context.Context, teamId string, params *TeamTeamCampaignsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTeamTeamCampaignsRequest(c.Server, teamId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2467,8 +2467,8 @@ func (c *Client) V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx context.Conte
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicUserControllerShow(ctx context.Context, userId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicUserControllerShowRequest(c.Server, userId)
+func (c *Client) GetUser(ctx context.Context, userId string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGetUserRequest(c.Server, userId)
 	if err != nil {
 		return nil, err
 	}
@@ -2479,8 +2479,8 @@ func (c *Client) V5ApiWebPublicUserControllerShow(ctx context.Context, userId st
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicUserCampaignControllerIndex(ctx context.Context, userId string, params *V5ApiWebPublicUserCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicUserCampaignControllerIndexRequest(c.Server, userId, params)
+func (c *Client) UserCampaigns(ctx context.Context, userId string, params *UserCampaignsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUserCampaignsRequest(c.Server, userId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2491,8 +2491,8 @@ func (c *Client) V5ApiWebPublicUserCampaignControllerIndex(ctx context.Context, 
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicUserIntegrationEventControllerIndex(ctx context.Context, userId string, params *V5ApiWebPublicUserIntegrationEventControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicUserIntegrationEventControllerIndexRequest(c.Server, userId, params)
+func (c *Client) UserIntegrationEvents(ctx context.Context, userId string, params *UserIntegrationEventsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUserIntegrationEventsRequest(c.Server, userId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2503,8 +2503,8 @@ func (c *Client) V5ApiWebPublicUserIntegrationEventControllerIndex(ctx context.C
 	return c.Client.Do(req)
 }
 
-func (c *Client) V5ApiWebPublicUserTeamControllerIndex(ctx context.Context, userId string, params *V5ApiWebPublicUserTeamControllerIndexParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewV5ApiWebPublicUserTeamControllerIndexRequest(c.Server, userId, params)
+func (c *Client) UserTeams(ctx context.Context, userId string, params *UserTeamsParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUserTeamsRequest(c.Server, userId, params)
 	if err != nil {
 		return nil, err
 	}
@@ -2563,8 +2563,8 @@ func (c *Client) V5ApiWebOauthToken(ctx context.Context, params *V5ApiWebOauthTo
 	return c.Client.Do(req)
 }
 
-// NewV5ApiWebPublicCampaignControllerShowRequest generates requests for V5ApiWebPublicCampaignControllerShow
-func NewV5ApiWebPublicCampaignControllerShowRequest(server string, campaignId string) (*http.Request, error) {
+// NewGetCampaignRequest generates requests for GetCampaign
+func NewGetCampaignRequest(server string, campaignId string) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -2597,8 +2597,8 @@ func NewV5ApiWebPublicCampaignControllerShowRequest(server string, campaignId st
 	return req, nil
 }
 
-// NewV5ApiWebPublicCampaignDonationControllerIndexRequest generates requests for V5ApiWebPublicCampaignDonationControllerIndex
-func NewV5ApiWebPublicCampaignDonationControllerIndexRequest(server string, campaignId string, params *V5ApiWebPublicCampaignDonationControllerIndexParams) (*http.Request, error) {
+// NewCampaignDonationsRequest generates requests for CampaignDonations
+func NewCampaignDonationsRequest(server string, campaignId string, params *CampaignDonationsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -2715,8 +2715,8 @@ func NewV5ApiWebPublicCampaignDonationControllerIndexRequest(server string, camp
 	return req, nil
 }
 
-// NewV5ApiWebPublicCampaignLeaderboardControllerDonorRequest generates requests for V5ApiWebPublicCampaignLeaderboardControllerDonor
-func NewV5ApiWebPublicCampaignLeaderboardControllerDonorRequest(server string, campaignId string, params *V5ApiWebPublicCampaignLeaderboardControllerDonorParams) (*http.Request, error) {
+// NewCampaignLeaderboardControllerDonorRequest generates requests for CampaignLeaderboardControllerDonor
+func NewCampaignLeaderboardControllerDonorRequest(server string, campaignId string, params *CampaignLeaderboardControllerDonorParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -2817,8 +2817,8 @@ func NewV5ApiWebPublicCampaignLeaderboardControllerDonorRequest(server string, c
 	return req, nil
 }
 
-// NewV5ApiWebPublicCampaignMilestoneControllerIndexRequest generates requests for V5ApiWebPublicCampaignMilestoneControllerIndex
-func NewV5ApiWebPublicCampaignMilestoneControllerIndexRequest(server string, campaignId string, params *V5ApiWebPublicCampaignMilestoneControllerIndexParams) (*http.Request, error) {
+// NewCampaignMilestonesRequest generates requests for CampaignMilestones
+func NewCampaignMilestonesRequest(server string, campaignId string, params *CampaignMilestonesParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -2983,8 +2983,8 @@ func NewV5ApiWebPublicCampaignMilestoneControllerIndexRequest(server string, cam
 	return req, nil
 }
 
-// NewV5ApiWebPublicCampaignPollControllerIndexRequest generates requests for V5ApiWebPublicCampaignPollControllerIndex
-func NewV5ApiWebPublicCampaignPollControllerIndexRequest(server string, campaignId string, params *V5ApiWebPublicCampaignPollControllerIndexParams) (*http.Request, error) {
+// NewCampaignPollsRequest generates requests for CampaignPolls
+func NewCampaignPollsRequest(server string, campaignId string, params *CampaignPollsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3069,8 +3069,8 @@ func NewV5ApiWebPublicCampaignPollControllerIndexRequest(server string, campaign
 	return req, nil
 }
 
-// NewV5ApiWebPublicCampaignRewardControllerIndexRequest generates requests for V5ApiWebPublicCampaignRewardControllerIndex
-func NewV5ApiWebPublicCampaignRewardControllerIndexRequest(server string, campaignId string, params *V5ApiWebPublicCampaignRewardControllerIndexParams) (*http.Request, error) {
+// NewCampaignRewardsRequest generates requests for CampaignRewards
+func NewCampaignRewardsRequest(server string, campaignId string, params *CampaignRewardsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3155,8 +3155,8 @@ func NewV5ApiWebPublicCampaignRewardControllerIndexRequest(server string, campai
 	return req, nil
 }
 
-// NewV5ApiWebPublicCampaignScheduleControllerIndexRequest generates requests for V5ApiWebPublicCampaignScheduleControllerIndex
-func NewV5ApiWebPublicCampaignScheduleControllerIndexRequest(server string, campaignId string, params *V5ApiWebPublicCampaignScheduleControllerIndexParams) (*http.Request, error) {
+// NewCampaignSchedulesRequest generates requests for CampaignSchedules
+func NewCampaignSchedulesRequest(server string, campaignId string, params *CampaignSchedulesParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3241,8 +3241,8 @@ func NewV5ApiWebPublicCampaignScheduleControllerIndexRequest(server string, camp
 	return req, nil
 }
 
-// NewV5ApiWebPublicCampaignChallengeControllerIndexRequest generates requests for V5ApiWebPublicCampaignChallengeControllerIndex
-func NewV5ApiWebPublicCampaignChallengeControllerIndexRequest(server string, campaignId string, params *V5ApiWebPublicCampaignChallengeControllerIndexParams) (*http.Request, error) {
+// NewCampaignChallengesRequest generates requests for CampaignChallenges
+func NewCampaignChallengesRequest(server string, campaignId string, params *CampaignChallengesParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3327,8 +3327,8 @@ func NewV5ApiWebPublicCampaignChallengeControllerIndexRequest(server string, cam
 	return req, nil
 }
 
-// NewV5ApiWebPublicCauseControllerShowRequest generates requests for V5ApiWebPublicCauseControllerShow
-func NewV5ApiWebPublicCauseControllerShowRequest(server string, causeId string) (*http.Request, error) {
+// NewGetCauseRequest generates requests for GetCause
+func NewGetCauseRequest(server string, causeId string) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3361,8 +3361,8 @@ func NewV5ApiWebPublicCauseControllerShowRequest(server string, causeId string) 
 	return req, nil
 }
 
-// NewV5ApiWebPublicCauseCampaignControllerIndexRequest generates requests for V5ApiWebPublicCauseCampaignControllerIndex
-func NewV5ApiWebPublicCauseCampaignControllerIndexRequest(server string, causeId string, params *V5ApiWebPublicCauseCampaignControllerIndexParams) (*http.Request, error) {
+// NewCauseCampaignsRequest generates requests for CauseCampaigns
+func NewCauseCampaignsRequest(server string, causeId string, params *CauseCampaignsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3447,8 +3447,8 @@ func NewV5ApiWebPublicCauseCampaignControllerIndexRequest(server string, causeId
 	return req, nil
 }
 
-// NewV5ApiWebPublicCauseLeaderboardControllerConfiguredRequest generates requests for V5ApiWebPublicCauseLeaderboardControllerConfigured
-func NewV5ApiWebPublicCauseLeaderboardControllerConfiguredRequest(server string, causeId string) (*http.Request, error) {
+// NewCauseLeaderboardControllerConfiguredRequest generates requests for CauseLeaderboardControllerConfigured
+func NewCauseLeaderboardControllerConfiguredRequest(server string, causeId string) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3481,8 +3481,8 @@ func NewV5ApiWebPublicCauseLeaderboardControllerConfiguredRequest(server string,
 	return req, nil
 }
 
-// NewV5ApiWebPublicCauseLeaderboardControllerDonorRequest generates requests for V5ApiWebPublicCauseLeaderboardControllerDonor
-func NewV5ApiWebPublicCauseLeaderboardControllerDonorRequest(server string, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerDonorParams) (*http.Request, error) {
+// NewCauseLeaderboardControllerDonorRequest generates requests for CauseLeaderboardControllerDonor
+func NewCauseLeaderboardControllerDonorRequest(server string, causeId string, params *CauseLeaderboardControllerDonorParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3583,8 +3583,8 @@ func NewV5ApiWebPublicCauseLeaderboardControllerDonorRequest(server string, caus
 	return req, nil
 }
 
-// NewV5ApiWebPublicCauseFundraisingEventControllerIndexRequest generates requests for V5ApiWebPublicCauseFundraisingEventControllerIndex
-func NewV5ApiWebPublicCauseFundraisingEventControllerIndexRequest(server string, causeId string, params *V5ApiWebPublicCauseFundraisingEventControllerIndexParams) (*http.Request, error) {
+// NewCauseFundraisingEventsRequest generates requests for CauseFundraisingEvents
+func NewCauseFundraisingEventsRequest(server string, causeId string, params *CauseFundraisingEventsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3669,8 +3669,8 @@ func NewV5ApiWebPublicCauseFundraisingEventControllerIndexRequest(server string,
 	return req, nil
 }
 
-// NewV5ApiWebPublicCauseLeaderboardControllerTeamRequest generates requests for V5ApiWebPublicCauseLeaderboardControllerTeam
-func NewV5ApiWebPublicCauseLeaderboardControllerTeamRequest(server string, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerTeamParams) (*http.Request, error) {
+// NewCauseLeaderboardControllerTeamRequest generates requests for CauseLeaderboardControllerTeam
+func NewCauseLeaderboardControllerTeamRequest(server string, causeId string, params *CauseLeaderboardControllerTeamParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3771,8 +3771,8 @@ func NewV5ApiWebPublicCauseLeaderboardControllerTeamRequest(server string, cause
 	return req, nil
 }
 
-// NewV5ApiWebPublicCauseLeaderboardControllerUserRequest generates requests for V5ApiWebPublicCauseLeaderboardControllerUser
-func NewV5ApiWebPublicCauseLeaderboardControllerUserRequest(server string, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerUserParams) (*http.Request, error) {
+// NewCauseLeaderboardControllerUserRequest generates requests for CauseLeaderboardControllerUser
+func NewCauseLeaderboardControllerUserRequest(server string, causeId string, params *CauseLeaderboardControllerUserParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3873,8 +3873,8 @@ func NewV5ApiWebPublicCauseLeaderboardControllerUserRequest(server string, cause
 	return req, nil
 }
 
-// NewV5ApiWebPublicUserControllerCurrentUserRequest generates requests for V5ApiWebPublicUserControllerCurrentUser
-func NewV5ApiWebPublicUserControllerCurrentUserRequest(server string) (*http.Request, error) {
+// NewUserControllerCurrentUserRequest generates requests for UserControllerCurrentUser
+func NewUserControllerCurrentUserRequest(server string) (*http.Request, error) {
 	var err error
 
 	serverURL, err := url.Parse(server)
@@ -3900,8 +3900,8 @@ func NewV5ApiWebPublicUserControllerCurrentUserRequest(server string) (*http.Req
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventControllerShowRequest generates requests for V5ApiWebPublicFundraisingEventControllerShow
-func NewV5ApiWebPublicFundraisingEventControllerShowRequest(server string, fundraisingEventId string) (*http.Request, error) {
+// NewGetFundraisingEventRequest generates requests for GetFundraisingEvent
+func NewGetFundraisingEventRequest(server string, fundraisingEventId string) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3934,8 +3934,8 @@ func NewV5ApiWebPublicFundraisingEventControllerShowRequest(server string, fundr
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredRequest generates requests for V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured
-func NewV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredRequest(server string, fundraisingEventId string) (*http.Request, error) {
+// NewFundraisingEventLeaderboardControllerConfiguredRequest generates requests for FundraisingEventLeaderboardControllerConfigured
+func NewFundraisingEventLeaderboardControllerConfiguredRequest(server string, fundraisingEventId string) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -3968,8 +3968,8 @@ func NewV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredRequest(ser
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventLeaderboardControllerDonorRequest generates requests for V5ApiWebPublicFundraisingEventLeaderboardControllerDonor
-func NewV5ApiWebPublicFundraisingEventLeaderboardControllerDonorRequest(server string, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams) (*http.Request, error) {
+// NewFundraisingEventLeaderboardControllerDonorRequest generates requests for FundraisingEventLeaderboardControllerDonor
+func NewFundraisingEventLeaderboardControllerDonorRequest(server string, fundraisingEventId string, params *FundraisingEventLeaderboardControllerDonorParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4070,8 +4070,8 @@ func NewV5ApiWebPublicFundraisingEventLeaderboardControllerDonorRequest(server s
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventSupportingEventControllerIndexRequest generates requests for V5ApiWebPublicFundraisingEventSupportingEventControllerIndex
-func NewV5ApiWebPublicFundraisingEventSupportingEventControllerIndexRequest(server string, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams) (*http.Request, error) {
+// NewFundraisingEventSupportingEventsRequest generates requests for FundraisingEventSupportingEvents
+func NewFundraisingEventSupportingEventsRequest(server string, fundraisingEventId string, params *FundraisingEventSupportingEventsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4156,8 +4156,8 @@ func NewV5ApiWebPublicFundraisingEventSupportingEventControllerIndexRequest(serv
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRequest generates requests for V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance
-func NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRequest(server string, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams) (*http.Request, error) {
+// NewFundraisingEventLeaderboardControllerTeamFitnessDistanceRequest generates requests for FundraisingEventLeaderboardControllerTeamFitnessDistance
+func NewFundraisingEventLeaderboardControllerTeamFitnessDistanceRequest(server string, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessDistanceParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4258,8 +4258,8 @@ func NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRe
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeRequest generates requests for V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime
-func NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeRequest(server string, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams) (*http.Request, error) {
+// NewFundraisingEventLeaderboardControllerTeamFitnessTimeRequest generates requests for FundraisingEventLeaderboardControllerTeamFitnessTime
+func NewFundraisingEventLeaderboardControllerTeamFitnessTimeRequest(server string, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessTimeParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4360,8 +4360,8 @@ func NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeReques
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamRequest generates requests for V5ApiWebPublicFundraisingEventLeaderboardControllerTeam
-func NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamRequest(server string, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams) (*http.Request, error) {
+// NewFundraisingEventLeaderboardControllerTeamRequest generates requests for FundraisingEventLeaderboardControllerTeam
+func NewFundraisingEventLeaderboardControllerTeamRequest(server string, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4462,8 +4462,8 @@ func NewV5ApiWebPublicFundraisingEventLeaderboardControllerTeamRequest(server st
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRequest generates requests for V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance
-func NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRequest(server string, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams) (*http.Request, error) {
+// NewFundraisingEventLeaderboardControllerUserFitnessDistanceRequest generates requests for FundraisingEventLeaderboardControllerUserFitnessDistance
+func NewFundraisingEventLeaderboardControllerUserFitnessDistanceRequest(server string, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessDistanceParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4564,8 +4564,8 @@ func NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRe
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeRequest generates requests for V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime
-func NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeRequest(server string, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams) (*http.Request, error) {
+// NewFundraisingEventLeaderboardControllerUserFitnessTimeRequest generates requests for FundraisingEventLeaderboardControllerUserFitnessTime
+func NewFundraisingEventLeaderboardControllerUserFitnessTimeRequest(server string, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessTimeParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4666,8 +4666,8 @@ func NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeReques
 	return req, nil
 }
 
-// NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserRequest generates requests for V5ApiWebPublicFundraisingEventLeaderboardControllerUser
-func NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserRequest(server string, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams) (*http.Request, error) {
+// NewFundraisingEventLeaderboardControllerUserRequest generates requests for FundraisingEventLeaderboardControllerUser
+func NewFundraisingEventLeaderboardControllerUserRequest(server string, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4768,8 +4768,8 @@ func NewV5ApiWebPublicFundraisingEventLeaderboardControllerUserRequest(server st
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignControllerShowRequest generates requests for V5ApiWebPublicTeamCampaignControllerShow
-func NewV5ApiWebPublicTeamCampaignControllerShowRequest(server string, teamCampaignId string) (*http.Request, error) {
+// NewGetTeamCampaignRequest generates requests for GetTeamCampaign
+func NewGetTeamCampaignRequest(server string, teamCampaignId string) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4802,8 +4802,8 @@ func NewV5ApiWebPublicTeamCampaignControllerShowRequest(server string, teamCampa
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignDonationControllerIndexRequest generates requests for V5ApiWebPublicTeamCampaignDonationControllerIndex
-func NewV5ApiWebPublicTeamCampaignDonationControllerIndexRequest(server string, teamCampaignId string, params *V5ApiWebPublicTeamCampaignDonationControllerIndexParams) (*http.Request, error) {
+// NewTeamCampaignDonationsRequest generates requests for TeamCampaignDonations
+func NewTeamCampaignDonationsRequest(server string, teamCampaignId string, params *TeamCampaignDonationsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -4920,8 +4920,8 @@ func NewV5ApiWebPublicTeamCampaignDonationControllerIndexRequest(server string, 
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignLeaderboardControllerDonorRequest generates requests for V5ApiWebPublicTeamCampaignLeaderboardControllerDonor
-func NewV5ApiWebPublicTeamCampaignLeaderboardControllerDonorRequest(server string, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams) (*http.Request, error) {
+// NewTeamCampaignLeaderboardControllerDonorRequest generates requests for TeamCampaignLeaderboardControllerDonor
+func NewTeamCampaignLeaderboardControllerDonorRequest(server string, teamCampaignId string, params *TeamCampaignLeaderboardControllerDonorParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5022,8 +5022,8 @@ func NewV5ApiWebPublicTeamCampaignLeaderboardControllerDonorRequest(server strin
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignMilestoneControllerIndexRequest generates requests for V5ApiWebPublicTeamCampaignMilestoneControllerIndex
-func NewV5ApiWebPublicTeamCampaignMilestoneControllerIndexRequest(server string, teamCampaignId string, params *V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams) (*http.Request, error) {
+// NewTeamCampaignMilestonesRequest generates requests for TeamCampaignMilestones
+func NewTeamCampaignMilestonesRequest(server string, teamCampaignId string, params *TeamCampaignMilestonesParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5188,8 +5188,8 @@ func NewV5ApiWebPublicTeamCampaignMilestoneControllerIndexRequest(server string,
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignPollControllerIndexRequest generates requests for V5ApiWebPublicTeamCampaignPollControllerIndex
-func NewV5ApiWebPublicTeamCampaignPollControllerIndexRequest(server string, teamCampaignId string, params *V5ApiWebPublicTeamCampaignPollControllerIndexParams) (*http.Request, error) {
+// NewTeamCampaignPollsRequest generates requests for TeamCampaignPolls
+func NewTeamCampaignPollsRequest(server string, teamCampaignId string, params *TeamCampaignPollsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5274,8 +5274,8 @@ func NewV5ApiWebPublicTeamCampaignPollControllerIndexRequest(server string, team
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignRewardControllerIndexRequest generates requests for V5ApiWebPublicTeamCampaignRewardControllerIndex
-func NewV5ApiWebPublicTeamCampaignRewardControllerIndexRequest(server string, teamCampaignId string, params *V5ApiWebPublicTeamCampaignRewardControllerIndexParams) (*http.Request, error) {
+// NewTeamCampaignRewardsRequest generates requests for TeamCampaignRewards
+func NewTeamCampaignRewardsRequest(server string, teamCampaignId string, params *TeamCampaignRewardsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5360,8 +5360,8 @@ func NewV5ApiWebPublicTeamCampaignRewardControllerIndexRequest(server string, te
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignScheduleControllerIndexRequest generates requests for V5ApiWebPublicTeamCampaignScheduleControllerIndex
-func NewV5ApiWebPublicTeamCampaignScheduleControllerIndexRequest(server string, teamCampaignId string, params *V5ApiWebPublicTeamCampaignScheduleControllerIndexParams) (*http.Request, error) {
+// NewTeamCampaignSchedulesRequest generates requests for TeamCampaignSchedules
+func NewTeamCampaignSchedulesRequest(server string, teamCampaignId string, params *TeamCampaignSchedulesParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5446,8 +5446,8 @@ func NewV5ApiWebPublicTeamCampaignScheduleControllerIndexRequest(server string, 
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexRequest generates requests for V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex
-func NewV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexRequest(server string, teamCampaignId string, params *V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams) (*http.Request, error) {
+// NewTeamCampaignSupportingCampaignsRequest generates requests for TeamCampaignSupportingCampaigns
+func NewTeamCampaignSupportingCampaignsRequest(server string, teamCampaignId string, params *TeamCampaignSupportingCampaignsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5532,8 +5532,8 @@ func NewV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexRequest(serve
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignChallengeControllerIndexRequest generates requests for V5ApiWebPublicTeamCampaignChallengeControllerIndex
-func NewV5ApiWebPublicTeamCampaignChallengeControllerIndexRequest(server string, teamCampaignId string, params *V5ApiWebPublicTeamCampaignChallengeControllerIndexParams) (*http.Request, error) {
+// NewTeamCampaignChallengesRequest generates requests for TeamCampaignChallenges
+func NewTeamCampaignChallengesRequest(server string, teamCampaignId string, params *TeamCampaignChallengesParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5618,8 +5618,8 @@ func NewV5ApiWebPublicTeamCampaignChallengeControllerIndexRequest(server string,
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamCampaignLeaderboardControllerUserRequest generates requests for V5ApiWebPublicTeamCampaignLeaderboardControllerUser
-func NewV5ApiWebPublicTeamCampaignLeaderboardControllerUserRequest(server string, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams) (*http.Request, error) {
+// NewTeamCampaignLeaderboardControllerUserRequest generates requests for TeamCampaignLeaderboardControllerUser
+func NewTeamCampaignLeaderboardControllerUserRequest(server string, teamCampaignId string, params *TeamCampaignLeaderboardControllerUserParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5720,8 +5720,8 @@ func NewV5ApiWebPublicTeamCampaignLeaderboardControllerUserRequest(server string
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamControllerShowRequest generates requests for V5ApiWebPublicTeamControllerShow
-func NewV5ApiWebPublicTeamControllerShowRequest(server string, teamId string) (*http.Request, error) {
+// NewGetTeamRequest generates requests for GetTeam
+func NewGetTeamRequest(server string, teamId string) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5754,8 +5754,8 @@ func NewV5ApiWebPublicTeamControllerShowRequest(server string, teamId string) (*
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamMemberControllerIndexRequest generates requests for V5ApiWebPublicTeamMemberControllerIndex
-func NewV5ApiWebPublicTeamMemberControllerIndexRequest(server string, teamId string, params *V5ApiWebPublicTeamMemberControllerIndexParams) (*http.Request, error) {
+// NewTeamMembersRequest generates requests for TeamMembers
+func NewTeamMembersRequest(server string, teamId string, params *TeamMembersParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5840,8 +5840,8 @@ func NewV5ApiWebPublicTeamMemberControllerIndexRequest(server string, teamId str
 	return req, nil
 }
 
-// NewV5ApiWebPublicTeamTeamCampaignControllerIndexRequest generates requests for V5ApiWebPublicTeamTeamCampaignControllerIndex
-func NewV5ApiWebPublicTeamTeamCampaignControllerIndexRequest(server string, teamId string, params *V5ApiWebPublicTeamTeamCampaignControllerIndexParams) (*http.Request, error) {
+// NewTeamTeamCampaignsRequest generates requests for TeamTeamCampaigns
+func NewTeamTeamCampaignsRequest(server string, teamId string, params *TeamTeamCampaignsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5926,8 +5926,8 @@ func NewV5ApiWebPublicTeamTeamCampaignControllerIndexRequest(server string, team
 	return req, nil
 }
 
-// NewV5ApiWebPublicUserControllerShowRequest generates requests for V5ApiWebPublicUserControllerShow
-func NewV5ApiWebPublicUserControllerShowRequest(server string, userId string) (*http.Request, error) {
+// NewGetUserRequest generates requests for GetUser
+func NewGetUserRequest(server string, userId string) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -5960,8 +5960,8 @@ func NewV5ApiWebPublicUserControllerShowRequest(server string, userId string) (*
 	return req, nil
 }
 
-// NewV5ApiWebPublicUserCampaignControllerIndexRequest generates requests for V5ApiWebPublicUserCampaignControllerIndex
-func NewV5ApiWebPublicUserCampaignControllerIndexRequest(server string, userId string, params *V5ApiWebPublicUserCampaignControllerIndexParams) (*http.Request, error) {
+// NewUserCampaignsRequest generates requests for UserCampaigns
+func NewUserCampaignsRequest(server string, userId string, params *UserCampaignsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -6046,8 +6046,8 @@ func NewV5ApiWebPublicUserCampaignControllerIndexRequest(server string, userId s
 	return req, nil
 }
 
-// NewV5ApiWebPublicUserIntegrationEventControllerIndexRequest generates requests for V5ApiWebPublicUserIntegrationEventControllerIndex
-func NewV5ApiWebPublicUserIntegrationEventControllerIndexRequest(server string, userId string, params *V5ApiWebPublicUserIntegrationEventControllerIndexParams) (*http.Request, error) {
+// NewUserIntegrationEventsRequest generates requests for UserIntegrationEvents
+func NewUserIntegrationEventsRequest(server string, userId string, params *UserIntegrationEventsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -6132,8 +6132,8 @@ func NewV5ApiWebPublicUserIntegrationEventControllerIndexRequest(server string, 
 	return req, nil
 }
 
-// NewV5ApiWebPublicUserTeamControllerIndexRequest generates requests for V5ApiWebPublicUserTeamControllerIndex
-func NewV5ApiWebPublicUserTeamControllerIndexRequest(server string, userId string, params *V5ApiWebPublicUserTeamControllerIndexParams) (*http.Request, error) {
+// NewUserTeamsRequest generates requests for UserTeams
+func NewUserTeamsRequest(server string, userId string, params *UserTeamsParams) (*http.Request, error) {
 	var err error
 
 	var pathParam0 string
@@ -6502,134 +6502,134 @@ func WithBaseURL(baseURL string) ClientOption {
 
 // ClientWithResponsesInterface is the interface specification for the client with responses above.
 type ClientWithResponsesInterface interface {
-	// V5ApiWebPublicCampaignControllerShow request
-	V5ApiWebPublicCampaignControllerShowWithResponse(ctx context.Context, campaignId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignControllerShowResponse, error)
+	// GetCampaign request
+	GetCampaignWithResponse(ctx context.Context, campaignId string, reqEditors ...RequestEditorFn) (*GetCampaignResponse, error)
 
-	// V5ApiWebPublicCampaignDonationControllerIndex request
-	V5ApiWebPublicCampaignDonationControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignDonationControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignDonationControllerIndexResponse, error)
+	// CampaignDonations request
+	CampaignDonationsWithResponse(ctx context.Context, campaignId string, params *CampaignDonationsParams, reqEditors ...RequestEditorFn) (*CampaignDonationsResponse, error)
 
-	// V5ApiWebPublicCampaignLeaderboardControllerDonor request
-	V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignLeaderboardControllerDonorResponse, error)
+	// CampaignLeaderboardControllerDonor request
+	CampaignLeaderboardControllerDonorWithResponse(ctx context.Context, campaignId string, params *CampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*CampaignLeaderboardControllerDonorResponse, error)
 
-	// V5ApiWebPublicCampaignMilestoneControllerIndex request
-	V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignMilestoneControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignMilestoneControllerIndexResponse, error)
+	// CampaignMilestones request
+	CampaignMilestonesWithResponse(ctx context.Context, campaignId string, params *CampaignMilestonesParams, reqEditors ...RequestEditorFn) (*CampaignMilestonesResponse, error)
 
-	// V5ApiWebPublicCampaignPollControllerIndex request
-	V5ApiWebPublicCampaignPollControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignPollControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignPollControllerIndexResponse, error)
+	// CampaignPolls request
+	CampaignPollsWithResponse(ctx context.Context, campaignId string, params *CampaignPollsParams, reqEditors ...RequestEditorFn) (*CampaignPollsResponse, error)
 
-	// V5ApiWebPublicCampaignRewardControllerIndex request
-	V5ApiWebPublicCampaignRewardControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignRewardControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignRewardControllerIndexResponse, error)
+	// CampaignRewards request
+	CampaignRewardsWithResponse(ctx context.Context, campaignId string, params *CampaignRewardsParams, reqEditors ...RequestEditorFn) (*CampaignRewardsResponse, error)
 
-	// V5ApiWebPublicCampaignScheduleControllerIndex request
-	V5ApiWebPublicCampaignScheduleControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignScheduleControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignScheduleControllerIndexResponse, error)
+	// CampaignSchedules request
+	CampaignSchedulesWithResponse(ctx context.Context, campaignId string, params *CampaignSchedulesParams, reqEditors ...RequestEditorFn) (*CampaignSchedulesResponse, error)
 
-	// V5ApiWebPublicCampaignChallengeControllerIndex request
-	V5ApiWebPublicCampaignChallengeControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignChallengeControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignChallengeControllerIndexResponse, error)
+	// CampaignChallenges request
+	CampaignChallengesWithResponse(ctx context.Context, campaignId string, params *CampaignChallengesParams, reqEditors ...RequestEditorFn) (*CampaignChallengesResponse, error)
 
-	// V5ApiWebPublicCauseControllerShow request
-	V5ApiWebPublicCauseControllerShowWithResponse(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseControllerShowResponse, error)
+	// GetCause request
+	GetCauseWithResponse(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*GetCauseResponse, error)
 
-	// V5ApiWebPublicCauseCampaignControllerIndex request
-	V5ApiWebPublicCauseCampaignControllerIndexWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseCampaignControllerIndexResponse, error)
+	// CauseCampaigns request
+	CauseCampaignsWithResponse(ctx context.Context, causeId string, params *CauseCampaignsParams, reqEditors ...RequestEditorFn) (*CauseCampaignsResponse, error)
 
-	// V5ApiWebPublicCauseLeaderboardControllerConfigured request
-	V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse, error)
+	// CauseLeaderboardControllerConfigured request
+	CauseLeaderboardControllerConfiguredWithResponse(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*CauseLeaderboardControllerConfiguredResponse, error)
 
-	// V5ApiWebPublicCauseLeaderboardControllerDonor request
-	V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseLeaderboardControllerDonorResponse, error)
+	// CauseLeaderboardControllerDonor request
+	CauseLeaderboardControllerDonorWithResponse(ctx context.Context, causeId string, params *CauseLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*CauseLeaderboardControllerDonorResponse, error)
 
-	// V5ApiWebPublicCauseFundraisingEventControllerIndex request
-	V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseFundraisingEventControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseFundraisingEventControllerIndexResponse, error)
+	// CauseFundraisingEvents request
+	CauseFundraisingEventsWithResponse(ctx context.Context, causeId string, params *CauseFundraisingEventsParams, reqEditors ...RequestEditorFn) (*CauseFundraisingEventsResponse, error)
 
-	// V5ApiWebPublicCauseLeaderboardControllerTeam request
-	V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseLeaderboardControllerTeamResponse, error)
+	// CauseLeaderboardControllerTeam request
+	CauseLeaderboardControllerTeamWithResponse(ctx context.Context, causeId string, params *CauseLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*CauseLeaderboardControllerTeamResponse, error)
 
-	// V5ApiWebPublicCauseLeaderboardControllerUser request
-	V5ApiWebPublicCauseLeaderboardControllerUserWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseLeaderboardControllerUserResponse, error)
+	// CauseLeaderboardControllerUser request
+	CauseLeaderboardControllerUserWithResponse(ctx context.Context, causeId string, params *CauseLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*CauseLeaderboardControllerUserResponse, error)
 
-	// V5ApiWebPublicUserControllerCurrentUser request
-	V5ApiWebPublicUserControllerCurrentUserWithResponse(ctx context.Context, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserControllerCurrentUserResponse, error)
+	// UserControllerCurrentUser request
+	UserControllerCurrentUserWithResponse(ctx context.Context, reqEditors ...RequestEditorFn) (*UserControllerCurrentUserResponse, error)
 
-	// V5ApiWebPublicFundraisingEventControllerShow request
-	V5ApiWebPublicFundraisingEventControllerShowWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventControllerShowResponse, error)
+	// GetFundraisingEvent request
+	GetFundraisingEventWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*GetFundraisingEventResponse, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse, error)
+	// FundraisingEventLeaderboardControllerConfigured request
+	FundraisingEventLeaderboardControllerConfiguredWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerConfiguredResponse, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerDonor request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse, error)
+	// FundraisingEventLeaderboardControllerDonor request
+	FundraisingEventLeaderboardControllerDonorWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerDonorResponse, error)
 
-	// V5ApiWebPublicFundraisingEventSupportingEventControllerIndex request
-	V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse, error)
+	// FundraisingEventSupportingEvents request
+	FundraisingEventSupportingEventsWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventSupportingEventsParams, reqEditors ...RequestEditorFn) (*FundraisingEventSupportingEventsResponse, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, error)
+	// FundraisingEventLeaderboardControllerTeamFitnessDistance request
+	FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse, error)
+	// FundraisingEventLeaderboardControllerTeamFitnessTime request
+	FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerTeamFitnessTimeResponse, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerTeam request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse, error)
+	// FundraisingEventLeaderboardControllerTeam request
+	FundraisingEventLeaderboardControllerTeamWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerTeamResponse, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse, error)
+	// FundraisingEventLeaderboardControllerUserFitnessDistance request
+	FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerUserFitnessDistanceResponse, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse, error)
+	// FundraisingEventLeaderboardControllerUserFitnessTime request
+	FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerUserFitnessTimeResponse, error)
 
-	// V5ApiWebPublicFundraisingEventLeaderboardControllerUser request
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse, error)
+	// FundraisingEventLeaderboardControllerUser request
+	FundraisingEventLeaderboardControllerUserWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerUserResponse, error)
 
-	// V5ApiWebPublicTeamCampaignControllerShow request
-	V5ApiWebPublicTeamCampaignControllerShowWithResponse(ctx context.Context, teamCampaignId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignControllerShowResponse, error)
+	// GetTeamCampaign request
+	GetTeamCampaignWithResponse(ctx context.Context, teamCampaignId string, reqEditors ...RequestEditorFn) (*GetTeamCampaignResponse, error)
 
-	// V5ApiWebPublicTeamCampaignDonationControllerIndex request
-	V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignDonationControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignDonationControllerIndexResponse, error)
+	// TeamCampaignDonations request
+	TeamCampaignDonationsWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignDonationsParams, reqEditors ...RequestEditorFn) (*TeamCampaignDonationsResponse, error)
 
-	// V5ApiWebPublicTeamCampaignLeaderboardControllerDonor request
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse, error)
+	// TeamCampaignLeaderboardControllerDonor request
+	TeamCampaignLeaderboardControllerDonorWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*TeamCampaignLeaderboardControllerDonorResponse, error)
 
-	// V5ApiWebPublicTeamCampaignMilestoneControllerIndex request
-	V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse, error)
+	// TeamCampaignMilestones request
+	TeamCampaignMilestonesWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignMilestonesParams, reqEditors ...RequestEditorFn) (*TeamCampaignMilestonesResponse, error)
 
-	// V5ApiWebPublicTeamCampaignPollControllerIndex request
-	V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignPollControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignPollControllerIndexResponse, error)
+	// TeamCampaignPolls request
+	TeamCampaignPollsWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignPollsParams, reqEditors ...RequestEditorFn) (*TeamCampaignPollsResponse, error)
 
-	// V5ApiWebPublicTeamCampaignRewardControllerIndex request
-	V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignRewardControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignRewardControllerIndexResponse, error)
+	// TeamCampaignRewards request
+	TeamCampaignRewardsWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignRewardsParams, reqEditors ...RequestEditorFn) (*TeamCampaignRewardsResponse, error)
 
-	// V5ApiWebPublicTeamCampaignScheduleControllerIndex request
-	V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignScheduleControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse, error)
+	// TeamCampaignSchedules request
+	TeamCampaignSchedulesWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignSchedulesParams, reqEditors ...RequestEditorFn) (*TeamCampaignSchedulesResponse, error)
 
-	// V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex request
-	V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse, error)
+	// TeamCampaignSupportingCampaigns request
+	TeamCampaignSupportingCampaignsWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignSupportingCampaignsParams, reqEditors ...RequestEditorFn) (*TeamCampaignSupportingCampaignsResponse, error)
 
-	// V5ApiWebPublicTeamCampaignChallengeControllerIndex request
-	V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignChallengeControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse, error)
+	// TeamCampaignChallenges request
+	TeamCampaignChallengesWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignChallengesParams, reqEditors ...RequestEditorFn) (*TeamCampaignChallengesResponse, error)
 
-	// V5ApiWebPublicTeamCampaignLeaderboardControllerUser request
-	V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse, error)
+	// TeamCampaignLeaderboardControllerUser request
+	TeamCampaignLeaderboardControllerUserWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*TeamCampaignLeaderboardControllerUserResponse, error)
 
-	// V5ApiWebPublicTeamControllerShow request
-	V5ApiWebPublicTeamControllerShowWithResponse(ctx context.Context, teamId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamControllerShowResponse, error)
+	// GetTeam request
+	GetTeamWithResponse(ctx context.Context, teamId string, reqEditors ...RequestEditorFn) (*GetTeamResponse, error)
 
-	// V5ApiWebPublicTeamMemberControllerIndex request
-	V5ApiWebPublicTeamMemberControllerIndexWithResponse(ctx context.Context, teamId string, params *V5ApiWebPublicTeamMemberControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamMemberControllerIndexResponse, error)
+	// TeamMembers request
+	TeamMembersWithResponse(ctx context.Context, teamId string, params *TeamMembersParams, reqEditors ...RequestEditorFn) (*TeamMembersResponse, error)
 
-	// V5ApiWebPublicTeamTeamCampaignControllerIndex request
-	V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse(ctx context.Context, teamId string, params *V5ApiWebPublicTeamTeamCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamTeamCampaignControllerIndexResponse, error)
+	// TeamTeamCampaigns request
+	TeamTeamCampaignsWithResponse(ctx context.Context, teamId string, params *TeamTeamCampaignsParams, reqEditors ...RequestEditorFn) (*TeamTeamCampaignsResponse, error)
 
-	// V5ApiWebPublicUserControllerShow request
-	V5ApiWebPublicUserControllerShowWithResponse(ctx context.Context, userId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserControllerShowResponse, error)
+	// GetUser request
+	GetUserWithResponse(ctx context.Context, userId string, reqEditors ...RequestEditorFn) (*GetUserResponse, error)
 
-	// V5ApiWebPublicUserCampaignControllerIndex request
-	V5ApiWebPublicUserCampaignControllerIndexWithResponse(ctx context.Context, userId string, params *V5ApiWebPublicUserCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserCampaignControllerIndexResponse, error)
+	// UserCampaigns request
+	UserCampaignsWithResponse(ctx context.Context, userId string, params *UserCampaignsParams, reqEditors ...RequestEditorFn) (*UserCampaignsResponse, error)
 
-	// V5ApiWebPublicUserIntegrationEventControllerIndex request
-	V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse(ctx context.Context, userId string, params *V5ApiWebPublicUserIntegrationEventControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserIntegrationEventControllerIndexResponse, error)
+	// UserIntegrationEvents request
+	UserIntegrationEventsWithResponse(ctx context.Context, userId string, params *UserIntegrationEventsParams, reqEditors ...RequestEditorFn) (*UserIntegrationEventsResponse, error)
 
-	// V5ApiWebPublicUserTeamControllerIndex request
-	V5ApiWebPublicUserTeamControllerIndexWithResponse(ctx context.Context, userId string, params *V5ApiWebPublicUserTeamControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserTeamControllerIndexResponse, error)
+	// UserTeams request
+	UserTeamsWithResponse(ctx context.Context, userId string, params *UserTeamsParams, reqEditors ...RequestEditorFn) (*UserTeamsResponse, error)
 
 	// V5ApiWebOauthAuthorize request with any body
 	V5ApiWebOauthAuthorizeWithBodyWithResponse(ctx context.Context, params *V5ApiWebOauthAuthorizeParams, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*V5ApiWebOauthAuthorizeResponse, error)
@@ -6642,7 +6642,7 @@ type ClientWithResponsesInterface interface {
 	V5ApiWebOauthTokenWithResponse(ctx context.Context, params *V5ApiWebOauthTokenParams, body V5ApiWebOauthTokenJSONRequestBody, reqEditors ...RequestEditorFn) (*V5ApiWebOauthTokenResponse, error)
 }
 
-type V5ApiWebPublicCampaignControllerShowResponse struct {
+type GetCampaignResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *struct {
@@ -6654,7 +6654,7 @@ type V5ApiWebPublicCampaignControllerShowResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCampaignControllerShowResponse) Status() string {
+func (r GetCampaignResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6662,14 +6662,14 @@ func (r V5ApiWebPublicCampaignControllerShowResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCampaignControllerShowResponse) StatusCode() int {
+func (r GetCampaignResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCampaignDonationControllerIndexResponse struct {
+type CampaignDonationsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6679,7 +6679,7 @@ type V5ApiWebPublicCampaignDonationControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCampaignDonationControllerIndexResponse) Status() string {
+func (r CampaignDonationsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6687,14 +6687,14 @@ func (r V5ApiWebPublicCampaignDonationControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCampaignDonationControllerIndexResponse) StatusCode() int {
+func (r CampaignDonationsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCampaignLeaderboardControllerDonorResponse struct {
+type CampaignLeaderboardControllerDonorResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6704,7 +6704,7 @@ type V5ApiWebPublicCampaignLeaderboardControllerDonorResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCampaignLeaderboardControllerDonorResponse) Status() string {
+func (r CampaignLeaderboardControllerDonorResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6712,14 +6712,14 @@ func (r V5ApiWebPublicCampaignLeaderboardControllerDonorResponse) Status() strin
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCampaignLeaderboardControllerDonorResponse) StatusCode() int {
+func (r CampaignLeaderboardControllerDonorResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCampaignMilestoneControllerIndexResponse struct {
+type CampaignMilestonesResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6729,7 +6729,7 @@ type V5ApiWebPublicCampaignMilestoneControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCampaignMilestoneControllerIndexResponse) Status() string {
+func (r CampaignMilestonesResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6737,14 +6737,14 @@ func (r V5ApiWebPublicCampaignMilestoneControllerIndexResponse) Status() string 
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCampaignMilestoneControllerIndexResponse) StatusCode() int {
+func (r CampaignMilestonesResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCampaignPollControllerIndexResponse struct {
+type CampaignPollsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6754,7 +6754,7 @@ type V5ApiWebPublicCampaignPollControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCampaignPollControllerIndexResponse) Status() string {
+func (r CampaignPollsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6762,14 +6762,14 @@ func (r V5ApiWebPublicCampaignPollControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCampaignPollControllerIndexResponse) StatusCode() int {
+func (r CampaignPollsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCampaignRewardControllerIndexResponse struct {
+type CampaignRewardsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6779,7 +6779,7 @@ type V5ApiWebPublicCampaignRewardControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCampaignRewardControllerIndexResponse) Status() string {
+func (r CampaignRewardsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6787,14 +6787,14 @@ func (r V5ApiWebPublicCampaignRewardControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCampaignRewardControllerIndexResponse) StatusCode() int {
+func (r CampaignRewardsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCampaignScheduleControllerIndexResponse struct {
+type CampaignSchedulesResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6804,7 +6804,7 @@ type V5ApiWebPublicCampaignScheduleControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCampaignScheduleControllerIndexResponse) Status() string {
+func (r CampaignSchedulesResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6812,14 +6812,14 @@ func (r V5ApiWebPublicCampaignScheduleControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCampaignScheduleControllerIndexResponse) StatusCode() int {
+func (r CampaignSchedulesResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCampaignChallengeControllerIndexResponse struct {
+type CampaignChallengesResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6829,7 +6829,7 @@ type V5ApiWebPublicCampaignChallengeControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCampaignChallengeControllerIndexResponse) Status() string {
+func (r CampaignChallengesResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6837,14 +6837,14 @@ func (r V5ApiWebPublicCampaignChallengeControllerIndexResponse) Status() string 
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCampaignChallengeControllerIndexResponse) StatusCode() int {
+func (r CampaignChallengesResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCauseControllerShowResponse struct {
+type GetCauseResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *struct {
@@ -6856,7 +6856,7 @@ type V5ApiWebPublicCauseControllerShowResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCauseControllerShowResponse) Status() string {
+func (r GetCauseResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6864,14 +6864,14 @@ func (r V5ApiWebPublicCauseControllerShowResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCauseControllerShowResponse) StatusCode() int {
+func (r GetCauseResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCauseCampaignControllerIndexResponse struct {
+type CauseCampaignsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6881,7 +6881,7 @@ type V5ApiWebPublicCauseCampaignControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCauseCampaignControllerIndexResponse) Status() string {
+func (r CauseCampaignsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6889,14 +6889,14 @@ func (r V5ApiWebPublicCauseCampaignControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCauseCampaignControllerIndexResponse) StatusCode() int {
+func (r CauseCampaignsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse struct {
+type CauseLeaderboardControllerConfiguredResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *struct {
@@ -6909,7 +6909,7 @@ type V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse) Status() string {
+func (r CauseLeaderboardControllerConfiguredResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6917,14 +6917,14 @@ func (r V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse) Status() str
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse) StatusCode() int {
+func (r CauseLeaderboardControllerConfiguredResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerDonorResponse struct {
+type CauseLeaderboardControllerDonorResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6934,7 +6934,7 @@ type V5ApiWebPublicCauseLeaderboardControllerDonorResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCauseLeaderboardControllerDonorResponse) Status() string {
+func (r CauseLeaderboardControllerDonorResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6942,14 +6942,14 @@ func (r V5ApiWebPublicCauseLeaderboardControllerDonorResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCauseLeaderboardControllerDonorResponse) StatusCode() int {
+func (r CauseLeaderboardControllerDonorResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCauseFundraisingEventControllerIndexResponse struct {
+type CauseFundraisingEventsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6959,7 +6959,7 @@ type V5ApiWebPublicCauseFundraisingEventControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCauseFundraisingEventControllerIndexResponse) Status() string {
+func (r CauseFundraisingEventsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6967,14 +6967,14 @@ func (r V5ApiWebPublicCauseFundraisingEventControllerIndexResponse) Status() str
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCauseFundraisingEventControllerIndexResponse) StatusCode() int {
+func (r CauseFundraisingEventsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerTeamResponse struct {
+type CauseLeaderboardControllerTeamResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -6984,7 +6984,7 @@ type V5ApiWebPublicCauseLeaderboardControllerTeamResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCauseLeaderboardControllerTeamResponse) Status() string {
+func (r CauseLeaderboardControllerTeamResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -6992,14 +6992,14 @@ func (r V5ApiWebPublicCauseLeaderboardControllerTeamResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCauseLeaderboardControllerTeamResponse) StatusCode() int {
+func (r CauseLeaderboardControllerTeamResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerUserResponse struct {
+type CauseLeaderboardControllerUserResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7009,7 +7009,7 @@ type V5ApiWebPublicCauseLeaderboardControllerUserResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicCauseLeaderboardControllerUserResponse) Status() string {
+func (r CauseLeaderboardControllerUserResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7017,14 +7017,14 @@ func (r V5ApiWebPublicCauseLeaderboardControllerUserResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicCauseLeaderboardControllerUserResponse) StatusCode() int {
+func (r CauseLeaderboardControllerUserResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicUserControllerCurrentUserResponse struct {
+type UserControllerCurrentUserResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *CurrentUserObj
@@ -7034,7 +7034,7 @@ type V5ApiWebPublicUserControllerCurrentUserResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicUserControllerCurrentUserResponse) Status() string {
+func (r UserControllerCurrentUserResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7042,14 +7042,14 @@ func (r V5ApiWebPublicUserControllerCurrentUserResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicUserControllerCurrentUserResponse) StatusCode() int {
+func (r UserControllerCurrentUserResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventControllerShowResponse struct {
+type GetFundraisingEventResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *struct {
@@ -7061,7 +7061,7 @@ type V5ApiWebPublicFundraisingEventControllerShowResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventControllerShowResponse) Status() string {
+func (r GetFundraisingEventResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7069,14 +7069,14 @@ func (r V5ApiWebPublicFundraisingEventControllerShowResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventControllerShowResponse) StatusCode() int {
+func (r GetFundraisingEventResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse struct {
+type FundraisingEventLeaderboardControllerConfiguredResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *struct {
@@ -7089,7 +7089,7 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse struc
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse) Status() string {
+func (r FundraisingEventLeaderboardControllerConfiguredResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7097,14 +7097,14 @@ func (r V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse) S
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse) StatusCode() int {
+func (r FundraisingEventLeaderboardControllerConfiguredResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse struct {
+type FundraisingEventLeaderboardControllerDonorResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7114,7 +7114,7 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse) Status() string {
+func (r FundraisingEventLeaderboardControllerDonorResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7122,14 +7122,14 @@ func (r V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse) Status
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse) StatusCode() int {
+func (r FundraisingEventLeaderboardControllerDonorResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse struct {
+type FundraisingEventSupportingEventsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7139,7 +7139,7 @@ type V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse struct
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse) Status() string {
+func (r FundraisingEventSupportingEventsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7147,14 +7147,14 @@ func (r V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse) St
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse) StatusCode() int {
+func (r FundraisingEventSupportingEventsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse struct {
+type FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7164,7 +7164,7 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRespo
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse) Status() string {
+func (r FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7172,14 +7172,14 @@ func (r V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRe
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse) StatusCode() int {
+func (r FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse struct {
+type FundraisingEventLeaderboardControllerTeamFitnessTimeResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7189,7 +7189,7 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse 
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse) Status() string {
+func (r FundraisingEventLeaderboardControllerTeamFitnessTimeResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7197,14 +7197,14 @@ func (r V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeRespon
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse) StatusCode() int {
+func (r FundraisingEventLeaderboardControllerTeamFitnessTimeResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse struct {
+type FundraisingEventLeaderboardControllerTeamResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7214,7 +7214,7 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse) Status() string {
+func (r FundraisingEventLeaderboardControllerTeamResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7222,14 +7222,14 @@ func (r V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse) Status(
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse) StatusCode() int {
+func (r FundraisingEventLeaderboardControllerTeamResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse struct {
+type FundraisingEventLeaderboardControllerUserFitnessDistanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7239,7 +7239,7 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRespo
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse) Status() string {
+func (r FundraisingEventLeaderboardControllerUserFitnessDistanceResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7247,14 +7247,14 @@ func (r V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRe
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse) StatusCode() int {
+func (r FundraisingEventLeaderboardControllerUserFitnessDistanceResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse struct {
+type FundraisingEventLeaderboardControllerUserFitnessTimeResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7264,7 +7264,7 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse 
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse) Status() string {
+func (r FundraisingEventLeaderboardControllerUserFitnessTimeResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7272,14 +7272,14 @@ func (r V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeRespon
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse) StatusCode() int {
+func (r FundraisingEventLeaderboardControllerUserFitnessTimeResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse struct {
+type FundraisingEventLeaderboardControllerUserResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7289,7 +7289,7 @@ type V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse) Status() string {
+func (r FundraisingEventLeaderboardControllerUserResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7297,14 +7297,14 @@ func (r V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse) Status(
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse) StatusCode() int {
+func (r FundraisingEventLeaderboardControllerUserResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignControllerShowResponse struct {
+type GetTeamCampaignResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *struct {
@@ -7316,7 +7316,7 @@ type V5ApiWebPublicTeamCampaignControllerShowResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignControllerShowResponse) Status() string {
+func (r GetTeamCampaignResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7324,14 +7324,14 @@ func (r V5ApiWebPublicTeamCampaignControllerShowResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignControllerShowResponse) StatusCode() int {
+func (r GetTeamCampaignResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignDonationControllerIndexResponse struct {
+type TeamCampaignDonationsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7341,7 +7341,7 @@ type V5ApiWebPublicTeamCampaignDonationControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignDonationControllerIndexResponse) Status() string {
+func (r TeamCampaignDonationsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7349,14 +7349,14 @@ func (r V5ApiWebPublicTeamCampaignDonationControllerIndexResponse) Status() stri
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignDonationControllerIndexResponse) StatusCode() int {
+func (r TeamCampaignDonationsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse struct {
+type TeamCampaignLeaderboardControllerDonorResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7366,7 +7366,7 @@ type V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse) Status() string {
+func (r TeamCampaignLeaderboardControllerDonorResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7374,14 +7374,14 @@ func (r V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse) Status() s
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse) StatusCode() int {
+func (r TeamCampaignLeaderboardControllerDonorResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse struct {
+type TeamCampaignMilestonesResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7391,7 +7391,7 @@ type V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse) Status() string {
+func (r TeamCampaignMilestonesResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7399,14 +7399,14 @@ func (r V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse) Status() str
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse) StatusCode() int {
+func (r TeamCampaignMilestonesResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignPollControllerIndexResponse struct {
+type TeamCampaignPollsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7416,7 +7416,7 @@ type V5ApiWebPublicTeamCampaignPollControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignPollControllerIndexResponse) Status() string {
+func (r TeamCampaignPollsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7424,14 +7424,14 @@ func (r V5ApiWebPublicTeamCampaignPollControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignPollControllerIndexResponse) StatusCode() int {
+func (r TeamCampaignPollsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignRewardControllerIndexResponse struct {
+type TeamCampaignRewardsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7441,7 +7441,7 @@ type V5ApiWebPublicTeamCampaignRewardControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignRewardControllerIndexResponse) Status() string {
+func (r TeamCampaignRewardsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7449,14 +7449,14 @@ func (r V5ApiWebPublicTeamCampaignRewardControllerIndexResponse) Status() string
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignRewardControllerIndexResponse) StatusCode() int {
+func (r TeamCampaignRewardsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse struct {
+type TeamCampaignSchedulesResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7466,7 +7466,7 @@ type V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse) Status() string {
+func (r TeamCampaignSchedulesResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7474,14 +7474,14 @@ func (r V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse) Status() stri
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse) StatusCode() int {
+func (r TeamCampaignSchedulesResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse struct {
+type TeamCampaignSupportingCampaignsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7491,7 +7491,7 @@ type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse struct 
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse) Status() string {
+func (r TeamCampaignSupportingCampaignsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7499,14 +7499,14 @@ func (r V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse) Sta
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse) StatusCode() int {
+func (r TeamCampaignSupportingCampaignsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse struct {
+type TeamCampaignChallengesResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7516,7 +7516,7 @@ type V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse) Status() string {
+func (r TeamCampaignChallengesResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7524,14 +7524,14 @@ func (r V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse) Status() str
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse) StatusCode() int {
+func (r TeamCampaignChallengesResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse struct {
+type TeamCampaignLeaderboardControllerUserResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7541,7 +7541,7 @@ type V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse) Status() string {
+func (r TeamCampaignLeaderboardControllerUserResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7549,14 +7549,14 @@ func (r V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse) Status() st
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse) StatusCode() int {
+func (r TeamCampaignLeaderboardControllerUserResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamControllerShowResponse struct {
+type GetTeamResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *struct {
@@ -7568,7 +7568,7 @@ type V5ApiWebPublicTeamControllerShowResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamControllerShowResponse) Status() string {
+func (r GetTeamResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7576,14 +7576,14 @@ func (r V5ApiWebPublicTeamControllerShowResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamControllerShowResponse) StatusCode() int {
+func (r GetTeamResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamMemberControllerIndexResponse struct {
+type TeamMembersResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7593,7 +7593,7 @@ type V5ApiWebPublicTeamMemberControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamMemberControllerIndexResponse) Status() string {
+func (r TeamMembersResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7601,14 +7601,14 @@ func (r V5ApiWebPublicTeamMemberControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamMemberControllerIndexResponse) StatusCode() int {
+func (r TeamMembersResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicTeamTeamCampaignControllerIndexResponse struct {
+type TeamTeamCampaignsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7618,7 +7618,7 @@ type V5ApiWebPublicTeamTeamCampaignControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicTeamTeamCampaignControllerIndexResponse) Status() string {
+func (r TeamTeamCampaignsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7626,14 +7626,14 @@ func (r V5ApiWebPublicTeamTeamCampaignControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicTeamTeamCampaignControllerIndexResponse) StatusCode() int {
+func (r TeamTeamCampaignsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicUserControllerShowResponse struct {
+type GetUserResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *struct {
@@ -7645,7 +7645,7 @@ type V5ApiWebPublicUserControllerShowResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicUserControllerShowResponse) Status() string {
+func (r GetUserResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7653,14 +7653,14 @@ func (r V5ApiWebPublicUserControllerShowResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicUserControllerShowResponse) StatusCode() int {
+func (r GetUserResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicUserCampaignControllerIndexResponse struct {
+type UserCampaignsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7670,7 +7670,7 @@ type V5ApiWebPublicUserCampaignControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicUserCampaignControllerIndexResponse) Status() string {
+func (r UserCampaignsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7678,14 +7678,14 @@ func (r V5ApiWebPublicUserCampaignControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicUserCampaignControllerIndexResponse) StatusCode() int {
+func (r UserCampaignsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicUserIntegrationEventControllerIndexResponse struct {
+type UserIntegrationEventsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7695,7 +7695,7 @@ type V5ApiWebPublicUserIntegrationEventControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicUserIntegrationEventControllerIndexResponse) Status() string {
+func (r UserIntegrationEventsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7703,14 +7703,14 @@ func (r V5ApiWebPublicUserIntegrationEventControllerIndexResponse) Status() stri
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicUserIntegrationEventControllerIndexResponse) StatusCode() int {
+func (r UserIntegrationEventsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
 	return 0
 }
 
-type V5ApiWebPublicUserTeamControllerIndexResponse struct {
+type UserTeamsResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
 	JSON200      *PaginatedResponse
@@ -7720,7 +7720,7 @@ type V5ApiWebPublicUserTeamControllerIndexResponse struct {
 }
 
 // Status returns HTTPResponse.Status
-func (r V5ApiWebPublicUserTeamControllerIndexResponse) Status() string {
+func (r UserTeamsResponse) Status() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Status
 	}
@@ -7728,7 +7728,7 @@ func (r V5ApiWebPublicUserTeamControllerIndexResponse) Status() string {
 }
 
 // StatusCode returns HTTPResponse.StatusCode
-func (r V5ApiWebPublicUserTeamControllerIndexResponse) StatusCode() int {
+func (r UserTeamsResponse) StatusCode() int {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.StatusCode
 	}
@@ -7782,559 +7782,559 @@ func (r V5ApiWebOauthTokenResponse) StatusCode() int {
 	return 0
 }
 
-// V5ApiWebPublicCampaignControllerShowWithResponse request returning *V5ApiWebPublicCampaignControllerShowResponse
-func (c *ClientWithResponses) V5ApiWebPublicCampaignControllerShowWithResponse(ctx context.Context, campaignId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignControllerShowResponse, error) {
-	rsp, err := c.V5ApiWebPublicCampaignControllerShow(ctx, campaignId, reqEditors...)
+// GetCampaignWithResponse request returning *GetCampaignResponse
+func (c *ClientWithResponses) GetCampaignWithResponse(ctx context.Context, campaignId string, reqEditors ...RequestEditorFn) (*GetCampaignResponse, error) {
+	rsp, err := c.GetCampaign(ctx, campaignId, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCampaignControllerShowResponse(rsp)
+	r, err := ParseGetCampaignResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCampaignDonationControllerIndexWithResponse request returning *V5ApiWebPublicCampaignDonationControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicCampaignDonationControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignDonationControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignDonationControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicCampaignDonationControllerIndex(ctx, campaignId, params, reqEditors...)
+// CampaignDonationsWithResponse request returning *CampaignDonationsResponse
+func (c *ClientWithResponses) CampaignDonationsWithResponse(ctx context.Context, campaignId string, params *CampaignDonationsParams, reqEditors ...RequestEditorFn) (*CampaignDonationsResponse, error) {
+	rsp, err := c.CampaignDonations(ctx, campaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCampaignDonationControllerIndexResponse(rsp)
+	r, err := ParseCampaignDonationsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse request returning *V5ApiWebPublicCampaignLeaderboardControllerDonorResponse
-func (c *ClientWithResponses) V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignLeaderboardControllerDonorResponse, error) {
-	rsp, err := c.V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx, campaignId, params, reqEditors...)
+// CampaignLeaderboardControllerDonorWithResponse request returning *CampaignLeaderboardControllerDonorResponse
+func (c *ClientWithResponses) CampaignLeaderboardControllerDonorWithResponse(ctx context.Context, campaignId string, params *CampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*CampaignLeaderboardControllerDonorResponse, error) {
+	rsp, err := c.CampaignLeaderboardControllerDonor(ctx, campaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(rsp)
+	r, err := ParseCampaignLeaderboardControllerDonorResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse request returning *V5ApiWebPublicCampaignMilestoneControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignMilestoneControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignMilestoneControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicCampaignMilestoneControllerIndex(ctx, campaignId, params, reqEditors...)
+// CampaignMilestonesWithResponse request returning *CampaignMilestonesResponse
+func (c *ClientWithResponses) CampaignMilestonesWithResponse(ctx context.Context, campaignId string, params *CampaignMilestonesParams, reqEditors ...RequestEditorFn) (*CampaignMilestonesResponse, error) {
+	rsp, err := c.CampaignMilestones(ctx, campaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCampaignMilestoneControllerIndexResponse(rsp)
+	r, err := ParseCampaignMilestonesResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCampaignPollControllerIndexWithResponse request returning *V5ApiWebPublicCampaignPollControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicCampaignPollControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignPollControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignPollControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicCampaignPollControllerIndex(ctx, campaignId, params, reqEditors...)
+// CampaignPollsWithResponse request returning *CampaignPollsResponse
+func (c *ClientWithResponses) CampaignPollsWithResponse(ctx context.Context, campaignId string, params *CampaignPollsParams, reqEditors ...RequestEditorFn) (*CampaignPollsResponse, error) {
+	rsp, err := c.CampaignPolls(ctx, campaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCampaignPollControllerIndexResponse(rsp)
+	r, err := ParseCampaignPollsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCampaignRewardControllerIndexWithResponse request returning *V5ApiWebPublicCampaignRewardControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicCampaignRewardControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignRewardControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignRewardControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicCampaignRewardControllerIndex(ctx, campaignId, params, reqEditors...)
+// CampaignRewardsWithResponse request returning *CampaignRewardsResponse
+func (c *ClientWithResponses) CampaignRewardsWithResponse(ctx context.Context, campaignId string, params *CampaignRewardsParams, reqEditors ...RequestEditorFn) (*CampaignRewardsResponse, error) {
+	rsp, err := c.CampaignRewards(ctx, campaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCampaignRewardControllerIndexResponse(rsp)
+	r, err := ParseCampaignRewardsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCampaignScheduleControllerIndexWithResponse request returning *V5ApiWebPublicCampaignScheduleControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicCampaignScheduleControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignScheduleControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignScheduleControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicCampaignScheduleControllerIndex(ctx, campaignId, params, reqEditors...)
+// CampaignSchedulesWithResponse request returning *CampaignSchedulesResponse
+func (c *ClientWithResponses) CampaignSchedulesWithResponse(ctx context.Context, campaignId string, params *CampaignSchedulesParams, reqEditors ...RequestEditorFn) (*CampaignSchedulesResponse, error) {
+	rsp, err := c.CampaignSchedules(ctx, campaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCampaignScheduleControllerIndexResponse(rsp)
+	r, err := ParseCampaignSchedulesResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCampaignChallengeControllerIndexWithResponse request returning *V5ApiWebPublicCampaignChallengeControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicCampaignChallengeControllerIndexWithResponse(ctx context.Context, campaignId string, params *V5ApiWebPublicCampaignChallengeControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCampaignChallengeControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicCampaignChallengeControllerIndex(ctx, campaignId, params, reqEditors...)
+// CampaignChallengesWithResponse request returning *CampaignChallengesResponse
+func (c *ClientWithResponses) CampaignChallengesWithResponse(ctx context.Context, campaignId string, params *CampaignChallengesParams, reqEditors ...RequestEditorFn) (*CampaignChallengesResponse, error) {
+	rsp, err := c.CampaignChallenges(ctx, campaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCampaignChallengeControllerIndexResponse(rsp)
+	r, err := ParseCampaignChallengesResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCauseControllerShowWithResponse request returning *V5ApiWebPublicCauseControllerShowResponse
-func (c *ClientWithResponses) V5ApiWebPublicCauseControllerShowWithResponse(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseControllerShowResponse, error) {
-	rsp, err := c.V5ApiWebPublicCauseControllerShow(ctx, causeId, reqEditors...)
+// GetCauseWithResponse request returning *GetCauseResponse
+func (c *ClientWithResponses) GetCauseWithResponse(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*GetCauseResponse, error) {
+	rsp, err := c.GetCause(ctx, causeId, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCauseControllerShowResponse(rsp)
+	r, err := ParseGetCauseResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCauseCampaignControllerIndexWithResponse request returning *V5ApiWebPublicCauseCampaignControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicCauseCampaignControllerIndexWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseCampaignControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicCauseCampaignControllerIndex(ctx, causeId, params, reqEditors...)
+// CauseCampaignsWithResponse request returning *CauseCampaignsResponse
+func (c *ClientWithResponses) CauseCampaignsWithResponse(ctx context.Context, causeId string, params *CauseCampaignsParams, reqEditors ...RequestEditorFn) (*CauseCampaignsResponse, error) {
+	rsp, err := c.CauseCampaigns(ctx, causeId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCauseCampaignControllerIndexResponse(rsp)
+	r, err := ParseCauseCampaignsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse request returning *V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse
-func (c *ClientWithResponses) V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse, error) {
-	rsp, err := c.V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx, causeId, reqEditors...)
+// CauseLeaderboardControllerConfiguredWithResponse request returning *CauseLeaderboardControllerConfiguredResponse
+func (c *ClientWithResponses) CauseLeaderboardControllerConfiguredWithResponse(ctx context.Context, causeId string, reqEditors ...RequestEditorFn) (*CauseLeaderboardControllerConfiguredResponse, error) {
+	rsp, err := c.CauseLeaderboardControllerConfigured(ctx, causeId, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(rsp)
+	r, err := ParseCauseLeaderboardControllerConfiguredResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse request returning *V5ApiWebPublicCauseLeaderboardControllerDonorResponse
-func (c *ClientWithResponses) V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseLeaderboardControllerDonorResponse, error) {
-	rsp, err := c.V5ApiWebPublicCauseLeaderboardControllerDonor(ctx, causeId, params, reqEditors...)
+// CauseLeaderboardControllerDonorWithResponse request returning *CauseLeaderboardControllerDonorResponse
+func (c *ClientWithResponses) CauseLeaderboardControllerDonorWithResponse(ctx context.Context, causeId string, params *CauseLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*CauseLeaderboardControllerDonorResponse, error) {
+	rsp, err := c.CauseLeaderboardControllerDonor(ctx, causeId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCauseLeaderboardControllerDonorResponse(rsp)
+	r, err := ParseCauseLeaderboardControllerDonorResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse request returning *V5ApiWebPublicCauseFundraisingEventControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseFundraisingEventControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseFundraisingEventControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx, causeId, params, reqEditors...)
+// CauseFundraisingEventsWithResponse request returning *CauseFundraisingEventsResponse
+func (c *ClientWithResponses) CauseFundraisingEventsWithResponse(ctx context.Context, causeId string, params *CauseFundraisingEventsParams, reqEditors ...RequestEditorFn) (*CauseFundraisingEventsResponse, error) {
+	rsp, err := c.CauseFundraisingEvents(ctx, causeId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCauseFundraisingEventControllerIndexResponse(rsp)
+	r, err := ParseCauseFundraisingEventsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse request returning *V5ApiWebPublicCauseLeaderboardControllerTeamResponse
-func (c *ClientWithResponses) V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseLeaderboardControllerTeamResponse, error) {
-	rsp, err := c.V5ApiWebPublicCauseLeaderboardControllerTeam(ctx, causeId, params, reqEditors...)
+// CauseLeaderboardControllerTeamWithResponse request returning *CauseLeaderboardControllerTeamResponse
+func (c *ClientWithResponses) CauseLeaderboardControllerTeamWithResponse(ctx context.Context, causeId string, params *CauseLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*CauseLeaderboardControllerTeamResponse, error) {
+	rsp, err := c.CauseLeaderboardControllerTeam(ctx, causeId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCauseLeaderboardControllerTeamResponse(rsp)
+	r, err := ParseCauseLeaderboardControllerTeamResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerUserWithResponse request returning *V5ApiWebPublicCauseLeaderboardControllerUserResponse
-func (c *ClientWithResponses) V5ApiWebPublicCauseLeaderboardControllerUserWithResponse(ctx context.Context, causeId string, params *V5ApiWebPublicCauseLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicCauseLeaderboardControllerUserResponse, error) {
-	rsp, err := c.V5ApiWebPublicCauseLeaderboardControllerUser(ctx, causeId, params, reqEditors...)
+// CauseLeaderboardControllerUserWithResponse request returning *CauseLeaderboardControllerUserResponse
+func (c *ClientWithResponses) CauseLeaderboardControllerUserWithResponse(ctx context.Context, causeId string, params *CauseLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*CauseLeaderboardControllerUserResponse, error) {
+	rsp, err := c.CauseLeaderboardControllerUser(ctx, causeId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicCauseLeaderboardControllerUserResponse(rsp)
+	r, err := ParseCauseLeaderboardControllerUserResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicUserControllerCurrentUserWithResponse request returning *V5ApiWebPublicUserControllerCurrentUserResponse
-func (c *ClientWithResponses) V5ApiWebPublicUserControllerCurrentUserWithResponse(ctx context.Context, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserControllerCurrentUserResponse, error) {
-	rsp, err := c.V5ApiWebPublicUserControllerCurrentUser(ctx, reqEditors...)
+// UserControllerCurrentUserWithResponse request returning *UserControllerCurrentUserResponse
+func (c *ClientWithResponses) UserControllerCurrentUserWithResponse(ctx context.Context, reqEditors ...RequestEditorFn) (*UserControllerCurrentUserResponse, error) {
+	rsp, err := c.UserControllerCurrentUser(ctx, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicUserControllerCurrentUserResponse(rsp)
+	r, err := ParseUserControllerCurrentUserResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventControllerShowWithResponse request returning *V5ApiWebPublicFundraisingEventControllerShowResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventControllerShowWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventControllerShowResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventControllerShow(ctx, fundraisingEventId, reqEditors...)
+// GetFundraisingEventWithResponse request returning *GetFundraisingEventResponse
+func (c *ClientWithResponses) GetFundraisingEventWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*GetFundraisingEventResponse, error) {
+	rsp, err := c.GetFundraisingEvent(ctx, fundraisingEventId, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventControllerShowResponse(rsp)
+	r, err := ParseGetFundraisingEventResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse request returning *V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(ctx, fundraisingEventId, reqEditors...)
+// FundraisingEventLeaderboardControllerConfiguredWithResponse request returning *FundraisingEventLeaderboardControllerConfiguredResponse
+func (c *ClientWithResponses) FundraisingEventLeaderboardControllerConfiguredWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerConfiguredResponse, error) {
+	rsp, err := c.FundraisingEventLeaderboardControllerConfigured(ctx, fundraisingEventId, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(rsp)
+	r, err := ParseFundraisingEventLeaderboardControllerConfiguredResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse request returning *V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx, fundraisingEventId, params, reqEditors...)
+// FundraisingEventLeaderboardControllerDonorWithResponse request returning *FundraisingEventLeaderboardControllerDonorResponse
+func (c *ClientWithResponses) FundraisingEventLeaderboardControllerDonorWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerDonorResponse, error) {
+	rsp, err := c.FundraisingEventLeaderboardControllerDonor(ctx, fundraisingEventId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(rsp)
+	r, err := ParseFundraisingEventLeaderboardControllerDonorResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse request returning *V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ctx, fundraisingEventId, params, reqEditors...)
+// FundraisingEventSupportingEventsWithResponse request returning *FundraisingEventSupportingEventsResponse
+func (c *ClientWithResponses) FundraisingEventSupportingEventsWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventSupportingEventsParams, reqEditors ...RequestEditorFn) (*FundraisingEventSupportingEventsResponse, error) {
+	rsp, err := c.FundraisingEventSupportingEvents(ctx, fundraisingEventId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse(rsp)
+	r, err := ParseFundraisingEventSupportingEventsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse request returning *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance(ctx, fundraisingEventId, params, reqEditors...)
+// FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse request returning *FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse
+func (c *ClientWithResponses) FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, error) {
+	rsp, err := c.FundraisingEventLeaderboardControllerTeamFitnessDistance(ctx, fundraisingEventId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(rsp)
+	r, err := ParseFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse request returning *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime(ctx, fundraisingEventId, params, reqEditors...)
+// FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse request returning *FundraisingEventLeaderboardControllerTeamFitnessTimeResponse
+func (c *ClientWithResponses) FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerTeamFitnessTimeResponse, error) {
+	rsp, err := c.FundraisingEventLeaderboardControllerTeamFitnessTime(ctx, fundraisingEventId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(rsp)
+	r, err := ParseFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse request returning *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx, fundraisingEventId, params, reqEditors...)
+// FundraisingEventLeaderboardControllerTeamWithResponse request returning *FundraisingEventLeaderboardControllerTeamResponse
+func (c *ClientWithResponses) FundraisingEventLeaderboardControllerTeamWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerTeamParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerTeamResponse, error) {
+	rsp, err := c.FundraisingEventLeaderboardControllerTeam(ctx, fundraisingEventId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(rsp)
+	r, err := ParseFundraisingEventLeaderboardControllerTeamResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse request returning *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance(ctx, fundraisingEventId, params, reqEditors...)
+// FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse request returning *FundraisingEventLeaderboardControllerUserFitnessDistanceResponse
+func (c *ClientWithResponses) FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerUserFitnessDistanceResponse, error) {
+	rsp, err := c.FundraisingEventLeaderboardControllerUserFitnessDistance(ctx, fundraisingEventId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(rsp)
+	r, err := ParseFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse request returning *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime(ctx, fundraisingEventId, params, reqEditors...)
+// FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse request returning *FundraisingEventLeaderboardControllerUserFitnessTimeResponse
+func (c *ClientWithResponses) FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerUserFitnessTimeResponse, error) {
+	rsp, err := c.FundraisingEventLeaderboardControllerUserFitnessTime(ctx, fundraisingEventId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse(rsp)
+	r, err := ParseFundraisingEventLeaderboardControllerUserFitnessTimeResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse request returning *V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse
-func (c *ClientWithResponses) V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse(ctx context.Context, fundraisingEventId string, params *V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse, error) {
-	rsp, err := c.V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx, fundraisingEventId, params, reqEditors...)
+// FundraisingEventLeaderboardControllerUserWithResponse request returning *FundraisingEventLeaderboardControllerUserResponse
+func (c *ClientWithResponses) FundraisingEventLeaderboardControllerUserWithResponse(ctx context.Context, fundraisingEventId string, params *FundraisingEventLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*FundraisingEventLeaderboardControllerUserResponse, error) {
+	rsp, err := c.FundraisingEventLeaderboardControllerUser(ctx, fundraisingEventId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(rsp)
+	r, err := ParseFundraisingEventLeaderboardControllerUserResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignControllerShowWithResponse request returning *V5ApiWebPublicTeamCampaignControllerShowResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignControllerShowWithResponse(ctx context.Context, teamCampaignId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignControllerShowResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignControllerShow(ctx, teamCampaignId, reqEditors...)
+// GetTeamCampaignWithResponse request returning *GetTeamCampaignResponse
+func (c *ClientWithResponses) GetTeamCampaignWithResponse(ctx context.Context, teamCampaignId string, reqEditors ...RequestEditorFn) (*GetTeamCampaignResponse, error) {
+	rsp, err := c.GetTeamCampaign(ctx, teamCampaignId, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignControllerShowResponse(rsp)
+	r, err := ParseGetTeamCampaignResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse request returning *V5ApiWebPublicTeamCampaignDonationControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignDonationControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignDonationControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx, teamCampaignId, params, reqEditors...)
+// TeamCampaignDonationsWithResponse request returning *TeamCampaignDonationsResponse
+func (c *ClientWithResponses) TeamCampaignDonationsWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignDonationsParams, reqEditors ...RequestEditorFn) (*TeamCampaignDonationsResponse, error) {
+	rsp, err := c.TeamCampaignDonations(ctx, teamCampaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignDonationControllerIndexResponse(rsp)
+	r, err := ParseTeamCampaignDonationsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse request returning *V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx, teamCampaignId, params, reqEditors...)
+// TeamCampaignLeaderboardControllerDonorWithResponse request returning *TeamCampaignLeaderboardControllerDonorResponse
+func (c *ClientWithResponses) TeamCampaignLeaderboardControllerDonorWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignLeaderboardControllerDonorParams, reqEditors ...RequestEditorFn) (*TeamCampaignLeaderboardControllerDonorResponse, error) {
+	rsp, err := c.TeamCampaignLeaderboardControllerDonor(ctx, teamCampaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(rsp)
+	r, err := ParseTeamCampaignLeaderboardControllerDonorResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse request returning *V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx, teamCampaignId, params, reqEditors...)
+// TeamCampaignMilestonesWithResponse request returning *TeamCampaignMilestonesResponse
+func (c *ClientWithResponses) TeamCampaignMilestonesWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignMilestonesParams, reqEditors ...RequestEditorFn) (*TeamCampaignMilestonesResponse, error) {
+	rsp, err := c.TeamCampaignMilestones(ctx, teamCampaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse(rsp)
+	r, err := ParseTeamCampaignMilestonesResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse request returning *V5ApiWebPublicTeamCampaignPollControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignPollControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignPollControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignPollControllerIndex(ctx, teamCampaignId, params, reqEditors...)
+// TeamCampaignPollsWithResponse request returning *TeamCampaignPollsResponse
+func (c *ClientWithResponses) TeamCampaignPollsWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignPollsParams, reqEditors ...RequestEditorFn) (*TeamCampaignPollsResponse, error) {
+	rsp, err := c.TeamCampaignPolls(ctx, teamCampaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignPollControllerIndexResponse(rsp)
+	r, err := ParseTeamCampaignPollsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse request returning *V5ApiWebPublicTeamCampaignRewardControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignRewardControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignRewardControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx, teamCampaignId, params, reqEditors...)
+// TeamCampaignRewardsWithResponse request returning *TeamCampaignRewardsResponse
+func (c *ClientWithResponses) TeamCampaignRewardsWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignRewardsParams, reqEditors ...RequestEditorFn) (*TeamCampaignRewardsResponse, error) {
+	rsp, err := c.TeamCampaignRewards(ctx, teamCampaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignRewardControllerIndexResponse(rsp)
+	r, err := ParseTeamCampaignRewardsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse request returning *V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignScheduleControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx, teamCampaignId, params, reqEditors...)
+// TeamCampaignSchedulesWithResponse request returning *TeamCampaignSchedulesResponse
+func (c *ClientWithResponses) TeamCampaignSchedulesWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignSchedulesParams, reqEditors ...RequestEditorFn) (*TeamCampaignSchedulesResponse, error) {
+	rsp, err := c.TeamCampaignSchedules(ctx, teamCampaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse(rsp)
+	r, err := ParseTeamCampaignSchedulesResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse request returning *V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx, teamCampaignId, params, reqEditors...)
+// TeamCampaignSupportingCampaignsWithResponse request returning *TeamCampaignSupportingCampaignsResponse
+func (c *ClientWithResponses) TeamCampaignSupportingCampaignsWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignSupportingCampaignsParams, reqEditors ...RequestEditorFn) (*TeamCampaignSupportingCampaignsResponse, error) {
+	rsp, err := c.TeamCampaignSupportingCampaigns(ctx, teamCampaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse(rsp)
+	r, err := ParseTeamCampaignSupportingCampaignsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse request returning *V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignChallengeControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx, teamCampaignId, params, reqEditors...)
+// TeamCampaignChallengesWithResponse request returning *TeamCampaignChallengesResponse
+func (c *ClientWithResponses) TeamCampaignChallengesWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignChallengesParams, reqEditors ...RequestEditorFn) (*TeamCampaignChallengesResponse, error) {
+	rsp, err := c.TeamCampaignChallenges(ctx, teamCampaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse(rsp)
+	r, err := ParseTeamCampaignChallengesResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse request returning *V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse(ctx context.Context, teamCampaignId string, params *V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx, teamCampaignId, params, reqEditors...)
+// TeamCampaignLeaderboardControllerUserWithResponse request returning *TeamCampaignLeaderboardControllerUserResponse
+func (c *ClientWithResponses) TeamCampaignLeaderboardControllerUserWithResponse(ctx context.Context, teamCampaignId string, params *TeamCampaignLeaderboardControllerUserParams, reqEditors ...RequestEditorFn) (*TeamCampaignLeaderboardControllerUserResponse, error) {
+	rsp, err := c.TeamCampaignLeaderboardControllerUser(ctx, teamCampaignId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(rsp)
+	r, err := ParseTeamCampaignLeaderboardControllerUserResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamControllerShowWithResponse request returning *V5ApiWebPublicTeamControllerShowResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamControllerShowWithResponse(ctx context.Context, teamId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamControllerShowResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamControllerShow(ctx, teamId, reqEditors...)
+// GetTeamWithResponse request returning *GetTeamResponse
+func (c *ClientWithResponses) GetTeamWithResponse(ctx context.Context, teamId string, reqEditors ...RequestEditorFn) (*GetTeamResponse, error) {
+	rsp, err := c.GetTeam(ctx, teamId, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamControllerShowResponse(rsp)
+	r, err := ParseGetTeamResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamMemberControllerIndexWithResponse request returning *V5ApiWebPublicTeamMemberControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamMemberControllerIndexWithResponse(ctx context.Context, teamId string, params *V5ApiWebPublicTeamMemberControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamMemberControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamMemberControllerIndex(ctx, teamId, params, reqEditors...)
+// TeamMembersWithResponse request returning *TeamMembersResponse
+func (c *ClientWithResponses) TeamMembersWithResponse(ctx context.Context, teamId string, params *TeamMembersParams, reqEditors ...RequestEditorFn) (*TeamMembersResponse, error) {
+	rsp, err := c.TeamMembers(ctx, teamId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamMemberControllerIndexResponse(rsp)
+	r, err := ParseTeamMembersResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse request returning *V5ApiWebPublicTeamTeamCampaignControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse(ctx context.Context, teamId string, params *V5ApiWebPublicTeamTeamCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicTeamTeamCampaignControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx, teamId, params, reqEditors...)
+// TeamTeamCampaignsWithResponse request returning *TeamTeamCampaignsResponse
+func (c *ClientWithResponses) TeamTeamCampaignsWithResponse(ctx context.Context, teamId string, params *TeamTeamCampaignsParams, reqEditors ...RequestEditorFn) (*TeamTeamCampaignsResponse, error) {
+	rsp, err := c.TeamTeamCampaigns(ctx, teamId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicTeamTeamCampaignControllerIndexResponse(rsp)
+	r, err := ParseTeamTeamCampaignsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicUserControllerShowWithResponse request returning *V5ApiWebPublicUserControllerShowResponse
-func (c *ClientWithResponses) V5ApiWebPublicUserControllerShowWithResponse(ctx context.Context, userId string, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserControllerShowResponse, error) {
-	rsp, err := c.V5ApiWebPublicUserControllerShow(ctx, userId, reqEditors...)
+// GetUserWithResponse request returning *GetUserResponse
+func (c *ClientWithResponses) GetUserWithResponse(ctx context.Context, userId string, reqEditors ...RequestEditorFn) (*GetUserResponse, error) {
+	rsp, err := c.GetUser(ctx, userId, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicUserControllerShowResponse(rsp)
+	r, err := ParseGetUserResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicUserCampaignControllerIndexWithResponse request returning *V5ApiWebPublicUserCampaignControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicUserCampaignControllerIndexWithResponse(ctx context.Context, userId string, params *V5ApiWebPublicUserCampaignControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserCampaignControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicUserCampaignControllerIndex(ctx, userId, params, reqEditors...)
+// UserCampaignsWithResponse request returning *UserCampaignsResponse
+func (c *ClientWithResponses) UserCampaignsWithResponse(ctx context.Context, userId string, params *UserCampaignsParams, reqEditors ...RequestEditorFn) (*UserCampaignsResponse, error) {
+	rsp, err := c.UserCampaigns(ctx, userId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicUserCampaignControllerIndexResponse(rsp)
+	r, err := ParseUserCampaignsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse request returning *V5ApiWebPublicUserIntegrationEventControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse(ctx context.Context, userId string, params *V5ApiWebPublicUserIntegrationEventControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserIntegrationEventControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicUserIntegrationEventControllerIndex(ctx, userId, params, reqEditors...)
+// UserIntegrationEventsWithResponse request returning *UserIntegrationEventsResponse
+func (c *ClientWithResponses) UserIntegrationEventsWithResponse(ctx context.Context, userId string, params *UserIntegrationEventsParams, reqEditors ...RequestEditorFn) (*UserIntegrationEventsResponse, error) {
+	rsp, err := c.UserIntegrationEvents(ctx, userId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicUserIntegrationEventControllerIndexResponse(rsp)
+	r, err := ParseUserIntegrationEventsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
 	return r, err
 }
 
-// V5ApiWebPublicUserTeamControllerIndexWithResponse request returning *V5ApiWebPublicUserTeamControllerIndexResponse
-func (c *ClientWithResponses) V5ApiWebPublicUserTeamControllerIndexWithResponse(ctx context.Context, userId string, params *V5ApiWebPublicUserTeamControllerIndexParams, reqEditors ...RequestEditorFn) (*V5ApiWebPublicUserTeamControllerIndexResponse, error) {
-	rsp, err := c.V5ApiWebPublicUserTeamControllerIndex(ctx, userId, params, reqEditors...)
+// UserTeamsWithResponse request returning *UserTeamsResponse
+func (c *ClientWithResponses) UserTeamsWithResponse(ctx context.Context, userId string, params *UserTeamsParams, reqEditors ...RequestEditorFn) (*UserTeamsResponse, error) {
+	rsp, err := c.UserTeams(ctx, userId, params, reqEditors...)
 	if err != nil {
 		return nil, err
 	}
-	r, err := ParseV5ApiWebPublicUserTeamControllerIndexResponse(rsp)
+	r, err := ParseUserTeamsResponse(rsp)
 	if !c.OkOnNon200 && (r != nil && r.StatusCode() >= 400) {
 		return r, StatusFailureError{Resp: rsp, Err: err}
 	}
@@ -8391,15 +8391,15 @@ func (c *ClientWithResponses) V5ApiWebOauthTokenWithResponse(ctx context.Context
 	return r, err
 }
 
-// ParseV5ApiWebPublicCampaignControllerShowResponse parses an HTTP response from a V5ApiWebPublicCampaignControllerShowWithResponse call
-func ParseV5ApiWebPublicCampaignControllerShowResponse(rsp *http.Response) (*V5ApiWebPublicCampaignControllerShowResponse, error) {
+// ParseGetCampaignResponse parses an HTTP response from a GetCampaignWithResponse call
+func ParseGetCampaignResponse(rsp *http.Response) (*GetCampaignResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCampaignControllerShowResponse{
+	response := &GetCampaignResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8440,15 +8440,15 @@ func ParseV5ApiWebPublicCampaignControllerShowResponse(rsp *http.Response) (*V5A
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCampaignDonationControllerIndexResponse parses an HTTP response from a V5ApiWebPublicCampaignDonationControllerIndexWithResponse call
-func ParseV5ApiWebPublicCampaignDonationControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicCampaignDonationControllerIndexResponse, error) {
+// ParseCampaignDonationsResponse parses an HTTP response from a CampaignDonationsWithResponse call
+func ParseCampaignDonationsResponse(rsp *http.Response) (*CampaignDonationsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCampaignDonationControllerIndexResponse{
+	response := &CampaignDonationsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8487,15 +8487,15 @@ func ParseV5ApiWebPublicCampaignDonationControllerIndexResponse(rsp *http.Respon
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCampaignLeaderboardControllerDonorResponse parses an HTTP response from a V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse call
-func ParseV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(rsp *http.Response) (*V5ApiWebPublicCampaignLeaderboardControllerDonorResponse, error) {
+// ParseCampaignLeaderboardControllerDonorResponse parses an HTTP response from a CampaignLeaderboardControllerDonorWithResponse call
+func ParseCampaignLeaderboardControllerDonorResponse(rsp *http.Response) (*CampaignLeaderboardControllerDonorResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCampaignLeaderboardControllerDonorResponse{
+	response := &CampaignLeaderboardControllerDonorResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8534,15 +8534,15 @@ func ParseV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(rsp *http.Res
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCampaignMilestoneControllerIndexResponse parses an HTTP response from a V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse call
-func ParseV5ApiWebPublicCampaignMilestoneControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicCampaignMilestoneControllerIndexResponse, error) {
+// ParseCampaignMilestonesResponse parses an HTTP response from a CampaignMilestonesWithResponse call
+func ParseCampaignMilestonesResponse(rsp *http.Response) (*CampaignMilestonesResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCampaignMilestoneControllerIndexResponse{
+	response := &CampaignMilestonesResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8581,15 +8581,15 @@ func ParseV5ApiWebPublicCampaignMilestoneControllerIndexResponse(rsp *http.Respo
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCampaignPollControllerIndexResponse parses an HTTP response from a V5ApiWebPublicCampaignPollControllerIndexWithResponse call
-func ParseV5ApiWebPublicCampaignPollControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicCampaignPollControllerIndexResponse, error) {
+// ParseCampaignPollsResponse parses an HTTP response from a CampaignPollsWithResponse call
+func ParseCampaignPollsResponse(rsp *http.Response) (*CampaignPollsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCampaignPollControllerIndexResponse{
+	response := &CampaignPollsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8628,15 +8628,15 @@ func ParseV5ApiWebPublicCampaignPollControllerIndexResponse(rsp *http.Response) 
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCampaignRewardControllerIndexResponse parses an HTTP response from a V5ApiWebPublicCampaignRewardControllerIndexWithResponse call
-func ParseV5ApiWebPublicCampaignRewardControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicCampaignRewardControllerIndexResponse, error) {
+// ParseCampaignRewardsResponse parses an HTTP response from a CampaignRewardsWithResponse call
+func ParseCampaignRewardsResponse(rsp *http.Response) (*CampaignRewardsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCampaignRewardControllerIndexResponse{
+	response := &CampaignRewardsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8675,15 +8675,15 @@ func ParseV5ApiWebPublicCampaignRewardControllerIndexResponse(rsp *http.Response
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCampaignScheduleControllerIndexResponse parses an HTTP response from a V5ApiWebPublicCampaignScheduleControllerIndexWithResponse call
-func ParseV5ApiWebPublicCampaignScheduleControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicCampaignScheduleControllerIndexResponse, error) {
+// ParseCampaignSchedulesResponse parses an HTTP response from a CampaignSchedulesWithResponse call
+func ParseCampaignSchedulesResponse(rsp *http.Response) (*CampaignSchedulesResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCampaignScheduleControllerIndexResponse{
+	response := &CampaignSchedulesResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8722,15 +8722,15 @@ func ParseV5ApiWebPublicCampaignScheduleControllerIndexResponse(rsp *http.Respon
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCampaignChallengeControllerIndexResponse parses an HTTP response from a V5ApiWebPublicCampaignChallengeControllerIndexWithResponse call
-func ParseV5ApiWebPublicCampaignChallengeControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicCampaignChallengeControllerIndexResponse, error) {
+// ParseCampaignChallengesResponse parses an HTTP response from a CampaignChallengesWithResponse call
+func ParseCampaignChallengesResponse(rsp *http.Response) (*CampaignChallengesResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCampaignChallengeControllerIndexResponse{
+	response := &CampaignChallengesResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8769,15 +8769,15 @@ func ParseV5ApiWebPublicCampaignChallengeControllerIndexResponse(rsp *http.Respo
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCauseControllerShowResponse parses an HTTP response from a V5ApiWebPublicCauseControllerShowWithResponse call
-func ParseV5ApiWebPublicCauseControllerShowResponse(rsp *http.Response) (*V5ApiWebPublicCauseControllerShowResponse, error) {
+// ParseGetCauseResponse parses an HTTP response from a GetCauseWithResponse call
+func ParseGetCauseResponse(rsp *http.Response) (*GetCauseResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCauseControllerShowResponse{
+	response := &GetCauseResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8818,15 +8818,15 @@ func ParseV5ApiWebPublicCauseControllerShowResponse(rsp *http.Response) (*V5ApiW
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCauseCampaignControllerIndexResponse parses an HTTP response from a V5ApiWebPublicCauseCampaignControllerIndexWithResponse call
-func ParseV5ApiWebPublicCauseCampaignControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicCauseCampaignControllerIndexResponse, error) {
+// ParseCauseCampaignsResponse parses an HTTP response from a CauseCampaignsWithResponse call
+func ParseCauseCampaignsResponse(rsp *http.Response) (*CauseCampaignsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCauseCampaignControllerIndexResponse{
+	response := &CauseCampaignsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8865,15 +8865,15 @@ func ParseV5ApiWebPublicCauseCampaignControllerIndexResponse(rsp *http.Response)
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse parses an HTTP response from a V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse call
-func ParseV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(rsp *http.Response) (*V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse, error) {
+// ParseCauseLeaderboardControllerConfiguredResponse parses an HTTP response from a CauseLeaderboardControllerConfiguredWithResponse call
+func ParseCauseLeaderboardControllerConfiguredResponse(rsp *http.Response) (*CauseLeaderboardControllerConfiguredResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse{
+	response := &CauseLeaderboardControllerConfiguredResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8915,15 +8915,15 @@ func ParseV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(rsp *http.R
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCauseLeaderboardControllerDonorResponse parses an HTTP response from a V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse call
-func ParseV5ApiWebPublicCauseLeaderboardControllerDonorResponse(rsp *http.Response) (*V5ApiWebPublicCauseLeaderboardControllerDonorResponse, error) {
+// ParseCauseLeaderboardControllerDonorResponse parses an HTTP response from a CauseLeaderboardControllerDonorWithResponse call
+func ParseCauseLeaderboardControllerDonorResponse(rsp *http.Response) (*CauseLeaderboardControllerDonorResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCauseLeaderboardControllerDonorResponse{
+	response := &CauseLeaderboardControllerDonorResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -8962,15 +8962,15 @@ func ParseV5ApiWebPublicCauseLeaderboardControllerDonorResponse(rsp *http.Respon
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCauseFundraisingEventControllerIndexResponse parses an HTTP response from a V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse call
-func ParseV5ApiWebPublicCauseFundraisingEventControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicCauseFundraisingEventControllerIndexResponse, error) {
+// ParseCauseFundraisingEventsResponse parses an HTTP response from a CauseFundraisingEventsWithResponse call
+func ParseCauseFundraisingEventsResponse(rsp *http.Response) (*CauseFundraisingEventsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCauseFundraisingEventControllerIndexResponse{
+	response := &CauseFundraisingEventsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9009,15 +9009,15 @@ func ParseV5ApiWebPublicCauseFundraisingEventControllerIndexResponse(rsp *http.R
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCauseLeaderboardControllerTeamResponse parses an HTTP response from a V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse call
-func ParseV5ApiWebPublicCauseLeaderboardControllerTeamResponse(rsp *http.Response) (*V5ApiWebPublicCauseLeaderboardControllerTeamResponse, error) {
+// ParseCauseLeaderboardControllerTeamResponse parses an HTTP response from a CauseLeaderboardControllerTeamWithResponse call
+func ParseCauseLeaderboardControllerTeamResponse(rsp *http.Response) (*CauseLeaderboardControllerTeamResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCauseLeaderboardControllerTeamResponse{
+	response := &CauseLeaderboardControllerTeamResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9056,15 +9056,15 @@ func ParseV5ApiWebPublicCauseLeaderboardControllerTeamResponse(rsp *http.Respons
 	return response, nil
 }
 
-// ParseV5ApiWebPublicCauseLeaderboardControllerUserResponse parses an HTTP response from a V5ApiWebPublicCauseLeaderboardControllerUserWithResponse call
-func ParseV5ApiWebPublicCauseLeaderboardControllerUserResponse(rsp *http.Response) (*V5ApiWebPublicCauseLeaderboardControllerUserResponse, error) {
+// ParseCauseLeaderboardControllerUserResponse parses an HTTP response from a CauseLeaderboardControllerUserWithResponse call
+func ParseCauseLeaderboardControllerUserResponse(rsp *http.Response) (*CauseLeaderboardControllerUserResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicCauseLeaderboardControllerUserResponse{
+	response := &CauseLeaderboardControllerUserResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9103,15 +9103,15 @@ func ParseV5ApiWebPublicCauseLeaderboardControllerUserResponse(rsp *http.Respons
 	return response, nil
 }
 
-// ParseV5ApiWebPublicUserControllerCurrentUserResponse parses an HTTP response from a V5ApiWebPublicUserControllerCurrentUserWithResponse call
-func ParseV5ApiWebPublicUserControllerCurrentUserResponse(rsp *http.Response) (*V5ApiWebPublicUserControllerCurrentUserResponse, error) {
+// ParseUserControllerCurrentUserResponse parses an HTTP response from a UserControllerCurrentUserWithResponse call
+func ParseUserControllerCurrentUserResponse(rsp *http.Response) (*UserControllerCurrentUserResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicUserControllerCurrentUserResponse{
+	response := &UserControllerCurrentUserResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9150,15 +9150,15 @@ func ParseV5ApiWebPublicUserControllerCurrentUserResponse(rsp *http.Response) (*
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventControllerShowResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventControllerShowWithResponse call
-func ParseV5ApiWebPublicFundraisingEventControllerShowResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventControllerShowResponse, error) {
+// ParseGetFundraisingEventResponse parses an HTTP response from a GetFundraisingEventWithResponse call
+func ParseGetFundraisingEventResponse(rsp *http.Response) (*GetFundraisingEventResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventControllerShowResponse{
+	response := &GetFundraisingEventResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9199,15 +9199,15 @@ func ParseV5ApiWebPublicFundraisingEventControllerShowResponse(rsp *http.Respons
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse call
-func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse, error) {
+// ParseFundraisingEventLeaderboardControllerConfiguredResponse parses an HTTP response from a FundraisingEventLeaderboardControllerConfiguredWithResponse call
+func ParseFundraisingEventLeaderboardControllerConfiguredResponse(rsp *http.Response) (*FundraisingEventLeaderboardControllerConfiguredResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse{
+	response := &FundraisingEventLeaderboardControllerConfiguredResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9249,15 +9249,15 @@ func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse call
-func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse, error) {
+// ParseFundraisingEventLeaderboardControllerDonorResponse parses an HTTP response from a FundraisingEventLeaderboardControllerDonorWithResponse call
+func ParseFundraisingEventLeaderboardControllerDonorResponse(rsp *http.Response) (*FundraisingEventLeaderboardControllerDonorResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse{
+	response := &FundraisingEventLeaderboardControllerDonorResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9296,15 +9296,15 @@ func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(rsp *
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse call
-func ParseV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse, error) {
+// ParseFundraisingEventSupportingEventsResponse parses an HTTP response from a FundraisingEventSupportingEventsWithResponse call
+func ParseFundraisingEventSupportingEventsResponse(rsp *http.Response) (*FundraisingEventSupportingEventsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse{
+	response := &FundraisingEventSupportingEventsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9343,15 +9343,15 @@ func ParseV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse(r
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse call
-func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, error) {
+// ParseFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse parses an HTTP response from a FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse call
+func ParseFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(rsp *http.Response) (*FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse{
+	response := &FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9390,15 +9390,15 @@ func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse call
-func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse, error) {
+// ParseFundraisingEventLeaderboardControllerTeamFitnessTimeResponse parses an HTTP response from a FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse call
+func ParseFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(rsp *http.Response) (*FundraisingEventLeaderboardControllerTeamFitnessTimeResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse{
+	response := &FundraisingEventLeaderboardControllerTeamFitnessTimeResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9437,15 +9437,15 @@ func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResp
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse call
-func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse, error) {
+// ParseFundraisingEventLeaderboardControllerTeamResponse parses an HTTP response from a FundraisingEventLeaderboardControllerTeamWithResponse call
+func ParseFundraisingEventLeaderboardControllerTeamResponse(rsp *http.Response) (*FundraisingEventLeaderboardControllerTeamResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse{
+	response := &FundraisingEventLeaderboardControllerTeamResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9484,15 +9484,15 @@ func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(rsp *h
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse call
-func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse, error) {
+// ParseFundraisingEventLeaderboardControllerUserFitnessDistanceResponse parses an HTTP response from a FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse call
+func ParseFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(rsp *http.Response) (*FundraisingEventLeaderboardControllerUserFitnessDistanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse{
+	response := &FundraisingEventLeaderboardControllerUserFitnessDistanceResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9531,15 +9531,15 @@ func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse call
-func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse, error) {
+// ParseFundraisingEventLeaderboardControllerUserFitnessTimeResponse parses an HTTP response from a FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse call
+func ParseFundraisingEventLeaderboardControllerUserFitnessTimeResponse(rsp *http.Response) (*FundraisingEventLeaderboardControllerUserFitnessTimeResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse{
+	response := &FundraisingEventLeaderboardControllerUserFitnessTimeResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9578,15 +9578,15 @@ func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResp
 	return response, nil
 }
 
-// ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse parses an HTTP response from a V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse call
-func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(rsp *http.Response) (*V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse, error) {
+// ParseFundraisingEventLeaderboardControllerUserResponse parses an HTTP response from a FundraisingEventLeaderboardControllerUserWithResponse call
+func ParseFundraisingEventLeaderboardControllerUserResponse(rsp *http.Response) (*FundraisingEventLeaderboardControllerUserResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse{
+	response := &FundraisingEventLeaderboardControllerUserResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9625,15 +9625,15 @@ func ParseV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(rsp *h
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignControllerShowResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignControllerShowWithResponse call
-func ParseV5ApiWebPublicTeamCampaignControllerShowResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignControllerShowResponse, error) {
+// ParseGetTeamCampaignResponse parses an HTTP response from a GetTeamCampaignWithResponse call
+func ParseGetTeamCampaignResponse(rsp *http.Response) (*GetTeamCampaignResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignControllerShowResponse{
+	response := &GetTeamCampaignResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9674,15 +9674,15 @@ func ParseV5ApiWebPublicTeamCampaignControllerShowResponse(rsp *http.Response) (
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignDonationControllerIndexResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse call
-func ParseV5ApiWebPublicTeamCampaignDonationControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignDonationControllerIndexResponse, error) {
+// ParseTeamCampaignDonationsResponse parses an HTTP response from a TeamCampaignDonationsWithResponse call
+func ParseTeamCampaignDonationsResponse(rsp *http.Response) (*TeamCampaignDonationsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignDonationControllerIndexResponse{
+	response := &TeamCampaignDonationsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9721,15 +9721,15 @@ func ParseV5ApiWebPublicTeamCampaignDonationControllerIndexResponse(rsp *http.Re
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse call
-func ParseV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse, error) {
+// ParseTeamCampaignLeaderboardControllerDonorResponse parses an HTTP response from a TeamCampaignLeaderboardControllerDonorWithResponse call
+func ParseTeamCampaignLeaderboardControllerDonorResponse(rsp *http.Response) (*TeamCampaignLeaderboardControllerDonorResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse{
+	response := &TeamCampaignLeaderboardControllerDonorResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9768,15 +9768,15 @@ func ParseV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(rsp *http
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse call
-func ParseV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse, error) {
+// ParseTeamCampaignMilestonesResponse parses an HTTP response from a TeamCampaignMilestonesWithResponse call
+func ParseTeamCampaignMilestonesResponse(rsp *http.Response) (*TeamCampaignMilestonesResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse{
+	response := &TeamCampaignMilestonesResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9815,15 +9815,15 @@ func ParseV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse(rsp *http.R
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignPollControllerIndexResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse call
-func ParseV5ApiWebPublicTeamCampaignPollControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignPollControllerIndexResponse, error) {
+// ParseTeamCampaignPollsResponse parses an HTTP response from a TeamCampaignPollsWithResponse call
+func ParseTeamCampaignPollsResponse(rsp *http.Response) (*TeamCampaignPollsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignPollControllerIndexResponse{
+	response := &TeamCampaignPollsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9862,15 +9862,15 @@ func ParseV5ApiWebPublicTeamCampaignPollControllerIndexResponse(rsp *http.Respon
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignRewardControllerIndexResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse call
-func ParseV5ApiWebPublicTeamCampaignRewardControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignRewardControllerIndexResponse, error) {
+// ParseTeamCampaignRewardsResponse parses an HTTP response from a TeamCampaignRewardsWithResponse call
+func ParseTeamCampaignRewardsResponse(rsp *http.Response) (*TeamCampaignRewardsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignRewardControllerIndexResponse{
+	response := &TeamCampaignRewardsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9909,15 +9909,15 @@ func ParseV5ApiWebPublicTeamCampaignRewardControllerIndexResponse(rsp *http.Resp
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse call
-func ParseV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse, error) {
+// ParseTeamCampaignSchedulesResponse parses an HTTP response from a TeamCampaignSchedulesWithResponse call
+func ParseTeamCampaignSchedulesResponse(rsp *http.Response) (*TeamCampaignSchedulesResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse{
+	response := &TeamCampaignSchedulesResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -9956,15 +9956,15 @@ func ParseV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse(rsp *http.Re
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse call
-func ParseV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse, error) {
+// ParseTeamCampaignSupportingCampaignsResponse parses an HTTP response from a TeamCampaignSupportingCampaignsWithResponse call
+func ParseTeamCampaignSupportingCampaignsResponse(rsp *http.Response) (*TeamCampaignSupportingCampaignsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse{
+	response := &TeamCampaignSupportingCampaignsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10003,15 +10003,15 @@ func ParseV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse(rs
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse call
-func ParseV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse, error) {
+// ParseTeamCampaignChallengesResponse parses an HTTP response from a TeamCampaignChallengesWithResponse call
+func ParseTeamCampaignChallengesResponse(rsp *http.Response) (*TeamCampaignChallengesResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse{
+	response := &TeamCampaignChallengesResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10050,15 +10050,15 @@ func ParseV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse(rsp *http.R
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse parses an HTTP response from a V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse call
-func ParseV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(rsp *http.Response) (*V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse, error) {
+// ParseTeamCampaignLeaderboardControllerUserResponse parses an HTTP response from a TeamCampaignLeaderboardControllerUserWithResponse call
+func ParseTeamCampaignLeaderboardControllerUserResponse(rsp *http.Response) (*TeamCampaignLeaderboardControllerUserResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse{
+	response := &TeamCampaignLeaderboardControllerUserResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10097,15 +10097,15 @@ func ParseV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(rsp *http.
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamControllerShowResponse parses an HTTP response from a V5ApiWebPublicTeamControllerShowWithResponse call
-func ParseV5ApiWebPublicTeamControllerShowResponse(rsp *http.Response) (*V5ApiWebPublicTeamControllerShowResponse, error) {
+// ParseGetTeamResponse parses an HTTP response from a GetTeamWithResponse call
+func ParseGetTeamResponse(rsp *http.Response) (*GetTeamResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamControllerShowResponse{
+	response := &GetTeamResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10146,15 +10146,15 @@ func ParseV5ApiWebPublicTeamControllerShowResponse(rsp *http.Response) (*V5ApiWe
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamMemberControllerIndexResponse parses an HTTP response from a V5ApiWebPublicTeamMemberControllerIndexWithResponse call
-func ParseV5ApiWebPublicTeamMemberControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicTeamMemberControllerIndexResponse, error) {
+// ParseTeamMembersResponse parses an HTTP response from a TeamMembersWithResponse call
+func ParseTeamMembersResponse(rsp *http.Response) (*TeamMembersResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamMemberControllerIndexResponse{
+	response := &TeamMembersResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10193,15 +10193,15 @@ func ParseV5ApiWebPublicTeamMemberControllerIndexResponse(rsp *http.Response) (*
 	return response, nil
 }
 
-// ParseV5ApiWebPublicTeamTeamCampaignControllerIndexResponse parses an HTTP response from a V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse call
-func ParseV5ApiWebPublicTeamTeamCampaignControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicTeamTeamCampaignControllerIndexResponse, error) {
+// ParseTeamTeamCampaignsResponse parses an HTTP response from a TeamTeamCampaignsWithResponse call
+func ParseTeamTeamCampaignsResponse(rsp *http.Response) (*TeamTeamCampaignsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicTeamTeamCampaignControllerIndexResponse{
+	response := &TeamTeamCampaignsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10240,15 +10240,15 @@ func ParseV5ApiWebPublicTeamTeamCampaignControllerIndexResponse(rsp *http.Respon
 	return response, nil
 }
 
-// ParseV5ApiWebPublicUserControllerShowResponse parses an HTTP response from a V5ApiWebPublicUserControllerShowWithResponse call
-func ParseV5ApiWebPublicUserControllerShowResponse(rsp *http.Response) (*V5ApiWebPublicUserControllerShowResponse, error) {
+// ParseGetUserResponse parses an HTTP response from a GetUserWithResponse call
+func ParseGetUserResponse(rsp *http.Response) (*GetUserResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicUserControllerShowResponse{
+	response := &GetUserResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10289,15 +10289,15 @@ func ParseV5ApiWebPublicUserControllerShowResponse(rsp *http.Response) (*V5ApiWe
 	return response, nil
 }
 
-// ParseV5ApiWebPublicUserCampaignControllerIndexResponse parses an HTTP response from a V5ApiWebPublicUserCampaignControllerIndexWithResponse call
-func ParseV5ApiWebPublicUserCampaignControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicUserCampaignControllerIndexResponse, error) {
+// ParseUserCampaignsResponse parses an HTTP response from a UserCampaignsWithResponse call
+func ParseUserCampaignsResponse(rsp *http.Response) (*UserCampaignsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicUserCampaignControllerIndexResponse{
+	response := &UserCampaignsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10336,15 +10336,15 @@ func ParseV5ApiWebPublicUserCampaignControllerIndexResponse(rsp *http.Response) 
 	return response, nil
 }
 
-// ParseV5ApiWebPublicUserIntegrationEventControllerIndexResponse parses an HTTP response from a V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse call
-func ParseV5ApiWebPublicUserIntegrationEventControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicUserIntegrationEventControllerIndexResponse, error) {
+// ParseUserIntegrationEventsResponse parses an HTTP response from a UserIntegrationEventsWithResponse call
+func ParseUserIntegrationEventsResponse(rsp *http.Response) (*UserIntegrationEventsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicUserIntegrationEventControllerIndexResponse{
+	response := &UserIntegrationEventsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10383,15 +10383,15 @@ func ParseV5ApiWebPublicUserIntegrationEventControllerIndexResponse(rsp *http.Re
 	return response, nil
 }
 
-// ParseV5ApiWebPublicUserTeamControllerIndexResponse parses an HTTP response from a V5ApiWebPublicUserTeamControllerIndexWithResponse call
-func ParseV5ApiWebPublicUserTeamControllerIndexResponse(rsp *http.Response) (*V5ApiWebPublicUserTeamControllerIndexResponse, error) {
+// ParseUserTeamsResponse parses an HTTP response from a UserTeamsWithResponse call
+func ParseUserTeamsResponse(rsp *http.Response) (*UserTeamsResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
 	defer func() { _ = rsp.Body.Close() }()
 	if err != nil {
 		return nil, err
 	}
 
-	response := &V5ApiWebPublicUserTeamControllerIndexResponse{
+	response := &UserTeamsResponse{
 		Body:         bodyBytes,
 		HTTPResponse: rsp,
 	}
@@ -10507,133 +10507,133 @@ func ParseV5ApiWebOauthTokenResponse(rsp *http.Response) (*V5ApiWebOauthTokenRes
 type ServerInterface interface {
 	// Get by ID
 	// (GET /api/public/campaigns/{campaign_id})
-	V5ApiWebPublicCampaignControllerShow(ctx echo.Context, campaignId string) error
+	GetCampaign(ctx echo.Context, campaignId string) error
 	// List donations
 	// (GET /api/public/campaigns/{campaign_id}/donations)
-	V5ApiWebPublicCampaignDonationControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignDonationControllerIndexParams) error
+	CampaignDonations(ctx echo.Context, campaignId string, params CampaignDonationsParams) error
 	// List top donors
 	// (GET /api/public/campaigns/{campaign_id}/donor_leaderboard)
-	V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignLeaderboardControllerDonorParams) error
+	CampaignLeaderboardControllerDonor(ctx echo.Context, campaignId string, params CampaignLeaderboardControllerDonorParams) error
 	// List milestones
 	// (GET /api/public/campaigns/{campaign_id}/milestones)
-	V5ApiWebPublicCampaignMilestoneControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignMilestoneControllerIndexParams) error
+	CampaignMilestones(ctx echo.Context, campaignId string, params CampaignMilestonesParams) error
 	// List polls
 	// (GET /api/public/campaigns/{campaign_id}/polls)
-	V5ApiWebPublicCampaignPollControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignPollControllerIndexParams) error
+	CampaignPolls(ctx echo.Context, campaignId string, params CampaignPollsParams) error
 	// List rewards
 	// (GET /api/public/campaigns/{campaign_id}/rewards)
-	V5ApiWebPublicCampaignRewardControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignRewardControllerIndexParams) error
+	CampaignRewards(ctx echo.Context, campaignId string, params CampaignRewardsParams) error
 	// List schedules
 	// (GET /api/public/campaigns/{campaign_id}/schedules)
-	V5ApiWebPublicCampaignScheduleControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignScheduleControllerIndexParams) error
+	CampaignSchedules(ctx echo.Context, campaignId string, params CampaignSchedulesParams) error
 	// List targets
 	// (GET /api/public/campaigns/{campaign_id}/targets)
-	V5ApiWebPublicCampaignChallengeControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignChallengeControllerIndexParams) error
+	CampaignChallenges(ctx echo.Context, campaignId string, params CampaignChallengesParams) error
 	// Get by ID
 	// (GET /api/public/causes/{cause_id})
-	V5ApiWebPublicCauseControllerShow(ctx echo.Context, causeId string) error
+	GetCause(ctx echo.Context, causeId string) error
 	// List campaigns
 	// (GET /api/public/causes/{cause_id}/campaigns)
-	V5ApiWebPublicCauseCampaignControllerIndex(ctx echo.Context, causeId string, params V5ApiWebPublicCauseCampaignControllerIndexParams) error
+	CauseCampaigns(ctx echo.Context, causeId string, params CauseCampaignsParams) error
 	// List configured leaderboards
 	// (GET /api/public/causes/{cause_id}/configured_leaderboard)
-	V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx echo.Context, causeId string) error
+	CauseLeaderboardControllerConfigured(ctx echo.Context, causeId string) error
 	// List top donors
 	// (GET /api/public/causes/{cause_id}/donor_leaderboard)
-	V5ApiWebPublicCauseLeaderboardControllerDonor(ctx echo.Context, causeId string, params V5ApiWebPublicCauseLeaderboardControllerDonorParams) error
+	CauseLeaderboardControllerDonor(ctx echo.Context, causeId string, params CauseLeaderboardControllerDonorParams) error
 	// List fundraising events
 	// (GET /api/public/causes/{cause_id}/fundraising_events)
-	V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx echo.Context, causeId string, params V5ApiWebPublicCauseFundraisingEventControllerIndexParams) error
+	CauseFundraisingEvents(ctx echo.Context, causeId string, params CauseFundraisingEventsParams) error
 	// List top teams
 	// (GET /api/public/causes/{cause_id}/team_leaderboard)
-	V5ApiWebPublicCauseLeaderboardControllerTeam(ctx echo.Context, causeId string, params V5ApiWebPublicCauseLeaderboardControllerTeamParams) error
+	CauseLeaderboardControllerTeam(ctx echo.Context, causeId string, params CauseLeaderboardControllerTeamParams) error
 	// List top fundraisers
 	// (GET /api/public/causes/{cause_id}/user_leaderboard)
-	V5ApiWebPublicCauseLeaderboardControllerUser(ctx echo.Context, causeId string, params V5ApiWebPublicCauseLeaderboardControllerUserParams) error
+	CauseLeaderboardControllerUser(ctx echo.Context, causeId string, params CauseLeaderboardControllerUserParams) error
 	// Gets the current user for an access token
 	// (GET /api/public/current-user)
-	V5ApiWebPublicUserControllerCurrentUser(ctx echo.Context) error
+	UserControllerCurrentUser(ctx echo.Context) error
 	// Get by ID
 	// (GET /api/public/fundraising_events/{fundraising_event_id})
-	V5ApiWebPublicFundraisingEventControllerShow(ctx echo.Context, fundraisingEventId string) error
+	GetFundraisingEvent(ctx echo.Context, fundraisingEventId string) error
 	// List configured leaderboards
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/configured_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(ctx echo.Context, fundraisingEventId string) error
+	FundraisingEventLeaderboardControllerConfigured(ctx echo.Context, fundraisingEventId string) error
 	// List top donors
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/donor_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams) error
+	FundraisingEventLeaderboardControllerDonor(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerDonorParams) error
 	// List campaigns
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/supporting_events)
-	V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams) error
+	FundraisingEventSupportingEvents(ctx echo.Context, fundraisingEventId string, params FundraisingEventSupportingEventsParams) error
 	// List top teams fitness distances
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/team_fitness_distance_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams) error
+	FundraisingEventLeaderboardControllerTeamFitnessDistance(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerTeamFitnessDistanceParams) error
 	// List top teams fitness times
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/team_fitness_time_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams) error
+	FundraisingEventLeaderboardControllerTeamFitnessTime(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerTeamFitnessTimeParams) error
 	// List top teams
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/team_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams) error
+	FundraisingEventLeaderboardControllerTeam(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerTeamParams) error
 	// List top users fitness distances
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/user_fitness_distance_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams) error
+	FundraisingEventLeaderboardControllerUserFitnessDistance(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerUserFitnessDistanceParams) error
 	// List top users fitness times
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/user_fitness_time_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams) error
+	FundraisingEventLeaderboardControllerUserFitnessTime(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerUserFitnessTimeParams) error
 	// List top fundraisers
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/user_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams) error
+	FundraisingEventLeaderboardControllerUser(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerUserParams) error
 	// Get by ID
 	// (GET /api/public/team_campaigns/{team_campaign_id})
-	V5ApiWebPublicTeamCampaignControllerShow(ctx echo.Context, teamCampaignId string) error
+	GetTeamCampaign(ctx echo.Context, teamCampaignId string) error
 	// List donations
 	// (GET /api/public/team_campaigns/{team_campaign_id}/donations)
-	V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignDonationControllerIndexParams) error
+	TeamCampaignDonations(ctx echo.Context, teamCampaignId string, params TeamCampaignDonationsParams) error
 	// List top donors
 	// (GET /api/public/team_campaigns/{team_campaign_id}/donor_leaderboards)
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams) error
+	TeamCampaignLeaderboardControllerDonor(ctx echo.Context, teamCampaignId string, params TeamCampaignLeaderboardControllerDonorParams) error
 	// List milestones
 	// (GET /api/public/team_campaigns/{team_campaign_id}/milestones)
-	V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams) error
+	TeamCampaignMilestones(ctx echo.Context, teamCampaignId string, params TeamCampaignMilestonesParams) error
 	// List polls
 	// (GET /api/public/team_campaigns/{team_campaign_id}/polls)
-	V5ApiWebPublicTeamCampaignPollControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignPollControllerIndexParams) error
+	TeamCampaignPolls(ctx echo.Context, teamCampaignId string, params TeamCampaignPollsParams) error
 	// List rewards
 	// (GET /api/public/team_campaigns/{team_campaign_id}/rewards)
-	V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignRewardControllerIndexParams) error
+	TeamCampaignRewards(ctx echo.Context, teamCampaignId string, params TeamCampaignRewardsParams) error
 	// List schedules
 	// (GET /api/public/team_campaigns/{team_campaign_id}/schedules)
-	V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignScheduleControllerIndexParams) error
+	TeamCampaignSchedules(ctx echo.Context, teamCampaignId string, params TeamCampaignSchedulesParams) error
 	// List supporting campaigns
 	// (GET /api/public/team_campaigns/{team_campaign_id}/supporting_campaigns)
-	V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams) error
+	TeamCampaignSupportingCampaigns(ctx echo.Context, teamCampaignId string, params TeamCampaignSupportingCampaignsParams) error
 	// List targets
 	// (GET /api/public/team_campaigns/{team_campaign_id}/targets)
-	V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignChallengeControllerIndexParams) error
+	TeamCampaignChallenges(ctx echo.Context, teamCampaignId string, params TeamCampaignChallengesParams) error
 	// List top fundraisers
 	// (GET /api/public/team_campaigns/{team_campaign_id}/user_leaderboards)
-	V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams) error
+	TeamCampaignLeaderboardControllerUser(ctx echo.Context, teamCampaignId string, params TeamCampaignLeaderboardControllerUserParams) error
 	// Get by ID
 	// (GET /api/public/teams/{team_id})
-	V5ApiWebPublicTeamControllerShow(ctx echo.Context, teamId string) error
+	GetTeam(ctx echo.Context, teamId string) error
 	// List team members
 	// (GET /api/public/teams/{team_id}/members)
-	V5ApiWebPublicTeamMemberControllerIndex(ctx echo.Context, teamId string, params V5ApiWebPublicTeamMemberControllerIndexParams) error
+	TeamMembers(ctx echo.Context, teamId string, params TeamMembersParams) error
 	// List Team Campaigns
 	// (GET /api/public/teams/{team_id}/team_campaigns)
-	V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx echo.Context, teamId string, params V5ApiWebPublicTeamTeamCampaignControllerIndexParams) error
+	TeamTeamCampaigns(ctx echo.Context, teamId string, params TeamTeamCampaignsParams) error
 	// Get by ID
 	// (GET /api/public/users/{user_id})
-	V5ApiWebPublicUserControllerShow(ctx echo.Context, userId string) error
+	GetUser(ctx echo.Context, userId string) error
 	// List campaigns
 	// (GET /api/public/users/{user_id}/campaigns)
-	V5ApiWebPublicUserCampaignControllerIndex(ctx echo.Context, userId string, params V5ApiWebPublicUserCampaignControllerIndexParams) error
+	UserCampaigns(ctx echo.Context, userId string, params UserCampaignsParams) error
 	// List all Campaigns and Team Campaigns by User ID
 	// (GET /api/public/users/{user_id}/integration_events)
-	V5ApiWebPublicUserIntegrationEventControllerIndex(ctx echo.Context, userId string, params V5ApiWebPublicUserIntegrationEventControllerIndexParams) error
+	UserIntegrationEvents(ctx echo.Context, userId string, params UserIntegrationEventsParams) error
 	// List teams
 	// (GET /api/public/users/{user_id}/teams)
-	V5ApiWebPublicUserTeamControllerIndex(ctx echo.Context, userId string, params V5ApiWebPublicUserTeamControllerIndexParams) error
+	UserTeams(ctx echo.Context, userId string, params UserTeamsParams) error
 	// Authorize
 	// (GET /oauth/authorize)
 	V5ApiWebOauthAuthorize(ctx echo.Context, params V5ApiWebOauthAuthorizeParams) error
@@ -10647,8 +10647,8 @@ type ServerInterfaceWrapper struct {
 	Handler ServerInterface
 }
 
-// V5ApiWebPublicCampaignControllerShow converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignControllerShow(ctx echo.Context) error {
+// GetCampaign converts echo context to params.
+func (w *ServerInterfaceWrapper) GetCampaign(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "campaign_id" -------------
 	var campaignId string
@@ -10661,12 +10661,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignControllerShow(ctx echo.C
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCampaignControllerShow(ctx, campaignId)
+	err = w.Handler.GetCampaign(ctx, campaignId)
 	return err
 }
 
-// V5ApiWebPublicCampaignDonationControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignDonationControllerIndex(ctx echo.Context) error {
+// CampaignDonations converts echo context to params.
+func (w *ServerInterfaceWrapper) CampaignDonations(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "campaign_id" -------------
 	var campaignId string
@@ -10679,7 +10679,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignDonationControllerIndex(c
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCampaignDonationControllerIndexParams
+	var params CampaignDonationsParams
 	// ------------- Optional query parameter "completed_before" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "completed_before", ctx.QueryParams(), &params.CompletedBefore)
@@ -10716,12 +10716,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignDonationControllerIndex(c
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCampaignDonationControllerIndex(ctx, campaignId, params)
+	err = w.Handler.CampaignDonations(ctx, campaignId, params)
 	return err
 }
 
-// V5ApiWebPublicCampaignLeaderboardControllerDonor converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx echo.Context) error {
+// CampaignLeaderboardControllerDonor converts echo context to params.
+func (w *ServerInterfaceWrapper) CampaignLeaderboardControllerDonor(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "campaign_id" -------------
 	var campaignId string
@@ -10734,7 +10734,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignLeaderboardControllerDono
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCampaignLeaderboardControllerDonorParams
+	var params CampaignLeaderboardControllerDonorParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -10764,12 +10764,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignLeaderboardControllerDono
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx, campaignId, params)
+	err = w.Handler.CampaignLeaderboardControllerDonor(ctx, campaignId, params)
 	return err
 }
 
-// V5ApiWebPublicCampaignMilestoneControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignMilestoneControllerIndex(ctx echo.Context) error {
+// CampaignMilestones converts echo context to params.
+func (w *ServerInterfaceWrapper) CampaignMilestones(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "campaign_id" -------------
 	var campaignId string
@@ -10782,7 +10782,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignMilestoneControllerIndex(
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCampaignMilestoneControllerIndexParams
+	var params CampaignMilestonesParams
 	// ------------- Optional query parameter "include_disabled" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "include_disabled", ctx.QueryParams(), &params.IncludeDisabled)
@@ -10840,12 +10840,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignMilestoneControllerIndex(
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCampaignMilestoneControllerIndex(ctx, campaignId, params)
+	err = w.Handler.CampaignMilestones(ctx, campaignId, params)
 	return err
 }
 
-// V5ApiWebPublicCampaignPollControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignPollControllerIndex(ctx echo.Context) error {
+// CampaignPolls converts echo context to params.
+func (w *ServerInterfaceWrapper) CampaignPolls(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "campaign_id" -------------
 	var campaignId string
@@ -10858,7 +10858,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignPollControllerIndex(ctx e
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCampaignPollControllerIndexParams
+	var params CampaignPollsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -10881,12 +10881,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignPollControllerIndex(ctx e
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCampaignPollControllerIndex(ctx, campaignId, params)
+	err = w.Handler.CampaignPolls(ctx, campaignId, params)
 	return err
 }
 
-// V5ApiWebPublicCampaignRewardControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignRewardControllerIndex(ctx echo.Context) error {
+// CampaignRewards converts echo context to params.
+func (w *ServerInterfaceWrapper) CampaignRewards(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "campaign_id" -------------
 	var campaignId string
@@ -10899,7 +10899,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignRewardControllerIndex(ctx
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCampaignRewardControllerIndexParams
+	var params CampaignRewardsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -10922,12 +10922,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignRewardControllerIndex(ctx
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCampaignRewardControllerIndex(ctx, campaignId, params)
+	err = w.Handler.CampaignRewards(ctx, campaignId, params)
 	return err
 }
 
-// V5ApiWebPublicCampaignScheduleControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignScheduleControllerIndex(ctx echo.Context) error {
+// CampaignSchedules converts echo context to params.
+func (w *ServerInterfaceWrapper) CampaignSchedules(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "campaign_id" -------------
 	var campaignId string
@@ -10940,7 +10940,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignScheduleControllerIndex(c
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCampaignScheduleControllerIndexParams
+	var params CampaignSchedulesParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -10963,12 +10963,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignScheduleControllerIndex(c
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCampaignScheduleControllerIndex(ctx, campaignId, params)
+	err = w.Handler.CampaignSchedules(ctx, campaignId, params)
 	return err
 }
 
-// V5ApiWebPublicCampaignChallengeControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignChallengeControllerIndex(ctx echo.Context) error {
+// CampaignChallenges converts echo context to params.
+func (w *ServerInterfaceWrapper) CampaignChallenges(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "campaign_id" -------------
 	var campaignId string
@@ -10981,7 +10981,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignChallengeControllerIndex(
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCampaignChallengeControllerIndexParams
+	var params CampaignChallengesParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -11004,12 +11004,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCampaignChallengeControllerIndex(
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCampaignChallengeControllerIndex(ctx, campaignId, params)
+	err = w.Handler.CampaignChallenges(ctx, campaignId, params)
 	return err
 }
 
-// V5ApiWebPublicCauseControllerShow converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseControllerShow(ctx echo.Context) error {
+// GetCause converts echo context to params.
+func (w *ServerInterfaceWrapper) GetCause(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "cause_id" -------------
 	var causeId string
@@ -11022,12 +11022,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseControllerShow(ctx echo.Cont
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCauseControllerShow(ctx, causeId)
+	err = w.Handler.GetCause(ctx, causeId)
 	return err
 }
 
-// V5ApiWebPublicCauseCampaignControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseCampaignControllerIndex(ctx echo.Context) error {
+// CauseCampaigns converts echo context to params.
+func (w *ServerInterfaceWrapper) CauseCampaigns(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "cause_id" -------------
 	var causeId string
@@ -11040,7 +11040,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseCampaignControllerIndex(ctx 
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCauseCampaignControllerIndexParams
+	var params CauseCampaignsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -11063,12 +11063,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseCampaignControllerIndex(ctx 
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCauseCampaignControllerIndex(ctx, causeId, params)
+	err = w.Handler.CauseCampaigns(ctx, causeId, params)
 	return err
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerConfigured converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx echo.Context) error {
+// CauseLeaderboardControllerConfigured converts echo context to params.
+func (w *ServerInterfaceWrapper) CauseLeaderboardControllerConfigured(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "cause_id" -------------
 	var causeId string
@@ -11081,12 +11081,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerConfigu
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx, causeId)
+	err = w.Handler.CauseLeaderboardControllerConfigured(ctx, causeId)
 	return err
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerDonor converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerDonor(ctx echo.Context) error {
+// CauseLeaderboardControllerDonor converts echo context to params.
+func (w *ServerInterfaceWrapper) CauseLeaderboardControllerDonor(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "cause_id" -------------
 	var causeId string
@@ -11099,7 +11099,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerDonor(c
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCauseLeaderboardControllerDonorParams
+	var params CauseLeaderboardControllerDonorParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11129,12 +11129,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerDonor(c
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCauseLeaderboardControllerDonor(ctx, causeId, params)
+	err = w.Handler.CauseLeaderboardControllerDonor(ctx, causeId, params)
 	return err
 }
 
-// V5ApiWebPublicCauseFundraisingEventControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx echo.Context) error {
+// CauseFundraisingEvents converts echo context to params.
+func (w *ServerInterfaceWrapper) CauseFundraisingEvents(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "cause_id" -------------
 	var causeId string
@@ -11147,7 +11147,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseFundraisingEventControllerIn
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCauseFundraisingEventControllerIndexParams
+	var params CauseFundraisingEventsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -11170,12 +11170,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseFundraisingEventControllerIn
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx, causeId, params)
+	err = w.Handler.CauseFundraisingEvents(ctx, causeId, params)
 	return err
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerTeam converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerTeam(ctx echo.Context) error {
+// CauseLeaderboardControllerTeam converts echo context to params.
+func (w *ServerInterfaceWrapper) CauseLeaderboardControllerTeam(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "cause_id" -------------
 	var causeId string
@@ -11188,7 +11188,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerTeam(ct
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCauseLeaderboardControllerTeamParams
+	var params CauseLeaderboardControllerTeamParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11218,12 +11218,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerTeam(ct
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCauseLeaderboardControllerTeam(ctx, causeId, params)
+	err = w.Handler.CauseLeaderboardControllerTeam(ctx, causeId, params)
 	return err
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerUser converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerUser(ctx echo.Context) error {
+// CauseLeaderboardControllerUser converts echo context to params.
+func (w *ServerInterfaceWrapper) CauseLeaderboardControllerUser(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "cause_id" -------------
 	var causeId string
@@ -11236,7 +11236,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerUser(ct
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicCauseLeaderboardControllerUserParams
+	var params CauseLeaderboardControllerUserParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11266,41 +11266,23 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicCauseLeaderboardControllerUser(ct
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicCauseLeaderboardControllerUser(ctx, causeId, params)
+	err = w.Handler.CauseLeaderboardControllerUser(ctx, causeId, params)
 	return err
 }
 
-// V5ApiWebPublicUserControllerCurrentUser converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicUserControllerCurrentUser(ctx echo.Context) error {
+// UserControllerCurrentUser converts echo context to params.
+func (w *ServerInterfaceWrapper) UserControllerCurrentUser(ctx echo.Context) error {
 	var err error
 
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicUserControllerCurrentUser(ctx)
+	err = w.Handler.UserControllerCurrentUser(ctx)
 	return err
 }
 
-// V5ApiWebPublicFundraisingEventControllerShow converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventControllerShow(ctx echo.Context) error {
-	var err error
-	// ------------- Path parameter "fundraising_event_id" -------------
-	var fundraisingEventId string
-
-	err = runtime.BindStyledParameterWithLocation("simple", false, "fundraising_event_id", runtime.ParamLocationPath, ctx.Param("fundraising_event_id"), &fundraisingEventId)
-	if err != nil {
-		return echo.NewHTTPError(http.StatusBadRequest, fmt.Sprintf("Invalid format for parameter fundraising_event_id: %s", err))
-	}
-
-	ctx.Set(AuthorizationScopes, []string{""})
-
-	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventControllerShow(ctx, fundraisingEventId)
-	return err
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(ctx echo.Context) error {
+// GetFundraisingEvent converts echo context to params.
+func (w *ServerInterfaceWrapper) GetFundraisingEvent(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "fundraising_event_id" -------------
 	var fundraisingEventId string
@@ -11313,12 +11295,30 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(ctx, fundraisingEventId)
+	err = w.Handler.GetFundraisingEvent(ctx, fundraisingEventId)
 	return err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerDonor converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx echo.Context) error {
+// FundraisingEventLeaderboardControllerConfigured converts echo context to params.
+func (w *ServerInterfaceWrapper) FundraisingEventLeaderboardControllerConfigured(ctx echo.Context) error {
+	var err error
+	// ------------- Path parameter "fundraising_event_id" -------------
+	var fundraisingEventId string
+
+	err = runtime.BindStyledParameterWithLocation("simple", false, "fundraising_event_id", runtime.ParamLocationPath, ctx.Param("fundraising_event_id"), &fundraisingEventId)
+	if err != nil {
+		return echo.NewHTTPError(http.StatusBadRequest, fmt.Sprintf("Invalid format for parameter fundraising_event_id: %s", err))
+	}
+
+	ctx.Set(AuthorizationScopes, []string{""})
+
+	// Invoke the callback with all the unmarshalled arguments
+	err = w.Handler.FundraisingEventLeaderboardControllerConfigured(ctx, fundraisingEventId)
+	return err
+}
+
+// FundraisingEventLeaderboardControllerDonor converts echo context to params.
+func (w *ServerInterfaceWrapper) FundraisingEventLeaderboardControllerDonor(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "fundraising_event_id" -------------
 	var fundraisingEventId string
@@ -11331,7 +11331,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams
+	var params FundraisingEventLeaderboardControllerDonorParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11361,12 +11361,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx, fundraisingEventId, params)
+	err = w.Handler.FundraisingEventLeaderboardControllerDonor(ctx, fundraisingEventId, params)
 	return err
 }
 
-// V5ApiWebPublicFundraisingEventSupportingEventControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ctx echo.Context) error {
+// FundraisingEventSupportingEvents converts echo context to params.
+func (w *ServerInterfaceWrapper) FundraisingEventSupportingEvents(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "fundraising_event_id" -------------
 	var fundraisingEventId string
@@ -11379,7 +11379,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventSupportingEventCo
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams
+	var params FundraisingEventSupportingEventsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -11402,12 +11402,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventSupportingEventCo
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ctx, fundraisingEventId, params)
+	err = w.Handler.FundraisingEventSupportingEvents(ctx, fundraisingEventId, params)
 	return err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance(ctx echo.Context) error {
+// FundraisingEventLeaderboardControllerTeamFitnessDistance converts echo context to params.
+func (w *ServerInterfaceWrapper) FundraisingEventLeaderboardControllerTeamFitnessDistance(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "fundraising_event_id" -------------
 	var fundraisingEventId string
@@ -11420,7 +11420,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams
+	var params FundraisingEventLeaderboardControllerTeamFitnessDistanceParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11450,12 +11450,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance(ctx, fundraisingEventId, params)
+	err = w.Handler.FundraisingEventLeaderboardControllerTeamFitnessDistance(ctx, fundraisingEventId, params)
 	return err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime(ctx echo.Context) error {
+// FundraisingEventLeaderboardControllerTeamFitnessTime converts echo context to params.
+func (w *ServerInterfaceWrapper) FundraisingEventLeaderboardControllerTeamFitnessTime(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "fundraising_event_id" -------------
 	var fundraisingEventId string
@@ -11468,7 +11468,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams
+	var params FundraisingEventLeaderboardControllerTeamFitnessTimeParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11498,12 +11498,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime(ctx, fundraisingEventId, params)
+	err = w.Handler.FundraisingEventLeaderboardControllerTeamFitnessTime(ctx, fundraisingEventId, params)
 	return err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeam converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx echo.Context) error {
+// FundraisingEventLeaderboardControllerTeam converts echo context to params.
+func (w *ServerInterfaceWrapper) FundraisingEventLeaderboardControllerTeam(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "fundraising_event_id" -------------
 	var fundraisingEventId string
@@ -11516,7 +11516,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams
+	var params FundraisingEventLeaderboardControllerTeamParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11546,12 +11546,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx, fundraisingEventId, params)
+	err = w.Handler.FundraisingEventLeaderboardControllerTeam(ctx, fundraisingEventId, params)
 	return err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance(ctx echo.Context) error {
+// FundraisingEventLeaderboardControllerUserFitnessDistance converts echo context to params.
+func (w *ServerInterfaceWrapper) FundraisingEventLeaderboardControllerUserFitnessDistance(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "fundraising_event_id" -------------
 	var fundraisingEventId string
@@ -11564,7 +11564,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams
+	var params FundraisingEventLeaderboardControllerUserFitnessDistanceParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11594,12 +11594,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance(ctx, fundraisingEventId, params)
+	err = w.Handler.FundraisingEventLeaderboardControllerUserFitnessDistance(ctx, fundraisingEventId, params)
 	return err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime(ctx echo.Context) error {
+// FundraisingEventLeaderboardControllerUserFitnessTime converts echo context to params.
+func (w *ServerInterfaceWrapper) FundraisingEventLeaderboardControllerUserFitnessTime(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "fundraising_event_id" -------------
 	var fundraisingEventId string
@@ -11612,7 +11612,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams
+	var params FundraisingEventLeaderboardControllerUserFitnessTimeParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11642,12 +11642,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime(ctx, fundraisingEventId, params)
+	err = w.Handler.FundraisingEventLeaderboardControllerUserFitnessTime(ctx, fundraisingEventId, params)
 	return err
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUser converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx echo.Context) error {
+// FundraisingEventLeaderboardControllerUser converts echo context to params.
+func (w *ServerInterfaceWrapper) FundraisingEventLeaderboardControllerUser(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "fundraising_event_id" -------------
 	var fundraisingEventId string
@@ -11660,7 +11660,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams
+	var params FundraisingEventLeaderboardControllerUserParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11690,12 +11690,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicFundraisingEventLeaderboardContro
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx, fundraisingEventId, params)
+	err = w.Handler.FundraisingEventLeaderboardControllerUser(ctx, fundraisingEventId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignControllerShow converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignControllerShow(ctx echo.Context) error {
+// GetTeamCampaign converts echo context to params.
+func (w *ServerInterfaceWrapper) GetTeamCampaign(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -11708,12 +11708,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignControllerShow(ctx ec
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignControllerShow(ctx, teamCampaignId)
+	err = w.Handler.GetTeamCampaign(ctx, teamCampaignId)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignDonationControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx echo.Context) error {
+// TeamCampaignDonations converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamCampaignDonations(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -11726,7 +11726,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignDonationControllerInd
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamCampaignDonationControllerIndexParams
+	var params TeamCampaignDonationsParams
 	// ------------- Optional query parameter "completed_before" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "completed_before", ctx.QueryParams(), &params.CompletedBefore)
@@ -11763,12 +11763,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignDonationControllerInd
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx, teamCampaignId, params)
+	err = w.Handler.TeamCampaignDonations(ctx, teamCampaignId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerDonor converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx echo.Context) error {
+// TeamCampaignLeaderboardControllerDonor converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamCampaignLeaderboardControllerDonor(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -11781,7 +11781,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignLeaderboardController
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams
+	var params TeamCampaignLeaderboardControllerDonorParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -11811,12 +11811,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignLeaderboardController
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx, teamCampaignId, params)
+	err = w.Handler.TeamCampaignLeaderboardControllerDonor(ctx, teamCampaignId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignMilestoneControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx echo.Context) error {
+// TeamCampaignMilestones converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamCampaignMilestones(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -11829,7 +11829,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignMilestoneControllerIn
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams
+	var params TeamCampaignMilestonesParams
 	// ------------- Optional query parameter "include_disabled" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "include_disabled", ctx.QueryParams(), &params.IncludeDisabled)
@@ -11887,12 +11887,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignMilestoneControllerIn
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx, teamCampaignId, params)
+	err = w.Handler.TeamCampaignMilestones(ctx, teamCampaignId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignPollControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignPollControllerIndex(ctx echo.Context) error {
+// TeamCampaignPolls converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamCampaignPolls(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -11905,7 +11905,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignPollControllerIndex(c
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamCampaignPollControllerIndexParams
+	var params TeamCampaignPollsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -11928,12 +11928,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignPollControllerIndex(c
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignPollControllerIndex(ctx, teamCampaignId, params)
+	err = w.Handler.TeamCampaignPolls(ctx, teamCampaignId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignRewardControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx echo.Context) error {
+// TeamCampaignRewards converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamCampaignRewards(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -11946,7 +11946,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignRewardControllerIndex
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamCampaignRewardControllerIndexParams
+	var params TeamCampaignRewardsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -11969,12 +11969,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignRewardControllerIndex
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx, teamCampaignId, params)
+	err = w.Handler.TeamCampaignRewards(ctx, teamCampaignId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignScheduleControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx echo.Context) error {
+// TeamCampaignSchedules converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamCampaignSchedules(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -11987,7 +11987,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignScheduleControllerInd
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamCampaignScheduleControllerIndexParams
+	var params TeamCampaignSchedulesParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -12010,12 +12010,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignScheduleControllerInd
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx, teamCampaignId, params)
+	err = w.Handler.TeamCampaignSchedules(ctx, teamCampaignId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx echo.Context) error {
+// TeamCampaignSupportingCampaigns converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamCampaignSupportingCampaigns(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -12028,7 +12028,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignSupportingCampaignCon
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams
+	var params TeamCampaignSupportingCampaignsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -12051,12 +12051,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignSupportingCampaignCon
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx, teamCampaignId, params)
+	err = w.Handler.TeamCampaignSupportingCampaigns(ctx, teamCampaignId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignChallengeControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx echo.Context) error {
+// TeamCampaignChallenges converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamCampaignChallenges(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -12069,7 +12069,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignChallengeControllerIn
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamCampaignChallengeControllerIndexParams
+	var params TeamCampaignChallengesParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -12092,12 +12092,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignChallengeControllerIn
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx, teamCampaignId, params)
+	err = w.Handler.TeamCampaignChallenges(ctx, teamCampaignId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerUser converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx echo.Context) error {
+// TeamCampaignLeaderboardControllerUser converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamCampaignLeaderboardControllerUser(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_campaign_id" -------------
 	var teamCampaignId string
@@ -12110,7 +12110,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignLeaderboardController
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams
+	var params TeamCampaignLeaderboardControllerUserParams
 	// ------------- Optional query parameter "time_type" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "time_type", ctx.QueryParams(), &params.TimeType)
@@ -12140,12 +12140,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamCampaignLeaderboardController
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx, teamCampaignId, params)
+	err = w.Handler.TeamCampaignLeaderboardControllerUser(ctx, teamCampaignId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamControllerShow converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamControllerShow(ctx echo.Context) error {
+// GetTeam converts echo context to params.
+func (w *ServerInterfaceWrapper) GetTeam(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_id" -------------
 	var teamId string
@@ -12158,12 +12158,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamControllerShow(ctx echo.Conte
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamControllerShow(ctx, teamId)
+	err = w.Handler.GetTeam(ctx, teamId)
 	return err
 }
 
-// V5ApiWebPublicTeamMemberControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamMemberControllerIndex(ctx echo.Context) error {
+// TeamMembers converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamMembers(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_id" -------------
 	var teamId string
@@ -12176,7 +12176,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamMemberControllerIndex(ctx ech
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamMemberControllerIndexParams
+	var params TeamMembersParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -12199,12 +12199,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamMemberControllerIndex(ctx ech
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamMemberControllerIndex(ctx, teamId, params)
+	err = w.Handler.TeamMembers(ctx, teamId, params)
 	return err
 }
 
-// V5ApiWebPublicTeamTeamCampaignControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx echo.Context) error {
+// TeamTeamCampaigns converts echo context to params.
+func (w *ServerInterfaceWrapper) TeamTeamCampaigns(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "team_id" -------------
 	var teamId string
@@ -12217,7 +12217,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamTeamCampaignControllerIndex(c
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicTeamTeamCampaignControllerIndexParams
+	var params TeamTeamCampaignsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -12240,12 +12240,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicTeamTeamCampaignControllerIndex(c
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx, teamId, params)
+	err = w.Handler.TeamTeamCampaigns(ctx, teamId, params)
 	return err
 }
 
-// V5ApiWebPublicUserControllerShow converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicUserControllerShow(ctx echo.Context) error {
+// GetUser converts echo context to params.
+func (w *ServerInterfaceWrapper) GetUser(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "user_id" -------------
 	var userId string
@@ -12258,12 +12258,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicUserControllerShow(ctx echo.Conte
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicUserControllerShow(ctx, userId)
+	err = w.Handler.GetUser(ctx, userId)
 	return err
 }
 
-// V5ApiWebPublicUserCampaignControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicUserCampaignControllerIndex(ctx echo.Context) error {
+// UserCampaigns converts echo context to params.
+func (w *ServerInterfaceWrapper) UserCampaigns(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "user_id" -------------
 	var userId string
@@ -12276,7 +12276,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicUserCampaignControllerIndex(ctx e
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicUserCampaignControllerIndexParams
+	var params UserCampaignsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -12299,12 +12299,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicUserCampaignControllerIndex(ctx e
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicUserCampaignControllerIndex(ctx, userId, params)
+	err = w.Handler.UserCampaigns(ctx, userId, params)
 	return err
 }
 
-// V5ApiWebPublicUserIntegrationEventControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicUserIntegrationEventControllerIndex(ctx echo.Context) error {
+// UserIntegrationEvents converts echo context to params.
+func (w *ServerInterfaceWrapper) UserIntegrationEvents(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "user_id" -------------
 	var userId string
@@ -12317,7 +12317,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicUserIntegrationEventControllerInd
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicUserIntegrationEventControllerIndexParams
+	var params UserIntegrationEventsParams
 	// ------------- Optional query parameter "after" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "after", ctx.QueryParams(), &params.After)
@@ -12340,12 +12340,12 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicUserIntegrationEventControllerInd
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicUserIntegrationEventControllerIndex(ctx, userId, params)
+	err = w.Handler.UserIntegrationEvents(ctx, userId, params)
 	return err
 }
 
-// V5ApiWebPublicUserTeamControllerIndex converts echo context to params.
-func (w *ServerInterfaceWrapper) V5ApiWebPublicUserTeamControllerIndex(ctx echo.Context) error {
+// UserTeams converts echo context to params.
+func (w *ServerInterfaceWrapper) UserTeams(ctx echo.Context) error {
 	var err error
 	// ------------- Path parameter "user_id" -------------
 	var userId string
@@ -12358,7 +12358,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicUserTeamControllerIndex(ctx echo.
 	ctx.Set(AuthorizationScopes, []string{""})
 
 	// Parameter object where we will unmarshal all parameters from the context
-	var params V5ApiWebPublicUserTeamControllerIndexParams
+	var params UserTeamsParams
 	// ------------- Optional query parameter "role" -------------
 
 	err = runtime.BindQueryParameter("form", true, false, "role", ctx.QueryParams(), &params.Role)
@@ -12388,7 +12388,7 @@ func (w *ServerInterfaceWrapper) V5ApiWebPublicUserTeamControllerIndex(ctx echo.
 	}
 
 	// Invoke the callback with all the unmarshalled arguments
-	err = w.Handler.V5ApiWebPublicUserTeamControllerIndex(ctx, userId, params)
+	err = w.Handler.UserTeams(ctx, userId, params)
 	return err
 }
 
@@ -12509,49 +12509,49 @@ func RegisterHandlersWithBaseURL(router EchoRouter, si ServerInterface, baseURL 
 		Handler: si,
 	}
 
-	router.GET(baseURL+"/api/public/campaigns/:campaign_id", wrapper.V5ApiWebPublicCampaignControllerShow)
-	router.GET(baseURL+"/api/public/campaigns/:campaign_id/donations", wrapper.V5ApiWebPublicCampaignDonationControllerIndex)
-	router.GET(baseURL+"/api/public/campaigns/:campaign_id/donor_leaderboard", wrapper.V5ApiWebPublicCampaignLeaderboardControllerDonor)
-	router.GET(baseURL+"/api/public/campaigns/:campaign_id/milestones", wrapper.V5ApiWebPublicCampaignMilestoneControllerIndex)
-	router.GET(baseURL+"/api/public/campaigns/:campaign_id/polls", wrapper.V5ApiWebPublicCampaignPollControllerIndex)
-	router.GET(baseURL+"/api/public/campaigns/:campaign_id/rewards", wrapper.V5ApiWebPublicCampaignRewardControllerIndex)
-	router.GET(baseURL+"/api/public/campaigns/:campaign_id/schedules", wrapper.V5ApiWebPublicCampaignScheduleControllerIndex)
-	router.GET(baseURL+"/api/public/campaigns/:campaign_id/targets", wrapper.V5ApiWebPublicCampaignChallengeControllerIndex)
-	router.GET(baseURL+"/api/public/causes/:cause_id", wrapper.V5ApiWebPublicCauseControllerShow)
-	router.GET(baseURL+"/api/public/causes/:cause_id/campaigns", wrapper.V5ApiWebPublicCauseCampaignControllerIndex)
-	router.GET(baseURL+"/api/public/causes/:cause_id/configured_leaderboard", wrapper.V5ApiWebPublicCauseLeaderboardControllerConfigured)
-	router.GET(baseURL+"/api/public/causes/:cause_id/donor_leaderboard", wrapper.V5ApiWebPublicCauseLeaderboardControllerDonor)
-	router.GET(baseURL+"/api/public/causes/:cause_id/fundraising_events", wrapper.V5ApiWebPublicCauseFundraisingEventControllerIndex)
-	router.GET(baseURL+"/api/public/causes/:cause_id/team_leaderboard", wrapper.V5ApiWebPublicCauseLeaderboardControllerTeam)
-	router.GET(baseURL+"/api/public/causes/:cause_id/user_leaderboard", wrapper.V5ApiWebPublicCauseLeaderboardControllerUser)
-	router.GET(baseURL+"/api/public/current-user", wrapper.V5ApiWebPublicUserControllerCurrentUser)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id", wrapper.V5ApiWebPublicFundraisingEventControllerShow)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/configured_leaderboard", wrapper.V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/donor_leaderboard", wrapper.V5ApiWebPublicFundraisingEventLeaderboardControllerDonor)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/supporting_events", wrapper.V5ApiWebPublicFundraisingEventSupportingEventControllerIndex)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/team_fitness_distance_leaderboard", wrapper.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/team_fitness_time_leaderboard", wrapper.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/team_leaderboard", wrapper.V5ApiWebPublicFundraisingEventLeaderboardControllerTeam)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/user_fitness_distance_leaderboard", wrapper.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/user_fitness_time_leaderboard", wrapper.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime)
-	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/user_leaderboard", wrapper.V5ApiWebPublicFundraisingEventLeaderboardControllerUser)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id", wrapper.V5ApiWebPublicTeamCampaignControllerShow)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/donations", wrapper.V5ApiWebPublicTeamCampaignDonationControllerIndex)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/donor_leaderboards", wrapper.V5ApiWebPublicTeamCampaignLeaderboardControllerDonor)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/milestones", wrapper.V5ApiWebPublicTeamCampaignMilestoneControllerIndex)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/polls", wrapper.V5ApiWebPublicTeamCampaignPollControllerIndex)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/rewards", wrapper.V5ApiWebPublicTeamCampaignRewardControllerIndex)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/schedules", wrapper.V5ApiWebPublicTeamCampaignScheduleControllerIndex)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/supporting_campaigns", wrapper.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/targets", wrapper.V5ApiWebPublicTeamCampaignChallengeControllerIndex)
-	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/user_leaderboards", wrapper.V5ApiWebPublicTeamCampaignLeaderboardControllerUser)
-	router.GET(baseURL+"/api/public/teams/:team_id", wrapper.V5ApiWebPublicTeamControllerShow)
-	router.GET(baseURL+"/api/public/teams/:team_id/members", wrapper.V5ApiWebPublicTeamMemberControllerIndex)
-	router.GET(baseURL+"/api/public/teams/:team_id/team_campaigns", wrapper.V5ApiWebPublicTeamTeamCampaignControllerIndex)
-	router.GET(baseURL+"/api/public/users/:user_id", wrapper.V5ApiWebPublicUserControllerShow)
-	router.GET(baseURL+"/api/public/users/:user_id/campaigns", wrapper.V5ApiWebPublicUserCampaignControllerIndex)
-	router.GET(baseURL+"/api/public/users/:user_id/integration_events", wrapper.V5ApiWebPublicUserIntegrationEventControllerIndex)
-	router.GET(baseURL+"/api/public/users/:user_id/teams", wrapper.V5ApiWebPublicUserTeamControllerIndex)
+	router.GET(baseURL+"/api/public/campaigns/:campaign_id", wrapper.GetCampaign)
+	router.GET(baseURL+"/api/public/campaigns/:campaign_id/donations", wrapper.CampaignDonations)
+	router.GET(baseURL+"/api/public/campaigns/:campaign_id/donor_leaderboard", wrapper.CampaignLeaderboardControllerDonor)
+	router.GET(baseURL+"/api/public/campaigns/:campaign_id/milestones", wrapper.CampaignMilestones)
+	router.GET(baseURL+"/api/public/campaigns/:campaign_id/polls", wrapper.CampaignPolls)
+	router.GET(baseURL+"/api/public/campaigns/:campaign_id/rewards", wrapper.CampaignRewards)
+	router.GET(baseURL+"/api/public/campaigns/:campaign_id/schedules", wrapper.CampaignSchedules)
+	router.GET(baseURL+"/api/public/campaigns/:campaign_id/targets", wrapper.CampaignChallenges)
+	router.GET(baseURL+"/api/public/causes/:cause_id", wrapper.GetCause)
+	router.GET(baseURL+"/api/public/causes/:cause_id/campaigns", wrapper.CauseCampaigns)
+	router.GET(baseURL+"/api/public/causes/:cause_id/configured_leaderboard", wrapper.CauseLeaderboardControllerConfigured)
+	router.GET(baseURL+"/api/public/causes/:cause_id/donor_leaderboard", wrapper.CauseLeaderboardControllerDonor)
+	router.GET(baseURL+"/api/public/causes/:cause_id/fundraising_events", wrapper.CauseFundraisingEvents)
+	router.GET(baseURL+"/api/public/causes/:cause_id/team_leaderboard", wrapper.CauseLeaderboardControllerTeam)
+	router.GET(baseURL+"/api/public/causes/:cause_id/user_leaderboard", wrapper.CauseLeaderboardControllerUser)
+	router.GET(baseURL+"/api/public/current-user", wrapper.UserControllerCurrentUser)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id", wrapper.GetFundraisingEvent)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/configured_leaderboard", wrapper.FundraisingEventLeaderboardControllerConfigured)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/donor_leaderboard", wrapper.FundraisingEventLeaderboardControllerDonor)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/supporting_events", wrapper.FundraisingEventSupportingEvents)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/team_fitness_distance_leaderboard", wrapper.FundraisingEventLeaderboardControllerTeamFitnessDistance)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/team_fitness_time_leaderboard", wrapper.FundraisingEventLeaderboardControllerTeamFitnessTime)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/team_leaderboard", wrapper.FundraisingEventLeaderboardControllerTeam)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/user_fitness_distance_leaderboard", wrapper.FundraisingEventLeaderboardControllerUserFitnessDistance)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/user_fitness_time_leaderboard", wrapper.FundraisingEventLeaderboardControllerUserFitnessTime)
+	router.GET(baseURL+"/api/public/fundraising_events/:fundraising_event_id/user_leaderboard", wrapper.FundraisingEventLeaderboardControllerUser)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id", wrapper.GetTeamCampaign)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/donations", wrapper.TeamCampaignDonations)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/donor_leaderboards", wrapper.TeamCampaignLeaderboardControllerDonor)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/milestones", wrapper.TeamCampaignMilestones)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/polls", wrapper.TeamCampaignPolls)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/rewards", wrapper.TeamCampaignRewards)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/schedules", wrapper.TeamCampaignSchedules)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/supporting_campaigns", wrapper.TeamCampaignSupportingCampaigns)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/targets", wrapper.TeamCampaignChallenges)
+	router.GET(baseURL+"/api/public/team_campaigns/:team_campaign_id/user_leaderboards", wrapper.TeamCampaignLeaderboardControllerUser)
+	router.GET(baseURL+"/api/public/teams/:team_id", wrapper.GetTeam)
+	router.GET(baseURL+"/api/public/teams/:team_id/members", wrapper.TeamMembers)
+	router.GET(baseURL+"/api/public/teams/:team_id/team_campaigns", wrapper.TeamTeamCampaigns)
+	router.GET(baseURL+"/api/public/users/:user_id", wrapper.GetUser)
+	router.GET(baseURL+"/api/public/users/:user_id/campaigns", wrapper.UserCampaigns)
+	router.GET(baseURL+"/api/public/users/:user_id/integration_events", wrapper.UserIntegrationEvents)
+	router.GET(baseURL+"/api/public/users/:user_id/teams", wrapper.UserTeams)
 	router.GET(baseURL+"/oauth/authorize", wrapper.V5ApiWebOauthAuthorize)
 	router.POST(baseURL+"/oauth/token", wrapper.V5ApiWebOauthToken)
 
@@ -12559,130 +12559,130 @@ func RegisterHandlersWithBaseURL(router EchoRouter, si ServerInterface, baseURL 
 
 type CurrentUserJSONResponse CurrentUserObj
 
-type V5ApiWebPublicCampaignControllerShowRequestObject struct {
+type GetCampaignRequestObject struct {
 	CampaignId string `json:"campaign_id"`
 }
 
-type V5ApiWebPublicCampaignControllerShowResponseObject interface {
-	VisitV5ApiWebPublicCampaignControllerShowResponse(w http.ResponseWriter) error
+type GetCampaignResponseObject interface {
+	VisitGetCampaignResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCampaignControllerShow200JSONResponse struct {
+type GetCampaign200JSONResponse struct {
 	Data *Campaign `json:"data,omitempty"`
 }
 
-func (response V5ApiWebPublicCampaignControllerShow200JSONResponse) VisitV5ApiWebPublicCampaignControllerShowResponse(w http.ResponseWriter) error {
+func (response GetCampaign200JSONResponse) VisitGetCampaignResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignControllerShow401JSONResponse Unauthorized
+type GetCampaign401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCampaignControllerShow401JSONResponse) VisitV5ApiWebPublicCampaignControllerShowResponse(w http.ResponseWriter) error {
+func (response GetCampaign401JSONResponse) VisitGetCampaignResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignControllerShow404JSONResponse NotFound
+type GetCampaign404JSONResponse NotFound
 
-func (response V5ApiWebPublicCampaignControllerShow404JSONResponse) VisitV5ApiWebPublicCampaignControllerShowResponse(w http.ResponseWriter) error {
+func (response GetCampaign404JSONResponse) VisitGetCampaignResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignControllerShow422JSONResponse UnprocessableEntity
+type GetCampaign422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCampaignControllerShow422JSONResponse) VisitV5ApiWebPublicCampaignControllerShowResponse(w http.ResponseWriter) error {
+func (response GetCampaign422JSONResponse) VisitGetCampaignResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignDonationControllerIndexRequestObject struct {
+type CampaignDonationsRequestObject struct {
 	CampaignId string `json:"campaign_id"`
-	Params     V5ApiWebPublicCampaignDonationControllerIndexParams
+	Params     CampaignDonationsParams
 }
 
-type V5ApiWebPublicCampaignDonationControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicCampaignDonationControllerIndexResponse(w http.ResponseWriter) error
+type CampaignDonationsResponseObject interface {
+	VisitCampaignDonationsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCampaignDonationControllerIndex200JSONResponse PaginatedResponse
+type CampaignDonations200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCampaignDonationControllerIndex200JSONResponse) VisitV5ApiWebPublicCampaignDonationControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignDonations200JSONResponse) VisitCampaignDonationsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignDonationControllerIndex401JSONResponse Unauthorized
+type CampaignDonations401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCampaignDonationControllerIndex401JSONResponse) VisitV5ApiWebPublicCampaignDonationControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignDonations401JSONResponse) VisitCampaignDonationsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignDonationControllerIndex404JSONResponse NotFound
+type CampaignDonations404JSONResponse NotFound
 
-func (response V5ApiWebPublicCampaignDonationControllerIndex404JSONResponse) VisitV5ApiWebPublicCampaignDonationControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignDonations404JSONResponse) VisitCampaignDonationsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignDonationControllerIndex422JSONResponse UnprocessableEntity
+type CampaignDonations422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCampaignDonationControllerIndex422JSONResponse) VisitV5ApiWebPublicCampaignDonationControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignDonations422JSONResponse) VisitCampaignDonationsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignLeaderboardControllerDonorRequestObject struct {
+type CampaignLeaderboardControllerDonorRequestObject struct {
 	CampaignId string `json:"campaign_id"`
-	Params     V5ApiWebPublicCampaignLeaderboardControllerDonorParams
+	Params     CampaignLeaderboardControllerDonorParams
 }
 
-type V5ApiWebPublicCampaignLeaderboardControllerDonorResponseObject interface {
-	VisitV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error
+type CampaignLeaderboardControllerDonorResponseObject interface {
+	VisitCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCampaignLeaderboardControllerDonor200JSONResponse PaginatedResponse
+type CampaignLeaderboardControllerDonor200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCampaignLeaderboardControllerDonor200JSONResponse) VisitV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CampaignLeaderboardControllerDonor200JSONResponse) VisitCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignLeaderboardControllerDonor401JSONResponse Unauthorized
+type CampaignLeaderboardControllerDonor401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCampaignLeaderboardControllerDonor401JSONResponse) VisitV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CampaignLeaderboardControllerDonor401JSONResponse) VisitCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignLeaderboardControllerDonor403ApplictionjsonResponse struct {
+type CampaignLeaderboardControllerDonor403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicCampaignLeaderboardControllerDonor403ApplictionjsonResponse) VisitV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CampaignLeaderboardControllerDonor403ApplictionjsonResponse) VisitCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -12696,375 +12696,375 @@ func (response V5ApiWebPublicCampaignLeaderboardControllerDonor403Applictionjson
 	return err
 }
 
-type V5ApiWebPublicCampaignLeaderboardControllerDonor404JSONResponse NotFound
+type CampaignLeaderboardControllerDonor404JSONResponse NotFound
 
-func (response V5ApiWebPublicCampaignLeaderboardControllerDonor404JSONResponse) VisitV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CampaignLeaderboardControllerDonor404JSONResponse) VisitCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignLeaderboardControllerDonor422JSONResponse UnprocessableEntity
+type CampaignLeaderboardControllerDonor422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCampaignLeaderboardControllerDonor422JSONResponse) VisitV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CampaignLeaderboardControllerDonor422JSONResponse) VisitCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignMilestoneControllerIndexRequestObject struct {
+type CampaignMilestonesRequestObject struct {
 	CampaignId string `json:"campaign_id"`
-	Params     V5ApiWebPublicCampaignMilestoneControllerIndexParams
+	Params     CampaignMilestonesParams
 }
 
-type V5ApiWebPublicCampaignMilestoneControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error
+type CampaignMilestonesResponseObject interface {
+	VisitCampaignMilestonesResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCampaignMilestoneControllerIndex200JSONResponse PaginatedResponse
+type CampaignMilestones200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCampaignMilestoneControllerIndex200JSONResponse) VisitV5ApiWebPublicCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignMilestones200JSONResponse) VisitCampaignMilestonesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignMilestoneControllerIndex401JSONResponse Unauthorized
+type CampaignMilestones401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCampaignMilestoneControllerIndex401JSONResponse) VisitV5ApiWebPublicCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignMilestones401JSONResponse) VisitCampaignMilestonesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignMilestoneControllerIndex404JSONResponse NotFound
+type CampaignMilestones404JSONResponse NotFound
 
-func (response V5ApiWebPublicCampaignMilestoneControllerIndex404JSONResponse) VisitV5ApiWebPublicCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignMilestones404JSONResponse) VisitCampaignMilestonesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignMilestoneControllerIndex422JSONResponse UnprocessableEntity
+type CampaignMilestones422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCampaignMilestoneControllerIndex422JSONResponse) VisitV5ApiWebPublicCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignMilestones422JSONResponse) VisitCampaignMilestonesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignPollControllerIndexRequestObject struct {
+type CampaignPollsRequestObject struct {
 	CampaignId string `json:"campaign_id"`
-	Params     V5ApiWebPublicCampaignPollControllerIndexParams
+	Params     CampaignPollsParams
 }
 
-type V5ApiWebPublicCampaignPollControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicCampaignPollControllerIndexResponse(w http.ResponseWriter) error
+type CampaignPollsResponseObject interface {
+	VisitCampaignPollsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCampaignPollControllerIndex200JSONResponse PaginatedResponse
+type CampaignPolls200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCampaignPollControllerIndex200JSONResponse) VisitV5ApiWebPublicCampaignPollControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignPolls200JSONResponse) VisitCampaignPollsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignPollControllerIndex401JSONResponse Unauthorized
+type CampaignPolls401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCampaignPollControllerIndex401JSONResponse) VisitV5ApiWebPublicCampaignPollControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignPolls401JSONResponse) VisitCampaignPollsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignPollControllerIndex404JSONResponse NotFound
+type CampaignPolls404JSONResponse NotFound
 
-func (response V5ApiWebPublicCampaignPollControllerIndex404JSONResponse) VisitV5ApiWebPublicCampaignPollControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignPolls404JSONResponse) VisitCampaignPollsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignPollControllerIndex422JSONResponse UnprocessableEntity
+type CampaignPolls422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCampaignPollControllerIndex422JSONResponse) VisitV5ApiWebPublicCampaignPollControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignPolls422JSONResponse) VisitCampaignPollsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignRewardControllerIndexRequestObject struct {
+type CampaignRewardsRequestObject struct {
 	CampaignId string `json:"campaign_id"`
-	Params     V5ApiWebPublicCampaignRewardControllerIndexParams
+	Params     CampaignRewardsParams
 }
 
-type V5ApiWebPublicCampaignRewardControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicCampaignRewardControllerIndexResponse(w http.ResponseWriter) error
+type CampaignRewardsResponseObject interface {
+	VisitCampaignRewardsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCampaignRewardControllerIndex200JSONResponse PaginatedResponse
+type CampaignRewards200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCampaignRewardControllerIndex200JSONResponse) VisitV5ApiWebPublicCampaignRewardControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignRewards200JSONResponse) VisitCampaignRewardsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignRewardControllerIndex401JSONResponse Unauthorized
+type CampaignRewards401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCampaignRewardControllerIndex401JSONResponse) VisitV5ApiWebPublicCampaignRewardControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignRewards401JSONResponse) VisitCampaignRewardsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignRewardControllerIndex404JSONResponse NotFound
+type CampaignRewards404JSONResponse NotFound
 
-func (response V5ApiWebPublicCampaignRewardControllerIndex404JSONResponse) VisitV5ApiWebPublicCampaignRewardControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignRewards404JSONResponse) VisitCampaignRewardsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignRewardControllerIndex422JSONResponse UnprocessableEntity
+type CampaignRewards422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCampaignRewardControllerIndex422JSONResponse) VisitV5ApiWebPublicCampaignRewardControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignRewards422JSONResponse) VisitCampaignRewardsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignScheduleControllerIndexRequestObject struct {
+type CampaignSchedulesRequestObject struct {
 	CampaignId string `json:"campaign_id"`
-	Params     V5ApiWebPublicCampaignScheduleControllerIndexParams
+	Params     CampaignSchedulesParams
 }
 
-type V5ApiWebPublicCampaignScheduleControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error
+type CampaignSchedulesResponseObject interface {
+	VisitCampaignSchedulesResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCampaignScheduleControllerIndex200JSONResponse PaginatedResponse
+type CampaignSchedules200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCampaignScheduleControllerIndex200JSONResponse) VisitV5ApiWebPublicCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignSchedules200JSONResponse) VisitCampaignSchedulesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignScheduleControllerIndex401JSONResponse Unauthorized
+type CampaignSchedules401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCampaignScheduleControllerIndex401JSONResponse) VisitV5ApiWebPublicCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignSchedules401JSONResponse) VisitCampaignSchedulesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignScheduleControllerIndex404JSONResponse NotFound
+type CampaignSchedules404JSONResponse NotFound
 
-func (response V5ApiWebPublicCampaignScheduleControllerIndex404JSONResponse) VisitV5ApiWebPublicCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignSchedules404JSONResponse) VisitCampaignSchedulesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignScheduleControllerIndex422JSONResponse UnprocessableEntity
+type CampaignSchedules422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCampaignScheduleControllerIndex422JSONResponse) VisitV5ApiWebPublicCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignSchedules422JSONResponse) VisitCampaignSchedulesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignChallengeControllerIndexRequestObject struct {
+type CampaignChallengesRequestObject struct {
 	CampaignId string `json:"campaign_id"`
-	Params     V5ApiWebPublicCampaignChallengeControllerIndexParams
+	Params     CampaignChallengesParams
 }
 
-type V5ApiWebPublicCampaignChallengeControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error
+type CampaignChallengesResponseObject interface {
+	VisitCampaignChallengesResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCampaignChallengeControllerIndex200JSONResponse PaginatedResponse
+type CampaignChallenges200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCampaignChallengeControllerIndex200JSONResponse) VisitV5ApiWebPublicCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignChallenges200JSONResponse) VisitCampaignChallengesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignChallengeControllerIndex401JSONResponse Unauthorized
+type CampaignChallenges401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCampaignChallengeControllerIndex401JSONResponse) VisitV5ApiWebPublicCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignChallenges401JSONResponse) VisitCampaignChallengesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignChallengeControllerIndex404JSONResponse NotFound
+type CampaignChallenges404JSONResponse NotFound
 
-func (response V5ApiWebPublicCampaignChallengeControllerIndex404JSONResponse) VisitV5ApiWebPublicCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignChallenges404JSONResponse) VisitCampaignChallengesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCampaignChallengeControllerIndex422JSONResponse UnprocessableEntity
+type CampaignChallenges422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCampaignChallengeControllerIndex422JSONResponse) VisitV5ApiWebPublicCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error {
+func (response CampaignChallenges422JSONResponse) VisitCampaignChallengesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseControllerShowRequestObject struct {
+type GetCauseRequestObject struct {
 	CauseId string `json:"cause_id"`
 }
 
-type V5ApiWebPublicCauseControllerShowResponseObject interface {
-	VisitV5ApiWebPublicCauseControllerShowResponse(w http.ResponseWriter) error
+type GetCauseResponseObject interface {
+	VisitGetCauseResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCauseControllerShow200JSONResponse struct {
+type GetCause200JSONResponse struct {
 	Data *Cause `json:"data,omitempty"`
 }
 
-func (response V5ApiWebPublicCauseControllerShow200JSONResponse) VisitV5ApiWebPublicCauseControllerShowResponse(w http.ResponseWriter) error {
+func (response GetCause200JSONResponse) VisitGetCauseResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseControllerShow401JSONResponse Unauthorized
+type GetCause401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCauseControllerShow401JSONResponse) VisitV5ApiWebPublicCauseControllerShowResponse(w http.ResponseWriter) error {
+func (response GetCause401JSONResponse) VisitGetCauseResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseControllerShow404JSONResponse NotFound
+type GetCause404JSONResponse NotFound
 
-func (response V5ApiWebPublicCauseControllerShow404JSONResponse) VisitV5ApiWebPublicCauseControllerShowResponse(w http.ResponseWriter) error {
+func (response GetCause404JSONResponse) VisitGetCauseResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseControllerShow422JSONResponse UnprocessableEntity
+type GetCause422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCauseControllerShow422JSONResponse) VisitV5ApiWebPublicCauseControllerShowResponse(w http.ResponseWriter) error {
+func (response GetCause422JSONResponse) VisitGetCauseResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseCampaignControllerIndexRequestObject struct {
+type CauseCampaignsRequestObject struct {
 	CauseId string `json:"cause_id"`
-	Params  V5ApiWebPublicCauseCampaignControllerIndexParams
+	Params  CauseCampaignsParams
 }
 
-type V5ApiWebPublicCauseCampaignControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicCauseCampaignControllerIndexResponse(w http.ResponseWriter) error
+type CauseCampaignsResponseObject interface {
+	VisitCauseCampaignsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCauseCampaignControllerIndex200JSONResponse PaginatedResponse
+type CauseCampaigns200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCauseCampaignControllerIndex200JSONResponse) VisitV5ApiWebPublicCauseCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response CauseCampaigns200JSONResponse) VisitCauseCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseCampaignControllerIndex401JSONResponse Unauthorized
+type CauseCampaigns401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCauseCampaignControllerIndex401JSONResponse) VisitV5ApiWebPublicCauseCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response CauseCampaigns401JSONResponse) VisitCauseCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseCampaignControllerIndex404JSONResponse NotFound
+type CauseCampaigns404JSONResponse NotFound
 
-func (response V5ApiWebPublicCauseCampaignControllerIndex404JSONResponse) VisitV5ApiWebPublicCauseCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response CauseCampaigns404JSONResponse) VisitCauseCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseCampaignControllerIndex422JSONResponse UnprocessableEntity
+type CauseCampaigns422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCauseCampaignControllerIndex422JSONResponse) VisitV5ApiWebPublicCauseCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response CauseCampaigns422JSONResponse) VisitCauseCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerConfiguredRequestObject struct {
+type CauseLeaderboardControllerConfiguredRequestObject struct {
 	CauseId string `json:"cause_id"`
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerConfiguredResponseObject interface {
-	VisitV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error
+type CauseLeaderboardControllerConfiguredResponseObject interface {
+	VisitCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerConfigured200JSONResponse struct {
+type CauseLeaderboardControllerConfigured200JSONResponse struct {
 	// Data Configured Leaderboards Like V3
 	Data *ConfiguredLeaderboard `json:"data,omitempty"`
 }
 
-func (response V5ApiWebPublicCauseLeaderboardControllerConfigured200JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerConfigured200JSONResponse) VisitCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerConfigured401JSONResponse Unauthorized
+type CauseLeaderboardControllerConfigured401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCauseLeaderboardControllerConfigured401JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerConfigured401JSONResponse) VisitCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerConfigured403ApplictionjsonResponse struct {
+type CauseLeaderboardControllerConfigured403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicCauseLeaderboardControllerConfigured403ApplictionjsonResponse) VisitV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerConfigured403ApplictionjsonResponse) VisitCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13078,57 +13078,57 @@ func (response V5ApiWebPublicCauseLeaderboardControllerConfigured403Applictionjs
 	return err
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerConfigured404JSONResponse NotFound
+type CauseLeaderboardControllerConfigured404JSONResponse NotFound
 
-func (response V5ApiWebPublicCauseLeaderboardControllerConfigured404JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerConfigured404JSONResponse) VisitCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerConfigured422JSONResponse UnprocessableEntity
+type CauseLeaderboardControllerConfigured422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCauseLeaderboardControllerConfigured422JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerConfigured422JSONResponse) VisitCauseLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerDonorRequestObject struct {
+type CauseLeaderboardControllerDonorRequestObject struct {
 	CauseId string `json:"cause_id"`
-	Params  V5ApiWebPublicCauseLeaderboardControllerDonorParams
+	Params  CauseLeaderboardControllerDonorParams
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerDonorResponseObject interface {
-	VisitV5ApiWebPublicCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error
+type CauseLeaderboardControllerDonorResponseObject interface {
+	VisitCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerDonor200JSONResponse PaginatedResponse
+type CauseLeaderboardControllerDonor200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCauseLeaderboardControllerDonor200JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerDonor200JSONResponse) VisitCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerDonor401JSONResponse Unauthorized
+type CauseLeaderboardControllerDonor401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCauseLeaderboardControllerDonor401JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerDonor401JSONResponse) VisitCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerDonor403ApplictionjsonResponse struct {
+type CauseLeaderboardControllerDonor403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicCauseLeaderboardControllerDonor403ApplictionjsonResponse) VisitV5ApiWebPublicCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerDonor403ApplictionjsonResponse) VisitCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13142,102 +13142,102 @@ func (response V5ApiWebPublicCauseLeaderboardControllerDonor403ApplictionjsonRes
 	return err
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerDonor404JSONResponse NotFound
+type CauseLeaderboardControllerDonor404JSONResponse NotFound
 
-func (response V5ApiWebPublicCauseLeaderboardControllerDonor404JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerDonor404JSONResponse) VisitCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerDonor422JSONResponse UnprocessableEntity
+type CauseLeaderboardControllerDonor422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCauseLeaderboardControllerDonor422JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerDonor422JSONResponse) VisitCauseLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseFundraisingEventControllerIndexRequestObject struct {
+type CauseFundraisingEventsRequestObject struct {
 	CauseId string `json:"cause_id"`
-	Params  V5ApiWebPublicCauseFundraisingEventControllerIndexParams
+	Params  CauseFundraisingEventsParams
 }
 
-type V5ApiWebPublicCauseFundraisingEventControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicCauseFundraisingEventControllerIndexResponse(w http.ResponseWriter) error
+type CauseFundraisingEventsResponseObject interface {
+	VisitCauseFundraisingEventsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCauseFundraisingEventControllerIndex200JSONResponse PaginatedResponse
+type CauseFundraisingEvents200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCauseFundraisingEventControllerIndex200JSONResponse) VisitV5ApiWebPublicCauseFundraisingEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response CauseFundraisingEvents200JSONResponse) VisitCauseFundraisingEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseFundraisingEventControllerIndex401JSONResponse Unauthorized
+type CauseFundraisingEvents401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCauseFundraisingEventControllerIndex401JSONResponse) VisitV5ApiWebPublicCauseFundraisingEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response CauseFundraisingEvents401JSONResponse) VisitCauseFundraisingEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseFundraisingEventControllerIndex404JSONResponse NotFound
+type CauseFundraisingEvents404JSONResponse NotFound
 
-func (response V5ApiWebPublicCauseFundraisingEventControllerIndex404JSONResponse) VisitV5ApiWebPublicCauseFundraisingEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response CauseFundraisingEvents404JSONResponse) VisitCauseFundraisingEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseFundraisingEventControllerIndex422JSONResponse UnprocessableEntity
+type CauseFundraisingEvents422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCauseFundraisingEventControllerIndex422JSONResponse) VisitV5ApiWebPublicCauseFundraisingEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response CauseFundraisingEvents422JSONResponse) VisitCauseFundraisingEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerTeamRequestObject struct {
+type CauseLeaderboardControllerTeamRequestObject struct {
 	CauseId string `json:"cause_id"`
-	Params  V5ApiWebPublicCauseLeaderboardControllerTeamParams
+	Params  CauseLeaderboardControllerTeamParams
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerTeamResponseObject interface {
-	VisitV5ApiWebPublicCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error
+type CauseLeaderboardControllerTeamResponseObject interface {
+	VisitCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerTeam200JSONResponse PaginatedResponse
+type CauseLeaderboardControllerTeam200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCauseLeaderboardControllerTeam200JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerTeam200JSONResponse) VisitCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerTeam401JSONResponse Unauthorized
+type CauseLeaderboardControllerTeam401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCauseLeaderboardControllerTeam401JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerTeam401JSONResponse) VisitCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerTeam403ApplictionjsonResponse struct {
+type CauseLeaderboardControllerTeam403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicCauseLeaderboardControllerTeam403ApplictionjsonResponse) VisitV5ApiWebPublicCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerTeam403ApplictionjsonResponse) VisitCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13251,57 +13251,57 @@ func (response V5ApiWebPublicCauseLeaderboardControllerTeam403ApplictionjsonResp
 	return err
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerTeam404JSONResponse NotFound
+type CauseLeaderboardControllerTeam404JSONResponse NotFound
 
-func (response V5ApiWebPublicCauseLeaderboardControllerTeam404JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerTeam404JSONResponse) VisitCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerTeam422JSONResponse UnprocessableEntity
+type CauseLeaderboardControllerTeam422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCauseLeaderboardControllerTeam422JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerTeam422JSONResponse) VisitCauseLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerUserRequestObject struct {
+type CauseLeaderboardControllerUserRequestObject struct {
 	CauseId string `json:"cause_id"`
-	Params  V5ApiWebPublicCauseLeaderboardControllerUserParams
+	Params  CauseLeaderboardControllerUserParams
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerUserResponseObject interface {
-	VisitV5ApiWebPublicCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error
+type CauseLeaderboardControllerUserResponseObject interface {
+	VisitCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerUser200JSONResponse PaginatedResponse
+type CauseLeaderboardControllerUser200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicCauseLeaderboardControllerUser200JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerUser200JSONResponse) VisitCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerUser401JSONResponse Unauthorized
+type CauseLeaderboardControllerUser401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicCauseLeaderboardControllerUser401JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerUser401JSONResponse) VisitCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerUser403ApplictionjsonResponse struct {
+type CauseLeaderboardControllerUser403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicCauseLeaderboardControllerUser403ApplictionjsonResponse) VisitV5ApiWebPublicCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerUser403ApplictionjsonResponse) VisitCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13315,148 +13315,148 @@ func (response V5ApiWebPublicCauseLeaderboardControllerUser403ApplictionjsonResp
 	return err
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerUser404JSONResponse NotFound
+type CauseLeaderboardControllerUser404JSONResponse NotFound
 
-func (response V5ApiWebPublicCauseLeaderboardControllerUser404JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerUser404JSONResponse) VisitCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicCauseLeaderboardControllerUser422JSONResponse UnprocessableEntity
+type CauseLeaderboardControllerUser422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicCauseLeaderboardControllerUser422JSONResponse) VisitV5ApiWebPublicCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response CauseLeaderboardControllerUser422JSONResponse) VisitCauseLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserControllerCurrentUserRequestObject struct {
+type UserControllerCurrentUserRequestObject struct {
 }
 
-type V5ApiWebPublicUserControllerCurrentUserResponseObject interface {
-	VisitV5ApiWebPublicUserControllerCurrentUserResponse(w http.ResponseWriter) error
+type UserControllerCurrentUserResponseObject interface {
+	VisitUserControllerCurrentUserResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicUserControllerCurrentUser200JSONResponse struct{ CurrentUserJSONResponse }
+type UserControllerCurrentUser200JSONResponse struct{ CurrentUserJSONResponse }
 
-func (response V5ApiWebPublicUserControllerCurrentUser200JSONResponse) VisitV5ApiWebPublicUserControllerCurrentUserResponse(w http.ResponseWriter) error {
+func (response UserControllerCurrentUser200JSONResponse) VisitUserControllerCurrentUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserControllerCurrentUser401JSONResponse Unauthorized
+type UserControllerCurrentUser401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicUserControllerCurrentUser401JSONResponse) VisitV5ApiWebPublicUserControllerCurrentUserResponse(w http.ResponseWriter) error {
+func (response UserControllerCurrentUser401JSONResponse) VisitUserControllerCurrentUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserControllerCurrentUser404JSONResponse NotFound
+type UserControllerCurrentUser404JSONResponse NotFound
 
-func (response V5ApiWebPublicUserControllerCurrentUser404JSONResponse) VisitV5ApiWebPublicUserControllerCurrentUserResponse(w http.ResponseWriter) error {
+func (response UserControllerCurrentUser404JSONResponse) VisitUserControllerCurrentUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserControllerCurrentUser422JSONResponse UnprocessableEntity
+type UserControllerCurrentUser422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicUserControllerCurrentUser422JSONResponse) VisitV5ApiWebPublicUserControllerCurrentUserResponse(w http.ResponseWriter) error {
+func (response UserControllerCurrentUser422JSONResponse) VisitUserControllerCurrentUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventControllerShowRequestObject struct {
+type GetFundraisingEventRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
 }
 
-type V5ApiWebPublicFundraisingEventControllerShowResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventControllerShowResponse(w http.ResponseWriter) error
+type GetFundraisingEventResponseObject interface {
+	VisitGetFundraisingEventResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventControllerShow200JSONResponse struct {
+type GetFundraisingEvent200JSONResponse struct {
 	Data *FundraisingEvent `json:"data,omitempty"`
 }
 
-func (response V5ApiWebPublicFundraisingEventControllerShow200JSONResponse) VisitV5ApiWebPublicFundraisingEventControllerShowResponse(w http.ResponseWriter) error {
+func (response GetFundraisingEvent200JSONResponse) VisitGetFundraisingEventResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventControllerShow401JSONResponse Unauthorized
+type GetFundraisingEvent401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventControllerShow401JSONResponse) VisitV5ApiWebPublicFundraisingEventControllerShowResponse(w http.ResponseWriter) error {
+func (response GetFundraisingEvent401JSONResponse) VisitGetFundraisingEventResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventControllerShow404JSONResponse NotFound
+type GetFundraisingEvent404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventControllerShow404JSONResponse) VisitV5ApiWebPublicFundraisingEventControllerShowResponse(w http.ResponseWriter) error {
+func (response GetFundraisingEvent404JSONResponse) VisitGetFundraisingEventResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventControllerShow422JSONResponse UnprocessableEntity
+type GetFundraisingEvent422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventControllerShow422JSONResponse) VisitV5ApiWebPublicFundraisingEventControllerShowResponse(w http.ResponseWriter) error {
+func (response GetFundraisingEvent422JSONResponse) VisitGetFundraisingEventResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredRequestObject struct {
+type FundraisingEventLeaderboardControllerConfiguredRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error
+type FundraisingEventLeaderboardControllerConfiguredResponseObject interface {
+	VisitFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured200JSONResponse struct {
+type FundraisingEventLeaderboardControllerConfigured200JSONResponse struct {
 	// Data Configured Leaderboards Like V3
 	Data *ConfiguredLeaderboard `json:"data,omitempty"`
 }
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured200JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerConfigured200JSONResponse) VisitFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured401JSONResponse Unauthorized
+type FundraisingEventLeaderboardControllerConfigured401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured401JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerConfigured401JSONResponse) VisitFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured403ApplictionjsonResponse struct {
+type FundraisingEventLeaderboardControllerConfigured403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured403ApplictionjsonResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerConfigured403ApplictionjsonResponse) VisitFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13470,57 +13470,57 @@ func (response V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured403A
 	return err
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured404JSONResponse NotFound
+type FundraisingEventLeaderboardControllerConfigured404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured404JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerConfigured404JSONResponse) VisitFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured422JSONResponse UnprocessableEntity
+type FundraisingEventLeaderboardControllerConfigured422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured422JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerConfigured422JSONResponse) VisitFundraisingEventLeaderboardControllerConfiguredResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonorRequestObject struct {
+type FundraisingEventLeaderboardControllerDonorRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
-	Params             V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams
+	Params             FundraisingEventLeaderboardControllerDonorParams
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error
+type FundraisingEventLeaderboardControllerDonorResponseObject interface {
+	VisitFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonor200JSONResponse PaginatedResponse
+type FundraisingEventLeaderboardControllerDonor200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerDonor200JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerDonor200JSONResponse) VisitFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonor401JSONResponse Unauthorized
+type FundraisingEventLeaderboardControllerDonor401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerDonor401JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerDonor401JSONResponse) VisitFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonor403ApplictionjsonResponse struct {
+type FundraisingEventLeaderboardControllerDonor403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerDonor403ApplictionjsonResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerDonor403ApplictionjsonResponse) VisitFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13534,102 +13534,102 @@ func (response V5ApiWebPublicFundraisingEventLeaderboardControllerDonor403Applic
 	return err
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonor404JSONResponse NotFound
+type FundraisingEventLeaderboardControllerDonor404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerDonor404JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerDonor404JSONResponse) VisitFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerDonor422JSONResponse UnprocessableEntity
+type FundraisingEventLeaderboardControllerDonor422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerDonor422JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerDonor422JSONResponse) VisitFundraisingEventLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventSupportingEventControllerIndexRequestObject struct {
+type FundraisingEventSupportingEventsRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
-	Params             V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams
+	Params             FundraisingEventSupportingEventsParams
 }
 
-type V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse(w http.ResponseWriter) error
+type FundraisingEventSupportingEventsResponseObject interface {
+	VisitFundraisingEventSupportingEventsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventSupportingEventControllerIndex200JSONResponse PaginatedResponse
+type FundraisingEventSupportingEvents200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicFundraisingEventSupportingEventControllerIndex200JSONResponse) VisitV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response FundraisingEventSupportingEvents200JSONResponse) VisitFundraisingEventSupportingEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventSupportingEventControllerIndex401JSONResponse Unauthorized
+type FundraisingEventSupportingEvents401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventSupportingEventControllerIndex401JSONResponse) VisitV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response FundraisingEventSupportingEvents401JSONResponse) VisitFundraisingEventSupportingEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventSupportingEventControllerIndex404JSONResponse NotFound
+type FundraisingEventSupportingEvents404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventSupportingEventControllerIndex404JSONResponse) VisitV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response FundraisingEventSupportingEvents404JSONResponse) VisitFundraisingEventSupportingEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventSupportingEventControllerIndex422JSONResponse UnprocessableEntity
+type FundraisingEventSupportingEvents422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventSupportingEventControllerIndex422JSONResponse) VisitV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response FundraisingEventSupportingEvents422JSONResponse) VisitFundraisingEventSupportingEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRequestObject struct {
+type FundraisingEventLeaderboardControllerTeamFitnessDistanceRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
-	Params             V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams
+	Params             FundraisingEventLeaderboardControllerTeamFitnessDistanceParams
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error
+type FundraisingEventLeaderboardControllerTeamFitnessDistanceResponseObject interface {
+	VisitFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance200JSONResponse PaginatedResponse
+type FundraisingEventLeaderboardControllerTeamFitnessDistance200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance200JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessDistance200JSONResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance401JSONResponse Unauthorized
+type FundraisingEventLeaderboardControllerTeamFitnessDistance401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance401JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessDistance401JSONResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance403ApplictionjsonResponse struct {
+type FundraisingEventLeaderboardControllerTeamFitnessDistance403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance403ApplictionjsonResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessDistance403ApplictionjsonResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13643,57 +13643,57 @@ func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDis
 	return err
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance404JSONResponse NotFound
+type FundraisingEventLeaderboardControllerTeamFitnessDistance404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance404JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessDistance404JSONResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance422JSONResponse UnprocessableEntity
+type FundraisingEventLeaderboardControllerTeamFitnessDistance422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance422JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessDistance422JSONResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeRequestObject struct {
+type FundraisingEventLeaderboardControllerTeamFitnessTimeRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
-	Params             V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams
+	Params             FundraisingEventLeaderboardControllerTeamFitnessTimeParams
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error
+type FundraisingEventLeaderboardControllerTeamFitnessTimeResponseObject interface {
+	VisitFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime200JSONResponse PaginatedResponse
+type FundraisingEventLeaderboardControllerTeamFitnessTime200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime200JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessTime200JSONResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime401JSONResponse Unauthorized
+type FundraisingEventLeaderboardControllerTeamFitnessTime401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime401JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessTime401JSONResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime403ApplictionjsonResponse struct {
+type FundraisingEventLeaderboardControllerTeamFitnessTime403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime403ApplictionjsonResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessTime403ApplictionjsonResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13707,57 +13707,57 @@ func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTim
 	return err
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime404JSONResponse NotFound
+type FundraisingEventLeaderboardControllerTeamFitnessTime404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime404JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessTime404JSONResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime422JSONResponse UnprocessableEntity
+type FundraisingEventLeaderboardControllerTeamFitnessTime422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime422JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeamFitnessTime422JSONResponse) VisitFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamRequestObject struct {
+type FundraisingEventLeaderboardControllerTeamRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
-	Params             V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams
+	Params             FundraisingEventLeaderboardControllerTeamParams
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error
+type FundraisingEventLeaderboardControllerTeamResponseObject interface {
+	VisitFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeam200JSONResponse PaginatedResponse
+type FundraisingEventLeaderboardControllerTeam200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeam200JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeam200JSONResponse) VisitFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeam401JSONResponse Unauthorized
+type FundraisingEventLeaderboardControllerTeam401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeam401JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeam401JSONResponse) VisitFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeam403ApplictionjsonResponse struct {
+type FundraisingEventLeaderboardControllerTeam403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeam403ApplictionjsonResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeam403ApplictionjsonResponse) VisitFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13771,57 +13771,57 @@ func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeam403Applict
 	return err
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeam404JSONResponse NotFound
+type FundraisingEventLeaderboardControllerTeam404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeam404JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeam404JSONResponse) VisitFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerTeam422JSONResponse UnprocessableEntity
+type FundraisingEventLeaderboardControllerTeam422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerTeam422JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerTeam422JSONResponse) VisitFundraisingEventLeaderboardControllerTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRequestObject struct {
+type FundraisingEventLeaderboardControllerUserFitnessDistanceRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
-	Params             V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams
+	Params             FundraisingEventLeaderboardControllerUserFitnessDistanceParams
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error
+type FundraisingEventLeaderboardControllerUserFitnessDistanceResponseObject interface {
+	VisitFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance200JSONResponse PaginatedResponse
+type FundraisingEventLeaderboardControllerUserFitnessDistance200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance200JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessDistance200JSONResponse) VisitFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance401JSONResponse Unauthorized
+type FundraisingEventLeaderboardControllerUserFitnessDistance401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance401JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessDistance401JSONResponse) VisitFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance403ApplictionjsonResponse struct {
+type FundraisingEventLeaderboardControllerUserFitnessDistance403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance403ApplictionjsonResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessDistance403ApplictionjsonResponse) VisitFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13835,57 +13835,57 @@ func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDis
 	return err
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance404JSONResponse NotFound
+type FundraisingEventLeaderboardControllerUserFitnessDistance404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance404JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessDistance404JSONResponse) VisitFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance422JSONResponse UnprocessableEntity
+type FundraisingEventLeaderboardControllerUserFitnessDistance422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance422JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessDistance422JSONResponse) VisitFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeRequestObject struct {
+type FundraisingEventLeaderboardControllerUserFitnessTimeRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
-	Params             V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams
+	Params             FundraisingEventLeaderboardControllerUserFitnessTimeParams
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error
+type FundraisingEventLeaderboardControllerUserFitnessTimeResponseObject interface {
+	VisitFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime200JSONResponse PaginatedResponse
+type FundraisingEventLeaderboardControllerUserFitnessTime200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime200JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessTime200JSONResponse) VisitFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime401JSONResponse Unauthorized
+type FundraisingEventLeaderboardControllerUserFitnessTime401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime401JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessTime401JSONResponse) VisitFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime403ApplictionjsonResponse struct {
+type FundraisingEventLeaderboardControllerUserFitnessTime403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime403ApplictionjsonResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessTime403ApplictionjsonResponse) VisitFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13899,57 +13899,57 @@ func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTim
 	return err
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime404JSONResponse NotFound
+type FundraisingEventLeaderboardControllerUserFitnessTime404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime404JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessTime404JSONResponse) VisitFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime422JSONResponse UnprocessableEntity
+type FundraisingEventLeaderboardControllerUserFitnessTime422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime422JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUserFitnessTime422JSONResponse) VisitFundraisingEventLeaderboardControllerUserFitnessTimeResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserRequestObject struct {
+type FundraisingEventLeaderboardControllerUserRequestObject struct {
 	FundraisingEventId string `json:"fundraising_event_id"`
-	Params             V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams
+	Params             FundraisingEventLeaderboardControllerUserParams
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponseObject interface {
-	VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error
+type FundraisingEventLeaderboardControllerUserResponseObject interface {
+	VisitFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUser200JSONResponse PaginatedResponse
+type FundraisingEventLeaderboardControllerUser200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUser200JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUser200JSONResponse) VisitFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUser401JSONResponse Unauthorized
+type FundraisingEventLeaderboardControllerUser401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUser401JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUser401JSONResponse) VisitFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUser403ApplictionjsonResponse struct {
+type FundraisingEventLeaderboardControllerUser403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUser403ApplictionjsonResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUser403ApplictionjsonResponse) VisitFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -13963,148 +13963,148 @@ func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUser403Applict
 	return err
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUser404JSONResponse NotFound
+type FundraisingEventLeaderboardControllerUser404JSONResponse NotFound
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUser404JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUser404JSONResponse) VisitFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicFundraisingEventLeaderboardControllerUser422JSONResponse UnprocessableEntity
+type FundraisingEventLeaderboardControllerUser422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicFundraisingEventLeaderboardControllerUser422JSONResponse) VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response FundraisingEventLeaderboardControllerUser422JSONResponse) VisitFundraisingEventLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignControllerShowRequestObject struct {
+type GetTeamCampaignRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
 }
 
-type V5ApiWebPublicTeamCampaignControllerShowResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignControllerShowResponse(w http.ResponseWriter) error
+type GetTeamCampaignResponseObject interface {
+	VisitGetTeamCampaignResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignControllerShow200JSONResponse struct {
+type GetTeamCampaign200JSONResponse struct {
 	Data *TeamCampaign `json:"data,omitempty"`
 }
 
-func (response V5ApiWebPublicTeamCampaignControllerShow200JSONResponse) VisitV5ApiWebPublicTeamCampaignControllerShowResponse(w http.ResponseWriter) error {
+func (response GetTeamCampaign200JSONResponse) VisitGetTeamCampaignResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignControllerShow401JSONResponse Unauthorized
+type GetTeamCampaign401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignControllerShow401JSONResponse) VisitV5ApiWebPublicTeamCampaignControllerShowResponse(w http.ResponseWriter) error {
+func (response GetTeamCampaign401JSONResponse) VisitGetTeamCampaignResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignControllerShow404JSONResponse NotFound
+type GetTeamCampaign404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignControllerShow404JSONResponse) VisitV5ApiWebPublicTeamCampaignControllerShowResponse(w http.ResponseWriter) error {
+func (response GetTeamCampaign404JSONResponse) VisitGetTeamCampaignResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignControllerShow422JSONResponse UnprocessableEntity
+type GetTeamCampaign422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignControllerShow422JSONResponse) VisitV5ApiWebPublicTeamCampaignControllerShowResponse(w http.ResponseWriter) error {
+func (response GetTeamCampaign422JSONResponse) VisitGetTeamCampaignResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignDonationControllerIndexRequestObject struct {
+type TeamCampaignDonationsRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
-	Params         V5ApiWebPublicTeamCampaignDonationControllerIndexParams
+	Params         TeamCampaignDonationsParams
 }
 
-type V5ApiWebPublicTeamCampaignDonationControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignDonationControllerIndexResponse(w http.ResponseWriter) error
+type TeamCampaignDonationsResponseObject interface {
+	VisitTeamCampaignDonationsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignDonationControllerIndex200JSONResponse PaginatedResponse
+type TeamCampaignDonations200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamCampaignDonationControllerIndex200JSONResponse) VisitV5ApiWebPublicTeamCampaignDonationControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignDonations200JSONResponse) VisitTeamCampaignDonationsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignDonationControllerIndex401JSONResponse Unauthorized
+type TeamCampaignDonations401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignDonationControllerIndex401JSONResponse) VisitV5ApiWebPublicTeamCampaignDonationControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignDonations401JSONResponse) VisitTeamCampaignDonationsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignDonationControllerIndex404JSONResponse NotFound
+type TeamCampaignDonations404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignDonationControllerIndex404JSONResponse) VisitV5ApiWebPublicTeamCampaignDonationControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignDonations404JSONResponse) VisitTeamCampaignDonationsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignDonationControllerIndex422JSONResponse UnprocessableEntity
+type TeamCampaignDonations422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignDonationControllerIndex422JSONResponse) VisitV5ApiWebPublicTeamCampaignDonationControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignDonations422JSONResponse) VisitTeamCampaignDonationsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonorRequestObject struct {
+type TeamCampaignLeaderboardControllerDonorRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
-	Params         V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams
+	Params         TeamCampaignLeaderboardControllerDonorParams
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error
+type TeamCampaignLeaderboardControllerDonorResponseObject interface {
+	VisitTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonor200JSONResponse PaginatedResponse
+type TeamCampaignLeaderboardControllerDonor200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerDonor200JSONResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerDonor200JSONResponse) VisitTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonor401JSONResponse Unauthorized
+type TeamCampaignLeaderboardControllerDonor401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerDonor401JSONResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerDonor401JSONResponse) VisitTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonor403ApplictionjsonResponse struct {
+type TeamCampaignLeaderboardControllerDonor403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerDonor403ApplictionjsonResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerDonor403ApplictionjsonResponse) VisitTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -14118,327 +14118,327 @@ func (response V5ApiWebPublicTeamCampaignLeaderboardControllerDonor403Appliction
 	return err
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonor404JSONResponse NotFound
+type TeamCampaignLeaderboardControllerDonor404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerDonor404JSONResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerDonor404JSONResponse) VisitTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerDonor422JSONResponse UnprocessableEntity
+type TeamCampaignLeaderboardControllerDonor422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerDonor422JSONResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerDonor422JSONResponse) VisitTeamCampaignLeaderboardControllerDonorResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignMilestoneControllerIndexRequestObject struct {
+type TeamCampaignMilestonesRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
-	Params         V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams
+	Params         TeamCampaignMilestonesParams
 }
 
-type V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error
+type TeamCampaignMilestonesResponseObject interface {
+	VisitTeamCampaignMilestonesResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignMilestoneControllerIndex200JSONResponse PaginatedResponse
+type TeamCampaignMilestones200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamCampaignMilestoneControllerIndex200JSONResponse) VisitV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignMilestones200JSONResponse) VisitTeamCampaignMilestonesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignMilestoneControllerIndex401JSONResponse Unauthorized
+type TeamCampaignMilestones401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignMilestoneControllerIndex401JSONResponse) VisitV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignMilestones401JSONResponse) VisitTeamCampaignMilestonesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignMilestoneControllerIndex404JSONResponse NotFound
+type TeamCampaignMilestones404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignMilestoneControllerIndex404JSONResponse) VisitV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignMilestones404JSONResponse) VisitTeamCampaignMilestonesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignMilestoneControllerIndex422JSONResponse UnprocessableEntity
+type TeamCampaignMilestones422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignMilestoneControllerIndex422JSONResponse) VisitV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignMilestones422JSONResponse) VisitTeamCampaignMilestonesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignPollControllerIndexRequestObject struct {
+type TeamCampaignPollsRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
-	Params         V5ApiWebPublicTeamCampaignPollControllerIndexParams
+	Params         TeamCampaignPollsParams
 }
 
-type V5ApiWebPublicTeamCampaignPollControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignPollControllerIndexResponse(w http.ResponseWriter) error
+type TeamCampaignPollsResponseObject interface {
+	VisitTeamCampaignPollsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignPollControllerIndex200JSONResponse PaginatedResponse
+type TeamCampaignPolls200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamCampaignPollControllerIndex200JSONResponse) VisitV5ApiWebPublicTeamCampaignPollControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignPolls200JSONResponse) VisitTeamCampaignPollsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignPollControllerIndex401JSONResponse Unauthorized
+type TeamCampaignPolls401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignPollControllerIndex401JSONResponse) VisitV5ApiWebPublicTeamCampaignPollControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignPolls401JSONResponse) VisitTeamCampaignPollsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignPollControllerIndex404JSONResponse NotFound
+type TeamCampaignPolls404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignPollControllerIndex404JSONResponse) VisitV5ApiWebPublicTeamCampaignPollControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignPolls404JSONResponse) VisitTeamCampaignPollsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignPollControllerIndex422JSONResponse UnprocessableEntity
+type TeamCampaignPolls422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignPollControllerIndex422JSONResponse) VisitV5ApiWebPublicTeamCampaignPollControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignPolls422JSONResponse) VisitTeamCampaignPollsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignRewardControllerIndexRequestObject struct {
+type TeamCampaignRewardsRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
-	Params         V5ApiWebPublicTeamCampaignRewardControllerIndexParams
+	Params         TeamCampaignRewardsParams
 }
 
-type V5ApiWebPublicTeamCampaignRewardControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignRewardControllerIndexResponse(w http.ResponseWriter) error
+type TeamCampaignRewardsResponseObject interface {
+	VisitTeamCampaignRewardsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignRewardControllerIndex200JSONResponse PaginatedResponse
+type TeamCampaignRewards200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamCampaignRewardControllerIndex200JSONResponse) VisitV5ApiWebPublicTeamCampaignRewardControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignRewards200JSONResponse) VisitTeamCampaignRewardsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignRewardControllerIndex401JSONResponse Unauthorized
+type TeamCampaignRewards401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignRewardControllerIndex401JSONResponse) VisitV5ApiWebPublicTeamCampaignRewardControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignRewards401JSONResponse) VisitTeamCampaignRewardsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignRewardControllerIndex404JSONResponse NotFound
+type TeamCampaignRewards404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignRewardControllerIndex404JSONResponse) VisitV5ApiWebPublicTeamCampaignRewardControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignRewards404JSONResponse) VisitTeamCampaignRewardsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignRewardControllerIndex422JSONResponse UnprocessableEntity
+type TeamCampaignRewards422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignRewardControllerIndex422JSONResponse) VisitV5ApiWebPublicTeamCampaignRewardControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignRewards422JSONResponse) VisitTeamCampaignRewardsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignScheduleControllerIndexRequestObject struct {
+type TeamCampaignSchedulesRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
-	Params         V5ApiWebPublicTeamCampaignScheduleControllerIndexParams
+	Params         TeamCampaignSchedulesParams
 }
 
-type V5ApiWebPublicTeamCampaignScheduleControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error
+type TeamCampaignSchedulesResponseObject interface {
+	VisitTeamCampaignSchedulesResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignScheduleControllerIndex200JSONResponse PaginatedResponse
+type TeamCampaignSchedules200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamCampaignScheduleControllerIndex200JSONResponse) VisitV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignSchedules200JSONResponse) VisitTeamCampaignSchedulesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignScheduleControllerIndex401JSONResponse Unauthorized
+type TeamCampaignSchedules401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignScheduleControllerIndex401JSONResponse) VisitV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignSchedules401JSONResponse) VisitTeamCampaignSchedulesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignScheduleControllerIndex404JSONResponse NotFound
+type TeamCampaignSchedules404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignScheduleControllerIndex404JSONResponse) VisitV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignSchedules404JSONResponse) VisitTeamCampaignSchedulesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignScheduleControllerIndex422JSONResponse UnprocessableEntity
+type TeamCampaignSchedules422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignScheduleControllerIndex422JSONResponse) VisitV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignSchedules422JSONResponse) VisitTeamCampaignSchedulesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexRequestObject struct {
+type TeamCampaignSupportingCampaignsRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
-	Params         V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams
+	Params         TeamCampaignSupportingCampaignsParams
 }
 
-type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse(w http.ResponseWriter) error
+type TeamCampaignSupportingCampaignsResponseObject interface {
+	VisitTeamCampaignSupportingCampaignsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex200JSONResponse PaginatedResponse
+type TeamCampaignSupportingCampaigns200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex200JSONResponse) VisitV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignSupportingCampaigns200JSONResponse) VisitTeamCampaignSupportingCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex401JSONResponse Unauthorized
+type TeamCampaignSupportingCampaigns401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex401JSONResponse) VisitV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignSupportingCampaigns401JSONResponse) VisitTeamCampaignSupportingCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex404JSONResponse NotFound
+type TeamCampaignSupportingCampaigns404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex404JSONResponse) VisitV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignSupportingCampaigns404JSONResponse) VisitTeamCampaignSupportingCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex422JSONResponse UnprocessableEntity
+type TeamCampaignSupportingCampaigns422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex422JSONResponse) VisitV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignSupportingCampaigns422JSONResponse) VisitTeamCampaignSupportingCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignChallengeControllerIndexRequestObject struct {
+type TeamCampaignChallengesRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
-	Params         V5ApiWebPublicTeamCampaignChallengeControllerIndexParams
+	Params         TeamCampaignChallengesParams
 }
 
-type V5ApiWebPublicTeamCampaignChallengeControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error
+type TeamCampaignChallengesResponseObject interface {
+	VisitTeamCampaignChallengesResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignChallengeControllerIndex200JSONResponse PaginatedResponse
+type TeamCampaignChallenges200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamCampaignChallengeControllerIndex200JSONResponse) VisitV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignChallenges200JSONResponse) VisitTeamCampaignChallengesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignChallengeControllerIndex401JSONResponse Unauthorized
+type TeamCampaignChallenges401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignChallengeControllerIndex401JSONResponse) VisitV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignChallenges401JSONResponse) VisitTeamCampaignChallengesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignChallengeControllerIndex404JSONResponse NotFound
+type TeamCampaignChallenges404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignChallengeControllerIndex404JSONResponse) VisitV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignChallenges404JSONResponse) VisitTeamCampaignChallengesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignChallengeControllerIndex422JSONResponse UnprocessableEntity
+type TeamCampaignChallenges422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignChallengeControllerIndex422JSONResponse) VisitV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamCampaignChallenges422JSONResponse) VisitTeamCampaignChallengesResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUserRequestObject struct {
+type TeamCampaignLeaderboardControllerUserRequestObject struct {
 	TeamCampaignId string `json:"team_campaign_id"`
-	Params         V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams
+	Params         TeamCampaignLeaderboardControllerUserParams
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponseObject interface {
-	VisitV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error
+type TeamCampaignLeaderboardControllerUserResponseObject interface {
+	VisitTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUser200JSONResponse PaginatedResponse
+type TeamCampaignLeaderboardControllerUser200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerUser200JSONResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerUser200JSONResponse) VisitTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUser401JSONResponse Unauthorized
+type TeamCampaignLeaderboardControllerUser401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerUser401JSONResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerUser401JSONResponse) VisitTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUser403ApplictionjsonResponse struct {
+type TeamCampaignLeaderboardControllerUser403ApplictionjsonResponse struct {
 	Body          io.Reader
 	ContentLength int64
 }
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerUser403ApplictionjsonResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerUser403ApplictionjsonResponse) VisitTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "appliction/json")
 	if response.ContentLength != 0 {
 		w.Header().Set("Content-Length", fmt.Sprint(response.ContentLength))
@@ -14452,335 +14452,335 @@ func (response V5ApiWebPublicTeamCampaignLeaderboardControllerUser403Applictionj
 	return err
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUser404JSONResponse NotFound
+type TeamCampaignLeaderboardControllerUser404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerUser404JSONResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerUser404JSONResponse) VisitTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamCampaignLeaderboardControllerUser422JSONResponse UnprocessableEntity
+type TeamCampaignLeaderboardControllerUser422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamCampaignLeaderboardControllerUser422JSONResponse) VisitV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
+func (response TeamCampaignLeaderboardControllerUser422JSONResponse) VisitTeamCampaignLeaderboardControllerUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamControllerShowRequestObject struct {
+type GetTeamRequestObject struct {
 	TeamId string `json:"team_id"`
 }
 
-type V5ApiWebPublicTeamControllerShowResponseObject interface {
-	VisitV5ApiWebPublicTeamControllerShowResponse(w http.ResponseWriter) error
+type GetTeamResponseObject interface {
+	VisitGetTeamResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamControllerShow200JSONResponse struct {
+type GetTeam200JSONResponse struct {
 	Data *Team `json:"data,omitempty"`
 }
 
-func (response V5ApiWebPublicTeamControllerShow200JSONResponse) VisitV5ApiWebPublicTeamControllerShowResponse(w http.ResponseWriter) error {
+func (response GetTeam200JSONResponse) VisitGetTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamControllerShow401JSONResponse Unauthorized
+type GetTeam401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamControllerShow401JSONResponse) VisitV5ApiWebPublicTeamControllerShowResponse(w http.ResponseWriter) error {
+func (response GetTeam401JSONResponse) VisitGetTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamControllerShow404JSONResponse NotFound
+type GetTeam404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamControllerShow404JSONResponse) VisitV5ApiWebPublicTeamControllerShowResponse(w http.ResponseWriter) error {
+func (response GetTeam404JSONResponse) VisitGetTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamControllerShow422JSONResponse UnprocessableEntity
+type GetTeam422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamControllerShow422JSONResponse) VisitV5ApiWebPublicTeamControllerShowResponse(w http.ResponseWriter) error {
+func (response GetTeam422JSONResponse) VisitGetTeamResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamMemberControllerIndexRequestObject struct {
+type TeamMembersRequestObject struct {
 	TeamId string `json:"team_id"`
-	Params V5ApiWebPublicTeamMemberControllerIndexParams
+	Params TeamMembersParams
 }
 
-type V5ApiWebPublicTeamMemberControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicTeamMemberControllerIndexResponse(w http.ResponseWriter) error
+type TeamMembersResponseObject interface {
+	VisitTeamMembersResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamMemberControllerIndex200JSONResponse PaginatedResponse
+type TeamMembers200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamMemberControllerIndex200JSONResponse) VisitV5ApiWebPublicTeamMemberControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamMembers200JSONResponse) VisitTeamMembersResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamMemberControllerIndex401JSONResponse Unauthorized
+type TeamMembers401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamMemberControllerIndex401JSONResponse) VisitV5ApiWebPublicTeamMemberControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamMembers401JSONResponse) VisitTeamMembersResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamMemberControllerIndex404JSONResponse NotFound
+type TeamMembers404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamMemberControllerIndex404JSONResponse) VisitV5ApiWebPublicTeamMemberControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamMembers404JSONResponse) VisitTeamMembersResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamMemberControllerIndex422JSONResponse UnprocessableEntity
+type TeamMembers422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamMemberControllerIndex422JSONResponse) VisitV5ApiWebPublicTeamMemberControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamMembers422JSONResponse) VisitTeamMembersResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamTeamCampaignControllerIndexRequestObject struct {
+type TeamTeamCampaignsRequestObject struct {
 	TeamId string `json:"team_id"`
-	Params V5ApiWebPublicTeamTeamCampaignControllerIndexParams
+	Params TeamTeamCampaignsParams
 }
 
-type V5ApiWebPublicTeamTeamCampaignControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicTeamTeamCampaignControllerIndexResponse(w http.ResponseWriter) error
+type TeamTeamCampaignsResponseObject interface {
+	VisitTeamTeamCampaignsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicTeamTeamCampaignControllerIndex200JSONResponse PaginatedResponse
+type TeamTeamCampaigns200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicTeamTeamCampaignControllerIndex200JSONResponse) VisitV5ApiWebPublicTeamTeamCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamTeamCampaigns200JSONResponse) VisitTeamTeamCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamTeamCampaignControllerIndex401JSONResponse Unauthorized
+type TeamTeamCampaigns401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicTeamTeamCampaignControllerIndex401JSONResponse) VisitV5ApiWebPublicTeamTeamCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamTeamCampaigns401JSONResponse) VisitTeamTeamCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamTeamCampaignControllerIndex404JSONResponse NotFound
+type TeamTeamCampaigns404JSONResponse NotFound
 
-func (response V5ApiWebPublicTeamTeamCampaignControllerIndex404JSONResponse) VisitV5ApiWebPublicTeamTeamCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamTeamCampaigns404JSONResponse) VisitTeamTeamCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicTeamTeamCampaignControllerIndex422JSONResponse UnprocessableEntity
+type TeamTeamCampaigns422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicTeamTeamCampaignControllerIndex422JSONResponse) VisitV5ApiWebPublicTeamTeamCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response TeamTeamCampaigns422JSONResponse) VisitTeamTeamCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserControllerShowRequestObject struct {
+type GetUserRequestObject struct {
 	UserId string `json:"user_id"`
 }
 
-type V5ApiWebPublicUserControllerShowResponseObject interface {
-	VisitV5ApiWebPublicUserControllerShowResponse(w http.ResponseWriter) error
+type GetUserResponseObject interface {
+	VisitGetUserResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicUserControllerShow200JSONResponse struct {
+type GetUser200JSONResponse struct {
 	Data *User `json:"data,omitempty"`
 }
 
-func (response V5ApiWebPublicUserControllerShow200JSONResponse) VisitV5ApiWebPublicUserControllerShowResponse(w http.ResponseWriter) error {
+func (response GetUser200JSONResponse) VisitGetUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserControllerShow401JSONResponse Unauthorized
+type GetUser401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicUserControllerShow401JSONResponse) VisitV5ApiWebPublicUserControllerShowResponse(w http.ResponseWriter) error {
+func (response GetUser401JSONResponse) VisitGetUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserControllerShow404JSONResponse NotFound
+type GetUser404JSONResponse NotFound
 
-func (response V5ApiWebPublicUserControllerShow404JSONResponse) VisitV5ApiWebPublicUserControllerShowResponse(w http.ResponseWriter) error {
+func (response GetUser404JSONResponse) VisitGetUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserControllerShow422JSONResponse UnprocessableEntity
+type GetUser422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicUserControllerShow422JSONResponse) VisitV5ApiWebPublicUserControllerShowResponse(w http.ResponseWriter) error {
+func (response GetUser422JSONResponse) VisitGetUserResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserCampaignControllerIndexRequestObject struct {
+type UserCampaignsRequestObject struct {
 	UserId string `json:"user_id"`
-	Params V5ApiWebPublicUserCampaignControllerIndexParams
+	Params UserCampaignsParams
 }
 
-type V5ApiWebPublicUserCampaignControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicUserCampaignControllerIndexResponse(w http.ResponseWriter) error
+type UserCampaignsResponseObject interface {
+	VisitUserCampaignsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicUserCampaignControllerIndex200JSONResponse PaginatedResponse
+type UserCampaigns200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicUserCampaignControllerIndex200JSONResponse) VisitV5ApiWebPublicUserCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserCampaigns200JSONResponse) VisitUserCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserCampaignControllerIndex401JSONResponse Unauthorized
+type UserCampaigns401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicUserCampaignControllerIndex401JSONResponse) VisitV5ApiWebPublicUserCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserCampaigns401JSONResponse) VisitUserCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserCampaignControllerIndex404JSONResponse NotFound
+type UserCampaigns404JSONResponse NotFound
 
-func (response V5ApiWebPublicUserCampaignControllerIndex404JSONResponse) VisitV5ApiWebPublicUserCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserCampaigns404JSONResponse) VisitUserCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserCampaignControllerIndex422JSONResponse UnprocessableEntity
+type UserCampaigns422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicUserCampaignControllerIndex422JSONResponse) VisitV5ApiWebPublicUserCampaignControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserCampaigns422JSONResponse) VisitUserCampaignsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserIntegrationEventControllerIndexRequestObject struct {
+type UserIntegrationEventsRequestObject struct {
 	UserId string `json:"user_id"`
-	Params V5ApiWebPublicUserIntegrationEventControllerIndexParams
+	Params UserIntegrationEventsParams
 }
 
-type V5ApiWebPublicUserIntegrationEventControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicUserIntegrationEventControllerIndexResponse(w http.ResponseWriter) error
+type UserIntegrationEventsResponseObject interface {
+	VisitUserIntegrationEventsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicUserIntegrationEventControllerIndex200JSONResponse PaginatedResponse
+type UserIntegrationEvents200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicUserIntegrationEventControllerIndex200JSONResponse) VisitV5ApiWebPublicUserIntegrationEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserIntegrationEvents200JSONResponse) VisitUserIntegrationEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserIntegrationEventControllerIndex401JSONResponse Unauthorized
+type UserIntegrationEvents401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicUserIntegrationEventControllerIndex401JSONResponse) VisitV5ApiWebPublicUserIntegrationEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserIntegrationEvents401JSONResponse) VisitUserIntegrationEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserIntegrationEventControllerIndex404JSONResponse NotFound
+type UserIntegrationEvents404JSONResponse NotFound
 
-func (response V5ApiWebPublicUserIntegrationEventControllerIndex404JSONResponse) VisitV5ApiWebPublicUserIntegrationEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserIntegrationEvents404JSONResponse) VisitUserIntegrationEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserIntegrationEventControllerIndex422JSONResponse UnprocessableEntity
+type UserIntegrationEvents422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicUserIntegrationEventControllerIndex422JSONResponse) VisitV5ApiWebPublicUserIntegrationEventControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserIntegrationEvents422JSONResponse) VisitUserIntegrationEventsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserTeamControllerIndexRequestObject struct {
+type UserTeamsRequestObject struct {
 	UserId string `json:"user_id"`
-	Params V5ApiWebPublicUserTeamControllerIndexParams
+	Params UserTeamsParams
 }
 
-type V5ApiWebPublicUserTeamControllerIndexResponseObject interface {
-	VisitV5ApiWebPublicUserTeamControllerIndexResponse(w http.ResponseWriter) error
+type UserTeamsResponseObject interface {
+	VisitUserTeamsResponse(w http.ResponseWriter) error
 }
 
-type V5ApiWebPublicUserTeamControllerIndex200JSONResponse PaginatedResponse
+type UserTeams200JSONResponse PaginatedResponse
 
-func (response V5ApiWebPublicUserTeamControllerIndex200JSONResponse) VisitV5ApiWebPublicUserTeamControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserTeams200JSONResponse) VisitUserTeamsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(200)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserTeamControllerIndex401JSONResponse Unauthorized
+type UserTeams401JSONResponse Unauthorized
 
-func (response V5ApiWebPublicUserTeamControllerIndex401JSONResponse) VisitV5ApiWebPublicUserTeamControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserTeams401JSONResponse) VisitUserTeamsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(401)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserTeamControllerIndex404JSONResponse NotFound
+type UserTeams404JSONResponse NotFound
 
-func (response V5ApiWebPublicUserTeamControllerIndex404JSONResponse) VisitV5ApiWebPublicUserTeamControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserTeams404JSONResponse) VisitUserTeamsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(404)
 
 	return json.NewEncoder(w).Encode(response)
 }
 
-type V5ApiWebPublicUserTeamControllerIndex422JSONResponse UnprocessableEntity
+type UserTeams422JSONResponse UnprocessableEntity
 
-func (response V5ApiWebPublicUserTeamControllerIndex422JSONResponse) VisitV5ApiWebPublicUserTeamControllerIndexResponse(w http.ResponseWriter) error {
+func (response UserTeams422JSONResponse) VisitUserTeamsResponse(w http.ResponseWriter) error {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(422)
 
@@ -14854,133 +14854,133 @@ func (response V5ApiWebOauthToken422JSONResponse) VisitV5ApiWebOauthTokenRespons
 type StrictServerInterface interface {
 	// Get by ID
 	// (GET /api/public/campaigns/{campaign_id})
-	V5ApiWebPublicCampaignControllerShow(ctx context.Context, request V5ApiWebPublicCampaignControllerShowRequestObject) (V5ApiWebPublicCampaignControllerShowResponseObject, error)
+	GetCampaign(ctx context.Context, request GetCampaignRequestObject) (GetCampaignResponseObject, error)
 	// List donations
 	// (GET /api/public/campaigns/{campaign_id}/donations)
-	V5ApiWebPublicCampaignDonationControllerIndex(ctx context.Context, request V5ApiWebPublicCampaignDonationControllerIndexRequestObject) (V5ApiWebPublicCampaignDonationControllerIndexResponseObject, error)
+	CampaignDonations(ctx context.Context, request CampaignDonationsRequestObject) (CampaignDonationsResponseObject, error)
 	// List top donors
 	// (GET /api/public/campaigns/{campaign_id}/donor_leaderboard)
-	V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx context.Context, request V5ApiWebPublicCampaignLeaderboardControllerDonorRequestObject) (V5ApiWebPublicCampaignLeaderboardControllerDonorResponseObject, error)
+	CampaignLeaderboardControllerDonor(ctx context.Context, request CampaignLeaderboardControllerDonorRequestObject) (CampaignLeaderboardControllerDonorResponseObject, error)
 	// List milestones
 	// (GET /api/public/campaigns/{campaign_id}/milestones)
-	V5ApiWebPublicCampaignMilestoneControllerIndex(ctx context.Context, request V5ApiWebPublicCampaignMilestoneControllerIndexRequestObject) (V5ApiWebPublicCampaignMilestoneControllerIndexResponseObject, error)
+	CampaignMilestones(ctx context.Context, request CampaignMilestonesRequestObject) (CampaignMilestonesResponseObject, error)
 	// List polls
 	// (GET /api/public/campaigns/{campaign_id}/polls)
-	V5ApiWebPublicCampaignPollControllerIndex(ctx context.Context, request V5ApiWebPublicCampaignPollControllerIndexRequestObject) (V5ApiWebPublicCampaignPollControllerIndexResponseObject, error)
+	CampaignPolls(ctx context.Context, request CampaignPollsRequestObject) (CampaignPollsResponseObject, error)
 	// List rewards
 	// (GET /api/public/campaigns/{campaign_id}/rewards)
-	V5ApiWebPublicCampaignRewardControllerIndex(ctx context.Context, request V5ApiWebPublicCampaignRewardControllerIndexRequestObject) (V5ApiWebPublicCampaignRewardControllerIndexResponseObject, error)
+	CampaignRewards(ctx context.Context, request CampaignRewardsRequestObject) (CampaignRewardsResponseObject, error)
 	// List schedules
 	// (GET /api/public/campaigns/{campaign_id}/schedules)
-	V5ApiWebPublicCampaignScheduleControllerIndex(ctx context.Context, request V5ApiWebPublicCampaignScheduleControllerIndexRequestObject) (V5ApiWebPublicCampaignScheduleControllerIndexResponseObject, error)
+	CampaignSchedules(ctx context.Context, request CampaignSchedulesRequestObject) (CampaignSchedulesResponseObject, error)
 	// List targets
 	// (GET /api/public/campaigns/{campaign_id}/targets)
-	V5ApiWebPublicCampaignChallengeControllerIndex(ctx context.Context, request V5ApiWebPublicCampaignChallengeControllerIndexRequestObject) (V5ApiWebPublicCampaignChallengeControllerIndexResponseObject, error)
+	CampaignChallenges(ctx context.Context, request CampaignChallengesRequestObject) (CampaignChallengesResponseObject, error)
 	// Get by ID
 	// (GET /api/public/causes/{cause_id})
-	V5ApiWebPublicCauseControllerShow(ctx context.Context, request V5ApiWebPublicCauseControllerShowRequestObject) (V5ApiWebPublicCauseControllerShowResponseObject, error)
+	GetCause(ctx context.Context, request GetCauseRequestObject) (GetCauseResponseObject, error)
 	// List campaigns
 	// (GET /api/public/causes/{cause_id}/campaigns)
-	V5ApiWebPublicCauseCampaignControllerIndex(ctx context.Context, request V5ApiWebPublicCauseCampaignControllerIndexRequestObject) (V5ApiWebPublicCauseCampaignControllerIndexResponseObject, error)
+	CauseCampaigns(ctx context.Context, request CauseCampaignsRequestObject) (CauseCampaignsResponseObject, error)
 	// List configured leaderboards
 	// (GET /api/public/causes/{cause_id}/configured_leaderboard)
-	V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx context.Context, request V5ApiWebPublicCauseLeaderboardControllerConfiguredRequestObject) (V5ApiWebPublicCauseLeaderboardControllerConfiguredResponseObject, error)
+	CauseLeaderboardControllerConfigured(ctx context.Context, request CauseLeaderboardControllerConfiguredRequestObject) (CauseLeaderboardControllerConfiguredResponseObject, error)
 	// List top donors
 	// (GET /api/public/causes/{cause_id}/donor_leaderboard)
-	V5ApiWebPublicCauseLeaderboardControllerDonor(ctx context.Context, request V5ApiWebPublicCauseLeaderboardControllerDonorRequestObject) (V5ApiWebPublicCauseLeaderboardControllerDonorResponseObject, error)
+	CauseLeaderboardControllerDonor(ctx context.Context, request CauseLeaderboardControllerDonorRequestObject) (CauseLeaderboardControllerDonorResponseObject, error)
 	// List fundraising events
 	// (GET /api/public/causes/{cause_id}/fundraising_events)
-	V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx context.Context, request V5ApiWebPublicCauseFundraisingEventControllerIndexRequestObject) (V5ApiWebPublicCauseFundraisingEventControllerIndexResponseObject, error)
+	CauseFundraisingEvents(ctx context.Context, request CauseFundraisingEventsRequestObject) (CauseFundraisingEventsResponseObject, error)
 	// List top teams
 	// (GET /api/public/causes/{cause_id}/team_leaderboard)
-	V5ApiWebPublicCauseLeaderboardControllerTeam(ctx context.Context, request V5ApiWebPublicCauseLeaderboardControllerTeamRequestObject) (V5ApiWebPublicCauseLeaderboardControllerTeamResponseObject, error)
+	CauseLeaderboardControllerTeam(ctx context.Context, request CauseLeaderboardControllerTeamRequestObject) (CauseLeaderboardControllerTeamResponseObject, error)
 	// List top fundraisers
 	// (GET /api/public/causes/{cause_id}/user_leaderboard)
-	V5ApiWebPublicCauseLeaderboardControllerUser(ctx context.Context, request V5ApiWebPublicCauseLeaderboardControllerUserRequestObject) (V5ApiWebPublicCauseLeaderboardControllerUserResponseObject, error)
+	CauseLeaderboardControllerUser(ctx context.Context, request CauseLeaderboardControllerUserRequestObject) (CauseLeaderboardControllerUserResponseObject, error)
 	// Gets the current user for an access token
 	// (GET /api/public/current-user)
-	V5ApiWebPublicUserControllerCurrentUser(ctx context.Context, request V5ApiWebPublicUserControllerCurrentUserRequestObject) (V5ApiWebPublicUserControllerCurrentUserResponseObject, error)
+	UserControllerCurrentUser(ctx context.Context, request UserControllerCurrentUserRequestObject) (UserControllerCurrentUserResponseObject, error)
 	// Get by ID
 	// (GET /api/public/fundraising_events/{fundraising_event_id})
-	V5ApiWebPublicFundraisingEventControllerShow(ctx context.Context, request V5ApiWebPublicFundraisingEventControllerShowRequestObject) (V5ApiWebPublicFundraisingEventControllerShowResponseObject, error)
+	GetFundraisingEvent(ctx context.Context, request GetFundraisingEventRequestObject) (GetFundraisingEventResponseObject, error)
 	// List configured leaderboards
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/configured_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(ctx context.Context, request V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredRequestObject) (V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponseObject, error)
+	FundraisingEventLeaderboardControllerConfigured(ctx context.Context, request FundraisingEventLeaderboardControllerConfiguredRequestObject) (FundraisingEventLeaderboardControllerConfiguredResponseObject, error)
 	// List top donors
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/donor_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx context.Context, request V5ApiWebPublicFundraisingEventLeaderboardControllerDonorRequestObject) (V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponseObject, error)
+	FundraisingEventLeaderboardControllerDonor(ctx context.Context, request FundraisingEventLeaderboardControllerDonorRequestObject) (FundraisingEventLeaderboardControllerDonorResponseObject, error)
 	// List campaigns
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/supporting_events)
-	V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ctx context.Context, request V5ApiWebPublicFundraisingEventSupportingEventControllerIndexRequestObject) (V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponseObject, error)
+	FundraisingEventSupportingEvents(ctx context.Context, request FundraisingEventSupportingEventsRequestObject) (FundraisingEventSupportingEventsResponseObject, error)
 	// List top teams fitness distances
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/team_fitness_distance_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance(ctx context.Context, request V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRequestObject) (V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponseObject, error)
+	FundraisingEventLeaderboardControllerTeamFitnessDistance(ctx context.Context, request FundraisingEventLeaderboardControllerTeamFitnessDistanceRequestObject) (FundraisingEventLeaderboardControllerTeamFitnessDistanceResponseObject, error)
 	// List top teams fitness times
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/team_fitness_time_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime(ctx context.Context, request V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeRequestObject) (V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponseObject, error)
+	FundraisingEventLeaderboardControllerTeamFitnessTime(ctx context.Context, request FundraisingEventLeaderboardControllerTeamFitnessTimeRequestObject) (FundraisingEventLeaderboardControllerTeamFitnessTimeResponseObject, error)
 	// List top teams
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/team_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx context.Context, request V5ApiWebPublicFundraisingEventLeaderboardControllerTeamRequestObject) (V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponseObject, error)
+	FundraisingEventLeaderboardControllerTeam(ctx context.Context, request FundraisingEventLeaderboardControllerTeamRequestObject) (FundraisingEventLeaderboardControllerTeamResponseObject, error)
 	// List top users fitness distances
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/user_fitness_distance_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance(ctx context.Context, request V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRequestObject) (V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponseObject, error)
+	FundraisingEventLeaderboardControllerUserFitnessDistance(ctx context.Context, request FundraisingEventLeaderboardControllerUserFitnessDistanceRequestObject) (FundraisingEventLeaderboardControllerUserFitnessDistanceResponseObject, error)
 	// List top users fitness times
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/user_fitness_time_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime(ctx context.Context, request V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeRequestObject) (V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponseObject, error)
+	FundraisingEventLeaderboardControllerUserFitnessTime(ctx context.Context, request FundraisingEventLeaderboardControllerUserFitnessTimeRequestObject) (FundraisingEventLeaderboardControllerUserFitnessTimeResponseObject, error)
 	// List top fundraisers
 	// (GET /api/public/fundraising_events/{fundraising_event_id}/user_leaderboard)
-	V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx context.Context, request V5ApiWebPublicFundraisingEventLeaderboardControllerUserRequestObject) (V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponseObject, error)
+	FundraisingEventLeaderboardControllerUser(ctx context.Context, request FundraisingEventLeaderboardControllerUserRequestObject) (FundraisingEventLeaderboardControllerUserResponseObject, error)
 	// Get by ID
 	// (GET /api/public/team_campaigns/{team_campaign_id})
-	V5ApiWebPublicTeamCampaignControllerShow(ctx context.Context, request V5ApiWebPublicTeamCampaignControllerShowRequestObject) (V5ApiWebPublicTeamCampaignControllerShowResponseObject, error)
+	GetTeamCampaign(ctx context.Context, request GetTeamCampaignRequestObject) (GetTeamCampaignResponseObject, error)
 	// List donations
 	// (GET /api/public/team_campaigns/{team_campaign_id}/donations)
-	V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx context.Context, request V5ApiWebPublicTeamCampaignDonationControllerIndexRequestObject) (V5ApiWebPublicTeamCampaignDonationControllerIndexResponseObject, error)
+	TeamCampaignDonations(ctx context.Context, request TeamCampaignDonationsRequestObject) (TeamCampaignDonationsResponseObject, error)
 	// List top donors
 	// (GET /api/public/team_campaigns/{team_campaign_id}/donor_leaderboards)
-	V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx context.Context, request V5ApiWebPublicTeamCampaignLeaderboardControllerDonorRequestObject) (V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponseObject, error)
+	TeamCampaignLeaderboardControllerDonor(ctx context.Context, request TeamCampaignLeaderboardControllerDonorRequestObject) (TeamCampaignLeaderboardControllerDonorResponseObject, error)
 	// List milestones
 	// (GET /api/public/team_campaigns/{team_campaign_id}/milestones)
-	V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx context.Context, request V5ApiWebPublicTeamCampaignMilestoneControllerIndexRequestObject) (V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponseObject, error)
+	TeamCampaignMilestones(ctx context.Context, request TeamCampaignMilestonesRequestObject) (TeamCampaignMilestonesResponseObject, error)
 	// List polls
 	// (GET /api/public/team_campaigns/{team_campaign_id}/polls)
-	V5ApiWebPublicTeamCampaignPollControllerIndex(ctx context.Context, request V5ApiWebPublicTeamCampaignPollControllerIndexRequestObject) (V5ApiWebPublicTeamCampaignPollControllerIndexResponseObject, error)
+	TeamCampaignPolls(ctx context.Context, request TeamCampaignPollsRequestObject) (TeamCampaignPollsResponseObject, error)
 	// List rewards
 	// (GET /api/public/team_campaigns/{team_campaign_id}/rewards)
-	V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx context.Context, request V5ApiWebPublicTeamCampaignRewardControllerIndexRequestObject) (V5ApiWebPublicTeamCampaignRewardControllerIndexResponseObject, error)
+	TeamCampaignRewards(ctx context.Context, request TeamCampaignRewardsRequestObject) (TeamCampaignRewardsResponseObject, error)
 	// List schedules
 	// (GET /api/public/team_campaigns/{team_campaign_id}/schedules)
-	V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx context.Context, request V5ApiWebPublicTeamCampaignScheduleControllerIndexRequestObject) (V5ApiWebPublicTeamCampaignScheduleControllerIndexResponseObject, error)
+	TeamCampaignSchedules(ctx context.Context, request TeamCampaignSchedulesRequestObject) (TeamCampaignSchedulesResponseObject, error)
 	// List supporting campaigns
 	// (GET /api/public/team_campaigns/{team_campaign_id}/supporting_campaigns)
-	V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx context.Context, request V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexRequestObject) (V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponseObject, error)
+	TeamCampaignSupportingCampaigns(ctx context.Context, request TeamCampaignSupportingCampaignsRequestObject) (TeamCampaignSupportingCampaignsResponseObject, error)
 	// List targets
 	// (GET /api/public/team_campaigns/{team_campaign_id}/targets)
-	V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx context.Context, request V5ApiWebPublicTeamCampaignChallengeControllerIndexRequestObject) (V5ApiWebPublicTeamCampaignChallengeControllerIndexResponseObject, error)
+	TeamCampaignChallenges(ctx context.Context, request TeamCampaignChallengesRequestObject) (TeamCampaignChallengesResponseObject, error)
 	// List top fundraisers
 	// (GET /api/public/team_campaigns/{team_campaign_id}/user_leaderboards)
-	V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx context.Context, request V5ApiWebPublicTeamCampaignLeaderboardControllerUserRequestObject) (V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponseObject, error)
+	TeamCampaignLeaderboardControllerUser(ctx context.Context, request TeamCampaignLeaderboardControllerUserRequestObject) (TeamCampaignLeaderboardControllerUserResponseObject, error)
 	// Get by ID
 	// (GET /api/public/teams/{team_id})
-	V5ApiWebPublicTeamControllerShow(ctx context.Context, request V5ApiWebPublicTeamControllerShowRequestObject) (V5ApiWebPublicTeamControllerShowResponseObject, error)
+	GetTeam(ctx context.Context, request GetTeamRequestObject) (GetTeamResponseObject, error)
 	// List team members
 	// (GET /api/public/teams/{team_id}/members)
-	V5ApiWebPublicTeamMemberControllerIndex(ctx context.Context, request V5ApiWebPublicTeamMemberControllerIndexRequestObject) (V5ApiWebPublicTeamMemberControllerIndexResponseObject, error)
+	TeamMembers(ctx context.Context, request TeamMembersRequestObject) (TeamMembersResponseObject, error)
 	// List Team Campaigns
 	// (GET /api/public/teams/{team_id}/team_campaigns)
-	V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx context.Context, request V5ApiWebPublicTeamTeamCampaignControllerIndexRequestObject) (V5ApiWebPublicTeamTeamCampaignControllerIndexResponseObject, error)
+	TeamTeamCampaigns(ctx context.Context, request TeamTeamCampaignsRequestObject) (TeamTeamCampaignsResponseObject, error)
 	// Get by ID
 	// (GET /api/public/users/{user_id})
-	V5ApiWebPublicUserControllerShow(ctx context.Context, request V5ApiWebPublicUserControllerShowRequestObject) (V5ApiWebPublicUserControllerShowResponseObject, error)
+	GetUser(ctx context.Context, request GetUserRequestObject) (GetUserResponseObject, error)
 	// List campaigns
 	// (GET /api/public/users/{user_id}/campaigns)
-	V5ApiWebPublicUserCampaignControllerIndex(ctx context.Context, request V5ApiWebPublicUserCampaignControllerIndexRequestObject) (V5ApiWebPublicUserCampaignControllerIndexResponseObject, error)
+	UserCampaigns(ctx context.Context, request UserCampaignsRequestObject) (UserCampaignsResponseObject, error)
 	// List all Campaigns and Team Campaigns by User ID
 	// (GET /api/public/users/{user_id}/integration_events)
-	V5ApiWebPublicUserIntegrationEventControllerIndex(ctx context.Context, request V5ApiWebPublicUserIntegrationEventControllerIndexRequestObject) (V5ApiWebPublicUserIntegrationEventControllerIndexResponseObject, error)
+	UserIntegrationEvents(ctx context.Context, request UserIntegrationEventsRequestObject) (UserIntegrationEventsResponseObject, error)
 	// List teams
 	// (GET /api/public/users/{user_id}/teams)
-	V5ApiWebPublicUserTeamControllerIndex(ctx context.Context, request V5ApiWebPublicUserTeamControllerIndexRequestObject) (V5ApiWebPublicUserTeamControllerIndexResponseObject, error)
+	UserTeams(ctx context.Context, request UserTeamsRequestObject) (UserTeamsResponseObject, error)
 	// Authorize
 	// (GET /oauth/authorize)
 	V5ApiWebOauthAuthorize(ctx context.Context, request V5ApiWebOauthAuthorizeRequestObject) (V5ApiWebOauthAuthorizeResponseObject, error)
@@ -15002,1107 +15002,1107 @@ type strictHandler struct {
 	middlewares []StrictMiddlewareFunc
 }
 
-// V5ApiWebPublicCampaignControllerShow operation middleware
-func (sh *strictHandler) V5ApiWebPublicCampaignControllerShow(ctx echo.Context, campaignId string) error {
-	var request V5ApiWebPublicCampaignControllerShowRequestObject
+// GetCampaign operation middleware
+func (sh *strictHandler) GetCampaign(ctx echo.Context, campaignId string) error {
+	var request GetCampaignRequestObject
 
 	request.CampaignId = campaignId
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCampaignControllerShow(ctx.Request().Context(), request.(V5ApiWebPublicCampaignControllerShowRequestObject))
+		return sh.ssi.GetCampaign(ctx.Request().Context(), request.(GetCampaignRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCampaignControllerShow")
+		handler = middleware(handler, "GetCampaign")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCampaignControllerShowResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCampaignControllerShowResponse(ctx.Response())
+	} else if validResponse, ok := response.(GetCampaignResponseObject); ok {
+		return validResponse.VisitGetCampaignResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCampaignDonationControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicCampaignDonationControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignDonationControllerIndexParams) error {
-	var request V5ApiWebPublicCampaignDonationControllerIndexRequestObject
-
-	request.CampaignId = campaignId
-	request.Params = params
-
-	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCampaignDonationControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicCampaignDonationControllerIndexRequestObject))
-	}
-	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCampaignDonationControllerIndex")
-	}
-
-	response, err := handler(ctx, request)
-
-	if err != nil {
-		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCampaignDonationControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCampaignDonationControllerIndexResponse(ctx.Response())
-	} else if response != nil {
-		return fmt.Errorf("Unexpected response type: %T", response)
-	}
-	return nil
-}
-
-// V5ApiWebPublicCampaignLeaderboardControllerDonor operation middleware
-func (sh *strictHandler) V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignLeaderboardControllerDonorParams) error {
-	var request V5ApiWebPublicCampaignLeaderboardControllerDonorRequestObject
+// CampaignDonations operation middleware
+func (sh *strictHandler) CampaignDonations(ctx echo.Context, campaignId string, params CampaignDonationsParams) error {
+	var request CampaignDonationsRequestObject
 
 	request.CampaignId = campaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCampaignLeaderboardControllerDonor(ctx.Request().Context(), request.(V5ApiWebPublicCampaignLeaderboardControllerDonorRequestObject))
+		return sh.ssi.CampaignDonations(ctx.Request().Context(), request.(CampaignDonationsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCampaignLeaderboardControllerDonor")
+		handler = middleware(handler, "CampaignDonations")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCampaignLeaderboardControllerDonorResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCampaignLeaderboardControllerDonorResponse(ctx.Response())
+	} else if validResponse, ok := response.(CampaignDonationsResponseObject); ok {
+		return validResponse.VisitCampaignDonationsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCampaignMilestoneControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicCampaignMilestoneControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignMilestoneControllerIndexParams) error {
-	var request V5ApiWebPublicCampaignMilestoneControllerIndexRequestObject
+// CampaignLeaderboardControllerDonor operation middleware
+func (sh *strictHandler) CampaignLeaderboardControllerDonor(ctx echo.Context, campaignId string, params CampaignLeaderboardControllerDonorParams) error {
+	var request CampaignLeaderboardControllerDonorRequestObject
 
 	request.CampaignId = campaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCampaignMilestoneControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicCampaignMilestoneControllerIndexRequestObject))
+		return sh.ssi.CampaignLeaderboardControllerDonor(ctx.Request().Context(), request.(CampaignLeaderboardControllerDonorRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCampaignMilestoneControllerIndex")
+		handler = middleware(handler, "CampaignLeaderboardControllerDonor")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCampaignMilestoneControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCampaignMilestoneControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(CampaignLeaderboardControllerDonorResponseObject); ok {
+		return validResponse.VisitCampaignLeaderboardControllerDonorResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCampaignPollControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicCampaignPollControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignPollControllerIndexParams) error {
-	var request V5ApiWebPublicCampaignPollControllerIndexRequestObject
+// CampaignMilestones operation middleware
+func (sh *strictHandler) CampaignMilestones(ctx echo.Context, campaignId string, params CampaignMilestonesParams) error {
+	var request CampaignMilestonesRequestObject
 
 	request.CampaignId = campaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCampaignPollControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicCampaignPollControllerIndexRequestObject))
+		return sh.ssi.CampaignMilestones(ctx.Request().Context(), request.(CampaignMilestonesRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCampaignPollControllerIndex")
+		handler = middleware(handler, "CampaignMilestones")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCampaignPollControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCampaignPollControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(CampaignMilestonesResponseObject); ok {
+		return validResponse.VisitCampaignMilestonesResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCampaignRewardControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicCampaignRewardControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignRewardControllerIndexParams) error {
-	var request V5ApiWebPublicCampaignRewardControllerIndexRequestObject
+// CampaignPolls operation middleware
+func (sh *strictHandler) CampaignPolls(ctx echo.Context, campaignId string, params CampaignPollsParams) error {
+	var request CampaignPollsRequestObject
 
 	request.CampaignId = campaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCampaignRewardControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicCampaignRewardControllerIndexRequestObject))
+		return sh.ssi.CampaignPolls(ctx.Request().Context(), request.(CampaignPollsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCampaignRewardControllerIndex")
+		handler = middleware(handler, "CampaignPolls")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCampaignRewardControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCampaignRewardControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(CampaignPollsResponseObject); ok {
+		return validResponse.VisitCampaignPollsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCampaignScheduleControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicCampaignScheduleControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignScheduleControllerIndexParams) error {
-	var request V5ApiWebPublicCampaignScheduleControllerIndexRequestObject
+// CampaignRewards operation middleware
+func (sh *strictHandler) CampaignRewards(ctx echo.Context, campaignId string, params CampaignRewardsParams) error {
+	var request CampaignRewardsRequestObject
 
 	request.CampaignId = campaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCampaignScheduleControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicCampaignScheduleControllerIndexRequestObject))
+		return sh.ssi.CampaignRewards(ctx.Request().Context(), request.(CampaignRewardsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCampaignScheduleControllerIndex")
+		handler = middleware(handler, "CampaignRewards")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCampaignScheduleControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCampaignScheduleControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(CampaignRewardsResponseObject); ok {
+		return validResponse.VisitCampaignRewardsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCampaignChallengeControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicCampaignChallengeControllerIndex(ctx echo.Context, campaignId string, params V5ApiWebPublicCampaignChallengeControllerIndexParams) error {
-	var request V5ApiWebPublicCampaignChallengeControllerIndexRequestObject
+// CampaignSchedules operation middleware
+func (sh *strictHandler) CampaignSchedules(ctx echo.Context, campaignId string, params CampaignSchedulesParams) error {
+	var request CampaignSchedulesRequestObject
 
 	request.CampaignId = campaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCampaignChallengeControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicCampaignChallengeControllerIndexRequestObject))
+		return sh.ssi.CampaignSchedules(ctx.Request().Context(), request.(CampaignSchedulesRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCampaignChallengeControllerIndex")
+		handler = middleware(handler, "CampaignSchedules")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCampaignChallengeControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCampaignChallengeControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(CampaignSchedulesResponseObject); ok {
+		return validResponse.VisitCampaignSchedulesResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCauseControllerShow operation middleware
-func (sh *strictHandler) V5ApiWebPublicCauseControllerShow(ctx echo.Context, causeId string) error {
-	var request V5ApiWebPublicCauseControllerShowRequestObject
+// CampaignChallenges operation middleware
+func (sh *strictHandler) CampaignChallenges(ctx echo.Context, campaignId string, params CampaignChallengesParams) error {
+	var request CampaignChallengesRequestObject
+
+	request.CampaignId = campaignId
+	request.Params = params
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.CampaignChallenges(ctx.Request().Context(), request.(CampaignChallengesRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "CampaignChallenges")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(CampaignChallengesResponseObject); ok {
+		return validResponse.VisitCampaignChallengesResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("Unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetCause operation middleware
+func (sh *strictHandler) GetCause(ctx echo.Context, causeId string) error {
+	var request GetCauseRequestObject
 
 	request.CauseId = causeId
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCauseControllerShow(ctx.Request().Context(), request.(V5ApiWebPublicCauseControllerShowRequestObject))
+		return sh.ssi.GetCause(ctx.Request().Context(), request.(GetCauseRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCauseControllerShow")
+		handler = middleware(handler, "GetCause")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCauseControllerShowResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCauseControllerShowResponse(ctx.Response())
+	} else if validResponse, ok := response.(GetCauseResponseObject); ok {
+		return validResponse.VisitGetCauseResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCauseCampaignControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicCauseCampaignControllerIndex(ctx echo.Context, causeId string, params V5ApiWebPublicCauseCampaignControllerIndexParams) error {
-	var request V5ApiWebPublicCauseCampaignControllerIndexRequestObject
-
-	request.CauseId = causeId
-	request.Params = params
-
-	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCauseCampaignControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicCauseCampaignControllerIndexRequestObject))
-	}
-	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCauseCampaignControllerIndex")
-	}
-
-	response, err := handler(ctx, request)
-
-	if err != nil {
-		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCauseCampaignControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCauseCampaignControllerIndexResponse(ctx.Response())
-	} else if response != nil {
-		return fmt.Errorf("Unexpected response type: %T", response)
-	}
-	return nil
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerConfigured operation middleware
-func (sh *strictHandler) V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx echo.Context, causeId string) error {
-	var request V5ApiWebPublicCauseLeaderboardControllerConfiguredRequestObject
-
-	request.CauseId = causeId
-
-	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCauseLeaderboardControllerConfigured(ctx.Request().Context(), request.(V5ApiWebPublicCauseLeaderboardControllerConfiguredRequestObject))
-	}
-	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCauseLeaderboardControllerConfigured")
-	}
-
-	response, err := handler(ctx, request)
-
-	if err != nil {
-		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCauseLeaderboardControllerConfiguredResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCauseLeaderboardControllerConfiguredResponse(ctx.Response())
-	} else if response != nil {
-		return fmt.Errorf("Unexpected response type: %T", response)
-	}
-	return nil
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerDonor operation middleware
-func (sh *strictHandler) V5ApiWebPublicCauseLeaderboardControllerDonor(ctx echo.Context, causeId string, params V5ApiWebPublicCauseLeaderboardControllerDonorParams) error {
-	var request V5ApiWebPublicCauseLeaderboardControllerDonorRequestObject
+// CauseCampaigns operation middleware
+func (sh *strictHandler) CauseCampaigns(ctx echo.Context, causeId string, params CauseCampaignsParams) error {
+	var request CauseCampaignsRequestObject
 
 	request.CauseId = causeId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCauseLeaderboardControllerDonor(ctx.Request().Context(), request.(V5ApiWebPublicCauseLeaderboardControllerDonorRequestObject))
+		return sh.ssi.CauseCampaigns(ctx.Request().Context(), request.(CauseCampaignsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCauseLeaderboardControllerDonor")
+		handler = middleware(handler, "CauseCampaigns")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCauseLeaderboardControllerDonorResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCauseLeaderboardControllerDonorResponse(ctx.Response())
+	} else if validResponse, ok := response.(CauseCampaignsResponseObject); ok {
+		return validResponse.VisitCauseCampaignsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCauseFundraisingEventControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx echo.Context, causeId string, params V5ApiWebPublicCauseFundraisingEventControllerIndexParams) error {
-	var request V5ApiWebPublicCauseFundraisingEventControllerIndexRequestObject
+// CauseLeaderboardControllerConfigured operation middleware
+func (sh *strictHandler) CauseLeaderboardControllerConfigured(ctx echo.Context, causeId string) error {
+	var request CauseLeaderboardControllerConfiguredRequestObject
+
+	request.CauseId = causeId
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.CauseLeaderboardControllerConfigured(ctx.Request().Context(), request.(CauseLeaderboardControllerConfiguredRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "CauseLeaderboardControllerConfigured")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(CauseLeaderboardControllerConfiguredResponseObject); ok {
+		return validResponse.VisitCauseLeaderboardControllerConfiguredResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("Unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// CauseLeaderboardControllerDonor operation middleware
+func (sh *strictHandler) CauseLeaderboardControllerDonor(ctx echo.Context, causeId string, params CauseLeaderboardControllerDonorParams) error {
+	var request CauseLeaderboardControllerDonorRequestObject
 
 	request.CauseId = causeId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCauseFundraisingEventControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicCauseFundraisingEventControllerIndexRequestObject))
+		return sh.ssi.CauseLeaderboardControllerDonor(ctx.Request().Context(), request.(CauseLeaderboardControllerDonorRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCauseFundraisingEventControllerIndex")
+		handler = middleware(handler, "CauseLeaderboardControllerDonor")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCauseFundraisingEventControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCauseFundraisingEventControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(CauseLeaderboardControllerDonorResponseObject); ok {
+		return validResponse.VisitCauseLeaderboardControllerDonorResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerTeam operation middleware
-func (sh *strictHandler) V5ApiWebPublicCauseLeaderboardControllerTeam(ctx echo.Context, causeId string, params V5ApiWebPublicCauseLeaderboardControllerTeamParams) error {
-	var request V5ApiWebPublicCauseLeaderboardControllerTeamRequestObject
+// CauseFundraisingEvents operation middleware
+func (sh *strictHandler) CauseFundraisingEvents(ctx echo.Context, causeId string, params CauseFundraisingEventsParams) error {
+	var request CauseFundraisingEventsRequestObject
 
 	request.CauseId = causeId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCauseLeaderboardControllerTeam(ctx.Request().Context(), request.(V5ApiWebPublicCauseLeaderboardControllerTeamRequestObject))
+		return sh.ssi.CauseFundraisingEvents(ctx.Request().Context(), request.(CauseFundraisingEventsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCauseLeaderboardControllerTeam")
+		handler = middleware(handler, "CauseFundraisingEvents")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCauseLeaderboardControllerTeamResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCauseLeaderboardControllerTeamResponse(ctx.Response())
+	} else if validResponse, ok := response.(CauseFundraisingEventsResponseObject); ok {
+		return validResponse.VisitCauseFundraisingEventsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicCauseLeaderboardControllerUser operation middleware
-func (sh *strictHandler) V5ApiWebPublicCauseLeaderboardControllerUser(ctx echo.Context, causeId string, params V5ApiWebPublicCauseLeaderboardControllerUserParams) error {
-	var request V5ApiWebPublicCauseLeaderboardControllerUserRequestObject
+// CauseLeaderboardControllerTeam operation middleware
+func (sh *strictHandler) CauseLeaderboardControllerTeam(ctx echo.Context, causeId string, params CauseLeaderboardControllerTeamParams) error {
+	var request CauseLeaderboardControllerTeamRequestObject
 
 	request.CauseId = causeId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicCauseLeaderboardControllerUser(ctx.Request().Context(), request.(V5ApiWebPublicCauseLeaderboardControllerUserRequestObject))
+		return sh.ssi.CauseLeaderboardControllerTeam(ctx.Request().Context(), request.(CauseLeaderboardControllerTeamRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicCauseLeaderboardControllerUser")
+		handler = middleware(handler, "CauseLeaderboardControllerTeam")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicCauseLeaderboardControllerUserResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicCauseLeaderboardControllerUserResponse(ctx.Response())
+	} else if validResponse, ok := response.(CauseLeaderboardControllerTeamResponseObject); ok {
+		return validResponse.VisitCauseLeaderboardControllerTeamResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicUserControllerCurrentUser operation middleware
-func (sh *strictHandler) V5ApiWebPublicUserControllerCurrentUser(ctx echo.Context) error {
-	var request V5ApiWebPublicUserControllerCurrentUserRequestObject
+// CauseLeaderboardControllerUser operation middleware
+func (sh *strictHandler) CauseLeaderboardControllerUser(ctx echo.Context, causeId string, params CauseLeaderboardControllerUserParams) error {
+	var request CauseLeaderboardControllerUserRequestObject
 
-	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicUserControllerCurrentUser(ctx.Request().Context(), request.(V5ApiWebPublicUserControllerCurrentUserRequestObject))
-	}
-	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicUserControllerCurrentUser")
-	}
-
-	response, err := handler(ctx, request)
-
-	if err != nil {
-		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicUserControllerCurrentUserResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicUserControllerCurrentUserResponse(ctx.Response())
-	} else if response != nil {
-		return fmt.Errorf("Unexpected response type: %T", response)
-	}
-	return nil
-}
-
-// V5ApiWebPublicFundraisingEventControllerShow operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventControllerShow(ctx echo.Context, fundraisingEventId string) error {
-	var request V5ApiWebPublicFundraisingEventControllerShowRequestObject
-
-	request.FundraisingEventId = fundraisingEventId
-
-	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventControllerShow(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventControllerShowRequestObject))
-	}
-	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventControllerShow")
-	}
-
-	response, err := handler(ctx, request)
-
-	if err != nil {
-		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventControllerShowResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventControllerShowResponse(ctx.Response())
-	} else if response != nil {
-		return fmt.Errorf("Unexpected response type: %T", response)
-	}
-	return nil
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(ctx echo.Context, fundraisingEventId string) error {
-	var request V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredRequestObject
-
-	request.FundraisingEventId = fundraisingEventId
-
-	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredRequestObject))
-	}
-	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventLeaderboardControllerConfigured")
-	}
-
-	response, err := handler(ctx, request)
-
-	if err != nil {
-		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse(ctx.Response())
-	} else if response != nil {
-		return fmt.Errorf("Unexpected response type: %T", response)
-	}
-	return nil
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerDonor operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams) error {
-	var request V5ApiWebPublicFundraisingEventLeaderboardControllerDonorRequestObject
-
-	request.FundraisingEventId = fundraisingEventId
+	request.CauseId = causeId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventLeaderboardControllerDonor(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventLeaderboardControllerDonorRequestObject))
+		return sh.ssi.CauseLeaderboardControllerUser(ctx.Request().Context(), request.(CauseLeaderboardControllerUserRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventLeaderboardControllerDonor")
+		handler = middleware(handler, "CauseLeaderboardControllerUser")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse(ctx.Response())
+	} else if validResponse, ok := response.(CauseLeaderboardControllerUserResponseObject); ok {
+		return validResponse.VisitCauseLeaderboardControllerUserResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicFundraisingEventSupportingEventControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams) error {
-	var request V5ApiWebPublicFundraisingEventSupportingEventControllerIndexRequestObject
-
-	request.FundraisingEventId = fundraisingEventId
-	request.Params = params
+// UserControllerCurrentUser operation middleware
+func (sh *strictHandler) UserControllerCurrentUser(ctx echo.Context) error {
+	var request UserControllerCurrentUserRequestObject
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventSupportingEventControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventSupportingEventControllerIndexRequestObject))
+		return sh.ssi.UserControllerCurrentUser(ctx.Request().Context(), request.(UserControllerCurrentUserRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventSupportingEventControllerIndex")
+		handler = middleware(handler, "UserControllerCurrentUser")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(UserControllerCurrentUserResponseObject); ok {
+		return validResponse.VisitUserControllerCurrentUserResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams) error {
-	var request V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRequestObject
+// GetFundraisingEvent operation middleware
+func (sh *strictHandler) GetFundraisingEvent(ctx echo.Context, fundraisingEventId string) error {
+	var request GetFundraisingEventRequestObject
+
+	request.FundraisingEventId = fundraisingEventId
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.GetFundraisingEvent(ctx.Request().Context(), request.(GetFundraisingEventRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "GetFundraisingEvent")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(GetFundraisingEventResponseObject); ok {
+		return validResponse.VisitGetFundraisingEventResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("Unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// FundraisingEventLeaderboardControllerConfigured operation middleware
+func (sh *strictHandler) FundraisingEventLeaderboardControllerConfigured(ctx echo.Context, fundraisingEventId string) error {
+	var request FundraisingEventLeaderboardControllerConfiguredRequestObject
+
+	request.FundraisingEventId = fundraisingEventId
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.FundraisingEventLeaderboardControllerConfigured(ctx.Request().Context(), request.(FundraisingEventLeaderboardControllerConfiguredRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "FundraisingEventLeaderboardControllerConfigured")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(FundraisingEventLeaderboardControllerConfiguredResponseObject); ok {
+		return validResponse.VisitFundraisingEventLeaderboardControllerConfiguredResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("Unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// FundraisingEventLeaderboardControllerDonor operation middleware
+func (sh *strictHandler) FundraisingEventLeaderboardControllerDonor(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerDonorParams) error {
+	var request FundraisingEventLeaderboardControllerDonorRequestObject
 
 	request.FundraisingEventId = fundraisingEventId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceRequestObject))
+		return sh.ssi.FundraisingEventLeaderboardControllerDonor(ctx.Request().Context(), request.(FundraisingEventLeaderboardControllerDonorRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistance")
+		handler = middleware(handler, "FundraisingEventLeaderboardControllerDonor")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(ctx.Response())
+	} else if validResponse, ok := response.(FundraisingEventLeaderboardControllerDonorResponseObject); ok {
+		return validResponse.VisitFundraisingEventLeaderboardControllerDonorResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams) error {
-	var request V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeRequestObject
+// FundraisingEventSupportingEvents operation middleware
+func (sh *strictHandler) FundraisingEventSupportingEvents(ctx echo.Context, fundraisingEventId string, params FundraisingEventSupportingEventsParams) error {
+	var request FundraisingEventSupportingEventsRequestObject
 
 	request.FundraisingEventId = fundraisingEventId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeRequestObject))
+		return sh.ssi.FundraisingEventSupportingEvents(ctx.Request().Context(), request.(FundraisingEventSupportingEventsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTime")
+		handler = middleware(handler, "FundraisingEventSupportingEvents")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(ctx.Response())
+	} else if validResponse, ok := response.(FundraisingEventSupportingEventsResponseObject); ok {
+		return validResponse.VisitFundraisingEventSupportingEventsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeam operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams) error {
-	var request V5ApiWebPublicFundraisingEventLeaderboardControllerTeamRequestObject
+// FundraisingEventLeaderboardControllerTeamFitnessDistance operation middleware
+func (sh *strictHandler) FundraisingEventLeaderboardControllerTeamFitnessDistance(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerTeamFitnessDistanceParams) error {
+	var request FundraisingEventLeaderboardControllerTeamFitnessDistanceRequestObject
 
 	request.FundraisingEventId = fundraisingEventId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventLeaderboardControllerTeam(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventLeaderboardControllerTeamRequestObject))
+		return sh.ssi.FundraisingEventLeaderboardControllerTeamFitnessDistance(ctx.Request().Context(), request.(FundraisingEventLeaderboardControllerTeamFitnessDistanceRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventLeaderboardControllerTeam")
+		handler = middleware(handler, "FundraisingEventLeaderboardControllerTeamFitnessDistance")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse(ctx.Response())
+	} else if validResponse, ok := response.(FundraisingEventLeaderboardControllerTeamFitnessDistanceResponseObject); ok {
+		return validResponse.VisitFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams) error {
-	var request V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRequestObject
+// FundraisingEventLeaderboardControllerTeamFitnessTime operation middleware
+func (sh *strictHandler) FundraisingEventLeaderboardControllerTeamFitnessTime(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerTeamFitnessTimeParams) error {
+	var request FundraisingEventLeaderboardControllerTeamFitnessTimeRequestObject
 
 	request.FundraisingEventId = fundraisingEventId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceRequestObject))
+		return sh.ssi.FundraisingEventLeaderboardControllerTeamFitnessTime(ctx.Request().Context(), request.(FundraisingEventLeaderboardControllerTeamFitnessTimeRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistance")
+		handler = middleware(handler, "FundraisingEventLeaderboardControllerTeamFitnessTime")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(ctx.Response())
+	} else if validResponse, ok := response.(FundraisingEventLeaderboardControllerTeamFitnessTimeResponseObject); ok {
+		return validResponse.VisitFundraisingEventLeaderboardControllerTeamFitnessTimeResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams) error {
-	var request V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeRequestObject
+// FundraisingEventLeaderboardControllerTeam operation middleware
+func (sh *strictHandler) FundraisingEventLeaderboardControllerTeam(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerTeamParams) error {
+	var request FundraisingEventLeaderboardControllerTeamRequestObject
 
 	request.FundraisingEventId = fundraisingEventId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeRequestObject))
+		return sh.ssi.FundraisingEventLeaderboardControllerTeam(ctx.Request().Context(), request.(FundraisingEventLeaderboardControllerTeamRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTime")
+		handler = middleware(handler, "FundraisingEventLeaderboardControllerTeam")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse(ctx.Response())
+	} else if validResponse, ok := response.(FundraisingEventLeaderboardControllerTeamResponseObject); ok {
+		return validResponse.VisitFundraisingEventLeaderboardControllerTeamResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUser operation middleware
-func (sh *strictHandler) V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx echo.Context, fundraisingEventId string, params V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams) error {
-	var request V5ApiWebPublicFundraisingEventLeaderboardControllerUserRequestObject
+// FundraisingEventLeaderboardControllerUserFitnessDistance operation middleware
+func (sh *strictHandler) FundraisingEventLeaderboardControllerUserFitnessDistance(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerUserFitnessDistanceParams) error {
+	var request FundraisingEventLeaderboardControllerUserFitnessDistanceRequestObject
 
 	request.FundraisingEventId = fundraisingEventId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicFundraisingEventLeaderboardControllerUser(ctx.Request().Context(), request.(V5ApiWebPublicFundraisingEventLeaderboardControllerUserRequestObject))
+		return sh.ssi.FundraisingEventLeaderboardControllerUserFitnessDistance(ctx.Request().Context(), request.(FundraisingEventLeaderboardControllerUserFitnessDistanceRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicFundraisingEventLeaderboardControllerUser")
+		handler = middleware(handler, "FundraisingEventLeaderboardControllerUserFitnessDistance")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse(ctx.Response())
+	} else if validResponse, ok := response.(FundraisingEventLeaderboardControllerUserFitnessDistanceResponseObject); ok {
+		return validResponse.VisitFundraisingEventLeaderboardControllerUserFitnessDistanceResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignControllerShow operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignControllerShow(ctx echo.Context, teamCampaignId string) error {
-	var request V5ApiWebPublicTeamCampaignControllerShowRequestObject
+// FundraisingEventLeaderboardControllerUserFitnessTime operation middleware
+func (sh *strictHandler) FundraisingEventLeaderboardControllerUserFitnessTime(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerUserFitnessTimeParams) error {
+	var request FundraisingEventLeaderboardControllerUserFitnessTimeRequestObject
+
+	request.FundraisingEventId = fundraisingEventId
+	request.Params = params
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.FundraisingEventLeaderboardControllerUserFitnessTime(ctx.Request().Context(), request.(FundraisingEventLeaderboardControllerUserFitnessTimeRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "FundraisingEventLeaderboardControllerUserFitnessTime")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(FundraisingEventLeaderboardControllerUserFitnessTimeResponseObject); ok {
+		return validResponse.VisitFundraisingEventLeaderboardControllerUserFitnessTimeResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("Unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// FundraisingEventLeaderboardControllerUser operation middleware
+func (sh *strictHandler) FundraisingEventLeaderboardControllerUser(ctx echo.Context, fundraisingEventId string, params FundraisingEventLeaderboardControllerUserParams) error {
+	var request FundraisingEventLeaderboardControllerUserRequestObject
+
+	request.FundraisingEventId = fundraisingEventId
+	request.Params = params
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.FundraisingEventLeaderboardControllerUser(ctx.Request().Context(), request.(FundraisingEventLeaderboardControllerUserRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "FundraisingEventLeaderboardControllerUser")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(FundraisingEventLeaderboardControllerUserResponseObject); ok {
+		return validResponse.VisitFundraisingEventLeaderboardControllerUserResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("Unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetTeamCampaign operation middleware
+func (sh *strictHandler) GetTeamCampaign(ctx echo.Context, teamCampaignId string) error {
+	var request GetTeamCampaignRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignControllerShow(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignControllerShowRequestObject))
+		return sh.ssi.GetTeamCampaign(ctx.Request().Context(), request.(GetTeamCampaignRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignControllerShow")
+		handler = middleware(handler, "GetTeamCampaign")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignControllerShowResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignControllerShowResponse(ctx.Response())
+	} else if validResponse, ok := response.(GetTeamCampaignResponseObject); ok {
+		return validResponse.VisitGetTeamCampaignResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignDonationControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignDonationControllerIndexParams) error {
-	var request V5ApiWebPublicTeamCampaignDonationControllerIndexRequestObject
+// TeamCampaignDonations operation middleware
+func (sh *strictHandler) TeamCampaignDonations(ctx echo.Context, teamCampaignId string, params TeamCampaignDonationsParams) error {
+	var request TeamCampaignDonationsRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignDonationControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignDonationControllerIndexRequestObject))
+		return sh.ssi.TeamCampaignDonations(ctx.Request().Context(), request.(TeamCampaignDonationsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignDonationControllerIndex")
+		handler = middleware(handler, "TeamCampaignDonations")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignDonationControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignDonationControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamCampaignDonationsResponseObject); ok {
+		return validResponse.VisitTeamCampaignDonationsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerDonor operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams) error {
-	var request V5ApiWebPublicTeamCampaignLeaderboardControllerDonorRequestObject
+// TeamCampaignLeaderboardControllerDonor operation middleware
+func (sh *strictHandler) TeamCampaignLeaderboardControllerDonor(ctx echo.Context, teamCampaignId string, params TeamCampaignLeaderboardControllerDonorParams) error {
+	var request TeamCampaignLeaderboardControllerDonorRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignLeaderboardControllerDonor(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignLeaderboardControllerDonorRequestObject))
+		return sh.ssi.TeamCampaignLeaderboardControllerDonor(ctx.Request().Context(), request.(TeamCampaignLeaderboardControllerDonorRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignLeaderboardControllerDonor")
+		handler = middleware(handler, "TeamCampaignLeaderboardControllerDonor")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamCampaignLeaderboardControllerDonorResponseObject); ok {
+		return validResponse.VisitTeamCampaignLeaderboardControllerDonorResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignMilestoneControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams) error {
-	var request V5ApiWebPublicTeamCampaignMilestoneControllerIndexRequestObject
+// TeamCampaignMilestones operation middleware
+func (sh *strictHandler) TeamCampaignMilestones(ctx echo.Context, teamCampaignId string, params TeamCampaignMilestonesParams) error {
+	var request TeamCampaignMilestonesRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignMilestoneControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignMilestoneControllerIndexRequestObject))
+		return sh.ssi.TeamCampaignMilestones(ctx.Request().Context(), request.(TeamCampaignMilestonesRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignMilestoneControllerIndex")
+		handler = middleware(handler, "TeamCampaignMilestones")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamCampaignMilestonesResponseObject); ok {
+		return validResponse.VisitTeamCampaignMilestonesResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignPollControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignPollControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignPollControllerIndexParams) error {
-	var request V5ApiWebPublicTeamCampaignPollControllerIndexRequestObject
+// TeamCampaignPolls operation middleware
+func (sh *strictHandler) TeamCampaignPolls(ctx echo.Context, teamCampaignId string, params TeamCampaignPollsParams) error {
+	var request TeamCampaignPollsRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignPollControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignPollControllerIndexRequestObject))
+		return sh.ssi.TeamCampaignPolls(ctx.Request().Context(), request.(TeamCampaignPollsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignPollControllerIndex")
+		handler = middleware(handler, "TeamCampaignPolls")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignPollControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignPollControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamCampaignPollsResponseObject); ok {
+		return validResponse.VisitTeamCampaignPollsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignRewardControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignRewardControllerIndexParams) error {
-	var request V5ApiWebPublicTeamCampaignRewardControllerIndexRequestObject
+// TeamCampaignRewards operation middleware
+func (sh *strictHandler) TeamCampaignRewards(ctx echo.Context, teamCampaignId string, params TeamCampaignRewardsParams) error {
+	var request TeamCampaignRewardsRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignRewardControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignRewardControllerIndexRequestObject))
+		return sh.ssi.TeamCampaignRewards(ctx.Request().Context(), request.(TeamCampaignRewardsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignRewardControllerIndex")
+		handler = middleware(handler, "TeamCampaignRewards")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignRewardControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignRewardControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamCampaignRewardsResponseObject); ok {
+		return validResponse.VisitTeamCampaignRewardsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignScheduleControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignScheduleControllerIndexParams) error {
-	var request V5ApiWebPublicTeamCampaignScheduleControllerIndexRequestObject
+// TeamCampaignSchedules operation middleware
+func (sh *strictHandler) TeamCampaignSchedules(ctx echo.Context, teamCampaignId string, params TeamCampaignSchedulesParams) error {
+	var request TeamCampaignSchedulesRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignScheduleControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignScheduleControllerIndexRequestObject))
+		return sh.ssi.TeamCampaignSchedules(ctx.Request().Context(), request.(TeamCampaignSchedulesRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignScheduleControllerIndex")
+		handler = middleware(handler, "TeamCampaignSchedules")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignScheduleControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignScheduleControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamCampaignSchedulesResponseObject); ok {
+		return validResponse.VisitTeamCampaignSchedulesResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams) error {
-	var request V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexRequestObject
+// TeamCampaignSupportingCampaigns operation middleware
+func (sh *strictHandler) TeamCampaignSupportingCampaigns(ctx echo.Context, teamCampaignId string, params TeamCampaignSupportingCampaignsParams) error {
+	var request TeamCampaignSupportingCampaignsRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexRequestObject))
+		return sh.ssi.TeamCampaignSupportingCampaigns(ctx.Request().Context(), request.(TeamCampaignSupportingCampaignsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndex")
+		handler = middleware(handler, "TeamCampaignSupportingCampaigns")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamCampaignSupportingCampaignsResponseObject); ok {
+		return validResponse.VisitTeamCampaignSupportingCampaignsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignChallengeControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignChallengeControllerIndexParams) error {
-	var request V5ApiWebPublicTeamCampaignChallengeControllerIndexRequestObject
+// TeamCampaignChallenges operation middleware
+func (sh *strictHandler) TeamCampaignChallenges(ctx echo.Context, teamCampaignId string, params TeamCampaignChallengesParams) error {
+	var request TeamCampaignChallengesRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignChallengeControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignChallengeControllerIndexRequestObject))
+		return sh.ssi.TeamCampaignChallenges(ctx.Request().Context(), request.(TeamCampaignChallengesRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignChallengeControllerIndex")
+		handler = middleware(handler, "TeamCampaignChallenges")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignChallengeControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignChallengeControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamCampaignChallengesResponseObject); ok {
+		return validResponse.VisitTeamCampaignChallengesResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamCampaignLeaderboardControllerUser operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx echo.Context, teamCampaignId string, params V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams) error {
-	var request V5ApiWebPublicTeamCampaignLeaderboardControllerUserRequestObject
+// TeamCampaignLeaderboardControllerUser operation middleware
+func (sh *strictHandler) TeamCampaignLeaderboardControllerUser(ctx echo.Context, teamCampaignId string, params TeamCampaignLeaderboardControllerUserParams) error {
+	var request TeamCampaignLeaderboardControllerUserRequestObject
 
 	request.TeamCampaignId = teamCampaignId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamCampaignLeaderboardControllerUser(ctx.Request().Context(), request.(V5ApiWebPublicTeamCampaignLeaderboardControllerUserRequestObject))
+		return sh.ssi.TeamCampaignLeaderboardControllerUser(ctx.Request().Context(), request.(TeamCampaignLeaderboardControllerUserRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamCampaignLeaderboardControllerUser")
+		handler = middleware(handler, "TeamCampaignLeaderboardControllerUser")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamCampaignLeaderboardControllerUserResponseObject); ok {
+		return validResponse.VisitTeamCampaignLeaderboardControllerUserResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamControllerShow operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamControllerShow(ctx echo.Context, teamId string) error {
-	var request V5ApiWebPublicTeamControllerShowRequestObject
+// GetTeam operation middleware
+func (sh *strictHandler) GetTeam(ctx echo.Context, teamId string) error {
+	var request GetTeamRequestObject
 
 	request.TeamId = teamId
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamControllerShow(ctx.Request().Context(), request.(V5ApiWebPublicTeamControllerShowRequestObject))
+		return sh.ssi.GetTeam(ctx.Request().Context(), request.(GetTeamRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamControllerShow")
+		handler = middleware(handler, "GetTeam")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamControllerShowResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamControllerShowResponse(ctx.Response())
+	} else if validResponse, ok := response.(GetTeamResponseObject); ok {
+		return validResponse.VisitGetTeamResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicTeamMemberControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamMemberControllerIndex(ctx echo.Context, teamId string, params V5ApiWebPublicTeamMemberControllerIndexParams) error {
-	var request V5ApiWebPublicTeamMemberControllerIndexRequestObject
-
-	request.TeamId = teamId
-	request.Params = params
-
-	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamMemberControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicTeamMemberControllerIndexRequestObject))
-	}
-	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamMemberControllerIndex")
-	}
-
-	response, err := handler(ctx, request)
-
-	if err != nil {
-		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamMemberControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamMemberControllerIndexResponse(ctx.Response())
-	} else if response != nil {
-		return fmt.Errorf("Unexpected response type: %T", response)
-	}
-	return nil
-}
-
-// V5ApiWebPublicTeamTeamCampaignControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx echo.Context, teamId string, params V5ApiWebPublicTeamTeamCampaignControllerIndexParams) error {
-	var request V5ApiWebPublicTeamTeamCampaignControllerIndexRequestObject
+// TeamMembers operation middleware
+func (sh *strictHandler) TeamMembers(ctx echo.Context, teamId string, params TeamMembersParams) error {
+	var request TeamMembersRequestObject
 
 	request.TeamId = teamId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicTeamTeamCampaignControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicTeamTeamCampaignControllerIndexRequestObject))
+		return sh.ssi.TeamMembers(ctx.Request().Context(), request.(TeamMembersRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicTeamTeamCampaignControllerIndex")
+		handler = middleware(handler, "TeamMembers")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicTeamTeamCampaignControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicTeamTeamCampaignControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(TeamMembersResponseObject); ok {
+		return validResponse.VisitTeamMembersResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicUserControllerShow operation middleware
-func (sh *strictHandler) V5ApiWebPublicUserControllerShow(ctx echo.Context, userId string) error {
-	var request V5ApiWebPublicUserControllerShowRequestObject
+// TeamTeamCampaigns operation middleware
+func (sh *strictHandler) TeamTeamCampaigns(ctx echo.Context, teamId string, params TeamTeamCampaignsParams) error {
+	var request TeamTeamCampaignsRequestObject
+
+	request.TeamId = teamId
+	request.Params = params
+
+	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
+		return sh.ssi.TeamTeamCampaigns(ctx.Request().Context(), request.(TeamTeamCampaignsRequestObject))
+	}
+	for _, middleware := range sh.middlewares {
+		handler = middleware(handler, "TeamTeamCampaigns")
+	}
+
+	response, err := handler(ctx, request)
+
+	if err != nil {
+		return err
+	} else if validResponse, ok := response.(TeamTeamCampaignsResponseObject); ok {
+		return validResponse.VisitTeamTeamCampaignsResponse(ctx.Response())
+	} else if response != nil {
+		return fmt.Errorf("Unexpected response type: %T", response)
+	}
+	return nil
+}
+
+// GetUser operation middleware
+func (sh *strictHandler) GetUser(ctx echo.Context, userId string) error {
+	var request GetUserRequestObject
 
 	request.UserId = userId
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicUserControllerShow(ctx.Request().Context(), request.(V5ApiWebPublicUserControllerShowRequestObject))
+		return sh.ssi.GetUser(ctx.Request().Context(), request.(GetUserRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicUserControllerShow")
+		handler = middleware(handler, "GetUser")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicUserControllerShowResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicUserControllerShowResponse(ctx.Response())
+	} else if validResponse, ok := response.(GetUserResponseObject); ok {
+		return validResponse.VisitGetUserResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicUserCampaignControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicUserCampaignControllerIndex(ctx echo.Context, userId string, params V5ApiWebPublicUserCampaignControllerIndexParams) error {
-	var request V5ApiWebPublicUserCampaignControllerIndexRequestObject
+// UserCampaigns operation middleware
+func (sh *strictHandler) UserCampaigns(ctx echo.Context, userId string, params UserCampaignsParams) error {
+	var request UserCampaignsRequestObject
 
 	request.UserId = userId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicUserCampaignControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicUserCampaignControllerIndexRequestObject))
+		return sh.ssi.UserCampaigns(ctx.Request().Context(), request.(UserCampaignsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicUserCampaignControllerIndex")
+		handler = middleware(handler, "UserCampaigns")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicUserCampaignControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicUserCampaignControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(UserCampaignsResponseObject); ok {
+		return validResponse.VisitUserCampaignsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicUserIntegrationEventControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicUserIntegrationEventControllerIndex(ctx echo.Context, userId string, params V5ApiWebPublicUserIntegrationEventControllerIndexParams) error {
-	var request V5ApiWebPublicUserIntegrationEventControllerIndexRequestObject
+// UserIntegrationEvents operation middleware
+func (sh *strictHandler) UserIntegrationEvents(ctx echo.Context, userId string, params UserIntegrationEventsParams) error {
+	var request UserIntegrationEventsRequestObject
 
 	request.UserId = userId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicUserIntegrationEventControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicUserIntegrationEventControllerIndexRequestObject))
+		return sh.ssi.UserIntegrationEvents(ctx.Request().Context(), request.(UserIntegrationEventsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicUserIntegrationEventControllerIndex")
+		handler = middleware(handler, "UserIntegrationEvents")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicUserIntegrationEventControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicUserIntegrationEventControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(UserIntegrationEventsResponseObject); ok {
+		return validResponse.VisitUserIntegrationEventsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
 	return nil
 }
 
-// V5ApiWebPublicUserTeamControllerIndex operation middleware
-func (sh *strictHandler) V5ApiWebPublicUserTeamControllerIndex(ctx echo.Context, userId string, params V5ApiWebPublicUserTeamControllerIndexParams) error {
-	var request V5ApiWebPublicUserTeamControllerIndexRequestObject
+// UserTeams operation middleware
+func (sh *strictHandler) UserTeams(ctx echo.Context, userId string, params UserTeamsParams) error {
+	var request UserTeamsRequestObject
 
 	request.UserId = userId
 	request.Params = params
 
 	handler := func(ctx echo.Context, request interface{}) (interface{}, error) {
-		return sh.ssi.V5ApiWebPublicUserTeamControllerIndex(ctx.Request().Context(), request.(V5ApiWebPublicUserTeamControllerIndexRequestObject))
+		return sh.ssi.UserTeams(ctx.Request().Context(), request.(UserTeamsRequestObject))
 	}
 	for _, middleware := range sh.middlewares {
-		handler = middleware(handler, "V5ApiWebPublicUserTeamControllerIndex")
+		handler = middleware(handler, "UserTeams")
 	}
 
 	response, err := handler(ctx, request)
 
 	if err != nil {
 		return err
-	} else if validResponse, ok := response.(V5ApiWebPublicUserTeamControllerIndexResponseObject); ok {
-		return validResponse.VisitV5ApiWebPublicUserTeamControllerIndexResponse(ctx.Response())
+	} else if validResponse, ok := response.(UserTeamsResponseObject); ok {
+		return validResponse.VisitUserTeamsResponse(ctx.Response())
 	} else if response != nil {
 		return fmt.Errorf("Unexpected response type: %T", response)
 	}
@@ -16174,265 +16174,264 @@ func (sh *strictHandler) V5ApiWebOauthToken(ctx echo.Context, params V5ApiWebOau
 // Base64 encoded, gzipped, json marshaled Swagger object
 var swaggerSpec = []string{
 
-	"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",
-	"8ZWdygIA",
+	"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",
 }
 
 // GetSwagger returns the content of the embedded swagger specification file

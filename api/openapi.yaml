@@ -3026,7 +3026,7 @@ info:
     \"ab6a592346444dea97170837e104d8a5ab6a592346444dea97170837e104d8a5\",\n    \"created_at\":
     \"2023-01-27T19:32:03Z\",\n    \"expires_in\": 7200,\n    \"refresh_token\": \"njjjytm3otetmgrjmi00yjawlwe4zgytzjixy2mzm2y3njawcg121231999393a3\",\n
     \   \"scope\": \"public\",\n    \"token_type\": \"bearer\"\n\n}\n```\n\nThis access
-    token may now be used as shown below to make requests. When used with the [/current-user](#tag/user/operation/V5ApiWeb.Public.UserController.current_user)
+    token may now be used as shown below to make requests. When used with the [/current-user](#tag/user/operation/UserController.current_user)
     endpoint, the full `user` object is returned.\n\n## Using Access Tokens\n\nAdd
     the Authorization header to your HTTP request.\n\n```\nAuthorization: Bearer <access_token>\n```\n\nExample:\n\n```\nAuthorization:
     Bearer ab6a592346444dea97170837e104d8a5ab6a592346444dea97170837e104d8a5\n```\n\n##
@@ -3136,7 +3136,7 @@ paths:
   "/api/public/team_campaigns/{team_campaign_id}/donor_leaderboards":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamCampaignLeaderboardController.donor
+      operationId: TeamCampaignLeaderboardController.donor
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -3265,7 +3265,7 @@ paths:
   "/api/public/causes/{cause_id}/user_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CauseLeaderboardController.user
+      operationId: CauseLeaderboardController.user
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -3394,7 +3394,7 @@ paths:
   "/api/public/team_campaigns/{team_campaign_id}/supporting_campaigns":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamCampaignSupportingCampaignController.index
+      operationId: TeamCampaignSupportingCampaigns
       parameters:
       - description: Team Campaign ID
         in: path
@@ -3547,7 +3547,7 @@ paths:
   "/api/public/campaigns/{campaign_id}/milestones":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CampaignMilestoneController.index
+      operationId: CampaignMilestones
       parameters:
       - description: Campaign ID or legacy ID
         in: path
@@ -3692,7 +3692,7 @@ paths:
   "/api/public/users/{user_id}/teams":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.UserTeamController.index
+      operationId: UserTeams
       parameters:
       - description: User ID
         in: path
@@ -3821,7 +3821,7 @@ paths:
   "/api/public/causes/{cause_id}/donor_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CauseLeaderboardController.donor
+      operationId: CauseLeaderboardController.donor
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -3951,7 +3951,7 @@ paths:
     get:
       callbacks: {}
       description: Returns a fundraising event by its ID
-      operationId: V5ApiWeb.Public.FundraisingEventController.show
+      operationId: GetFundraisingEvent
       parameters:
       - description: Fundraising Event ID
         in: path
@@ -4022,7 +4022,7 @@ paths:
   "/api/public/team_campaigns/{team_campaign_id}/targets":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamCampaignChallengeController.index
+      operationId: TeamCampaignChallenges
       parameters:
       - description: Team Campaign ID or legacy ID
         in: path
@@ -4133,7 +4133,7 @@ paths:
     get:
       callbacks: {}
       description: Returns a Team Campaign by its ID
-      operationId: V5ApiWeb.Public.TeamCampaignController.show
+      operationId: GetTeamCampaign
       parameters:
       - description: Team Campaign ID
         in: path
@@ -4240,7 +4240,7 @@ paths:
     get:
       callbacks: {}
       description: Returns a user by its ID
-      operationId: V5ApiWeb.Public.UserController.show
+      operationId: GetUser
       parameters:
       - description: User ID
         in: path
@@ -4309,7 +4309,7 @@ paths:
   "/api/public/team_campaigns/{team_campaign_id}/rewards":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamCampaignRewardController.index
+      operationId: TeamCampaignRewards
       parameters:
       - description: Team Campaign ID or legacy ID
         in: path
@@ -4428,7 +4428,7 @@ paths:
   "/api/public/causes/{cause_id}/fundraising_events":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CauseFundraisingEventController.index
+      operationId: CauseFundraisingEvents
       parameters:
       - description: Cause ID
         in: path
@@ -4551,7 +4551,7 @@ paths:
   "/api/public/campaigns/{campaign_id}/rewards":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CampaignRewardController.index
+      operationId: CampaignRewards
       parameters:
       - description: Campaign ID or legacy ID
         in: path
@@ -4670,7 +4670,7 @@ paths:
   "/api/public/team_campaigns/{team_campaign_id}/milestones":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamCampaignMilestoneController.index
+      operationId: TeamCampaignMilestones
       parameters:
       - description: Team Campaign ID or legacy ID
         in: path
@@ -4816,7 +4816,7 @@ paths:
     get:
       callbacks: {}
       deprecated: true
-      operationId: V5ApiWeb.Public.CauseLeaderboardController.configured
+      operationId: CauseLeaderboardController.configured
       parameters:
       - description: cause id
         in: path
@@ -4870,7 +4870,7 @@ paths:
   "/api/public/teams/{team_id}/team_campaigns":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamTeamCampaignController.index
+      operationId: TeamTeamCampaigns
       parameters:
       - description: Team ID
         in: path
@@ -5028,7 +5028,7 @@ paths:
   "/api/public/campaigns/{campaign_id}/targets":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CampaignChallengeController.index
+      operationId: CampaignChallenges
       parameters:
       - description: Campaign ID or legacy ID
         in: path
@@ -5138,7 +5138,7 @@ paths:
   "/api/public/fundraising_events/{fundraising_event_id}/team_fitness_distance_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.FundraisingEventLeaderboardController.team_fitness_distance
+      operationId: FundraisingEventLeaderboardController.team_fitness_distance
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -5269,7 +5269,7 @@ paths:
     get:
       callbacks: {}
       description: Returns a cause by its ID
-      operationId: V5ApiWeb.Public.CauseController.show
+      operationId: GetCause
       parameters:
       - description: Cause ID
         in: path
@@ -5350,7 +5350,7 @@ paths:
     get:
       callbacks: {}
       description: Returns campaigns supporting a cause
-      operationId: V5ApiWeb.Public.CauseCampaignController.index
+      operationId: CauseCampaigns
       parameters:
       - description: Cause ID
         in: path
@@ -5503,7 +5503,7 @@ paths:
   "/api/public/campaigns/{campaign_id}/donations":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CampaignDonationController.index
+      operationId: CampaignDonations
       parameters:
       - description: Campaign ID or legacy ID
         in: path
@@ -5633,7 +5633,7 @@ paths:
     get:
       callbacks: {}
       description: Returns supporting campaigns by Fundraising Event ID
-      operationId: V5ApiWeb.Public.FundraisingEventSupportingEventController.index
+      operationId: FundraisingEventSupportingEvents
       parameters:
       - description: Fundraising event ID or legacy ID
         in: path
@@ -5786,7 +5786,7 @@ paths:
   "/api/public/fundraising_events/{fundraising_event_id}/team_fitness_time_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.FundraisingEventLeaderboardController.team_fitness_time
+      operationId: FundraisingEventLeaderboardController.team_fitness_time
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -5917,7 +5917,7 @@ paths:
     get:
       callbacks: {}
       description: Returns a campaign by its ID
-      operationId: V5ApiWeb.Public.CampaignController.show
+      operationId: GetCampaign
       parameters:
       - description: Campaign ID
         in: path
@@ -6018,7 +6018,7 @@ paths:
   "/api/public/campaigns/{campaign_id}/schedules":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CampaignScheduleController.index
+      operationId: CampaignSchedules
       parameters:
       - description: Campaign ID or legacy ID
         in: path
@@ -6123,7 +6123,7 @@ paths:
   "/api/public/fundraising_events/{fundraising_event_id}/user_fitness_time_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.FundraisingEventLeaderboardController.user_fitness_time
+      operationId: FundraisingEventLeaderboardController.user_fitness_time
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -6253,7 +6253,7 @@ paths:
   "/api/public/causes/{cause_id}/team_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CauseLeaderboardController.team
+      operationId: CauseLeaderboardController.team
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -6435,7 +6435,7 @@ paths:
   "/api/public/campaigns/{campaign_id}/donor_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CampaignLeaderboardController.donor
+      operationId: CampaignLeaderboardController.donor
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -6565,7 +6565,7 @@ paths:
     get:
       callbacks: {}
       description: Returns a user for a given oauth access token
-      operationId: V5ApiWeb.Public.UserController.current_user
+      operationId: UserController.current_user
       parameters: []
       responses:
         '200':
@@ -6594,7 +6594,7 @@ paths:
   "/api/public/users/{user_id}/integration_events":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.UserIntegrationEventController.index
+      operationId: UserIntegrationEvents
       parameters:
       - description: User ID
         in: path
@@ -6747,7 +6747,7 @@ paths:
   "/api/public/campaigns/{campaign_id}/polls":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.CampaignPollController.index
+      operationId: CampaignPolls
       parameters:
       - description: Campaign ID or legacy ID
         in: path
@@ -6878,7 +6878,7 @@ paths:
   "/api/public/team_campaigns/{team_campaign_id}/schedules":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamCampaignScheduleController.index
+      operationId: TeamCampaignSchedules
       parameters:
       - description: Team Campaign ID or legacy ID
         in: path
@@ -6983,7 +6983,7 @@ paths:
   "/api/public/fundraising_events/{fundraising_event_id}/donor_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.FundraisingEventLeaderboardController.donor
+      operationId: FundraisingEventLeaderboardController.donor
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -7113,7 +7113,7 @@ paths:
   "/api/public/team_campaigns/{team_campaign_id}/user_leaderboards":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamCampaignLeaderboardController.user
+      operationId: TeamCampaignLeaderboardController.user
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -7242,7 +7242,7 @@ paths:
   "/api/public/fundraising_events/{fundraising_event_id}/user_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.FundraisingEventLeaderboardController.user
+      operationId: FundraisingEventLeaderboardController.user
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -7372,7 +7372,7 @@ paths:
   "/api/public/teams/{team_id}/members":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamMemberController.index
+      operationId: TeamMembers
       parameters:
       - description: Team ID
         in: path
@@ -7503,7 +7503,7 @@ paths:
     get:
       callbacks: {}
       deprecated: true
-      operationId: V5ApiWeb.Public.FundraisingEventLeaderboardController.configured
+      operationId: FundraisingEventLeaderboardController.configured
       parameters:
       - description: fundraising event id
         in: path
@@ -7557,7 +7557,7 @@ paths:
   "/api/public/team_campaigns/{team_campaign_id}/polls":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamCampaignPollController.index
+      operationId: TeamCampaignPolls
       parameters:
       - description: Team Campaign ID or legacy ID
         in: path
@@ -7688,7 +7688,7 @@ paths:
   "/api/public/fundraising_events/{fundraising_event_id}/team_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.FundraisingEventLeaderboardController.team
+      operationId: FundraisingEventLeaderboardController.team
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -7818,7 +7818,7 @@ paths:
   "/api/public/team_campaigns/{team_campaign_id}/donations":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.TeamCampaignDonationController.index
+      operationId: TeamCampaignDonations
       parameters:
       - description: Team Campaign ID or legacy ID
         in: path
@@ -7948,7 +7948,7 @@ paths:
     get:
       callbacks: {}
       description: Returns a team by its ID
-      operationId: V5ApiWeb.Public.TeamController.show
+      operationId: GetTeam
       parameters:
       - description: Team ID
         in: path
@@ -8018,7 +8018,7 @@ paths:
   "/api/public/fundraising_events/{fundraising_event_id}/user_fitness_distance_leaderboard":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.FundraisingEventLeaderboardController.user_fitness_distance
+      operationId: FundraisingEventLeaderboardController.user_fitness_distance
       parameters:
       - description: The time range to use in leaderboard generation
         example: all
@@ -8148,7 +8148,7 @@ paths:
   "/api/public/users/{user_id}/campaigns":
     get:
       callbacks: {}
-      operationId: V5ApiWeb.Public.UserCampaignController.index
+      operationId: UserCampaigns
       parameters:
       - description: User ID
         in: path

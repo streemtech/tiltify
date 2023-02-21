@@ -25,6 +25,2705 @@ func (_m *Api) EXPECT() *Api_Expecter {
 	return &Api_Expecter{mock: &_m.Mock}
 }
 
+// CampaignChallengesWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
+func (_m *Api) CampaignChallengesWithResponse(ctx context.Context, campaignId string, params *api.CampaignChallengesParams, reqEditors ...api.RequestEditorFn) (*api.CampaignChallengesResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, campaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CampaignChallengesResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CampaignChallengesParams, ...api.RequestEditorFn) *api.CampaignChallengesResponse); ok {
+		r0 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CampaignChallengesResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CampaignChallengesParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CampaignChallengesWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CampaignChallengesWithResponse'
+type Api_CampaignChallengesWithResponse_Call struct {
+	*mock.Call
+}
+
+// CampaignChallengesWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - campaignId string
+//   - params *api.CampaignChallengesParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CampaignChallengesWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_CampaignChallengesWithResponse_Call {
+	return &Api_CampaignChallengesWithResponse_Call{Call: _e.mock.On("CampaignChallengesWithResponse",
+		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CampaignChallengesWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.CampaignChallengesParams, reqEditors ...api.RequestEditorFn)) *Api_CampaignChallengesWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CampaignChallengesParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CampaignChallengesWithResponse_Call) Return(_a0 *api.CampaignChallengesResponse, _a1 error) *Api_CampaignChallengesWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CampaignDonationsWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
+func (_m *Api) CampaignDonationsWithResponse(ctx context.Context, campaignId string, params *api.CampaignDonationsParams, reqEditors ...api.RequestEditorFn) (*api.CampaignDonationsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, campaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CampaignDonationsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CampaignDonationsParams, ...api.RequestEditorFn) *api.CampaignDonationsResponse); ok {
+		r0 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CampaignDonationsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CampaignDonationsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CampaignDonationsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CampaignDonationsWithResponse'
+type Api_CampaignDonationsWithResponse_Call struct {
+	*mock.Call
+}
+
+// CampaignDonationsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - campaignId string
+//   - params *api.CampaignDonationsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CampaignDonationsWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_CampaignDonationsWithResponse_Call {
+	return &Api_CampaignDonationsWithResponse_Call{Call: _e.mock.On("CampaignDonationsWithResponse",
+		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CampaignDonationsWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.CampaignDonationsParams, reqEditors ...api.RequestEditorFn)) *Api_CampaignDonationsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CampaignDonationsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CampaignDonationsWithResponse_Call) Return(_a0 *api.CampaignDonationsResponse, _a1 error) *Api_CampaignDonationsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CampaignLeaderboardControllerDonorWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
+func (_m *Api) CampaignLeaderboardControllerDonorWithResponse(ctx context.Context, campaignId string, params *api.CampaignLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn) (*api.CampaignLeaderboardControllerDonorResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, campaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CampaignLeaderboardControllerDonorResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CampaignLeaderboardControllerDonorParams, ...api.RequestEditorFn) *api.CampaignLeaderboardControllerDonorResponse); ok {
+		r0 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CampaignLeaderboardControllerDonorResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CampaignLeaderboardControllerDonorParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CampaignLeaderboardControllerDonorWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CampaignLeaderboardControllerDonorWithResponse'
+type Api_CampaignLeaderboardControllerDonorWithResponse_Call struct {
+	*mock.Call
+}
+
+// CampaignLeaderboardControllerDonorWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - campaignId string
+//   - params *api.CampaignLeaderboardControllerDonorParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CampaignLeaderboardControllerDonorWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_CampaignLeaderboardControllerDonorWithResponse_Call {
+	return &Api_CampaignLeaderboardControllerDonorWithResponse_Call{Call: _e.mock.On("CampaignLeaderboardControllerDonorWithResponse",
+		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CampaignLeaderboardControllerDonorWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.CampaignLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn)) *Api_CampaignLeaderboardControllerDonorWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CampaignLeaderboardControllerDonorParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CampaignLeaderboardControllerDonorWithResponse_Call) Return(_a0 *api.CampaignLeaderboardControllerDonorResponse, _a1 error) *Api_CampaignLeaderboardControllerDonorWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CampaignMilestonesWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
+func (_m *Api) CampaignMilestonesWithResponse(ctx context.Context, campaignId string, params *api.CampaignMilestonesParams, reqEditors ...api.RequestEditorFn) (*api.CampaignMilestonesResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, campaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CampaignMilestonesResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CampaignMilestonesParams, ...api.RequestEditorFn) *api.CampaignMilestonesResponse); ok {
+		r0 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CampaignMilestonesResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CampaignMilestonesParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CampaignMilestonesWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CampaignMilestonesWithResponse'
+type Api_CampaignMilestonesWithResponse_Call struct {
+	*mock.Call
+}
+
+// CampaignMilestonesWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - campaignId string
+//   - params *api.CampaignMilestonesParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CampaignMilestonesWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_CampaignMilestonesWithResponse_Call {
+	return &Api_CampaignMilestonesWithResponse_Call{Call: _e.mock.On("CampaignMilestonesWithResponse",
+		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CampaignMilestonesWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.CampaignMilestonesParams, reqEditors ...api.RequestEditorFn)) *Api_CampaignMilestonesWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CampaignMilestonesParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CampaignMilestonesWithResponse_Call) Return(_a0 *api.CampaignMilestonesResponse, _a1 error) *Api_CampaignMilestonesWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CampaignPollsWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
+func (_m *Api) CampaignPollsWithResponse(ctx context.Context, campaignId string, params *api.CampaignPollsParams, reqEditors ...api.RequestEditorFn) (*api.CampaignPollsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, campaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CampaignPollsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CampaignPollsParams, ...api.RequestEditorFn) *api.CampaignPollsResponse); ok {
+		r0 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CampaignPollsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CampaignPollsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CampaignPollsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CampaignPollsWithResponse'
+type Api_CampaignPollsWithResponse_Call struct {
+	*mock.Call
+}
+
+// CampaignPollsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - campaignId string
+//   - params *api.CampaignPollsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CampaignPollsWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_CampaignPollsWithResponse_Call {
+	return &Api_CampaignPollsWithResponse_Call{Call: _e.mock.On("CampaignPollsWithResponse",
+		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CampaignPollsWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.CampaignPollsParams, reqEditors ...api.RequestEditorFn)) *Api_CampaignPollsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CampaignPollsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CampaignPollsWithResponse_Call) Return(_a0 *api.CampaignPollsResponse, _a1 error) *Api_CampaignPollsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CampaignRewardsWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
+func (_m *Api) CampaignRewardsWithResponse(ctx context.Context, campaignId string, params *api.CampaignRewardsParams, reqEditors ...api.RequestEditorFn) (*api.CampaignRewardsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, campaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CampaignRewardsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CampaignRewardsParams, ...api.RequestEditorFn) *api.CampaignRewardsResponse); ok {
+		r0 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CampaignRewardsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CampaignRewardsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CampaignRewardsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CampaignRewardsWithResponse'
+type Api_CampaignRewardsWithResponse_Call struct {
+	*mock.Call
+}
+
+// CampaignRewardsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - campaignId string
+//   - params *api.CampaignRewardsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CampaignRewardsWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_CampaignRewardsWithResponse_Call {
+	return &Api_CampaignRewardsWithResponse_Call{Call: _e.mock.On("CampaignRewardsWithResponse",
+		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CampaignRewardsWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.CampaignRewardsParams, reqEditors ...api.RequestEditorFn)) *Api_CampaignRewardsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CampaignRewardsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CampaignRewardsWithResponse_Call) Return(_a0 *api.CampaignRewardsResponse, _a1 error) *Api_CampaignRewardsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CampaignSchedulesWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
+func (_m *Api) CampaignSchedulesWithResponse(ctx context.Context, campaignId string, params *api.CampaignSchedulesParams, reqEditors ...api.RequestEditorFn) (*api.CampaignSchedulesResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, campaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CampaignSchedulesResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CampaignSchedulesParams, ...api.RequestEditorFn) *api.CampaignSchedulesResponse); ok {
+		r0 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CampaignSchedulesResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CampaignSchedulesParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, campaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CampaignSchedulesWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CampaignSchedulesWithResponse'
+type Api_CampaignSchedulesWithResponse_Call struct {
+	*mock.Call
+}
+
+// CampaignSchedulesWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - campaignId string
+//   - params *api.CampaignSchedulesParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CampaignSchedulesWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_CampaignSchedulesWithResponse_Call {
+	return &Api_CampaignSchedulesWithResponse_Call{Call: _e.mock.On("CampaignSchedulesWithResponse",
+		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CampaignSchedulesWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.CampaignSchedulesParams, reqEditors ...api.RequestEditorFn)) *Api_CampaignSchedulesWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CampaignSchedulesParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CampaignSchedulesWithResponse_Call) Return(_a0 *api.CampaignSchedulesResponse, _a1 error) *Api_CampaignSchedulesWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CauseCampaignsWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
+func (_m *Api) CauseCampaignsWithResponse(ctx context.Context, causeId string, params *api.CauseCampaignsParams, reqEditors ...api.RequestEditorFn) (*api.CauseCampaignsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, causeId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CauseCampaignsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CauseCampaignsParams, ...api.RequestEditorFn) *api.CauseCampaignsResponse); ok {
+		r0 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CauseCampaignsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CauseCampaignsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CauseCampaignsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CauseCampaignsWithResponse'
+type Api_CauseCampaignsWithResponse_Call struct {
+	*mock.Call
+}
+
+// CauseCampaignsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - causeId string
+//   - params *api.CauseCampaignsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CauseCampaignsWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_CauseCampaignsWithResponse_Call {
+	return &Api_CauseCampaignsWithResponse_Call{Call: _e.mock.On("CauseCampaignsWithResponse",
+		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CauseCampaignsWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.CauseCampaignsParams, reqEditors ...api.RequestEditorFn)) *Api_CauseCampaignsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CauseCampaignsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CauseCampaignsWithResponse_Call) Return(_a0 *api.CauseCampaignsResponse, _a1 error) *Api_CauseCampaignsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CauseFundraisingEventsWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
+func (_m *Api) CauseFundraisingEventsWithResponse(ctx context.Context, causeId string, params *api.CauseFundraisingEventsParams, reqEditors ...api.RequestEditorFn) (*api.CauseFundraisingEventsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, causeId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CauseFundraisingEventsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CauseFundraisingEventsParams, ...api.RequestEditorFn) *api.CauseFundraisingEventsResponse); ok {
+		r0 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CauseFundraisingEventsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CauseFundraisingEventsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CauseFundraisingEventsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CauseFundraisingEventsWithResponse'
+type Api_CauseFundraisingEventsWithResponse_Call struct {
+	*mock.Call
+}
+
+// CauseFundraisingEventsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - causeId string
+//   - params *api.CauseFundraisingEventsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CauseFundraisingEventsWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_CauseFundraisingEventsWithResponse_Call {
+	return &Api_CauseFundraisingEventsWithResponse_Call{Call: _e.mock.On("CauseFundraisingEventsWithResponse",
+		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CauseFundraisingEventsWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.CauseFundraisingEventsParams, reqEditors ...api.RequestEditorFn)) *Api_CauseFundraisingEventsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CauseFundraisingEventsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CauseFundraisingEventsWithResponse_Call) Return(_a0 *api.CauseFundraisingEventsResponse, _a1 error) *Api_CauseFundraisingEventsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CauseLeaderboardControllerConfiguredWithResponse provides a mock function with given fields: ctx, causeId, reqEditors
+func (_m *Api) CauseLeaderboardControllerConfiguredWithResponse(ctx context.Context, causeId string, reqEditors ...api.RequestEditorFn) (*api.CauseLeaderboardControllerConfiguredResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, causeId)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CauseLeaderboardControllerConfiguredResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.CauseLeaderboardControllerConfiguredResponse); ok {
+		r0 = rf(ctx, causeId, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CauseLeaderboardControllerConfiguredResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, causeId, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CauseLeaderboardControllerConfiguredWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CauseLeaderboardControllerConfiguredWithResponse'
+type Api_CauseLeaderboardControllerConfiguredWithResponse_Call struct {
+	*mock.Call
+}
+
+// CauseLeaderboardControllerConfiguredWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - causeId string
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CauseLeaderboardControllerConfiguredWithResponse(ctx interface{}, causeId interface{}, reqEditors ...interface{}) *Api_CauseLeaderboardControllerConfiguredWithResponse_Call {
+	return &Api_CauseLeaderboardControllerConfiguredWithResponse_Call{Call: _e.mock.On("CauseLeaderboardControllerConfiguredWithResponse",
+		append([]interface{}{ctx, causeId}, reqEditors...)...)}
+}
+
+func (_c *Api_CauseLeaderboardControllerConfiguredWithResponse_Call) Run(run func(ctx context.Context, causeId string, reqEditors ...api.RequestEditorFn)) *Api_CauseLeaderboardControllerConfiguredWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
+		for i, a := range args[2:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CauseLeaderboardControllerConfiguredWithResponse_Call) Return(_a0 *api.CauseLeaderboardControllerConfiguredResponse, _a1 error) *Api_CauseLeaderboardControllerConfiguredWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CauseLeaderboardControllerDonorWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
+func (_m *Api) CauseLeaderboardControllerDonorWithResponse(ctx context.Context, causeId string, params *api.CauseLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn) (*api.CauseLeaderboardControllerDonorResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, causeId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CauseLeaderboardControllerDonorResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CauseLeaderboardControllerDonorParams, ...api.RequestEditorFn) *api.CauseLeaderboardControllerDonorResponse); ok {
+		r0 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CauseLeaderboardControllerDonorResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CauseLeaderboardControllerDonorParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CauseLeaderboardControllerDonorWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CauseLeaderboardControllerDonorWithResponse'
+type Api_CauseLeaderboardControllerDonorWithResponse_Call struct {
+	*mock.Call
+}
+
+// CauseLeaderboardControllerDonorWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - causeId string
+//   - params *api.CauseLeaderboardControllerDonorParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CauseLeaderboardControllerDonorWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_CauseLeaderboardControllerDonorWithResponse_Call {
+	return &Api_CauseLeaderboardControllerDonorWithResponse_Call{Call: _e.mock.On("CauseLeaderboardControllerDonorWithResponse",
+		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CauseLeaderboardControllerDonorWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.CauseLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn)) *Api_CauseLeaderboardControllerDonorWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CauseLeaderboardControllerDonorParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CauseLeaderboardControllerDonorWithResponse_Call) Return(_a0 *api.CauseLeaderboardControllerDonorResponse, _a1 error) *Api_CauseLeaderboardControllerDonorWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CauseLeaderboardControllerTeamWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
+func (_m *Api) CauseLeaderboardControllerTeamWithResponse(ctx context.Context, causeId string, params *api.CauseLeaderboardControllerTeamParams, reqEditors ...api.RequestEditorFn) (*api.CauseLeaderboardControllerTeamResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, causeId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CauseLeaderboardControllerTeamResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CauseLeaderboardControllerTeamParams, ...api.RequestEditorFn) *api.CauseLeaderboardControllerTeamResponse); ok {
+		r0 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CauseLeaderboardControllerTeamResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CauseLeaderboardControllerTeamParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CauseLeaderboardControllerTeamWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CauseLeaderboardControllerTeamWithResponse'
+type Api_CauseLeaderboardControllerTeamWithResponse_Call struct {
+	*mock.Call
+}
+
+// CauseLeaderboardControllerTeamWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - causeId string
+//   - params *api.CauseLeaderboardControllerTeamParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CauseLeaderboardControllerTeamWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_CauseLeaderboardControllerTeamWithResponse_Call {
+	return &Api_CauseLeaderboardControllerTeamWithResponse_Call{Call: _e.mock.On("CauseLeaderboardControllerTeamWithResponse",
+		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CauseLeaderboardControllerTeamWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.CauseLeaderboardControllerTeamParams, reqEditors ...api.RequestEditorFn)) *Api_CauseLeaderboardControllerTeamWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CauseLeaderboardControllerTeamParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CauseLeaderboardControllerTeamWithResponse_Call) Return(_a0 *api.CauseLeaderboardControllerTeamResponse, _a1 error) *Api_CauseLeaderboardControllerTeamWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// CauseLeaderboardControllerUserWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
+func (_m *Api) CauseLeaderboardControllerUserWithResponse(ctx context.Context, causeId string, params *api.CauseLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn) (*api.CauseLeaderboardControllerUserResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, causeId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.CauseLeaderboardControllerUserResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.CauseLeaderboardControllerUserParams, ...api.RequestEditorFn) *api.CauseLeaderboardControllerUserResponse); ok {
+		r0 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.CauseLeaderboardControllerUserResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.CauseLeaderboardControllerUserParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, causeId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_CauseLeaderboardControllerUserWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'CauseLeaderboardControllerUserWithResponse'
+type Api_CauseLeaderboardControllerUserWithResponse_Call struct {
+	*mock.Call
+}
+
+// CauseLeaderboardControllerUserWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - causeId string
+//   - params *api.CauseLeaderboardControllerUserParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) CauseLeaderboardControllerUserWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_CauseLeaderboardControllerUserWithResponse_Call {
+	return &Api_CauseLeaderboardControllerUserWithResponse_Call{Call: _e.mock.On("CauseLeaderboardControllerUserWithResponse",
+		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_CauseLeaderboardControllerUserWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.CauseLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn)) *Api_CauseLeaderboardControllerUserWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.CauseLeaderboardControllerUserParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_CauseLeaderboardControllerUserWithResponse_Call) Return(_a0 *api.CauseLeaderboardControllerUserResponse, _a1 error) *Api_CauseLeaderboardControllerUserWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// FundraisingEventLeaderboardControllerConfiguredWithResponse provides a mock function with given fields: ctx, fundraisingEventId, reqEditors
+func (_m *Api) FundraisingEventLeaderboardControllerConfiguredWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...api.RequestEditorFn) (*api.FundraisingEventLeaderboardControllerConfiguredResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.FundraisingEventLeaderboardControllerConfiguredResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.FundraisingEventLeaderboardControllerConfiguredResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.FundraisingEventLeaderboardControllerConfiguredResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_FundraisingEventLeaderboardControllerConfiguredWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'FundraisingEventLeaderboardControllerConfiguredWithResponse'
+type Api_FundraisingEventLeaderboardControllerConfiguredWithResponse_Call struct {
+	*mock.Call
+}
+
+// FundraisingEventLeaderboardControllerConfiguredWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) FundraisingEventLeaderboardControllerConfiguredWithResponse(ctx interface{}, fundraisingEventId interface{}, reqEditors ...interface{}) *Api_FundraisingEventLeaderboardControllerConfiguredWithResponse_Call {
+	return &Api_FundraisingEventLeaderboardControllerConfiguredWithResponse_Call{Call: _e.mock.On("FundraisingEventLeaderboardControllerConfiguredWithResponse",
+		append([]interface{}{ctx, fundraisingEventId}, reqEditors...)...)}
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerConfiguredWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, reqEditors ...api.RequestEditorFn)) *Api_FundraisingEventLeaderboardControllerConfiguredWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
+		for i, a := range args[2:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerConfiguredWithResponse_Call) Return(_a0 *api.FundraisingEventLeaderboardControllerConfiguredResponse, _a1 error) *Api_FundraisingEventLeaderboardControllerConfiguredWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// FundraisingEventLeaderboardControllerDonorWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
+func (_m *Api) FundraisingEventLeaderboardControllerDonorWithResponse(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn) (*api.FundraisingEventLeaderboardControllerDonorResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.FundraisingEventLeaderboardControllerDonorResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerDonorParams, ...api.RequestEditorFn) *api.FundraisingEventLeaderboardControllerDonorResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.FundraisingEventLeaderboardControllerDonorResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerDonorParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_FundraisingEventLeaderboardControllerDonorWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'FundraisingEventLeaderboardControllerDonorWithResponse'
+type Api_FundraisingEventLeaderboardControllerDonorWithResponse_Call struct {
+	*mock.Call
+}
+
+// FundraisingEventLeaderboardControllerDonorWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - params *api.FundraisingEventLeaderboardControllerDonorParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) FundraisingEventLeaderboardControllerDonorWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_FundraisingEventLeaderboardControllerDonorWithResponse_Call {
+	return &Api_FundraisingEventLeaderboardControllerDonorWithResponse_Call{Call: _e.mock.On("FundraisingEventLeaderboardControllerDonorWithResponse",
+		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerDonorWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn)) *Api_FundraisingEventLeaderboardControllerDonorWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.FundraisingEventLeaderboardControllerDonorParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerDonorWithResponse_Call) Return(_a0 *api.FundraisingEventLeaderboardControllerDonorResponse, _a1 error) *Api_FundraisingEventLeaderboardControllerDonorWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
+func (_m *Api) FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...api.RequestEditorFn) (*api.FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerTeamFitnessDistanceParams, ...api.RequestEditorFn) *api.FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerTeamFitnessDistanceParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse'
+type Api_FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call struct {
+	*mock.Call
+}
+
+// FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - params *api.FundraisingEventLeaderboardControllerTeamFitnessDistanceParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call {
+	return &Api_FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call{Call: _e.mock.On("FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse",
+		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...api.RequestEditorFn)) *Api_FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.FundraisingEventLeaderboardControllerTeamFitnessDistanceParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call) Return(_a0 *api.FundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, _a1 error) *Api_FundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
+func (_m *Api) FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...api.RequestEditorFn) (*api.FundraisingEventLeaderboardControllerTeamFitnessTimeResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.FundraisingEventLeaderboardControllerTeamFitnessTimeResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerTeamFitnessTimeParams, ...api.RequestEditorFn) *api.FundraisingEventLeaderboardControllerTeamFitnessTimeResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.FundraisingEventLeaderboardControllerTeamFitnessTimeResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerTeamFitnessTimeParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse'
+type Api_FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call struct {
+	*mock.Call
+}
+
+// FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - params *api.FundraisingEventLeaderboardControllerTeamFitnessTimeParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call {
+	return &Api_FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call{Call: _e.mock.On("FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse",
+		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...api.RequestEditorFn)) *Api_FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.FundraisingEventLeaderboardControllerTeamFitnessTimeParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call) Return(_a0 *api.FundraisingEventLeaderboardControllerTeamFitnessTimeResponse, _a1 error) *Api_FundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// FundraisingEventLeaderboardControllerTeamWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
+func (_m *Api) FundraisingEventLeaderboardControllerTeamWithResponse(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerTeamParams, reqEditors ...api.RequestEditorFn) (*api.FundraisingEventLeaderboardControllerTeamResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.FundraisingEventLeaderboardControllerTeamResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerTeamParams, ...api.RequestEditorFn) *api.FundraisingEventLeaderboardControllerTeamResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.FundraisingEventLeaderboardControllerTeamResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerTeamParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_FundraisingEventLeaderboardControllerTeamWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'FundraisingEventLeaderboardControllerTeamWithResponse'
+type Api_FundraisingEventLeaderboardControllerTeamWithResponse_Call struct {
+	*mock.Call
+}
+
+// FundraisingEventLeaderboardControllerTeamWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - params *api.FundraisingEventLeaderboardControllerTeamParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) FundraisingEventLeaderboardControllerTeamWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_FundraisingEventLeaderboardControllerTeamWithResponse_Call {
+	return &Api_FundraisingEventLeaderboardControllerTeamWithResponse_Call{Call: _e.mock.On("FundraisingEventLeaderboardControllerTeamWithResponse",
+		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerTeamWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerTeamParams, reqEditors ...api.RequestEditorFn)) *Api_FundraisingEventLeaderboardControllerTeamWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.FundraisingEventLeaderboardControllerTeamParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerTeamWithResponse_Call) Return(_a0 *api.FundraisingEventLeaderboardControllerTeamResponse, _a1 error) *Api_FundraisingEventLeaderboardControllerTeamWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
+func (_m *Api) FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...api.RequestEditorFn) (*api.FundraisingEventLeaderboardControllerUserFitnessDistanceResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.FundraisingEventLeaderboardControllerUserFitnessDistanceResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerUserFitnessDistanceParams, ...api.RequestEditorFn) *api.FundraisingEventLeaderboardControllerUserFitnessDistanceResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.FundraisingEventLeaderboardControllerUserFitnessDistanceResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerUserFitnessDistanceParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse'
+type Api_FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call struct {
+	*mock.Call
+}
+
+// FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - params *api.FundraisingEventLeaderboardControllerUserFitnessDistanceParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call {
+	return &Api_FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call{Call: _e.mock.On("FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse",
+		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...api.RequestEditorFn)) *Api_FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.FundraisingEventLeaderboardControllerUserFitnessDistanceParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call) Return(_a0 *api.FundraisingEventLeaderboardControllerUserFitnessDistanceResponse, _a1 error) *Api_FundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
+func (_m *Api) FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...api.RequestEditorFn) (*api.FundraisingEventLeaderboardControllerUserFitnessTimeResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.FundraisingEventLeaderboardControllerUserFitnessTimeResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerUserFitnessTimeParams, ...api.RequestEditorFn) *api.FundraisingEventLeaderboardControllerUserFitnessTimeResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.FundraisingEventLeaderboardControllerUserFitnessTimeResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerUserFitnessTimeParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse'
+type Api_FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call struct {
+	*mock.Call
+}
+
+// FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - params *api.FundraisingEventLeaderboardControllerUserFitnessTimeParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call {
+	return &Api_FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call{Call: _e.mock.On("FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse",
+		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...api.RequestEditorFn)) *Api_FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.FundraisingEventLeaderboardControllerUserFitnessTimeParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call) Return(_a0 *api.FundraisingEventLeaderboardControllerUserFitnessTimeResponse, _a1 error) *Api_FundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// FundraisingEventLeaderboardControllerUserWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
+func (_m *Api) FundraisingEventLeaderboardControllerUserWithResponse(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn) (*api.FundraisingEventLeaderboardControllerUserResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.FundraisingEventLeaderboardControllerUserResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerUserParams, ...api.RequestEditorFn) *api.FundraisingEventLeaderboardControllerUserResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.FundraisingEventLeaderboardControllerUserResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.FundraisingEventLeaderboardControllerUserParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_FundraisingEventLeaderboardControllerUserWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'FundraisingEventLeaderboardControllerUserWithResponse'
+type Api_FundraisingEventLeaderboardControllerUserWithResponse_Call struct {
+	*mock.Call
+}
+
+// FundraisingEventLeaderboardControllerUserWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - params *api.FundraisingEventLeaderboardControllerUserParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) FundraisingEventLeaderboardControllerUserWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_FundraisingEventLeaderboardControllerUserWithResponse_Call {
+	return &Api_FundraisingEventLeaderboardControllerUserWithResponse_Call{Call: _e.mock.On("FundraisingEventLeaderboardControllerUserWithResponse",
+		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerUserWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn)) *Api_FundraisingEventLeaderboardControllerUserWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.FundraisingEventLeaderboardControllerUserParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_FundraisingEventLeaderboardControllerUserWithResponse_Call) Return(_a0 *api.FundraisingEventLeaderboardControllerUserResponse, _a1 error) *Api_FundraisingEventLeaderboardControllerUserWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// FundraisingEventSupportingEventsWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
+func (_m *Api) FundraisingEventSupportingEventsWithResponse(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventSupportingEventsParams, reqEditors ...api.RequestEditorFn) (*api.FundraisingEventSupportingEventsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.FundraisingEventSupportingEventsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.FundraisingEventSupportingEventsParams, ...api.RequestEditorFn) *api.FundraisingEventSupportingEventsResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.FundraisingEventSupportingEventsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.FundraisingEventSupportingEventsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_FundraisingEventSupportingEventsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'FundraisingEventSupportingEventsWithResponse'
+type Api_FundraisingEventSupportingEventsWithResponse_Call struct {
+	*mock.Call
+}
+
+// FundraisingEventSupportingEventsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - params *api.FundraisingEventSupportingEventsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) FundraisingEventSupportingEventsWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_FundraisingEventSupportingEventsWithResponse_Call {
+	return &Api_FundraisingEventSupportingEventsWithResponse_Call{Call: _e.mock.On("FundraisingEventSupportingEventsWithResponse",
+		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_FundraisingEventSupportingEventsWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.FundraisingEventSupportingEventsParams, reqEditors ...api.RequestEditorFn)) *Api_FundraisingEventSupportingEventsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.FundraisingEventSupportingEventsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_FundraisingEventSupportingEventsWithResponse_Call) Return(_a0 *api.FundraisingEventSupportingEventsResponse, _a1 error) *Api_FundraisingEventSupportingEventsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// GetCampaignWithResponse provides a mock function with given fields: ctx, campaignId, reqEditors
+func (_m *Api) GetCampaignWithResponse(ctx context.Context, campaignId string, reqEditors ...api.RequestEditorFn) (*api.GetCampaignResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, campaignId)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.GetCampaignResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.GetCampaignResponse); ok {
+		r0 = rf(ctx, campaignId, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.GetCampaignResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, campaignId, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_GetCampaignWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'GetCampaignWithResponse'
+type Api_GetCampaignWithResponse_Call struct {
+	*mock.Call
+}
+
+// GetCampaignWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - campaignId string
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) GetCampaignWithResponse(ctx interface{}, campaignId interface{}, reqEditors ...interface{}) *Api_GetCampaignWithResponse_Call {
+	return &Api_GetCampaignWithResponse_Call{Call: _e.mock.On("GetCampaignWithResponse",
+		append([]interface{}{ctx, campaignId}, reqEditors...)...)}
+}
+
+func (_c *Api_GetCampaignWithResponse_Call) Run(run func(ctx context.Context, campaignId string, reqEditors ...api.RequestEditorFn)) *Api_GetCampaignWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
+		for i, a := range args[2:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_GetCampaignWithResponse_Call) Return(_a0 *api.GetCampaignResponse, _a1 error) *Api_GetCampaignWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// GetCauseWithResponse provides a mock function with given fields: ctx, causeId, reqEditors
+func (_m *Api) GetCauseWithResponse(ctx context.Context, causeId string, reqEditors ...api.RequestEditorFn) (*api.GetCauseResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, causeId)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.GetCauseResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.GetCauseResponse); ok {
+		r0 = rf(ctx, causeId, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.GetCauseResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, causeId, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_GetCauseWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'GetCauseWithResponse'
+type Api_GetCauseWithResponse_Call struct {
+	*mock.Call
+}
+
+// GetCauseWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - causeId string
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) GetCauseWithResponse(ctx interface{}, causeId interface{}, reqEditors ...interface{}) *Api_GetCauseWithResponse_Call {
+	return &Api_GetCauseWithResponse_Call{Call: _e.mock.On("GetCauseWithResponse",
+		append([]interface{}{ctx, causeId}, reqEditors...)...)}
+}
+
+func (_c *Api_GetCauseWithResponse_Call) Run(run func(ctx context.Context, causeId string, reqEditors ...api.RequestEditorFn)) *Api_GetCauseWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
+		for i, a := range args[2:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_GetCauseWithResponse_Call) Return(_a0 *api.GetCauseResponse, _a1 error) *Api_GetCauseWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// GetFundraisingEventWithResponse provides a mock function with given fields: ctx, fundraisingEventId, reqEditors
+func (_m *Api) GetFundraisingEventWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...api.RequestEditorFn) (*api.GetFundraisingEventResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, fundraisingEventId)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.GetFundraisingEventResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.GetFundraisingEventResponse); ok {
+		r0 = rf(ctx, fundraisingEventId, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.GetFundraisingEventResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, fundraisingEventId, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_GetFundraisingEventWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'GetFundraisingEventWithResponse'
+type Api_GetFundraisingEventWithResponse_Call struct {
+	*mock.Call
+}
+
+// GetFundraisingEventWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - fundraisingEventId string
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) GetFundraisingEventWithResponse(ctx interface{}, fundraisingEventId interface{}, reqEditors ...interface{}) *Api_GetFundraisingEventWithResponse_Call {
+	return &Api_GetFundraisingEventWithResponse_Call{Call: _e.mock.On("GetFundraisingEventWithResponse",
+		append([]interface{}{ctx, fundraisingEventId}, reqEditors...)...)}
+}
+
+func (_c *Api_GetFundraisingEventWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, reqEditors ...api.RequestEditorFn)) *Api_GetFundraisingEventWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
+		for i, a := range args[2:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_GetFundraisingEventWithResponse_Call) Return(_a0 *api.GetFundraisingEventResponse, _a1 error) *Api_GetFundraisingEventWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// GetTeamCampaignWithResponse provides a mock function with given fields: ctx, teamCampaignId, reqEditors
+func (_m *Api) GetTeamCampaignWithResponse(ctx context.Context, teamCampaignId string, reqEditors ...api.RequestEditorFn) (*api.GetTeamCampaignResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.GetTeamCampaignResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.GetTeamCampaignResponse); ok {
+		r0 = rf(ctx, teamCampaignId, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.GetTeamCampaignResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_GetTeamCampaignWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'GetTeamCampaignWithResponse'
+type Api_GetTeamCampaignWithResponse_Call struct {
+	*mock.Call
+}
+
+// GetTeamCampaignWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) GetTeamCampaignWithResponse(ctx interface{}, teamCampaignId interface{}, reqEditors ...interface{}) *Api_GetTeamCampaignWithResponse_Call {
+	return &Api_GetTeamCampaignWithResponse_Call{Call: _e.mock.On("GetTeamCampaignWithResponse",
+		append([]interface{}{ctx, teamCampaignId}, reqEditors...)...)}
+}
+
+func (_c *Api_GetTeamCampaignWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, reqEditors ...api.RequestEditorFn)) *Api_GetTeamCampaignWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
+		for i, a := range args[2:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_GetTeamCampaignWithResponse_Call) Return(_a0 *api.GetTeamCampaignResponse, _a1 error) *Api_GetTeamCampaignWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// GetTeamWithResponse provides a mock function with given fields: ctx, teamId, reqEditors
+func (_m *Api) GetTeamWithResponse(ctx context.Context, teamId string, reqEditors ...api.RequestEditorFn) (*api.GetTeamResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamId)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.GetTeamResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.GetTeamResponse); ok {
+		r0 = rf(ctx, teamId, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.GetTeamResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamId, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_GetTeamWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'GetTeamWithResponse'
+type Api_GetTeamWithResponse_Call struct {
+	*mock.Call
+}
+
+// GetTeamWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamId string
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) GetTeamWithResponse(ctx interface{}, teamId interface{}, reqEditors ...interface{}) *Api_GetTeamWithResponse_Call {
+	return &Api_GetTeamWithResponse_Call{Call: _e.mock.On("GetTeamWithResponse",
+		append([]interface{}{ctx, teamId}, reqEditors...)...)}
+}
+
+func (_c *Api_GetTeamWithResponse_Call) Run(run func(ctx context.Context, teamId string, reqEditors ...api.RequestEditorFn)) *Api_GetTeamWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
+		for i, a := range args[2:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_GetTeamWithResponse_Call) Return(_a0 *api.GetTeamResponse, _a1 error) *Api_GetTeamWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// GetUserWithResponse provides a mock function with given fields: ctx, userId, reqEditors
+func (_m *Api) GetUserWithResponse(ctx context.Context, userId string, reqEditors ...api.RequestEditorFn) (*api.GetUserResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, userId)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.GetUserResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.GetUserResponse); ok {
+		r0 = rf(ctx, userId, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.GetUserResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, userId, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_GetUserWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'GetUserWithResponse'
+type Api_GetUserWithResponse_Call struct {
+	*mock.Call
+}
+
+// GetUserWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - userId string
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) GetUserWithResponse(ctx interface{}, userId interface{}, reqEditors ...interface{}) *Api_GetUserWithResponse_Call {
+	return &Api_GetUserWithResponse_Call{Call: _e.mock.On("GetUserWithResponse",
+		append([]interface{}{ctx, userId}, reqEditors...)...)}
+}
+
+func (_c *Api_GetUserWithResponse_Call) Run(run func(ctx context.Context, userId string, reqEditors ...api.RequestEditorFn)) *Api_GetUserWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
+		for i, a := range args[2:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_GetUserWithResponse_Call) Return(_a0 *api.GetUserResponse, _a1 error) *Api_GetUserWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamCampaignChallengesWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
+func (_m *Api) TeamCampaignChallengesWithResponse(ctx context.Context, teamCampaignId string, params *api.TeamCampaignChallengesParams, reqEditors ...api.RequestEditorFn) (*api.TeamCampaignChallengesResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamCampaignChallengesResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamCampaignChallengesParams, ...api.RequestEditorFn) *api.TeamCampaignChallengesResponse); ok {
+		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamCampaignChallengesResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamCampaignChallengesParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamCampaignChallengesWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamCampaignChallengesWithResponse'
+type Api_TeamCampaignChallengesWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamCampaignChallengesWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - params *api.TeamCampaignChallengesParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamCampaignChallengesWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamCampaignChallengesWithResponse_Call {
+	return &Api_TeamCampaignChallengesWithResponse_Call{Call: _e.mock.On("TeamCampaignChallengesWithResponse",
+		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamCampaignChallengesWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.TeamCampaignChallengesParams, reqEditors ...api.RequestEditorFn)) *Api_TeamCampaignChallengesWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamCampaignChallengesParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamCampaignChallengesWithResponse_Call) Return(_a0 *api.TeamCampaignChallengesResponse, _a1 error) *Api_TeamCampaignChallengesWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamCampaignDonationsWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
+func (_m *Api) TeamCampaignDonationsWithResponse(ctx context.Context, teamCampaignId string, params *api.TeamCampaignDonationsParams, reqEditors ...api.RequestEditorFn) (*api.TeamCampaignDonationsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamCampaignDonationsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamCampaignDonationsParams, ...api.RequestEditorFn) *api.TeamCampaignDonationsResponse); ok {
+		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamCampaignDonationsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamCampaignDonationsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamCampaignDonationsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamCampaignDonationsWithResponse'
+type Api_TeamCampaignDonationsWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamCampaignDonationsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - params *api.TeamCampaignDonationsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamCampaignDonationsWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamCampaignDonationsWithResponse_Call {
+	return &Api_TeamCampaignDonationsWithResponse_Call{Call: _e.mock.On("TeamCampaignDonationsWithResponse",
+		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamCampaignDonationsWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.TeamCampaignDonationsParams, reqEditors ...api.RequestEditorFn)) *Api_TeamCampaignDonationsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamCampaignDonationsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamCampaignDonationsWithResponse_Call) Return(_a0 *api.TeamCampaignDonationsResponse, _a1 error) *Api_TeamCampaignDonationsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamCampaignLeaderboardControllerDonorWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
+func (_m *Api) TeamCampaignLeaderboardControllerDonorWithResponse(ctx context.Context, teamCampaignId string, params *api.TeamCampaignLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn) (*api.TeamCampaignLeaderboardControllerDonorResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamCampaignLeaderboardControllerDonorResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamCampaignLeaderboardControllerDonorParams, ...api.RequestEditorFn) *api.TeamCampaignLeaderboardControllerDonorResponse); ok {
+		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamCampaignLeaderboardControllerDonorResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamCampaignLeaderboardControllerDonorParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamCampaignLeaderboardControllerDonorWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamCampaignLeaderboardControllerDonorWithResponse'
+type Api_TeamCampaignLeaderboardControllerDonorWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamCampaignLeaderboardControllerDonorWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - params *api.TeamCampaignLeaderboardControllerDonorParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamCampaignLeaderboardControllerDonorWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamCampaignLeaderboardControllerDonorWithResponse_Call {
+	return &Api_TeamCampaignLeaderboardControllerDonorWithResponse_Call{Call: _e.mock.On("TeamCampaignLeaderboardControllerDonorWithResponse",
+		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamCampaignLeaderboardControllerDonorWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.TeamCampaignLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn)) *Api_TeamCampaignLeaderboardControllerDonorWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamCampaignLeaderboardControllerDonorParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamCampaignLeaderboardControllerDonorWithResponse_Call) Return(_a0 *api.TeamCampaignLeaderboardControllerDonorResponse, _a1 error) *Api_TeamCampaignLeaderboardControllerDonorWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamCampaignLeaderboardControllerUserWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
+func (_m *Api) TeamCampaignLeaderboardControllerUserWithResponse(ctx context.Context, teamCampaignId string, params *api.TeamCampaignLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn) (*api.TeamCampaignLeaderboardControllerUserResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamCampaignLeaderboardControllerUserResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamCampaignLeaderboardControllerUserParams, ...api.RequestEditorFn) *api.TeamCampaignLeaderboardControllerUserResponse); ok {
+		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamCampaignLeaderboardControllerUserResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamCampaignLeaderboardControllerUserParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamCampaignLeaderboardControllerUserWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamCampaignLeaderboardControllerUserWithResponse'
+type Api_TeamCampaignLeaderboardControllerUserWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamCampaignLeaderboardControllerUserWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - params *api.TeamCampaignLeaderboardControllerUserParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamCampaignLeaderboardControllerUserWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamCampaignLeaderboardControllerUserWithResponse_Call {
+	return &Api_TeamCampaignLeaderboardControllerUserWithResponse_Call{Call: _e.mock.On("TeamCampaignLeaderboardControllerUserWithResponse",
+		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamCampaignLeaderboardControllerUserWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.TeamCampaignLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn)) *Api_TeamCampaignLeaderboardControllerUserWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamCampaignLeaderboardControllerUserParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamCampaignLeaderboardControllerUserWithResponse_Call) Return(_a0 *api.TeamCampaignLeaderboardControllerUserResponse, _a1 error) *Api_TeamCampaignLeaderboardControllerUserWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamCampaignMilestonesWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
+func (_m *Api) TeamCampaignMilestonesWithResponse(ctx context.Context, teamCampaignId string, params *api.TeamCampaignMilestonesParams, reqEditors ...api.RequestEditorFn) (*api.TeamCampaignMilestonesResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamCampaignMilestonesResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamCampaignMilestonesParams, ...api.RequestEditorFn) *api.TeamCampaignMilestonesResponse); ok {
+		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamCampaignMilestonesResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamCampaignMilestonesParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamCampaignMilestonesWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamCampaignMilestonesWithResponse'
+type Api_TeamCampaignMilestonesWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamCampaignMilestonesWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - params *api.TeamCampaignMilestonesParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamCampaignMilestonesWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamCampaignMilestonesWithResponse_Call {
+	return &Api_TeamCampaignMilestonesWithResponse_Call{Call: _e.mock.On("TeamCampaignMilestonesWithResponse",
+		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamCampaignMilestonesWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.TeamCampaignMilestonesParams, reqEditors ...api.RequestEditorFn)) *Api_TeamCampaignMilestonesWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamCampaignMilestonesParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamCampaignMilestonesWithResponse_Call) Return(_a0 *api.TeamCampaignMilestonesResponse, _a1 error) *Api_TeamCampaignMilestonesWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamCampaignPollsWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
+func (_m *Api) TeamCampaignPollsWithResponse(ctx context.Context, teamCampaignId string, params *api.TeamCampaignPollsParams, reqEditors ...api.RequestEditorFn) (*api.TeamCampaignPollsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamCampaignPollsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamCampaignPollsParams, ...api.RequestEditorFn) *api.TeamCampaignPollsResponse); ok {
+		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamCampaignPollsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamCampaignPollsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamCampaignPollsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamCampaignPollsWithResponse'
+type Api_TeamCampaignPollsWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamCampaignPollsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - params *api.TeamCampaignPollsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamCampaignPollsWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamCampaignPollsWithResponse_Call {
+	return &Api_TeamCampaignPollsWithResponse_Call{Call: _e.mock.On("TeamCampaignPollsWithResponse",
+		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamCampaignPollsWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.TeamCampaignPollsParams, reqEditors ...api.RequestEditorFn)) *Api_TeamCampaignPollsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamCampaignPollsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamCampaignPollsWithResponse_Call) Return(_a0 *api.TeamCampaignPollsResponse, _a1 error) *Api_TeamCampaignPollsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamCampaignRewardsWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
+func (_m *Api) TeamCampaignRewardsWithResponse(ctx context.Context, teamCampaignId string, params *api.TeamCampaignRewardsParams, reqEditors ...api.RequestEditorFn) (*api.TeamCampaignRewardsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamCampaignRewardsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamCampaignRewardsParams, ...api.RequestEditorFn) *api.TeamCampaignRewardsResponse); ok {
+		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamCampaignRewardsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamCampaignRewardsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamCampaignRewardsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamCampaignRewardsWithResponse'
+type Api_TeamCampaignRewardsWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamCampaignRewardsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - params *api.TeamCampaignRewardsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamCampaignRewardsWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamCampaignRewardsWithResponse_Call {
+	return &Api_TeamCampaignRewardsWithResponse_Call{Call: _e.mock.On("TeamCampaignRewardsWithResponse",
+		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamCampaignRewardsWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.TeamCampaignRewardsParams, reqEditors ...api.RequestEditorFn)) *Api_TeamCampaignRewardsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamCampaignRewardsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamCampaignRewardsWithResponse_Call) Return(_a0 *api.TeamCampaignRewardsResponse, _a1 error) *Api_TeamCampaignRewardsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamCampaignSchedulesWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
+func (_m *Api) TeamCampaignSchedulesWithResponse(ctx context.Context, teamCampaignId string, params *api.TeamCampaignSchedulesParams, reqEditors ...api.RequestEditorFn) (*api.TeamCampaignSchedulesResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamCampaignSchedulesResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamCampaignSchedulesParams, ...api.RequestEditorFn) *api.TeamCampaignSchedulesResponse); ok {
+		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamCampaignSchedulesResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamCampaignSchedulesParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamCampaignSchedulesWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamCampaignSchedulesWithResponse'
+type Api_TeamCampaignSchedulesWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamCampaignSchedulesWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - params *api.TeamCampaignSchedulesParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamCampaignSchedulesWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamCampaignSchedulesWithResponse_Call {
+	return &Api_TeamCampaignSchedulesWithResponse_Call{Call: _e.mock.On("TeamCampaignSchedulesWithResponse",
+		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamCampaignSchedulesWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.TeamCampaignSchedulesParams, reqEditors ...api.RequestEditorFn)) *Api_TeamCampaignSchedulesWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamCampaignSchedulesParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamCampaignSchedulesWithResponse_Call) Return(_a0 *api.TeamCampaignSchedulesResponse, _a1 error) *Api_TeamCampaignSchedulesWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamCampaignSupportingCampaignsWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
+func (_m *Api) TeamCampaignSupportingCampaignsWithResponse(ctx context.Context, teamCampaignId string, params *api.TeamCampaignSupportingCampaignsParams, reqEditors ...api.RequestEditorFn) (*api.TeamCampaignSupportingCampaignsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamCampaignId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamCampaignSupportingCampaignsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamCampaignSupportingCampaignsParams, ...api.RequestEditorFn) *api.TeamCampaignSupportingCampaignsResponse); ok {
+		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamCampaignSupportingCampaignsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamCampaignSupportingCampaignsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamCampaignSupportingCampaignsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamCampaignSupportingCampaignsWithResponse'
+type Api_TeamCampaignSupportingCampaignsWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamCampaignSupportingCampaignsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamCampaignId string
+//   - params *api.TeamCampaignSupportingCampaignsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamCampaignSupportingCampaignsWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamCampaignSupportingCampaignsWithResponse_Call {
+	return &Api_TeamCampaignSupportingCampaignsWithResponse_Call{Call: _e.mock.On("TeamCampaignSupportingCampaignsWithResponse",
+		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamCampaignSupportingCampaignsWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.TeamCampaignSupportingCampaignsParams, reqEditors ...api.RequestEditorFn)) *Api_TeamCampaignSupportingCampaignsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamCampaignSupportingCampaignsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamCampaignSupportingCampaignsWithResponse_Call) Return(_a0 *api.TeamCampaignSupportingCampaignsResponse, _a1 error) *Api_TeamCampaignSupportingCampaignsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamMembersWithResponse provides a mock function with given fields: ctx, teamId, params, reqEditors
+func (_m *Api) TeamMembersWithResponse(ctx context.Context, teamId string, params *api.TeamMembersParams, reqEditors ...api.RequestEditorFn) (*api.TeamMembersResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamMembersResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamMembersParams, ...api.RequestEditorFn) *api.TeamMembersResponse); ok {
+		r0 = rf(ctx, teamId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamMembersResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamMembersParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamMembersWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamMembersWithResponse'
+type Api_TeamMembersWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamMembersWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamId string
+//   - params *api.TeamMembersParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamMembersWithResponse(ctx interface{}, teamId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamMembersWithResponse_Call {
+	return &Api_TeamMembersWithResponse_Call{Call: _e.mock.On("TeamMembersWithResponse",
+		append([]interface{}{ctx, teamId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamMembersWithResponse_Call) Run(run func(ctx context.Context, teamId string, params *api.TeamMembersParams, reqEditors ...api.RequestEditorFn)) *Api_TeamMembersWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamMembersParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamMembersWithResponse_Call) Return(_a0 *api.TeamMembersResponse, _a1 error) *Api_TeamMembersWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// TeamTeamCampaignsWithResponse provides a mock function with given fields: ctx, teamId, params, reqEditors
+func (_m *Api) TeamTeamCampaignsWithResponse(ctx context.Context, teamId string, params *api.TeamTeamCampaignsParams, reqEditors ...api.RequestEditorFn) (*api.TeamTeamCampaignsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, teamId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.TeamTeamCampaignsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.TeamTeamCampaignsParams, ...api.RequestEditorFn) *api.TeamTeamCampaignsResponse); ok {
+		r0 = rf(ctx, teamId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.TeamTeamCampaignsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.TeamTeamCampaignsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, teamId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_TeamTeamCampaignsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'TeamTeamCampaignsWithResponse'
+type Api_TeamTeamCampaignsWithResponse_Call struct {
+	*mock.Call
+}
+
+// TeamTeamCampaignsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - teamId string
+//   - params *api.TeamTeamCampaignsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) TeamTeamCampaignsWithResponse(ctx interface{}, teamId interface{}, params interface{}, reqEditors ...interface{}) *Api_TeamTeamCampaignsWithResponse_Call {
+	return &Api_TeamTeamCampaignsWithResponse_Call{Call: _e.mock.On("TeamTeamCampaignsWithResponse",
+		append([]interface{}{ctx, teamId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_TeamTeamCampaignsWithResponse_Call) Run(run func(ctx context.Context, teamId string, params *api.TeamTeamCampaignsParams, reqEditors ...api.RequestEditorFn)) *Api_TeamTeamCampaignsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.TeamTeamCampaignsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_TeamTeamCampaignsWithResponse_Call) Return(_a0 *api.TeamTeamCampaignsResponse, _a1 error) *Api_TeamTeamCampaignsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// UserCampaignsWithResponse provides a mock function with given fields: ctx, userId, params, reqEditors
+func (_m *Api) UserCampaignsWithResponse(ctx context.Context, userId string, params *api.UserCampaignsParams, reqEditors ...api.RequestEditorFn) (*api.UserCampaignsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, userId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.UserCampaignsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.UserCampaignsParams, ...api.RequestEditorFn) *api.UserCampaignsResponse); ok {
+		r0 = rf(ctx, userId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.UserCampaignsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.UserCampaignsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, userId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_UserCampaignsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'UserCampaignsWithResponse'
+type Api_UserCampaignsWithResponse_Call struct {
+	*mock.Call
+}
+
+// UserCampaignsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - userId string
+//   - params *api.UserCampaignsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) UserCampaignsWithResponse(ctx interface{}, userId interface{}, params interface{}, reqEditors ...interface{}) *Api_UserCampaignsWithResponse_Call {
+	return &Api_UserCampaignsWithResponse_Call{Call: _e.mock.On("UserCampaignsWithResponse",
+		append([]interface{}{ctx, userId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_UserCampaignsWithResponse_Call) Run(run func(ctx context.Context, userId string, params *api.UserCampaignsParams, reqEditors ...api.RequestEditorFn)) *Api_UserCampaignsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.UserCampaignsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_UserCampaignsWithResponse_Call) Return(_a0 *api.UserCampaignsResponse, _a1 error) *Api_UserCampaignsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// UserControllerCurrentUserWithResponse provides a mock function with given fields: ctx, reqEditors
+func (_m *Api) UserControllerCurrentUserWithResponse(ctx context.Context, reqEditors ...api.RequestEditorFn) (*api.UserControllerCurrentUserResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.UserControllerCurrentUserResponse
+	if rf, ok := ret.Get(0).(func(context.Context, ...api.RequestEditorFn) *api.UserControllerCurrentUserResponse); ok {
+		r0 = rf(ctx, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.UserControllerCurrentUserResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_UserControllerCurrentUserWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'UserControllerCurrentUserWithResponse'
+type Api_UserControllerCurrentUserWithResponse_Call struct {
+	*mock.Call
+}
+
+// UserControllerCurrentUserWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) UserControllerCurrentUserWithResponse(ctx interface{}, reqEditors ...interface{}) *Api_UserControllerCurrentUserWithResponse_Call {
+	return &Api_UserControllerCurrentUserWithResponse_Call{Call: _e.mock.On("UserControllerCurrentUserWithResponse",
+		append([]interface{}{ctx}, reqEditors...)...)}
+}
+
+func (_c *Api_UserControllerCurrentUserWithResponse_Call) Run(run func(ctx context.Context, reqEditors ...api.RequestEditorFn)) *Api_UserControllerCurrentUserWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-1)
+		for i, a := range args[1:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_UserControllerCurrentUserWithResponse_Call) Return(_a0 *api.UserControllerCurrentUserResponse, _a1 error) *Api_UserControllerCurrentUserWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// UserIntegrationEventsWithResponse provides a mock function with given fields: ctx, userId, params, reqEditors
+func (_m *Api) UserIntegrationEventsWithResponse(ctx context.Context, userId string, params *api.UserIntegrationEventsParams, reqEditors ...api.RequestEditorFn) (*api.UserIntegrationEventsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, userId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.UserIntegrationEventsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.UserIntegrationEventsParams, ...api.RequestEditorFn) *api.UserIntegrationEventsResponse); ok {
+		r0 = rf(ctx, userId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.UserIntegrationEventsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.UserIntegrationEventsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, userId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_UserIntegrationEventsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'UserIntegrationEventsWithResponse'
+type Api_UserIntegrationEventsWithResponse_Call struct {
+	*mock.Call
+}
+
+// UserIntegrationEventsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - userId string
+//   - params *api.UserIntegrationEventsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) UserIntegrationEventsWithResponse(ctx interface{}, userId interface{}, params interface{}, reqEditors ...interface{}) *Api_UserIntegrationEventsWithResponse_Call {
+	return &Api_UserIntegrationEventsWithResponse_Call{Call: _e.mock.On("UserIntegrationEventsWithResponse",
+		append([]interface{}{ctx, userId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_UserIntegrationEventsWithResponse_Call) Run(run func(ctx context.Context, userId string, params *api.UserIntegrationEventsParams, reqEditors ...api.RequestEditorFn)) *Api_UserIntegrationEventsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.UserIntegrationEventsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_UserIntegrationEventsWithResponse_Call) Return(_a0 *api.UserIntegrationEventsResponse, _a1 error) *Api_UserIntegrationEventsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
+// UserTeamsWithResponse provides a mock function with given fields: ctx, userId, params, reqEditors
+func (_m *Api) UserTeamsWithResponse(ctx context.Context, userId string, params *api.UserTeamsParams, reqEditors ...api.RequestEditorFn) (*api.UserTeamsResponse, error) {
+	_va := make([]interface{}, len(reqEditors))
+	for _i := range reqEditors {
+		_va[_i] = reqEditors[_i]
+	}
+	var _ca []interface{}
+	_ca = append(_ca, ctx, userId, params)
+	_ca = append(_ca, _va...)
+	ret := _m.Called(_ca...)
+
+	var r0 *api.UserTeamsResponse
+	if rf, ok := ret.Get(0).(func(context.Context, string, *api.UserTeamsParams, ...api.RequestEditorFn) *api.UserTeamsResponse); ok {
+		r0 = rf(ctx, userId, params, reqEditors...)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).(*api.UserTeamsResponse)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func(context.Context, string, *api.UserTeamsParams, ...api.RequestEditorFn) error); ok {
+		r1 = rf(ctx, userId, params, reqEditors...)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// Api_UserTeamsWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'UserTeamsWithResponse'
+type Api_UserTeamsWithResponse_Call struct {
+	*mock.Call
+}
+
+// UserTeamsWithResponse is a helper method to define mock.On call
+//   - ctx context.Context
+//   - userId string
+//   - params *api.UserTeamsParams
+//   - reqEditors ...api.RequestEditorFn
+func (_e *Api_Expecter) UserTeamsWithResponse(ctx interface{}, userId interface{}, params interface{}, reqEditors ...interface{}) *Api_UserTeamsWithResponse_Call {
+	return &Api_UserTeamsWithResponse_Call{Call: _e.mock.On("UserTeamsWithResponse",
+		append([]interface{}{ctx, userId, params}, reqEditors...)...)}
+}
+
+func (_c *Api_UserTeamsWithResponse_Call) Run(run func(ctx context.Context, userId string, params *api.UserTeamsParams, reqEditors ...api.RequestEditorFn)) *Api_UserTeamsWithResponse_Call {
+	_c.Call.Run(func(args mock.Arguments) {
+		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
+		for i, a := range args[3:] {
+			if a != nil {
+				variadicArgs[i] = a.(api.RequestEditorFn)
+			}
+		}
+		run(args[0].(context.Context), args[1].(string), args[2].(*api.UserTeamsParams), variadicArgs...)
+	})
+	return _c
+}
+
+func (_c *Api_UserTeamsWithResponse_Call) Return(_a0 *api.UserTeamsResponse, _a1 error) *Api_UserTeamsWithResponse_Call {
+	_c.Call.Return(_a0, _a1)
+	return _c
+}
+
 // V5ApiWebOauthAuthorizeWithBodyWithResponse provides a mock function with given fields: ctx, params, contentType, body, reqEditors
 func (_m *Api) V5ApiWebOauthAuthorizeWithBodyWithResponse(ctx context.Context, params *api.V5ApiWebOauthAuthorizeParams, contentType string, body io.Reader, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebOauthAuthorizeResponse, error) {
 	_va := make([]interface{}, len(reqEditors))
@@ -275,2705 +2974,6 @@ func (_c *Api_V5ApiWebOauthTokenWithResponse_Call) Run(run func(ctx context.Cont
 }
 
 func (_c *Api_V5ApiWebOauthTokenWithResponse_Call) Return(_a0 *api.V5ApiWebOauthTokenResponse, _a1 error) *Api_V5ApiWebOauthTokenWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCampaignChallengeControllerIndexWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCampaignChallengeControllerIndexWithResponse(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignChallengeControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCampaignChallengeControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, campaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCampaignChallengeControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCampaignChallengeControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCampaignChallengeControllerIndexResponse); ok {
-		r0 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCampaignChallengeControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCampaignChallengeControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCampaignChallengeControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCampaignChallengeControllerIndexWithResponse'
-type Api_V5ApiWebPublicCampaignChallengeControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCampaignChallengeControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - campaignId string
-//   - params *api.V5ApiWebPublicCampaignChallengeControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCampaignChallengeControllerIndexWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCampaignChallengeControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicCampaignChallengeControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCampaignChallengeControllerIndexWithResponse",
-		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCampaignChallengeControllerIndexWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignChallengeControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCampaignChallengeControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCampaignChallengeControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCampaignChallengeControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCampaignChallengeControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicCampaignChallengeControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCampaignControllerShowWithResponse provides a mock function with given fields: ctx, campaignId, reqEditors
-func (_m *Api) V5ApiWebPublicCampaignControllerShowWithResponse(ctx context.Context, campaignId string, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCampaignControllerShowResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, campaignId)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCampaignControllerShowResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.V5ApiWebPublicCampaignControllerShowResponse); ok {
-		r0 = rf(ctx, campaignId, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCampaignControllerShowResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, campaignId, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCampaignControllerShowWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCampaignControllerShowWithResponse'
-type Api_V5ApiWebPublicCampaignControllerShowWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCampaignControllerShowWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - campaignId string
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCampaignControllerShowWithResponse(ctx interface{}, campaignId interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCampaignControllerShowWithResponse_Call {
-	return &Api_V5ApiWebPublicCampaignControllerShowWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCampaignControllerShowWithResponse",
-		append([]interface{}{ctx, campaignId}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCampaignControllerShowWithResponse_Call) Run(run func(ctx context.Context, campaignId string, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCampaignControllerShowWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
-		for i, a := range args[2:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCampaignControllerShowWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCampaignControllerShowResponse, _a1 error) *Api_V5ApiWebPublicCampaignControllerShowWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCampaignDonationControllerIndexWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCampaignDonationControllerIndexWithResponse(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignDonationControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCampaignDonationControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, campaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCampaignDonationControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCampaignDonationControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCampaignDonationControllerIndexResponse); ok {
-		r0 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCampaignDonationControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCampaignDonationControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCampaignDonationControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCampaignDonationControllerIndexWithResponse'
-type Api_V5ApiWebPublicCampaignDonationControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCampaignDonationControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - campaignId string
-//   - params *api.V5ApiWebPublicCampaignDonationControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCampaignDonationControllerIndexWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCampaignDonationControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicCampaignDonationControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCampaignDonationControllerIndexWithResponse",
-		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCampaignDonationControllerIndexWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignDonationControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCampaignDonationControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCampaignDonationControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCampaignDonationControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCampaignDonationControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicCampaignDonationControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCampaignLeaderboardControllerDonorResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, campaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCampaignLeaderboardControllerDonorResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCampaignLeaderboardControllerDonorParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCampaignLeaderboardControllerDonorResponse); ok {
-		r0 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCampaignLeaderboardControllerDonorResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCampaignLeaderboardControllerDonorParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse'
-type Api_V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - campaignId string
-//   - params *api.V5ApiWebPublicCampaignLeaderboardControllerDonorParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse_Call {
-	return &Api_V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse",
-		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCampaignLeaderboardControllerDonorParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCampaignLeaderboardControllerDonorResponse, _a1 error) *Api_V5ApiWebPublicCampaignLeaderboardControllerDonorWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignMilestoneControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCampaignMilestoneControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, campaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCampaignMilestoneControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCampaignMilestoneControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCampaignMilestoneControllerIndexResponse); ok {
-		r0 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCampaignMilestoneControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCampaignMilestoneControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse'
-type Api_V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - campaignId string
-//   - params *api.V5ApiWebPublicCampaignMilestoneControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse",
-		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignMilestoneControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCampaignMilestoneControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCampaignMilestoneControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicCampaignMilestoneControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCampaignPollControllerIndexWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCampaignPollControllerIndexWithResponse(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignPollControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCampaignPollControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, campaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCampaignPollControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCampaignPollControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCampaignPollControllerIndexResponse); ok {
-		r0 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCampaignPollControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCampaignPollControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCampaignPollControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCampaignPollControllerIndexWithResponse'
-type Api_V5ApiWebPublicCampaignPollControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCampaignPollControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - campaignId string
-//   - params *api.V5ApiWebPublicCampaignPollControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCampaignPollControllerIndexWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCampaignPollControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicCampaignPollControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCampaignPollControllerIndexWithResponse",
-		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCampaignPollControllerIndexWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignPollControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCampaignPollControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCampaignPollControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCampaignPollControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCampaignPollControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicCampaignPollControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCampaignRewardControllerIndexWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCampaignRewardControllerIndexWithResponse(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignRewardControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCampaignRewardControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, campaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCampaignRewardControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCampaignRewardControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCampaignRewardControllerIndexResponse); ok {
-		r0 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCampaignRewardControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCampaignRewardControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCampaignRewardControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCampaignRewardControllerIndexWithResponse'
-type Api_V5ApiWebPublicCampaignRewardControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCampaignRewardControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - campaignId string
-//   - params *api.V5ApiWebPublicCampaignRewardControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCampaignRewardControllerIndexWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCampaignRewardControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicCampaignRewardControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCampaignRewardControllerIndexWithResponse",
-		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCampaignRewardControllerIndexWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignRewardControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCampaignRewardControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCampaignRewardControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCampaignRewardControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCampaignRewardControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicCampaignRewardControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCampaignScheduleControllerIndexWithResponse provides a mock function with given fields: ctx, campaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCampaignScheduleControllerIndexWithResponse(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignScheduleControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCampaignScheduleControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, campaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCampaignScheduleControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCampaignScheduleControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCampaignScheduleControllerIndexResponse); ok {
-		r0 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCampaignScheduleControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCampaignScheduleControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, campaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCampaignScheduleControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCampaignScheduleControllerIndexWithResponse'
-type Api_V5ApiWebPublicCampaignScheduleControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCampaignScheduleControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - campaignId string
-//   - params *api.V5ApiWebPublicCampaignScheduleControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCampaignScheduleControllerIndexWithResponse(ctx interface{}, campaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCampaignScheduleControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicCampaignScheduleControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCampaignScheduleControllerIndexWithResponse",
-		append([]interface{}{ctx, campaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCampaignScheduleControllerIndexWithResponse_Call) Run(run func(ctx context.Context, campaignId string, params *api.V5ApiWebPublicCampaignScheduleControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCampaignScheduleControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCampaignScheduleControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCampaignScheduleControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCampaignScheduleControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicCampaignScheduleControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCauseCampaignControllerIndexWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCauseCampaignControllerIndexWithResponse(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseCampaignControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCauseCampaignControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, causeId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCauseCampaignControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCauseCampaignControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCauseCampaignControllerIndexResponse); ok {
-		r0 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCauseCampaignControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCauseCampaignControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCauseCampaignControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCauseCampaignControllerIndexWithResponse'
-type Api_V5ApiWebPublicCauseCampaignControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCauseCampaignControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - causeId string
-//   - params *api.V5ApiWebPublicCauseCampaignControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCauseCampaignControllerIndexWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCauseCampaignControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicCauseCampaignControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCauseCampaignControllerIndexWithResponse",
-		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCauseCampaignControllerIndexWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseCampaignControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCauseCampaignControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCauseCampaignControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCauseCampaignControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCauseCampaignControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicCauseCampaignControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCauseControllerShowWithResponse provides a mock function with given fields: ctx, causeId, reqEditors
-func (_m *Api) V5ApiWebPublicCauseControllerShowWithResponse(ctx context.Context, causeId string, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCauseControllerShowResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, causeId)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCauseControllerShowResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.V5ApiWebPublicCauseControllerShowResponse); ok {
-		r0 = rf(ctx, causeId, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCauseControllerShowResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, causeId, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCauseControllerShowWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCauseControllerShowWithResponse'
-type Api_V5ApiWebPublicCauseControllerShowWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCauseControllerShowWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - causeId string
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCauseControllerShowWithResponse(ctx interface{}, causeId interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCauseControllerShowWithResponse_Call {
-	return &Api_V5ApiWebPublicCauseControllerShowWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCauseControllerShowWithResponse",
-		append([]interface{}{ctx, causeId}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCauseControllerShowWithResponse_Call) Run(run func(ctx context.Context, causeId string, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCauseControllerShowWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
-		for i, a := range args[2:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCauseControllerShowWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCauseControllerShowResponse, _a1 error) *Api_V5ApiWebPublicCauseControllerShowWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseFundraisingEventControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCauseFundraisingEventControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, causeId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCauseFundraisingEventControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCauseFundraisingEventControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCauseFundraisingEventControllerIndexResponse); ok {
-		r0 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCauseFundraisingEventControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCauseFundraisingEventControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse'
-type Api_V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - causeId string
-//   - params *api.V5ApiWebPublicCauseFundraisingEventControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse",
-		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseFundraisingEventControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCauseFundraisingEventControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCauseFundraisingEventControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicCauseFundraisingEventControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse provides a mock function with given fields: ctx, causeId, reqEditors
-func (_m *Api) V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse(ctx context.Context, causeId string, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, causeId)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse); ok {
-		r0 = rf(ctx, causeId, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, causeId, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse'
-type Api_V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - causeId string
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse(ctx interface{}, causeId interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse_Call {
-	return &Api_V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse",
-		append([]interface{}{ctx, causeId}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse_Call) Run(run func(ctx context.Context, causeId string, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
-		for i, a := range args[2:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCauseLeaderboardControllerConfiguredResponse, _a1 error) *Api_V5ApiWebPublicCauseLeaderboardControllerConfiguredWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCauseLeaderboardControllerDonorResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, causeId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCauseLeaderboardControllerDonorResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCauseLeaderboardControllerDonorParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCauseLeaderboardControllerDonorResponse); ok {
-		r0 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCauseLeaderboardControllerDonorResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCauseLeaderboardControllerDonorParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse'
-type Api_V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - causeId string
-//   - params *api.V5ApiWebPublicCauseLeaderboardControllerDonorParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse_Call {
-	return &Api_V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse",
-		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCauseLeaderboardControllerDonorParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCauseLeaderboardControllerDonorResponse, _a1 error) *Api_V5ApiWebPublicCauseLeaderboardControllerDonorWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseLeaderboardControllerTeamParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCauseLeaderboardControllerTeamResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, causeId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCauseLeaderboardControllerTeamResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCauseLeaderboardControllerTeamParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCauseLeaderboardControllerTeamResponse); ok {
-		r0 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCauseLeaderboardControllerTeamResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCauseLeaderboardControllerTeamParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse'
-type Api_V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - causeId string
-//   - params *api.V5ApiWebPublicCauseLeaderboardControllerTeamParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse_Call {
-	return &Api_V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse",
-		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseLeaderboardControllerTeamParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCauseLeaderboardControllerTeamParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCauseLeaderboardControllerTeamResponse, _a1 error) *Api_V5ApiWebPublicCauseLeaderboardControllerTeamWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerUserWithResponse provides a mock function with given fields: ctx, causeId, params, reqEditors
-func (_m *Api) V5ApiWebPublicCauseLeaderboardControllerUserWithResponse(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicCauseLeaderboardControllerUserResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, causeId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicCauseLeaderboardControllerUserResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicCauseLeaderboardControllerUserParams, ...api.RequestEditorFn) *api.V5ApiWebPublicCauseLeaderboardControllerUserResponse); ok {
-		r0 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicCauseLeaderboardControllerUserResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicCauseLeaderboardControllerUserParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, causeId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicCauseLeaderboardControllerUserWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicCauseLeaderboardControllerUserWithResponse'
-type Api_V5ApiWebPublicCauseLeaderboardControllerUserWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicCauseLeaderboardControllerUserWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - causeId string
-//   - params *api.V5ApiWebPublicCauseLeaderboardControllerUserParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicCauseLeaderboardControllerUserWithResponse(ctx interface{}, causeId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicCauseLeaderboardControllerUserWithResponse_Call {
-	return &Api_V5ApiWebPublicCauseLeaderboardControllerUserWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicCauseLeaderboardControllerUserWithResponse",
-		append([]interface{}{ctx, causeId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicCauseLeaderboardControllerUserWithResponse_Call) Run(run func(ctx context.Context, causeId string, params *api.V5ApiWebPublicCauseLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicCauseLeaderboardControllerUserWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicCauseLeaderboardControllerUserParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicCauseLeaderboardControllerUserWithResponse_Call) Return(_a0 *api.V5ApiWebPublicCauseLeaderboardControllerUserResponse, _a1 error) *Api_V5ApiWebPublicCauseLeaderboardControllerUserWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventControllerShowWithResponse provides a mock function with given fields: ctx, fundraisingEventId, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventControllerShowWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventControllerShowResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventControllerShowResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventControllerShowResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventControllerShowResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventControllerShowWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventControllerShowWithResponse'
-type Api_V5ApiWebPublicFundraisingEventControllerShowWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventControllerShowWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventControllerShowWithResponse(ctx interface{}, fundraisingEventId interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventControllerShowWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventControllerShowWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventControllerShowWithResponse",
-		append([]interface{}{ctx, fundraisingEventId}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventControllerShowWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventControllerShowWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
-		for i, a := range args[2:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventControllerShowWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventControllerShowResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventControllerShowWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse provides a mock function with given fields: ctx, fundraisingEventId, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse(ctx context.Context, fundraisingEventId string, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse'
-type Api_V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse(ctx interface{}, fundraisingEventId interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse",
-		append([]interface{}{ctx, fundraisingEventId}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
-		for i, a := range args[2:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerConfiguredWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse'
-type Api_V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse",
-		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerDonorResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerDonorWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse'
-type Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse",
-		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessDistanceWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse'
-type Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse",
-		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamFitnessTimeWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse'
-type Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse",
-		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerTeamResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerTeamWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse'
-type Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse",
-		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessDistanceWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse'
-type Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse",
-		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserFitnessTimeWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse'
-type Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse",
-		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventLeaderboardControllerUserResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventLeaderboardControllerUserWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse provides a mock function with given fields: ctx, fundraisingEventId, params, reqEditors
-func (_m *Api) V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, fundraisingEventId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse); ok {
-		r0 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, fundraisingEventId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse'
-type Api_V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - fundraisingEventId string
-//   - params *api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse(ctx interface{}, fundraisingEventId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse",
-		append([]interface{}{ctx, fundraisingEventId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse_Call) Run(run func(ctx context.Context, fundraisingEventId string, params *api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicFundraisingEventSupportingEventControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicFundraisingEventSupportingEventControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignChallengeControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignChallengeControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse); ok {
-		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignChallengeControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse'
-type Api_V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - params *api.V5ApiWebPublicTeamCampaignChallengeControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse",
-		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignChallengeControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamCampaignChallengeControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignChallengeControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignChallengeControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignControllerShowWithResponse provides a mock function with given fields: ctx, teamCampaignId, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignControllerShowWithResponse(ctx context.Context, teamCampaignId string, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignControllerShowResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignControllerShowResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignControllerShowResponse); ok {
-		r0 = rf(ctx, teamCampaignId, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignControllerShowResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignControllerShowWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignControllerShowWithResponse'
-type Api_V5ApiWebPublicTeamCampaignControllerShowWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignControllerShowWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignControllerShowWithResponse(ctx interface{}, teamCampaignId interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignControllerShowWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignControllerShowWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignControllerShowWithResponse",
-		append([]interface{}{ctx, teamCampaignId}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignControllerShowWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignControllerShowWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
-		for i, a := range args[2:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignControllerShowWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignControllerShowResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignControllerShowWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignDonationControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignDonationControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignDonationControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignDonationControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignDonationControllerIndexResponse); ok {
-		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignDonationControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignDonationControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse'
-type Api_V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - params *api.V5ApiWebPublicTeamCampaignDonationControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse",
-		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignDonationControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamCampaignDonationControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignDonationControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignDonationControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse); ok {
-		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse'
-type Api_V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - params *api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse",
-		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignLeaderboardControllerDonorResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerDonorWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse); ok {
-		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse'
-type Api_V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - params *api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse",
-		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignLeaderboardControllerUserResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignLeaderboardControllerUserWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse); ok {
-		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse'
-type Api_V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - params *api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse",
-		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignMilestoneControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignMilestoneControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignPollControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignPollControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignPollControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignPollControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignPollControllerIndexResponse); ok {
-		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignPollControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignPollControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse'
-type Api_V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - params *api.V5ApiWebPublicTeamCampaignPollControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse",
-		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignPollControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamCampaignPollControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignPollControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignPollControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignRewardControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignRewardControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignRewardControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignRewardControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignRewardControllerIndexResponse); ok {
-		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignRewardControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignRewardControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse'
-type Api_V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - params *api.V5ApiWebPublicTeamCampaignRewardControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse",
-		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignRewardControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamCampaignRewardControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignRewardControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignRewardControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignScheduleControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignScheduleControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse); ok {
-		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignScheduleControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse'
-type Api_V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - params *api.V5ApiWebPublicTeamCampaignScheduleControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse",
-		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignScheduleControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamCampaignScheduleControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignScheduleControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignScheduleControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse provides a mock function with given fields: ctx, teamCampaignId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamCampaignId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse); ok {
-		r0 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamCampaignId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse'
-type Api_V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamCampaignId string
-//   - params *api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse(ctx interface{}, teamCampaignId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse",
-		append([]interface{}{ctx, teamCampaignId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse_Call) Run(run func(ctx context.Context, teamCampaignId string, params *api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicTeamCampaignSupportingCampaignControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamControllerShowWithResponse provides a mock function with given fields: ctx, teamId, reqEditors
-func (_m *Api) V5ApiWebPublicTeamControllerShowWithResponse(ctx context.Context, teamId string, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamControllerShowResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamId)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamControllerShowResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamControllerShowResponse); ok {
-		r0 = rf(ctx, teamId, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamControllerShowResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamId, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamControllerShowWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamControllerShowWithResponse'
-type Api_V5ApiWebPublicTeamControllerShowWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamControllerShowWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamId string
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamControllerShowWithResponse(ctx interface{}, teamId interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamControllerShowWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamControllerShowWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamControllerShowWithResponse",
-		append([]interface{}{ctx, teamId}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamControllerShowWithResponse_Call) Run(run func(ctx context.Context, teamId string, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamControllerShowWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
-		for i, a := range args[2:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamControllerShowWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamControllerShowResponse, _a1 error) *Api_V5ApiWebPublicTeamControllerShowWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamMemberControllerIndexWithResponse provides a mock function with given fields: ctx, teamId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamMemberControllerIndexWithResponse(ctx context.Context, teamId string, params *api.V5ApiWebPublicTeamMemberControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamMemberControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamMemberControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamMemberControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamMemberControllerIndexResponse); ok {
-		r0 = rf(ctx, teamId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamMemberControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamMemberControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamMemberControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamMemberControllerIndexWithResponse'
-type Api_V5ApiWebPublicTeamMemberControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamMemberControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamId string
-//   - params *api.V5ApiWebPublicTeamMemberControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamMemberControllerIndexWithResponse(ctx interface{}, teamId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamMemberControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamMemberControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamMemberControllerIndexWithResponse",
-		append([]interface{}{ctx, teamId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamMemberControllerIndexWithResponse_Call) Run(run func(ctx context.Context, teamId string, params *api.V5ApiWebPublicTeamMemberControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamMemberControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamMemberControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamMemberControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamMemberControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicTeamMemberControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse provides a mock function with given fields: ctx, teamId, params, reqEditors
-func (_m *Api) V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse(ctx context.Context, teamId string, params *api.V5ApiWebPublicTeamTeamCampaignControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicTeamTeamCampaignControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, teamId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicTeamTeamCampaignControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicTeamTeamCampaignControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicTeamTeamCampaignControllerIndexResponse); ok {
-		r0 = rf(ctx, teamId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicTeamTeamCampaignControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicTeamTeamCampaignControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, teamId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse'
-type Api_V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - teamId string
-//   - params *api.V5ApiWebPublicTeamTeamCampaignControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse(ctx interface{}, teamId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse",
-		append([]interface{}{ctx, teamId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse_Call) Run(run func(ctx context.Context, teamId string, params *api.V5ApiWebPublicTeamTeamCampaignControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicTeamTeamCampaignControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicTeamTeamCampaignControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicTeamTeamCampaignControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicUserCampaignControllerIndexWithResponse provides a mock function with given fields: ctx, userId, params, reqEditors
-func (_m *Api) V5ApiWebPublicUserCampaignControllerIndexWithResponse(ctx context.Context, userId string, params *api.V5ApiWebPublicUserCampaignControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicUserCampaignControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, userId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicUserCampaignControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicUserCampaignControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicUserCampaignControllerIndexResponse); ok {
-		r0 = rf(ctx, userId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicUserCampaignControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicUserCampaignControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, userId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicUserCampaignControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicUserCampaignControllerIndexWithResponse'
-type Api_V5ApiWebPublicUserCampaignControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicUserCampaignControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - userId string
-//   - params *api.V5ApiWebPublicUserCampaignControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicUserCampaignControllerIndexWithResponse(ctx interface{}, userId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicUserCampaignControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicUserCampaignControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicUserCampaignControllerIndexWithResponse",
-		append([]interface{}{ctx, userId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicUserCampaignControllerIndexWithResponse_Call) Run(run func(ctx context.Context, userId string, params *api.V5ApiWebPublicUserCampaignControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicUserCampaignControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicUserCampaignControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicUserCampaignControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicUserCampaignControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicUserCampaignControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicUserControllerCurrentUserWithResponse provides a mock function with given fields: ctx, reqEditors
-func (_m *Api) V5ApiWebPublicUserControllerCurrentUserWithResponse(ctx context.Context, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicUserControllerCurrentUserResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicUserControllerCurrentUserResponse
-	if rf, ok := ret.Get(0).(func(context.Context, ...api.RequestEditorFn) *api.V5ApiWebPublicUserControllerCurrentUserResponse); ok {
-		r0 = rf(ctx, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicUserControllerCurrentUserResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicUserControllerCurrentUserWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicUserControllerCurrentUserWithResponse'
-type Api_V5ApiWebPublicUserControllerCurrentUserWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicUserControllerCurrentUserWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicUserControllerCurrentUserWithResponse(ctx interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicUserControllerCurrentUserWithResponse_Call {
-	return &Api_V5ApiWebPublicUserControllerCurrentUserWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicUserControllerCurrentUserWithResponse",
-		append([]interface{}{ctx}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicUserControllerCurrentUserWithResponse_Call) Run(run func(ctx context.Context, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicUserControllerCurrentUserWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-1)
-		for i, a := range args[1:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicUserControllerCurrentUserWithResponse_Call) Return(_a0 *api.V5ApiWebPublicUserControllerCurrentUserResponse, _a1 error) *Api_V5ApiWebPublicUserControllerCurrentUserWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicUserControllerShowWithResponse provides a mock function with given fields: ctx, userId, reqEditors
-func (_m *Api) V5ApiWebPublicUserControllerShowWithResponse(ctx context.Context, userId string, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicUserControllerShowResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, userId)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicUserControllerShowResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, ...api.RequestEditorFn) *api.V5ApiWebPublicUserControllerShowResponse); ok {
-		r0 = rf(ctx, userId, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicUserControllerShowResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, userId, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicUserControllerShowWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicUserControllerShowWithResponse'
-type Api_V5ApiWebPublicUserControllerShowWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicUserControllerShowWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - userId string
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicUserControllerShowWithResponse(ctx interface{}, userId interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicUserControllerShowWithResponse_Call {
-	return &Api_V5ApiWebPublicUserControllerShowWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicUserControllerShowWithResponse",
-		append([]interface{}{ctx, userId}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicUserControllerShowWithResponse_Call) Run(run func(ctx context.Context, userId string, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicUserControllerShowWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-2)
-		for i, a := range args[2:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicUserControllerShowWithResponse_Call) Return(_a0 *api.V5ApiWebPublicUserControllerShowResponse, _a1 error) *Api_V5ApiWebPublicUserControllerShowWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse provides a mock function with given fields: ctx, userId, params, reqEditors
-func (_m *Api) V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse(ctx context.Context, userId string, params *api.V5ApiWebPublicUserIntegrationEventControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicUserIntegrationEventControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, userId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicUserIntegrationEventControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicUserIntegrationEventControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicUserIntegrationEventControllerIndexResponse); ok {
-		r0 = rf(ctx, userId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicUserIntegrationEventControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicUserIntegrationEventControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, userId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse'
-type Api_V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - userId string
-//   - params *api.V5ApiWebPublicUserIntegrationEventControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse(ctx interface{}, userId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse",
-		append([]interface{}{ctx, userId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse_Call) Run(run func(ctx context.Context, userId string, params *api.V5ApiWebPublicUserIntegrationEventControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicUserIntegrationEventControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicUserIntegrationEventControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicUserIntegrationEventControllerIndexWithResponse_Call {
-	_c.Call.Return(_a0, _a1)
-	return _c
-}
-
-// V5ApiWebPublicUserTeamControllerIndexWithResponse provides a mock function with given fields: ctx, userId, params, reqEditors
-func (_m *Api) V5ApiWebPublicUserTeamControllerIndexWithResponse(ctx context.Context, userId string, params *api.V5ApiWebPublicUserTeamControllerIndexParams, reqEditors ...api.RequestEditorFn) (*api.V5ApiWebPublicUserTeamControllerIndexResponse, error) {
-	_va := make([]interface{}, len(reqEditors))
-	for _i := range reqEditors {
-		_va[_i] = reqEditors[_i]
-	}
-	var _ca []interface{}
-	_ca = append(_ca, ctx, userId, params)
-	_ca = append(_ca, _va...)
-	ret := _m.Called(_ca...)
-
-	var r0 *api.V5ApiWebPublicUserTeamControllerIndexResponse
-	if rf, ok := ret.Get(0).(func(context.Context, string, *api.V5ApiWebPublicUserTeamControllerIndexParams, ...api.RequestEditorFn) *api.V5ApiWebPublicUserTeamControllerIndexResponse); ok {
-		r0 = rf(ctx, userId, params, reqEditors...)
-	} else {
-		if ret.Get(0) != nil {
-			r0 = ret.Get(0).(*api.V5ApiWebPublicUserTeamControllerIndexResponse)
-		}
-	}
-
-	var r1 error
-	if rf, ok := ret.Get(1).(func(context.Context, string, *api.V5ApiWebPublicUserTeamControllerIndexParams, ...api.RequestEditorFn) error); ok {
-		r1 = rf(ctx, userId, params, reqEditors...)
-	} else {
-		r1 = ret.Error(1)
-	}
-
-	return r0, r1
-}
-
-// Api_V5ApiWebPublicUserTeamControllerIndexWithResponse_Call is a *mock.Call that shadows Run/Return methods with type explicit version for method 'V5ApiWebPublicUserTeamControllerIndexWithResponse'
-type Api_V5ApiWebPublicUserTeamControllerIndexWithResponse_Call struct {
-	*mock.Call
-}
-
-// V5ApiWebPublicUserTeamControllerIndexWithResponse is a helper method to define mock.On call
-//   - ctx context.Context
-//   - userId string
-//   - params *api.V5ApiWebPublicUserTeamControllerIndexParams
-//   - reqEditors ...api.RequestEditorFn
-func (_e *Api_Expecter) V5ApiWebPublicUserTeamControllerIndexWithResponse(ctx interface{}, userId interface{}, params interface{}, reqEditors ...interface{}) *Api_V5ApiWebPublicUserTeamControllerIndexWithResponse_Call {
-	return &Api_V5ApiWebPublicUserTeamControllerIndexWithResponse_Call{Call: _e.mock.On("V5ApiWebPublicUserTeamControllerIndexWithResponse",
-		append([]interface{}{ctx, userId, params}, reqEditors...)...)}
-}
-
-func (_c *Api_V5ApiWebPublicUserTeamControllerIndexWithResponse_Call) Run(run func(ctx context.Context, userId string, params *api.V5ApiWebPublicUserTeamControllerIndexParams, reqEditors ...api.RequestEditorFn)) *Api_V5ApiWebPublicUserTeamControllerIndexWithResponse_Call {
-	_c.Call.Run(func(args mock.Arguments) {
-		variadicArgs := make([]api.RequestEditorFn, len(args)-3)
-		for i, a := range args[3:] {
-			if a != nil {
-				variadicArgs[i] = a.(api.RequestEditorFn)
-			}
-		}
-		run(args[0].(context.Context), args[1].(string), args[2].(*api.V5ApiWebPublicUserTeamControllerIndexParams), variadicArgs...)
-	})
-	return _c
-}
-
-func (_c *Api_V5ApiWebPublicUserTeamControllerIndexWithResponse_Call) Return(_a0 *api.V5ApiWebPublicUserTeamControllerIndexResponse, _a1 error) *Api_V5ApiWebPublicUserTeamControllerIndexWithResponse_Call {
 	_c.Call.Return(_a0, _a1)
 	return _c
 }
