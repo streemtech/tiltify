@@ -4,29 +4,36 @@ go 1.20
 
 require (
 	github.com/aws/aws-sdk-go v1.44.205
+	github.com/cep21/circuit/v3 v3.1.0
 	github.com/deepmap/oapi-codegen v1.12.4
+	github.com/getkin/kin-openapi v0.107.0
 	github.com/k0kubun/pp/v3 v3.2.0
+	github.com/labstack/echo/v4 v4.9.1
+	github.com/stretchr/testify v1.8.1
 	github.com/twitchtv/circuitgen v1.2.3
 )
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
-	github.com/getkin/kin-openapi v0.107.0 // indirect
+	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/swag v0.21.1 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/invopop/yaml v0.1.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/kisielk/errcheck v1.2.0 // indirect
-	github.com/labstack/echo/v4 v4.9.1 // indirect
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/securego/gosec v0.0.0-20190510081509-ee80733faf72 // indirect
 	github.com/spf13/cobra v0.0.3 // indirect
 	github.com/spf13/pflag v1.0.3 // indirect
+	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
 	golang.org/x/crypto v0.1.0 // indirect
