@@ -38,6 +38,7 @@ func CheckRelay(ctx context.Context, transport http.RoundTripper, baseURL string
 	re := resty.New()
 	re.SetBaseURL(baseURL)
 
+	re.SetTransport(transport)
 	r := re.NewRequest()
 	r.SetHeader("Authorization", fmt.Sprintf("Bearer %s", accessKey))
 	r.SetContext(ctx)
