@@ -5,17 +5,29 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"time"
 
 	"github.com/go-resty/resty/v2"
 	"github.com/google/uuid"
 )
 
 type RelayResponseObject struct {
-	Amount     string            `json:"amount"`
-	Status     string            `json:"status"`
-	UUID       string            `json:"uuid"`
-	MetaRaw    string            `json:"meta"`
-	MetaParsed map[string]string `json:"-"`
+	Meta struct {
+		Status int `json:"status"`
+	} `json:"meta"`
+	Data struct {
+		Amount       float64   `json:"amount"`
+		Currency     string    `json:"currency"`
+		DonorName    string    `json:"donor_name"`
+		DonorComment string    `json:"donor_comment"`
+		Status       string    `json:"status"`
+		UUID         uuid.UUID `json:"uuid"`
+		Meta         struct {
+			UUID uuid.UUID `json:"uuid"`
+			Time time.Time `json:"time"`
+			Hash string    `json:"hash"`
+		} `json:"meta"`
+	} `json:"data"`
 }
 
 // CheckRelay will check the V3 relay with the given relay key etc.
@@ -37,25 +49,21 @@ func CheckRelay(ctx context.Context, transport http.RoundTripper, baseURL string
 		"provider": relay,
 	})
 
-	r.SetResult(rr)
+	// r.SetResult(rr)
 
 	resp, err := r.Get("/api/v3/relays/{provider}/{uuid}")
 	if err != nil {
-		return nil, fmt.Errorf("error in post")
+		return nil, fmt.Errorf("error in post: %w", err)
 	}
 
 	if resp.StatusCode() != 200 {
 		return nil, fmt.Errorf("got bad response code: %d, %s", resp.StatusCode(), resp.Body())
 	}
 
-	if rr.MetaRaw == "" {
-		return rr, nil
-	}
-	d := new(map[string]string)
-
-	err = json.Unmarshal([]byte(rr.MetaRaw), d)
+	body := resp.Body()
+	err = json.Unmarshal(body, rr)
 	if err != nil {
-		return rr, fmt.Errorf("failed to parse metadata: %w", err)
+		return nil, fmt.Errorf("failed to unmarshal json (%s): %w", body, err)
 	}
 
 	return rr, nil
